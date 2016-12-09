@@ -1,0 +1,1 @@
+﻿window.jQuery || document.write('<script src="/_layouts/dataxdoc/scripts/jquery/jquery-1.12.3.min.js"><\/script>')
