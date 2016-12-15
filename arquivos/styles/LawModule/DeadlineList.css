@@ -1,0 +1,155 @@
+﻿#grid-position
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;    
+    right:0;
+}
+.grid
+{
+    clear:both;
+    overflow:auto;
+    font-family:Century Gothic;
+    text-align: center;
+}
+
+.imageminformation{
+    position:absolute;
+    top:0;
+    height:24px;
+    right:160px;
+}
+.listOrder{
+    position:absolute;
+    top:-5px;
+    height:24px;
+    right:210px;
+}
+.ddlPrazos
+{
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 0 0 10px 755px;
+    position: relative;
+    top: 0 !important;
+    visibility: visible !important;
+    width: 170px;
+}
+
+.contagemPrazos
+{
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;      
+    border:1px solid #FF931e;
+    border-radius:5px;
+    background-color:White;
+    position:absolute;
+    top:0;
+    color:#333;
+    font-family:Century Gothic;
+    height:18px;
+    width:150px;
+    padding:3px 2px 1px 2px;
+    text-align:center;
+    right:0;
+}
+
+.tabela
+{
+    vertical-align: middle;
+    height:292px;
+    border:1px solid #FFF;    
+}
+
+#gvDeadlineList
+{    
+    border-style:none;
+    border-color:transparent;
+    background-color: transparent;    
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;   
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;      
+}
+
+.grid th
+{
+    border-top-color:#FF931e; 
+    height:15px;
+    border-color:transparent;
+    color:#4682B4; 
+    text-align:center; 
+}
+
+.grid td
+{
+    border-color:transparent;
+    color:#333;
+    height:15px;       
+    border-left-color:#FF931e;
+    text-align:center; 
+}
+
+.btnGridSettings
+{
+    margin:auto;
+    font-size: 12pt;  
+}
+
+.btnGridSettings a
+{
+    margin:auto;
+    font-size: 10pt;
+}
+
+.btnGridSettings table
+{
+    margin:auto;   
+}
+
+.ibtnGridSettings
+{
+    margin:auto;
+    width: 118px;
+}
+
+.gridtitulo
+{
+    float:left;
+    width:100%;
+    text-align:center; 
+    border-bottom: 1px solid #FF931e;
+    color: #4682B4;
+    font-size:14px;    
+}
+
+.grid a:link {
+    color: #0072BC;
+    text-decoration: none;
+}
+
+.gridLista a:visited {
+   color:#0072BC;
+   text-decoration:none;
+
+}
+
+.gridLista  a:hover {
+    color: #FF931E;
+    text-decoration:none;
+}

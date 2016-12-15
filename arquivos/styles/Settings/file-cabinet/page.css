@@ -1,0 +1,965 @@
+﻿/*** NewFile.aspx ***/
+
+#divLeftSideFile, #divLeftSideCatalog, #divLeftSideVolume, #divLeftSideProcess, #divLeftSideFolderStructure {
+    position: relative;
+    margin-top: 10px;
+    width: 400px;
+    float: left;
+}
+
+#divRightSideFile, #divRightSideCatalog, #divRightSideVolume, #divRightSideProcess, #divRightSideFolderStructure {
+    position: relative;
+    margin-top: 10px;
+    width: 300px;
+    float: right;
+}
+
+#divLeftSideFile, #divRightSideFile, .Section {
+    height: 50px;
+}
+
+    #divLeftSideFile > span, .Section > span {
+        position: absolute;
+        top: 50%;
+        margin-top: -13px;
+    }
+
+    #divRightSideFile > label.LabelText {
+        position: absolute;
+        top: -15px;
+        padding-left: 10px;
+    }
+
+#divTopFile, #divBottomFile {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+#divBottomFile {
+    margin-top: 30px;
+}
+
+#divStructureType {
+    position: absolute;
+    top: 50%;
+    margin-top: -19px;
+}
+
+#divStructureTypeDescription {
+    height: 180px;
+}
+
+#divCatalog, #divCatalogProcess, #divVolume {
+    margin: 10px 0;
+    display: inline-block;
+}
+
+#divFolderType {
+    margin-top: 5px;
+}
+
+#divFolderTypeDescription {
+    height: 105px;
+    margin-top: 50px;
+    padding: 0 30px 0 5px;
+}
+
+.FileTreeView {
+    margin: 0 auto;
+    height: 275px;
+    width: 280px;
+}
+
+.Section {
+    position: relative;
+}
+
+.btn-add, .btn-rmv {
+    position: absolute;
+    right: 0;
+    width: 140px;
+}
+
+    .btn-add > img, .btn-rmv > img {
+        padding: 5px;
+    }
+
+.btn-add {
+    top: 50px;
+}
+
+.btn-rmv {
+    top: 100px;
+}
+
+.divTreeview {
+    height: 245px;
+    overflow: auto;
+    padding-top: 0;
+    width: 305px;
+}
+
+/*** ManageFiles.aspx ***/
+#cabecalho_titulo {
+    margin-left: -2px;
+    width: 1030px;
+    position: absolute;
+}
+
+#cabecalho_fechar {
+    float: right;
+    margin: 16px 12px 0 0;
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+
+.header_user {
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+
+.ibtncreatefile {
+    position: absolute;
+    top: 0;
+    height: 32px;
+}
+
+.imginformacao {
+    position: absolute;
+    top: 4px;
+    height: 24px;
+    right: 230px;
+}
+
+.lblArquivos {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    border: 1px solid #FF931e;
+    background-color: White;
+    position: absolute;
+    top: 4px;
+    color: #333;
+    font-family: Century Gothic;
+    height: 18px;
+    width: 100px;
+    padding: 3px 2px 1px 2px;
+    text-align: center;
+    right: 120px;
+}
+
+.lblDocumentos {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #FF931e;
+    border-radius: 5px;
+    background-color: White;
+    position: absolute;
+    top: 4px;
+    color: #333;
+    font-family: Century Gothic;
+    height: 18px;
+    width: 110px;
+    padding: 3px 2px 1px 2px;
+    text-align: center;
+    right: 0;
+}
+
+#grid-position {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+
+#plano-fundo {
+    background-color: #363636;
+    position: absolute;
+    left: 80px;
+    right: 28%;
+    top: 0px;
+    bottom: 0px;
+    filter: alpha(opacity=20);
+    opacity: .1;
+}
+
+.grid {
+    clear: both;
+    overflow: auto;
+    font-family: Century Gothic;
+}
+
+.gridtitulo {
+    float: left;
+    width: 72%;
+    text-align: center;
+}
+
+.gridtitulo2 {
+    float: left;
+    width: 28%;
+}
+
+.titulo {
+    margin-top: 0px;
+    text-align: center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family: Century Gothic;
+}
+
+.tabela {
+    vertical-align: middle;
+    height: 286px;
+    border: 1px solid #FFF;
+}
+
+#gvFiles {
+    border-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;
+}
+
+th {
+    border-top-color: #FF931e;
+    height: 15px;
+    border-color: transparent;
+    color: #4682B4;
+}
+
+td {
+    border-color: transparent;
+    color: #333;
+    height: 15px;
+    text-align: center;
+    border-left-color: #FF931e;
+}
+
+.textolistas td {
+    text-align: left !important;
+}
+
+.ibtnGrid {
+    padding: 0 4px 0 4px;
+}
+
+    .ibtnGrid > img {
+        border: none;
+    }
+
+/***Common NewFile | EditFile***/
+
+#divBotaoMover {
+    right: 165px;
+    position: absolute;
+    width: 195px;
+    top: 335px;
+}
+
+.buttonCancel {
+    top: 1px;
+    float: left;
+    position: relative;
+    left: 30px;
+}
+
+.botaoMoverArquivo {
+    position: absolute;
+    left: 131px;
+}
+
+#divBotaoConcluir, #pnlBotaoConcluir {
+    position: absolute;
+    width: 80px;
+    margin: 15px 0 0 602px;
+}
+
+.pnlMover {
+    height: 310px;
+    width: 300px;
+    float: right;
+    position: relative;
+    left: 54px;
+    top: 27px;
+}
+
+.espacobotoesAcaoPrimeiro {
+    margin-top: 20px;
+}
+
+.espacobotoesAcao {
+    margin-top: 14px;
+}
+
+.descricao {
+    position: absolute;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    width: 180px;
+    height: 105px;
+    margin: 165px 0 0 -5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.textotreeview {
+    margin: -5px 0 0 2px;
+}
+
+    .textotreeview a {
+        color: #231f20 !important;
+        font-family: Century Gothic;
+        font-size: 12px;
+    }
+
+.labeltitle {
+    margin: -5px 0 0 -5px;
+    font-size: 15px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    border-bottom: 1px solid #FF931E;
+    width: 300px;
+    text-align: center;
+    padding: 5px;
+}
+
+
+.label {
+    font-size: 15px;
+    color: #4682B4;
+    margin-left: -10px;
+}
+
+.drop {
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    top: 0 !important;
+    visibility: visible !important;
+}
+
+.alinhabotao {
+    margin: -30px 0 0 211px;
+    width: 95px;
+}
+
+.alinhabotaocustom {
+    margin: -30px 0 0 203px;
+    width: 95px;
+}
+
+
+/*** NewFile.aspx ***/
+.InfoBoxLeftImage {
+    position: absolute;
+    left: 20px;
+    top: 35px;
+}
+
+/***Common NewFile***/
+#left-tab {
+    margin: 0px 10px 10px 10px;
+    width: 220px;
+    float: left;
+}
+
+
+/*css painel file  */
+#right-side-file {
+    float: right;
+    margin: -70px 0px 0px 188px;
+    width: 300px;
+}
+
+#bottom-side-file {
+    position: absolute;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #fff;
+    clear: both;
+    float: right;
+    height: 185px;
+    top: 115px;
+    left: 206px;
+    width: 675px;
+}
+
+#description {
+    margin: 35px 20px 20px 20px;
+}
+
+#left-side {
+    margin: 15px 0 0 30px;
+    width: 100px;
+    float: left;
+}
+
+#center-file {
+    margin: -11px 10px 10px 15px;
+    width: 220px;
+    float: left;
+}
+
+.conteudo {
+    position: absolute;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    width: 180px;
+    height: 100px;
+    margin: 40px 0 0 -5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.conteudo1 {
+    position: absolute;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    width: 180px;
+    height: 100px;
+    margin: 155px 0 0 -5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+
+#button {
+    width: 50px;
+    margin: 150px 0 0 590px;
+}
+/*final do css painel file*/
+
+/*css painel catalog*/
+
+.button-next-file {
+    position: absolute;
+    top: 211px;
+    left: 600px;
+    margin: 0px !important;
+}
+
+.button-next {
+    position: absolute;
+    top: 330px;
+    left: 819px;
+}
+
+#button-next {
+    position: absolute;
+    top: 330px;
+    left: 620px;
+}
+
+/*inicio do css estrutura customizada*/
+#titleCustom {
+    margin: -20px 0px 5px 10px;
+    width: 220px;
+    float: left;
+}
+
+.divTvFolder {
+    height: 225px;
+    overflow: auto;
+    padding-top: 0;
+    width: 305px;
+    margin: 0;
+}
+
+.folderChoice {
+    font-size: 15px;
+    color: #4682B4;
+    font-family: Century Gothic;
+}
+
+.rblFolderType {
+    margin-left: -10px;
+}
+
+#buttons {
+    float: left;
+    margin: -98px 300px 10px 200px;
+    width: 100px;
+}
+
+.ibtnAddFolder {
+    margin-left: 35px;
+}
+
+.ibtnDelFolder {
+    margin-top: 0px;
+}
+
+.imgArrowAdd {
+    margin-left: 406px;
+    margin-top: 2px;
+}
+
+.imgArrowDel {
+    margin-left: 406px;
+    margin-top: 14px;
+}
+
+#setas {
+    float: left;
+    margin: -95px 0 0 -70px;
+    width: 100px;
+}
+
+#right-folder-tab {
+    background: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    position: absolute;
+    border: 1px solid #FF931E;
+    border-radius: 15px;
+    float: right;
+    height: 260px;
+    margin: 38px 15px 0 370px;
+    padding: 5px;
+    width: 300px;
+}
+
+#informationBox {
+    float: left;
+    margin: 230px 0 0 7px;
+    width: 310px;
+    height: 95px;
+    border-radius: 10px;
+    background: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    position: absolute;
+    border: 1px solid #FF931E;
+    padding: 10px 5px 5px 5px;
+}
+
+/*** EditFile.aspx ***/
+
+/*** File Tab ***/
+#divEstruturaAtualizada {
+    background: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    position: absolute;
+    border: 1px solid #FF931E;
+    border-radius: 15px;
+    height: 260px;
+    padding: 5px;
+    width: 300px;
+    right: 100px;
+}
+
+#divEstrutura {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #FF931E;
+    border-radius: 15px;
+    float: left;
+    height: 297px;
+    left: 0;
+    padding: 5px;
+    position: relative;
+    top: 27px;
+    width: 300px;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+
+.lblEditando {
+    color: #404040;
+    float: left;
+    font-size: 11px;
+    /*left: 4px;*/
+    margin-left: 10px;
+    position: absolute;
+    width: 300px;
+}
+
+.divTvEstrutura {
+    overflow: auto;
+    height: 265px;
+    width: 305px;
+}
+
+.divTvEstruturaAtualizada {
+    overflow: auto;
+    height: 230px;
+    width: 305px;
+}
+
+#divBotoesAcao {
+    float: left;
+    left: 209px;
+    position: relative;
+    top: 46px;
+    width: 40px;
+}
+
+.divMenuAcoes {
+    height: 135px;
+    width: 372px;
+    position: absolute;
+}
+
+.pnlRenomear {
+    /*margin: 30px 0 0 530px;*/
+    position: absolute;
+}
+
+.pnlAdd {
+    margin: -275px 0 0 405px;
+    position: absolute;
+}
+
+.pnlAddCustomPadrao {
+    margin: -288px 0 0 746px;
+    position: absolute;
+    background-color: #F5F5F5;
+    width: 110px;
+    height: 32px;
+    filter: alpha(opacity=20);
+    opacity: .5;
+    z-index: 1;
+}
+
+.pnlAddCustom {
+   /*margin: -40px 0 0 530px;*/
+    position: absolute;
+}
+
+.pnlMenuAcoes {
+    float: left;
+    height: 135px;
+    left: 489px;
+    padding: 5px;
+    position: relative;
+    top: 29px;
+    width: 372px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931E;
+    border-radius: 15px;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+
+.pnlMudaPasta {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+/*** Document Tab ***/
+#divLstDocumentos td {
+    font-size: 12px;
+}
+
+.textolistas {
+    color: #231f20;
+    font-family: Century Gothic;
+    font-size: 12px;
+}
+
+#divArquivo {
+    background: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    position: absolute;
+    border: 1px solid #FF931E;
+    border-radius: 15px;
+    height: 290px;
+    padding: 5px;
+    width: 185px;
+    margin: 27px 0;
+    /*left: 10px;*/
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+
+.divTvArquivo {
+    overflow: auto;
+    width: 190px;
+    height: 260px;
+}
+
+.divLstDocumentos {
+    overflow: auto;
+    width: 190px;
+    height: 260px;
+}
+
+.divTvArquivoDestino {
+    height: 178px;
+    overflow: auto;
+    width: 190px;
+}
+
+#divDocumentos {
+    background: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    position: absolute;
+    border: 1px solid #FF931E;
+    border-radius: 15px;
+    height: 290px;
+    padding: 5px;
+    width: 185px;
+    margin: 27px 258px;
+    /* left: 294px; */
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+
+#divBotoesAcaoDocumentos {
+    margin: 46px 466px;
+    width: 40px;
+    /* left: 508px; */
+    position: absolute;
+}
+
+.labelcabecalhodivdoc {
+    margin: -5px 0 0 -5px;
+    font-size: 15px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    border-bottom: 1px solid #FF931E;
+    width: 185px;
+    text-align: center;
+    padding: 5px;
+}
+
+.divMenuAcoesDocumentos {
+    height: 135px;
+    width: 372px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    position: absolute;
+    border: 1px solid #FF931E;
+    border-radius: 15px;
+    padding: 5px;
+    left: 30px;
+    top: 164px;
+}
+
+.pnlMenuAcoesDocumentos {
+    left: 500px;
+    position: absolute;
+    margin: 18px 0;
+}
+
+.pnlRenomearDocumentos {
+    position: absolute;
+    left: 400px;
+    top: 5px;
+}
+
+.pnlMoverDocumentos {
+    height: 240px;
+    left: 510px;
+    margin: 18px 0;
+    position: absolute;
+    width: 200px;
+}
+
+#divEstruturaAtualizadaDocumentos {
+    background: #fff;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931E;
+    border-radius: 15px;
+    height: 210px;
+    margin: 5px 0 0;
+    overflow: auto;
+    padding: 5px;
+    position: absolute;
+    width: 185px;
+}
+
+#divBotaoMoverDocumentos, #pnlBotaoMoverDocumentos {
+    left: 628px;
+    position: absolute;
+    top: 320px;
+    width: 65px;
+}
+
+#divBotaoConcluirDocumentos, #pnlBotaoConcluirDocumentos {
+    position: absolute;
+    width: 80px;
+    margin: 80px 0 0 603px;
+}
+
+
+/*DIV Modal aberta */
+/*PREVIEW*/
+.pnlModalInformation {
+    width: 519px;
+    height: 97%;
+    overflow: scroll;
+    padding: 0.5em;
+    position: absolute;
+    background-color: #EEE9E9;
+    z-index: 9999;
+}
+
+.form-container-DocumentList {
+    background-color: rgba(255,255,255,0.7);
+    border: 8px solid rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0;
+    height: 80%;
+    width: 530px;
+    margin: auto;
+    position: relative;
+    left: 50%;
+    margin-left: -275px;
+    position: fixed;
+    top: 56px;
+    z-index: 9999;
+}
+
+.thumbnail {
+    border: 1px solid #000000 !important;
+}
+/*PREVIEW*/
+
+.ibtnClose {
+    float: right;
+    position: relative;
+    margin: -22px;
+}
+
+.espacoModal {
+    margin-bottom: 5px;
+}
+
+.labelTitle {
+    color: #FF6600;
+    /*color: #000000;*/
+    display: block;
+    font-family: century gothic;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*.pnlModalInformation
+{
+    height: 390px;
+    width: 540px;
+    overflow: auto;
+    position: relative;
+    background-color: #EEE9E9;
+    padding: 0.5em;
+    text-align:justify;
+}
+
+.form-container-DocumentList
+{
+    background-color: rgba(255,255,255,0.7);
+    border: 8px solid rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0;
+    height: 309px;
+   /* height: 400px;*/
+/*width: 550px;
+    margin: auto;
+    position: relative;
+}*/
+
+.labelModalResult {
+    color: #000000;
+    display: block;
+    font-family: century gothic;
+    font-size: 13px;
+    margin-left: 3px;
+    padding-left: 230px;
+}
+
+.labelModal {
+    color: #000000;
+    display: block;
+    float: left;
+    font-family: century gothic;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.span-title {
+    color: #4682B4;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.span-structure {
+    color: #333333;
+    font-size: 12px;
+}
+
+.div-items {
+    color: #333333;
+    font-size: 12px;
+    margin-left: 20px;
+}
+
+.txtMenuAcoesLateral {
+    font-family: Century Gothic;
+    color: #000;
+    text-align: justify;
+}
+
+.tmalTitleSize16 {
+    font-size: 16px;
+}
+
+.tmalTitleSize13 {
+    font-size: 13px;
+}
+
+.tmalInformation {
+    float: right;
+    margin: 20px 10px 0 0;
+    font-family: Century Gothic;
+}
+
+.contentRight {
+    left: 200px;
+    position: absolute;
+}
+/*.contentFile {
+    float: left;
+    height: 360px;
+    position: relative;
+    width: 700px;
+    padding: 0 10px;
+}*/

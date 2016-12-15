@@ -1,0 +1,508 @@
+﻿body {
+}
+
+/*** ManageAccesses.aspx ***/
+
+.btnManageAccessesBy {
+    margin-right: 50px;    
+}
+
+.btnDocumentManageAccesses {
+    margin-right:0 !important;
+}
+
+.btnManageAccessesBy:hover
+{    
+    box-shadow: 0 0 20px #FF931E;
+    -moz-box-shadow: 0 0 20px #FF931E;
+    -webkit-box-shadow: 0 0 20px #FF931E;
+    border-radius:15px;       
+}
+.alinhaimagens {
+    margin: 50px 0 0;
+    text-align: center;
+}
+/* ----------------------------------- */
+
+/*** Common ***/
+
+.drop
+{ 
+ font-family:Century Gothic;
+ background:#fff;
+ font-size:13px;
+ color:#4682B4;
+ -webkit-border-radius: 6px;
+ -moz-border-radius: 6px;
+ position:relative;          
+ border:1px solid #FF931E;
+ border-radius:6px;    
+ padding: 5px;
+ top:0 !important;
+ visibility: visible !important;
+}
+.labelarquivista
+{
+    margin:-5px 0 0 -5px;   
+    font-size:15px; 
+    color: #4682B4; 
+    font-family:Century Gothic;
+    border-bottom:1px solid #FF931E;
+    width:230px;
+    text-align:center;
+    padding:5px;    
+}
+
+#right-side
+{
+  width:200px;
+  float:left;
+  left: 445px;
+  position: absolute; 
+}
+.labeloperadores
+{
+    margin:-5px 0 0 -5px;   
+    font-size:15px; 
+    color: #4682B4; 
+    font-family:Century Gothic;
+    border-bottom:1px solid #FF931E;
+    width:170px;
+    text-align:center;
+    padding:5px;   
+    
+}
+.labeldescricao
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding: 15px 15px 20px 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:100px; 
+    margin:100px 0 0 3px; 
+    width:145px; 
+    text-align:center;        
+     behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+.bottom-side-access
+{
+    clear: both;
+    float: right;
+    height: 36px;
+    position: relative;
+    right: 35px;
+    top: 16px;
+    width: 69px;
+}
+
+.bottom-side-accesses-doc-sec-session
+{
+    clear: both;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 25px;
+}
+
+.progress
+{
+    height: 50px;
+    margin: 17px 0 5px 112px;
+    width: 50px;
+}
+
+.ibtnsave
+{
+   margin: 13px 0 5px 181px;
+}
+.ibtnsave-user
+{
+   margin: -3px 0 5px 22px;
+}
+.divArquivo
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:210px; 
+    /*margin-top:30px;*/
+    /*margin-left:-193px;*/
+    width:170px;
+    float:left;
+     behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+.divArquivistas-left
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:205px; 
+    margin: 20px 13px 0 0;
+    width:250px;
+    float:left;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+ }
+ .divArquivistas
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:205px; 
+    margin-top:15px;
+    left: 60px;
+    width:250px;
+    float:right;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+ }
+ .divArquivistas-right
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:205px; 
+    margin: -218px 13px 0 0;
+    width:250px;
+    float:right;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+ }
+#left-side
+{
+  width:200px;
+  float:left;  
+  margin:0 0 0 10px;  
+}
+.textotreeview
+{ 
+ margin: -5px 0 0 2px;
+  top:0 !important;
+ visibility: visible !important;
+}
+#bottons-acesses-tab
+{
+    clear: both;
+    float: right;
+    margin: -190px 325px 0 0; 
+}
+#bottons-acesses-tab-Aw
+{
+    clear: both;
+    float: right;
+    margin: -184px 290px 0 0;    
+}
+.divUser
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:235px; 
+    margin-top:32px;
+    width:230px;
+}
+.divUserComAcesso
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #FFFFFF;   
+    height:235px;     
+    width:230px;   
+    float:right;
+    position: absolute;
+    right: 10px;
+    top: 67px;
+}
+
+/* ----------------------------------- */
+
+/*** ManageAccessesByFile.aspx ***/
+
+/* operadores */
+.ddlFilesOperadores
+{    
+    float:left;    
+}
+.divOperadores
+{
+    float:left;
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:210px; 
+    margin: 0px 0 0 13px;
+    width:170px;    
+     behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+.divComAcessoOperadores
+{
+  position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:210px; 
+    margin-top:-222px;
+    width:170px;
+    float:right;
+     behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+#bottons
+{
+    clear: both;
+    float: right;
+    margin: -215px 217px 0 0; 
+}
+#bottons-aw
+{
+    clear: both;
+    float: right;
+    margin: -210px 190px 0 0;
+    
+}
+.tvOperadores1,.tvConvidados1
+{
+    height: 178px;
+    overflow: auto;
+    width: 175px;    
+}
+#tvOperadores1 a,#tvConvidados1 a 
+{
+color: #231f20;
+font-family:Century Gothic;
+font-size:12px;
+}
+/* fim do css operadores */
+
+/* convidados */
+.ddlFilesConvidados
+{
+    float:left;    
+    
+}
+.divConvidados
+{
+    float:left;
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:210px; 
+    margin:30px 0 0 13px;
+    width:170px;      
+}
+.divComAcessoConvidados
+{
+  position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:210px; 
+    margin-top:-222px;
+    width:170px;
+    float:right;
+}
+/*fim do css convidados*/
+
+/* ----------------------------------- */
+
+/*** ManageAccessesByUser.aspx ***/
+
+.tvOperadores,.tvOperadoresAcesso,.tvConvidadoAcesso,.tvConvidados
+{
+  height: 175px;
+  overflow: auto;
+  width: 255px;      
+}
+#tvOperadores1 a,#tvOperadoresAcesso1 a,#tvConvidadoAcesso1 a,#tvConvidados1 a 
+{
+color: #231f20;
+font-family:Century Gothic;
+font-size:12px;
+}
+/* ----------------------------------- */
+
+
+/*** ManageAccessesByDocumentFirstSection.aspx ***/
+
+.tvArquivo
+{
+  width:185px;
+  height:220px;  
+  overflow:auto;
+}
+#tvArquivo1 a
+{
+color: #231f20;
+font-family:Century Gothic;
+font-size:12px;
+}
+
+.labelarquivo
+{
+    margin:-5px 0 0 -5px;   
+    font-size:15px; 
+    color: #4682B4; 
+    font-family:Century Gothic;
+    border-bottom:1px solid #FF931E;
+    width:180px;
+    text-align:center;
+    padding:5px;    
+}
+.arquivo
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:250px; 
+    margin-top:22px;
+    width:180px;
+}
+#divLeft
+{
+ width:200px;  
+ padding-left:20px;
+ float:left;  
+}
+
+/*Grid View*/
+#grid-position
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 46px;
+    bottom: 30px;
+    width: 630px;
+    background-color: #FFF;
+    height: 299px;
+    right:25px;
+}
+
+.grid
+{
+    clear:both;
+    overflow:auto;
+    font-family:Century Gothic;
+}
+
+.gridtitulo
+{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.titulo
+{ 
+    margin-top: 0px;
+    text-align:center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family:Century Gothic;
+}
+
+.tabela
+{
+    vertical-align: middle;
+    height:265px;
+    border:1px solid #FFF;
+}
+
+#gvDocuments
+{    
+    border-style:none;
+    border-color:transparent;
+    background-color: transparent;    
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;   
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;      
+}
+
+.grid th
+{
+    border-top-color:#FF931e; 
+    height:15px;
+    border-color:transparent;
+    color:#4682B4; 
+    text-align:center; 
+}
+
+.grid td
+{
+    border-color:transparent;
+    color:#333;
+    height:15px;       
+    border-left-color:#FF931e;
+    text-align:center; 
+}
+
+.lst 
+{
+    position: relative;
+    top: 0 !important;
+    visibility:visible !important;
+}
+
+.chbcheckallAccUser
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #FF931e;
+    border-radius: 5px;
+    color: #231f20;
+    border-color:#FF931e; 
+    background-color: #FFFFFF;
+    position: relative;
+    top: 15px;
+    width: 130px;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+

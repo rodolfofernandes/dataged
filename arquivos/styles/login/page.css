@@ -1,0 +1,117 @@
+﻿
+[id*="pnlSignInContainer"] {
+    position: relative;
+}
+
+[id*="pnlSignInContainer"] table {
+    margin: 0;
+}
+
+.login-field img, .login-actions img, #social img {
+    padding: 0.2em 0 0.5em 0;
+    vertical-align: middle;
+}
+
+.login-field, .login-actions {
+    float: right;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.login-field:last-child {
+    margin-bottom: 0.5em;
+}
+
+    .login-field label {
+        float: left;
+        width: 15%;
+    }
+
+    .login-field img {
+        padding-right: 0.3em;
+    }
+
+    .login-field img, .login-actions img, .login-field input, .login-actions input {
+        float: right;
+    }
+
+    .login-actions a, .login-actions img {
+        float: left;
+    }
+
+    .login-field input {
+        width: 80%;
+    }
+
+    .login-actions a {
+        margin-left: 15%;
+        padding-left: 1em;
+    }
+
+    .login-actions img {
+        padding-left: 0.3em;
+    }
+
+
+#forgot-password {   
+    position: relative;
+    top: -24px;
+    left: 45px;    
+    float: left;
+}
+
+#social {
+    padding-left: 45px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*#page-container {  
+    min-height: 600px;
+    height: 100%;
+    min-width: 100%;
+    float: left;
+    background: transparent url("../arquivos/img/Login/rodape.png") repeat-x left bottom;
+}
+
+#centered-container {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 940px;
+}
+
+#main-container {
+    position: absolute;
+    top: 0;
+    bottom: 70px;
+    width: 100%; 
+}
+
+#content-container {    
+    position: absolute;
+    top: 50%;
+    margin: -150px 0 0;
+    height: 300px;
+    width: 100%;
+}
+
+#title {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 50px;
+    width: 340px;
+}
+
+#main {
+    height: 300px;
+}*/

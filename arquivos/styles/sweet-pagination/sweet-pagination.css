@@ -1,0 +1,68 @@
+*{
+	/* Universal page reset */
+	margin:0;
+	padding:0;
+}
+
+#main{
+	/* The main container div */
+	position:relative;
+	margin:auto;
+	width:945px;
+	height:385px;
+	padding:0;
+	top: 0;
+}
+
+.inner{
+	/* The unordered list that is to be split into pages*/
+	overflow:hidden;
+	position:relative;
+}
+
+.swControls{
+	position:absolute;
+	/*margin:406px auto;*/
+	bottom:0;
+}
+
+.swPage
+{
+    width: 945px !important;
+    height: 430px !important;
+    padding: 0;
+    display:inline-table;
+    position: relative;
+}
+
+.swSlider
+{
+    width:250px
+}
+
+a.swShowPage{
+
+	/* The links that initiate the page slide */
+	background-color:#444444;
+	float:left;
+	height:15px;
+	margin:4px 3px;
+	text-indent:-9999px;
+	width:15px;
+	
+	/* CSS3 rounded corners */
+	-moz-border-radius:7px;
+	-webkit-border-radius:7px;
+	border-radius:7px;
+}
+
+a.swShowPage:hover,
+a.swShowPage.active{
+	background-color:#2993dd;
+	
+	/*	CSS3 inner shadow */
+	
+	-moz-box-shadow:0 0 7px #1e435d inset;
+	-webkit-box-shadow:0 0 7px #1e435d inset;
+	box-shadow:0 0 7px #1e435d inset;
+}

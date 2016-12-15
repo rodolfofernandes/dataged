@@ -1,0 +1,20 @@
+﻿/* Layout Simplificado */
+#main-content-container { max-height: 420px; }
+
+    #main-content { margin: auto; }
+
+    input[id*="txtSearchSimplified"] { width: 160px !important; }
+
+    /* Resultado da pesquisa com preview */
+        [id*=pnlViewOption] { padding: 15px 0 10px 0; }
+
+        .large-icon-simplified { max-height: 168px; }
+
+        .img-properties { right: 42px; }
+
+    /* Paginação */
+     [id*=pnlNavigation] {
+        position: initial;
+        padding-bottom: 15px;
+        text-align: center;
+    }

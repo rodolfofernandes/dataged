@@ -1,0 +1,18 @@
+﻿    
+.iconUpload {
+    width: 0px;
+}
+
+.txt_documentoWorkArea {
+    background: url("../arquivos/img/main/fileUploadWorkArea.png")no-repeat #ff6a00;
+    width: 35px;
+    height: 20px
+
+}
+
+.testando {
+    background: #ccc;
+    width: 35px;
+    height: 20px
+}
+

@@ -1,0 +1,62 @@
+﻿#enterprise-content .col {
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 2.6% !important;
+}
+
+#nav {
+    margin-bottom: 25px;
+}
+
+#title-list {
+    display: block;
+    margin-left: 2.6%;
+    text-align: center;
+    font-family: Oswald;
+}
+
+    .title {
+        width: 17.46478873239437%;/* (670/5)/710 */
+        padding: 0px 24px 0px 0;
+        float: left;
+        font-weight: bold;
+        background: #eaeaea;
+    }
+
+[id*=Main_container] {
+    width: 94.36619718309859% /* 670/710*/;
+    height: 35px;
+    background: #fff;
+    border-left: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    border-right: 1px solid #c9c9c9;
+}
+
+    .large-icon {
+        display: inherit;
+        position: initial;
+        width: 17.46478873239437%;
+        max-width: none;
+        padding: 5px 24px 5px 0;
+        margin: 0;
+        float: left;
+    }
+
+    ul.icon-commands {
+        top: initial;
+        right: 40px;
+        margin-top: -30px;
+        padding: 5px 24px 5px 0;
+        width: 17.46478873239437%;
+    }
+
+     ul.icon-commands li {
+        display: inline;
+    } 
+
+    .icon-name {
+        width: 17.46478873239437%;
+        padding: 5px 24px 5px 0;
+        float: left;
+        line-height: 28px;
+    }

@@ -1,0 +1,45 @@
+﻿#commands {
+    float: left;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+
+.text{ 
+    font-size: 13px;
+    margin-top: 10px;
+    margin-left: 40px;
+    font-style: italic;
+    border: 1px solid #ff9f3a;
+    border-radius: 5px;
+    padding: 3px 5px;
+    box-shadow:  0px 1px 6px #ccc;
+    outline: none;
+    display: block;
+}
+
+.textSize{
+    font-size: 13px;
+    margin: 10px 8px 0px 40px;
+    font-style: italic;
+    border: 1px solid #ff9f3a;
+    border-radius: 5px;
+    padding: 3px 5px;
+    box-shadow: 0px 1px 6px #ccc;
+    outline: none;
+}
+
+#responsivegridsystem input[type="text"], input[type="text"]{
+    border: 1px solid #ff9f3a;
+}
+ 
+
+#responsivegridsystem .button {
+    float:right;
+}
+
+
+
+.stxtSize{
+    display:table
+}
+

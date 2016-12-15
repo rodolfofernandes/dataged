@@ -1,0 +1,84 @@
+﻿/* Define a área de conteúdo do sistema */  		
+#content {
+  	position: absolute;
+  	/*top: 108px;*/
+	top: 5px;
+  	bottom: 22px;  			
+  	left: 30px;
+  	right: 30px;
+  	background: transparent url("../arquivos/img/MasterPage/content-background.png") no-repeat 50% 50%;
+}
+  		
+.slide-out-div1, .slide-out-div2, .slide-out-div3 {
+	border: 1px solid #d0d0d0;
+	height: 360px;
+	width: 400px;
+	background: #f2f2f2;
+    z-index: 0;
+}
+.slide-out-div2{ z-index:0;}
+.slide-out-div4 {
+	border: 1px solid #d0d0d0;
+	height: 360px;
+	width: 500px;
+	background: #f2f2f2;
+    z-index: 0;
+}
+
+/*Página work-area*/
+.txt_documentoWorkArea {
+    width: 83px;
+    height: 30px;
+    margin: -37px 0px 10px 75px;
+    position: absolute;
+    z-index: 5;
+    /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+
+  /* IE 5-7 */
+  filter: alpha(opacity=0);
+
+  /* Netscape */
+  -moz-opacity: 0;
+
+  /* Safari 1.x */
+  -khtml-opacity: 0;
+
+  /* Good browsers */
+  opacity: 0;
+}
+
+.labeltitulo {
+    width: 329px;
+}
+
+.iconUpload {
+    background-image: url('../arquivos/img/main/fileUploadWorkArea.png');
+    position: absolute;
+    left: 0;
+    margin: -39px 0px 10px 35px;
+    width: 80px;
+    height: 32px;
+}
+
+/*FIM work-area*/
+
+/*Página Relatório*/
+.calendar {
+    margin: 5px 80px;
+    width: 290px;
+}
+
+/*Página MoveDoc*/
+.txtMove {
+  margin: 33px 0px;
+}
+
+/*Página Editar Usuário*/
+.tab2 {
+    margin: 0px;
+}
+
+.lblEditando {
+    left: 212px;
+}

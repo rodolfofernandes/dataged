@@ -1,0 +1,595 @@
+﻿
+.fileUploadQueue {
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 auto;
+    width: 381px;
+}
+
+.fileUploadQueueItem {
+    font: 11px Verdana, Geneva, sans-serif;
+    background-color: #F5F5F5;
+    border: 3px solid #E5E5E5;
+    margin-top: 5px;
+    padding: 10px;
+    width: 345px;
+}
+
+.fileUploadQueueItem .cancel {
+    float: right;
+}
+
+.buttonbar, .fileupload-progress {
+    float: left;
+    width: 200px;
+}
+
+.fileupload-progress {
+    padding-left: 30px;
+}
+
+.progress, .fileUploadProgress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.fileUploadProgress {
+    margin-bottom: 0;
+    margin-top: 10px;
+    background-color: #eee;
+}
+
+.progress-bar, .fileUploadProgressBar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #428bca;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    transition: width .6s ease;
+}
+
+.progress-bar-success {
+    background-color: #5cb85c;
+}
+
+
+#uploadForm {
+    height: 300px;
+    text-align: left;
+    margin: 0 30px;
+    padding: 50px 0 0;
+}
+    #uploadForm #closeUploadForm {
+        position: absolute;
+        top: 5px;
+        right: 8px;
+    }
+
+    #uploadForm .fileUpload {    
+        padding: 0 40px 40px;
+    }
+
+    /* Botão Enviar */
+    #uploadForm .startUpload {
+        -moz-border-radius: 5;
+        border-radius: 2px;
+        font-family: Arial;
+        color: #ffffff;
+        font-size: 13px;
+        width: 38px;
+        /* height: 10px; */
+        background: #5cb85c;
+        padding: 8px 37px 7px 36px;
+        text-decoration: none;
+        text-align: center;
+        margin: -6px 3px;
+        position: absolute;
+    }
+
+    #uploadForm .startUpload:hover {
+        background: #0a870a;
+        text-decoration: none;
+    }
+
+    #uploadForm .commands {
+        position: absolute;
+        margin: 6px 0px 0px 114px;
+    }
+
+
+.folderName
+{
+    right: 10px;
+}
+
+
+.divWorkArea
+{
+    height: 345px;
+    margin: -7px -8px;
+    width: 400px;
+}
+#divDocumentosWorkArea, #divCriaPasta
+{
+    background: #F2F2F2;
+    border-top: 1px solid #CDC9C9;
+    text-align: center;
+    overflow: hidden;
+    width: 400px !important;
+    height: 290px !important;
+    margin-top: -1px;
+    position: relative;
+}
+
+.divLinkButtons
+{
+    margin: 10px 74px;
+}
+
+#botoesMenu
+{
+    height: 110px;
+    width: 400px;
+}
+#abas
+{
+    width: 392px;
+    margin: 15px auto 0;
+}
+.text-normal
+{
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+.text-focus
+{
+    box-shadow: 0 0 5px #ccc;
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 5px;
+}
+.botoes-acao-documento
+{
+    position: absolute;
+    top: 55px;
+    /* left: 20px; */
+    width: 30px;
+    /* margin: 80px 0 0 -15px; */
+    height: 235px;
+}
+
+#treeView
+{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: -230px 0 0 55px;
+    position: relative;
+    width: 200px;
+    height: 248px;
+    background: #fff;
+}
+#list, #pnlListaDocumentos, #pnlDestinoArquivo, #treeViewDestino
+{
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 12px -19px 0px 0px;
+    position: relative;
+    width: 338px;
+    /*height: 298px;*/
+    float: right;
+    background: #fff;
+    right: 20px;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+.labeltitulo
+{
+    margin: 0;
+    font-size: 14px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    border-bottom: 1px solid #ccc;
+    width: 290px;
+    text-align: center;
+    padding: 5px;
+}
+#tvArq, #tvArqDestino
+{
+    height: 215px;
+    overflow: auto;
+    width: 200px;
+}
+#lstDocs
+{
+    height: 269px;
+    margin: 5px 0 0 5px;
+    overflow: auto;
+}
+.txt_documentoWorkArea
+{
+    float: left;
+    margin: -59px 0px 10px 104px;
+    width: 34px;
+    border: solid 1px #4682D2;
+    padding: 4px;
+    border-radius: 5px;
+    /* height: 28px; */
+    cursor: pointer;
+}
+
+#div-file {
+    position: relative;
+    cursor: pointer;
+}
+#div-file div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+#div-file input {
+    width: 90px;
+    cursor: pointer;
+}
+#file {
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    width: 0;
+    position: relative;
+    left: -3px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.txt_documentoWorkArea2
+{
+    float: left;
+    margin: -53px 0px 10px 150px;
+    width: 134px;
+    height: 19px;
+    border: solid 1px #4682D2;
+    padding: 1px;
+    border-radius: 5px;
+    background-color: #ececec;
+}
+
+.alinhamento
+{
+    width: 24px;
+    /*height: 24px;*/
+    display: block;
+    padding-top: 5px;
+    margin: 0 auto 10px;
+}
+
+.linha
+{
+    /*border-top: 1px solid #FF931E;*/
+    padding-top: 45px;
+}
+.alinhacentro
+{
+    position: absolute;
+    right: 5px;
+}
+
+table.tabela1 tbody tr:nth-child(odd){
+   background-color: #F2F2F2;
+   width: 100%;
+}
+
+table.tabela2 tbody tr:hover{
+   background-color: #FFFACD;
+   width: 100%;
+}
+
+/*PREVIEW*/
+.form-preview-WorkArea
+{
+    background-color: rgba(255,255,255,0.7);
+    border: 8px solid rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0;
+    height: 80%;
+    width: 530px;
+    margin: auto;
+    position: relative;
+
+    left: 50%;
+    margin-left: -275px;
+    position: fixed;
+    top: 56px;
+}
+
+.simplemodalWorkArea
+{
+    /*height: 3000px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 5000px;
+    position: fixed;
+    */
+    
+    background-color: #FCFCFC;
+    border: 0 none;
+    float: left;
+    height: 342px;
+    margin-left: -17px;
+    margin-top: -262px;
+    opacity: 0.4;
+    overflow: hidden;
+    position: absolute;
+    width: 475px;
+    z-index: 1000;
+}
+
+.simplemodalPreviewWA 
+{
+    height:2500px;
+    width:5300px;
+    background-color:#4B4B4B;
+    border:0;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    margin-left: -4400px;
+    margin-top: -600px;
+    float:left;
+    position:fixed;
+    overflow:hidden;
+}
+
+.pnlModalInformationWA {
+    background-color: #EFEFEF;
+    height: 78%;
+    overflow: auto;
+    padding: 0.5em;
+    position: fixed;
+    width: 519px;
+}
+
+.pnlModalPreviewWA
+{
+    z-index:100;
+    position: relative;
+}
+
+.ibtnCloseWorkArea
+{
+    float: right;
+    margin: -22px;
+    position: relative;
+}
+
+.thumbnail {
+    border: 1px solid #000000 !important;
+}
+
+/*PREVIEW*/
+
+.circle_loader{
+    margin: 40%;
+}
+
+
+.fup_workArea
+{
+    width: 30px;
+    height: 150px;
+    left: -5px;
+}
+
+.imgExpande {
+list-style: none;
+padding: 0;
+}
+.imgExpande li {
+
+}
+.imgExpandeli {
+display: inline;
+width: 128px; /* Aqui é o tamanho da imagem */
+ /* Espaço entre as imagem */
+
+-webkit-transition: 1s all ease; /* É para pega no Chrome e Safira */
+-moz-transition: 1s all ease; /* Firefox */
+-o-transition: 1s all ease; /* Opera */
+}
+.imgExpandeli:hover {
+-moz-transform: scale(1.2);
+-webkit-transform: scale(1.2);
+-o-transform: scale(1.2);
+}
+
+.size {
+    padding: 10px;
+}
+
+/*BLOCKUI*/
+pop#responsivegridsystem div {
+    margin-left: 22px;
+    margin-right: 22px;
+}ico
+
+.file-upload {
+    border: solid 1px #293094;
+    margin: 17px 23px 0px 0px;
+}
+
+#responsivegridsystem .file-upload-submit, file-upload-submit {
+    background: #3f6bf2;
+    background-image: -webkit-linear-gradient(top, #3f6bf2, #235aad);
+    background-image: -moz-linear-gradient(top, #3f6bf2, #235aad);
+    background-image: -ms-linear-gradient(top, #3f6bf2, #235aad);
+    background-image: -o-linear-gradient(top, #3f6bf2, #235aad);
+    background-image: linear-gradient(to bottom, #3f6bf2, #235aad);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#responsivegridsystem .file-upload-submit:hover, .file-upload-submit:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none
+}
+
+#responsivegridsystem .iconUpload, .iconUpload {
+    pointer-events: none;
+    background: url("../arquivos/img/main/fileUploadWorkArea.png")no-repeat;
+    position: absolute;
+    left: 0;
+    margin: -60px 0px 0px 66px;
+    width: 84px;
+    height: 32px;
+    /* z-index: 2; */
+}
+
+#responsivegridsystem .pop, .pop {
+    background-color: #fff;
+    border: 1px solid #fff;
+    border-radius: 13px;
+    height: 50px;
+    /*width: 300px*/
+    display: none;
+}
+
+.closePop {
+    background: url("../arquivos/img/central-administration/close2.png")no-repeat;
+    background-size: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 3;
+    margin: -23px 0px 0px 50px;
+}
+ 
+#responsivegridsystem .white_content, .black_overlay {
+    display: none;
+    position: fixed;
+    top: 48%;
+    width: 325px;
+    left: 50%;
+    margin-left: -162px;
+    /* height: 65px; */
+    padding: 30px 25px 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+}
+
+.button {
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-right: 25px;
+    background: #2357a5 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #2357a5; /*#27277a;*/
+	-moz-border-radius: 8px;	
+    -webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+	box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    font-size: 14px; 
+}
+
+.carregar {
+    font-size: 14px;
+    position: absolute;
+    margin: -53px 290px;
+    padding: 5px;
+}
+
+
+/* Firefox only. 1+ */
+.txt_documentoWorkArea, x:-moz-any-link
+{
+    float: left;
+    margin: -35px 0px 10px 53px;
+    width: 200px;
+    border: solid 1px #4682D2;
+    border-radius: 5px;
+}
+.size, x:-moz-any-link 
+{
+    padding: 1px 2px 0px 8px;
+}
+/* Firefox 3.0+ */
+.txt_documentoWorkArea, x:-moz-any-link, x:default  
+{
+    float: left;
+    margin: -35px 0px 10px 53px;
+    width: 200px;
+    border: solid 1px #4682D2;
+    border-radius: 5px;
+}
+.size, x:-moz-any-link, x:default  
+{
+    padding: 1px 2px 0px 8px;
+}
+/* FF 3.5+ */
+body:not(:-moz-handler-blocked) .txt_documentoWorkArea 
+{
+    float: left;
+    margin: -35px 0px 10px 53px;
+    width: 200px;
+    border: solid 1px #4682D2;
+    border-radius: 5px;
+}
+body:not(:-moz-handler-blocked) .size
+{
+    padding: 1px 2px 0px 8px;
+}
+
+#div-file {
+    position: relative;
+}
+#div-file div {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+#div-file input {
+    width: 90px;
+}
+#file {
+    opacity: 0;
+    -moz-opacity: 0;
+    filter: alpha(opacity=0);
+    width: 0;
+    position: relative;
+    left: -3px;
+    z-index: 2;
+    cursor: pointer;
+}

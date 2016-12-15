@@ -1,0 +1,44 @@
+﻿/* Resultado da pesquisa com icone */
+/*#enterprise-content .col { margin-left: 0.8%; }*/
+
+    [id*=pnlResultSearch] {
+        position: relative;
+        height: 183px;
+        margin-left: 0.8% !important;
+    }
+        .large-icon-simplified {
+            display: inline-block;
+            position: relative;
+            max-width: 148px;
+            max-height: 138px;
+            margin: 0 auto;
+            text-align: center;
+            border: 2px solid #A0A1A2;
+            border-radius: 5px;
+        }
+                .large-icon-simplified > input[type="image"] {
+                    width: 93.24324324324324%; /* 138/148 */
+                    max-height: 128px;
+                }
+
+        .img-properties {
+            position: absolute;
+            top: 0;
+            right: 12px;
+        }
+
+        .name-result { display: block; }
+
+        .indexer-result {
+            position: absolute;
+            right: 0;
+            bottom: 50px;
+            left: 0;
+            max-width: 135px;
+            margin: auto;
+            padding: 8px;
+            color: #fff;
+            font-size: 0.9375em;
+            text-align: left;
+            background-color: rgba(35,87,165,.9); /* #2357A5 */
+        }

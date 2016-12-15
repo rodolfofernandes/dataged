@@ -1,0 +1,147 @@
+﻿
+
+/*Grid View*/
+#grid-position
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;    
+    right:0;
+}
+#plano-fundo
+ {
+    background-color: #363636;   
+    opacity: 0.1;
+    bottom: 0;
+    left: 282px;
+    position: absolute;
+    right: 45%;
+    top: 19px;  
+}
+#plano-fundo-dois
+ {
+    background-color: #363636;   
+    opacity: 0.1;
+    bottom: 0;
+    left: 687px;
+    position: absolute;
+    right: 0;
+    top: 19px;  
+}
+.grid
+{
+    clear:both;
+    overflow:auto;
+    font-family:Century Gothic;
+}
+.tabela
+{
+    vertical-align: middle;
+    height:292px;
+    border:1px solid #FFF;    
+}
+
+#gvResults
+{    
+    border-style:none;
+    border-color:transparent;
+    background-color: transparent;    
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;   
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;      
+}
+
+.grid th
+{
+    border-top-color:#FF931e; 
+    height:15px;
+    border-color:transparent;
+    color:#4682B4; 
+    text-align:center; 
+}
+
+.grid td
+{
+    border-color:transparent;
+    color:#333;
+    height:15px;       
+    border-left-color:#FF931e;
+    text-align:center; 
+}
+
+.gridtitulo
+{
+    float:left;
+    width:100%;
+    text-align:center; 
+    border-bottom: 1px solid #FF931e;
+    color: #4682B4;
+    font-size:14px;    
+}
+.imageminformation{
+    position:absolute;
+    top:0;
+    height:24px;
+    right:160px;
+}
+.ordenadocs
+{
+   position:absolute;
+   height:24px;
+   right:210px;     
+}
+
+.contagemdocumentos
+{
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;      
+    border:1px solid #FF931e;
+    border-radius:5px;
+    background-color:White;
+    position:absolute;
+    top:0;
+    color:#333;
+    font-family:Century Gothic;
+    height:18px;
+    width:150px;
+    padding:3px 2px 1px 2px;
+    text-align:center;
+    right:0;
+}
+.title
+{ 
+    margin-top: 0px;
+    text-align:center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family:Century Gothic;
+}
+.ddlViewLastDocuments
+{
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 0 0 3px 744px;
+    position: relative;
+    top: 12px !important;
+    visibility: visible !important;
+    width: 170px;
+}

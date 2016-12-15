@@ -1,0 +1,124 @@
+﻿#content-label 
+{
+    width: 100%;
+    text-align:right;
+}
+
+.btnCreateNewPlan 
+{
+    float:right;
+}
+
+#content-grid 
+{    
+    width: 100%;
+}
+
+.lblPlan 
+{
+    color:#000;
+    border: 1.5px solid #aaa;
+    padding: 5px ;
+    margin: 0px 30px 0px 0px;
+    border-radius:3px;
+}
+
+.grid-position
+{
+    position: absolute;
+    top: 20px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border: 0px;
+    background: #fff;
+}
+
+#grid-position
+{
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px; 
+    position:absolute;
+    top:40px;
+    bottom:0;
+    width:100%;
+    background-color:#FFF;
+}
+
+.grid
+{
+    background-color:#f7f7f7;
+    font-family:Century Gothic;
+}
+
+.gridtitulo
+{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.titulo
+{ 
+    margin-top: 0px;
+    text-align:center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family:Century Gothic;
+}
+
+/*.tabela
+{
+    vertical-align: middle;*/
+    /*height:286px;*/
+    /*border:1px solid #FFF;
+}*/
+
+/*#gvBusinessPlans
+{    
+    border-style:none;
+    border-color:transparent;
+    background-color: transparent;    
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px; 
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;      
+}*/
+
+/*th
+{
+    border-top-color:#FF931e; 
+    height:15px;
+    border-color:transparent;
+    color:#4682B4; 
+}*/
+
+/*td
+{
+    border-color:transparent;
+    color:#333;
+    height:15px;   
+    text-align:center; 
+    border-left-color:#FF931e;
+}*/
+
+/*.ibtnGrid
+{
+    padding:0 4px 0 4px;  
+}
+.ibtnGrid > img
+{
+    border:none;
+}*/
+
+
+/*** NewBusinessPlan.aspx | EditBusinessPlan.aspx ***/
+
+#divUnit {
+    display: inline-block;
+    margin-left: 5px;
+}

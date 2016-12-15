@@ -1,0 +1,346 @@
+﻿
+*
+{
+    
+    font-family: century gothic;
+}
+h2
+{
+    margin: 0 0 5px;
+    color: Black;
+}
+#status
+{
+    border: 1px solid #FF931e;
+    background-color: White;
+    left: 170px;
+    position: absolute;
+    top: 15px;
+    width: 285px;
+    height: 86px;
+    border-radius: 10px;
+}
+.lbl2
+{
+    background: #F5F5F5;
+    margin: -9px 10px;
+    padding: 0 5px;
+    position: absolute;
+    color: #0072BC;
+}
+#Alcada
+{
+    border: 1px solid #FF931e;
+    background-color: White;
+    left: 465px;
+    position: absolute;
+    top: 15px;
+    width: 445px;
+    height: 86px;
+    border-radius: 10px;
+}
+#files
+{
+    position: absolute;
+    top: 100px;
+}
+#documents
+{
+    position: absolute;
+    top: 212px;
+}
+#Results
+{
+    position: absolute;
+    top: 300px;
+    width: 395px;
+}
+#TipoEstrutura
+{
+    border: 1px solid #FF931e;
+    background-color: White;
+    left: 465px;
+    position: absolute;
+    top: 31px;
+    width: 445px;
+    height: 65px;
+    border-radius: 10px;
+}
+#Temporalidade
+{
+    border: 1px solid #FF931e;
+    background-color: White;
+    left: 330px;
+    position: absolute;
+    top: 15px;
+    width: 580px;
+    height: 65px;
+    border-radius: 10px;
+}
+.lblqtd
+{
+    font-family: century gothic;
+    font-size: 16px;
+    font-weight: bold;
+    color: Black;
+}
+.pnlAtivo
+{
+    height: 50px;
+    margin: 15px 0 0 5px;
+    width: 85px;
+    text-align: center;
+}
+.pnlBloc
+{
+    height: 50px;
+    margin: -49px 0 0 100px;
+    width: 85px;
+    text-align: center;
+}
+.pnlDesat
+{
+    height: 50px;
+    margin: -50px 0 10px 195px;
+    width: 85px;
+    text-align: center;
+}
+.pnlAdm
+{
+    height: 50px;
+    margin: 15px 0 10px 5px;
+    width: 85px;
+    text-align: center;
+}
+.pnlArq
+{
+    height: 50px;
+    margin: -59px 0 11px 95px;
+    width: 85px;
+    text-align: center;
+}
+.pnlOpe
+{
+    height: 50px;
+    margin: -61px 0 10px 183px;
+    width: 85px;
+    text-align: center;
+}
+.pnlConvi
+{
+    height: 50px;
+    margin: -60px 0 10px 270px;
+    width: 85px;
+    text-align: center;
+}
+.pnlColab
+{
+    height: 50px;
+    margin: -60px 0 10px 355px;
+    width: 85px;
+    text-align: center;
+}
+.pnlClassica
+{
+    height: 50px;
+    margin: 15px 0 10px 55px;
+    width: 85px;
+    text-align: center;
+}
+.pnlCustomizada
+{
+    height: 50px;
+    margin: -60px 0 10px 290px;
+    width: 85px;
+    text-align: center;
+}
+.pnlCorrente
+{
+    height: 50px;
+    margin: 15px 0 10px 10px;
+    width: 85px;
+    text-align: center;
+}
+.pnlInter
+{
+    height: 50px;
+    margin: -60px 0 10px 115px;
+    width: 85px;
+    text-align: center;
+}
+.pnlPermanente
+{
+    height: 50px;
+    margin: -60px 0 10px 230px;
+    width: 85px;
+    text-align: center;
+}
+.pnlDescart
+{
+    height: 50px;
+    margin: -60px 0 10px 340px;
+    width: 85px;
+    text-align: center;
+}
+.pnlSemTemp
+{
+    height: 50px;
+    margin: -60px 0 10px 458px;
+    width: 97px;
+    text-align: center;
+}
+.pnlDetailStatus
+{
+    height: 19px;
+    margin: -11px 0 10px 194px;
+    text-align: center;
+    width: 97px;
+}
+
+.pnlDetailAlcada
+{
+    height: 19px;
+    margin: -11px 0 10px 357px;
+    text-align: center;
+    width: 97px;
+}
+
+/*pop-up*/
+
+.form-container-DocumentList
+{
+    background-color: rgba(255,255,255,0.7);
+    border: 8px solid rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0;
+    height: 400px;
+    width: 550px;
+    margin: auto;
+    position: relative;
+}
+
+.ibtnClose
+{
+    float: right;
+    position: relative;
+    margin: -22px;
+}
+
+.pnlModalInformation
+{
+    height: 390px;
+    width: 540px;
+    overflow: auto;
+    position: relative;
+    background-color: #EEE9E9;
+    padding: 0.5em;
+}
+.titleModal
+{
+    font-size: 15px;
+    font-weight: bold;
+}
+.fileName
+{
+    font-size: 13px;
+    font-weight: bold;
+}
+/*Grid View*/
+#grid-position
+{
+    position: absolute;
+    top: 10px;
+    background-color: transparent;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+}
+.grid
+{
+    clear: both;
+    overflow: auto;
+    font-family: Century Gothic;
+}
+.tabela
+{
+    vertical-align: middle;
+    height: 389px;
+      border:1px solid #FFF;
+}
+
+#plano-fundo
+{
+    background-color:#363636;
+    position:absolute;
+    left:98px;
+    right:21%;
+    top:0px;
+    bottom:0px;
+    filter:alpha(opacity=20);
+    opacity:.1;
+}
+
+#gvReports
+{
+    border-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.grid th
+{
+    border-top-color: #FF931e;
+    height: 15px;
+    border-color: transparent;
+    color: #4682B4;
+    text-align: center;
+}
+
+.grid td
+{
+    border-color: transparent;
+    color: #333;
+    height: 15px;
+    border-left-color: #FF931e;
+    text-align: center;
+}
+.headerAlign
+{
+   display: block; 
+}
+.pnlBar
+{
+    border-style: inset;
+    border-width: 1px;
+    height: 10px;
+    left: 198px;
+    margin: -24px 0 0;
+    position: absolute;
+    width: 100px;
+    top: 52px;
+}
+.chart
+{
+    margin-top: 10px;
+}
+#divlbl100
+{
+    margin: -37px 0 0 301px;
+    width: 30px;
+}
+.pnlPct
+{
+    margin: -13px; 
+    color: White;
+    text-align: center;
+}
+.pnlExport
+{
+     margin: 259px 0 0 846px;
+}

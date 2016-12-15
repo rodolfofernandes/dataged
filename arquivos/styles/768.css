@@ -1,0 +1,94 @@
+﻿#head-container {
+    position: relative;
+    top: 0;
+    height: auto;
+    z-index: 999;    
+}
+
+    header { width: 100%; }
+
+    #logo { width: 80% }
+
+    #header-search { margin: 0 0 .9em 1.10em; }
+        
+         #search-bar input[id*="txtSearch"] { width: 305px; }
+
+    #header-items, #search, #nav { width: 100%; }
+
+        #header-menu, #header-menu .menu, #header-menu .menu ul, #header-menu .menu li {
+            width: 100%;
+            margin: 0;
+            display: block;
+        }      
+
+        #header-menu .menu li.static {
+            position:relative;
+            padding: 15px;
+            float: left;
+            background: #fff;
+            border-bottom: 1px solid #c9c9c9;
+            box-shadow: 0px 5px 5px #888888;             
+        }
+            #header-menu .menu li > .static .menu-item-text{ float: right; }
+
+            #header-menu .menu ul li.static:hover { 
+                  padding-left: 30px; 
+                  border-top: 2px solid #A8A8A8;        
+                  border-bottom: 2px solid #A8A8A8;
+            }
+
+            #header-menu .menu li ul li.dynamic{ margin: -2px; }
+            
+            #header-menu .menu { border-top: 2px solid #f90; }
+
+            #header-menu .menu li.static:first-child { margin-top:1px; }
+
+            #header-menu .menu ul li.static:nth-child(-n+2) a.static .menu-item-text { display: block; }
+
+        #header-menu {
+            display: none;
+        }
+
+#nav-toggle {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    display: block;
+    height: 40px;
+    width: 40px;
+    text-indent: -9999px;
+    background: url("../arquivos/img/main/icon-menu.png") no-repeat 50% 50%;
+}
+
+        #main-content-container {
+            top: auto;
+            bottom: auto;
+            height: auto;
+            /*display: none;*/
+        }
+
+
+		#main-content{
+            position: relative; 
+            left: 0;         
+			width: 93.75%; /* 450px / 480px */
+		}
+		
+	
+		.main-content{
+			width: 93.75%; /* 450px / 480px */
+		}
+
+        /* Barra de pesquisa do Layout Simplificado */
+        #search-bar-simplified input[id*="txtSearchSimplified"] {
+            width: 230px;
+        }
+
+        #footer-container {
+            height: 2px;
+        }
+
+		
+footer {
+    width: 93.75%; /* 450px / 480px */
+}

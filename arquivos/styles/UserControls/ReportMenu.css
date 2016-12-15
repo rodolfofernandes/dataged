@@ -1,0 +1,42 @@
+﻿/*#divReportMenu {
+    position: relative;
+    font-size: 12px;
+    height: 30px;
+    width: 34px;
+}*/
+
+#divReportMenu > table {
+    position: absolute;
+    top: 0;
+}
+
+#divReportMenu > div {
+    left: -150px !important;
+    border-radius: 3px;
+    height: 87px !important;
+}
+
+#divReportMenu > input[type="image"] {
+    height: 19px;
+    width: 22px;
+}
+
+table.ReportMenuItem td {
+    border-radius: 2px;
+    padding: 5px 15px 5px 5px;
+    background: #fff;
+}
+
+a.ReportMenu, a.ReportMenuItem {
+    color: inherit !important;
+}
+
+a.ReportMenu {
+    margin: 0 3px;
+    border: 1px solid transparent;
+    padding: 2px 5px;
+}
+
+.ReportMenuItem img {
+    margin-right: 10px;
+}

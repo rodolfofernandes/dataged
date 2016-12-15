@@ -1,0 +1,42 @@
+
+/*  SECTIONS  ============================================================================= */
+
+ #responsivegridsystem .section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+/*  GROUPING  ============================================================================= */
+
+
+#responsivegridsystem .group:before,
+#responsivegridsystem .group:after {
+    content:"";
+    display:table;
+}
+#responsivegridsystem .group:after {
+    clear:both;
+}
+#responsivegridsystem .group {
+    zoom:1; /* For IE 6/7 (trigger hasLayout) */
+}
+
+/*  GRID COLUMN SETUP   ==================================================================== */
+
+#responsivegridsystem .col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 1.6%;
+}
+
+#responsivegridsystem .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+
+/*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
+
+@media only screen and (max-width: 480px) {
+	#responsivegridsystem .col { 
+		margin: 1% 0 1% 0%;
+	}
+}

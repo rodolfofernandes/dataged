@@ -1,0 +1,240 @@
+﻿.btn {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: #2357a5;
+    color: #fff;
+}
+
+.btn:disabled {
+        background-color: #d3d3d3;
+        cursor: default;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+    background-color: #2357a5;
+    border-color: transparent;
+}
+
+.wrapper-outer {
+    position: absolute;
+    margin: auto;
+    height: 400px;
+    width: 913px;
+}
+
+.wrapper {
+    position: relative;
+    width: 100%;
+    float: left;
+}
+
+.outer {
+    position: relative;
+    float: left;
+    height: 200px;
+}
+
+.inner {
+    position: relative;
+    width: 945px !important;
+    height: 390px !important;
+}
+
+.icon {
+    display: block;
+    margin-top: 0;
+    position: relative;
+}
+
+.icon-area {
+    position: relative;
+    height: 113px;
+    width: 189px;
+    display: inline-table;
+}
+
+.icon-temp-jur {
+    visibility: hidden;
+}
+
+.action {
+    display: block;
+    font-family: Century Gothic;
+    color: #333333;
+    font-size: 12px;
+}
+
+.imgCreateProcessForm {
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    top: 50px;
+    /*left:-13px;*/
+}
+
+.imgSearch {
+    margin: 12px 0 0 0;
+}
+
+.imgProperties {
+    position: absolute;
+    top: 15px;
+}
+
+.imgPropertiesForm {
+    position: absolute;
+    top: -13px;
+}
+
+.actions-area {
+    position: absolute;
+    float: left;
+    top: 15px;
+    width: 80px;
+    left: 72px;
+    height: 80px;
+}
+
+.action-area-jur {
+    position: absolute;
+    float: left;
+    top: 40px;
+    width: 80px;
+    left: 72px;
+}
+
+.name {
+    font-family: Century Gothic;
+    font-size: 12px;
+    color: #000;
+}
+
+.name-area {
+    position: relative;
+    height: 17px;
+    /*width: 72px;*/
+    width: 155px;
+    text-align: left;
+    padding: 0 0 0 5px;
+}
+
+.properties-area {
+    margin: 89px 0 0 -35px;
+    text-align: center;
+}
+
+.close {
+    height: 10px;
+    width: 10px;
+    margin: 8px 0 0 256px;
+}
+
+.pnlContent {
+    text-align: left;
+    width: 165px;
+    height: 110px;
+}
+
+.lblContent {
+    font-family: Century Gothic;
+    font-size: 12px;
+}
+
+.div {
+    margin: -35px 0 0 25px;
+    height: 200px;
+    width: 280px;
+    background-color: #E8E8E8;
+    color: Black;
+    z-index: 1;
+    border-style: groove;
+}
+
+div#container {
+    width: 580px;
+    margin: 100px auto 0 auto;
+    padding: 20px;
+    background: #000;
+    border: 1px solid #1a1a1a;
+}
+
+div.profile {
+    width: 0px;
+    text-align: center;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    top: 0px;
+}
+
+div.pop-up {
+    display: none;
+    text-align: left;
+    position: fixed;
+    margin-top: 35px;
+    margin-left: -71px;
+    width: 160px;
+    height: 110px;
+    padding: 5px 13px;
+    background: #eeeeee;
+    color: #000000;
+    border: 1px solid #1a1a1a;
+    font-size: 90%;
+    z-index: 1;
+}
+
+/*.profile .pop-up
+{
+    display:none;
+    z-index: 0;
+}
+.profile:hover
+{
+    text-align: left;
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 5px;
+    width: 210px;
+    height: 120px;
+    padding: 0px 13px;
+    background: #eeeeee;
+    color: #000000;
+    border: 1px solid #1a1a1a;
+    font-size: 90%;
+    z-index: 1;
+}*/
+
+
+
+a {
+    color: #EB067B;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.version {
+    position: absolute;
+    top: 100%;
+    left: 94%;
+    text-align: center;
+}

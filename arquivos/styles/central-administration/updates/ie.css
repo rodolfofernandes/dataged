@@ -1,0 +1,13 @@
+﻿/*FUNCIONAMENTO NO INTERNET EXPLORER*/
+
+#responsivegridsystem .buttonUpload, .buttonUpload {
+    margin: -5px 0px 0px 0px;
+    }  
+        
+#responsivegridsystem .white_content, .black_overlay {     
+    overflow: inherit;
+    }
+
+.iconUploadIE{
+    background: url("../arquivos/img/central-administration/fileUploadIcon.png");
+    }

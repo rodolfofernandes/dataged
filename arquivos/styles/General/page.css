@@ -1,0 +1,506 @@
+﻿/*Upload*/
+.s4-ca > #main {
+  top: 28px;
+}
+.boxCreateFolder {
+    background-color: #e8e8e8;
+    border: 1px solid #a0999b;
+    border-radius: 10px;
+    box-shadow: 2px 1px 7px 0 #a0999b;
+    display: none;
+    float: left;
+    height: 40px;
+    padding: 2px 5px;
+    position: absolute;
+    text-align: left;
+    top: 40px;
+    width: 390px;
+    z-index: 1;
+}
+
+.boxRenameFolder {
+    background-color: #e8e8e8;
+    border: 1px solid #a0999b;
+    border-radius: 10px;
+    box-shadow: 2px 1px 7px 0 #a0999b;
+    display: none;
+    float: left;
+    height: 40px;
+    padding: 2px 5px;
+    position: absolute;
+    text-align: left;
+    top: 40px;
+    width: 415px;
+    z-index: 1;
+}
+
+.UploadGrid {
+}
+
+/*.boxCreateFolder span {
+    display: block;
+}
+
+.boxCreateFolder div {
+    display: block;
+}
+
+.boxCreateFolder p {
+    font-weight: bold;
+    background-color: #fcd;
+    width: 300px;
+}*/
+
+.txtNewFolder {
+    background: #F1F1F1 url(../../../Images/DataXDOC/DropKick/16_PASTAABERTA.png) no-repeat;
+    background-position: 5px 9px !important;
+    padding: 10px 10px 10px 25px;
+    width: 270px;
+    border: 1px solid #CCC;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow: 0 1px 1px #ccc inset, 0 1px 0 #fff;
+    -webkit-box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+    box-shadow: 0 1px 1px #CCC inset, 0 1px 0 #FFF;
+}
+
+    .txtNewFolder:focus {
+        background-color: #FFF;
+        border-color: #E8C291;
+        outline: none;
+        -moz-box-shadow: 0 0 0 1px #e8c291 inset;
+        -webkit-box-shadow: 0 0 0 1px #E8C291 inset;
+        box-shadow: 0 0 0 1px #E8C291 inset;
+    }
+
+.btnNewFolder {
+    padding: 10px 10px 10px 25px;
+    font-size: 11pt;
+    padding: 5px;
+}
+
+.boxCreateFolder .arrowUp {
+    margin-left: 7px;
+    margin-top: -10px;
+}
+
+.boxRenameFolder .arrowUp {
+    margin-left: 62px;
+    margin-top: -10px;
+}
+
+.arrowUp {
+    border-color: #a0999b transparent;
+    border-style: solid;
+    border-width: 0 13px 8px;
+    display: block;
+    float: left;
+    height: 0;
+    width: 0;
+}
+
+.btnGeneralMenu {
+    float: left;
+    margin: 2px 10px;
+}
+
+.fileinput-button-generalMenu {
+    float: left;
+    position: relative;
+}
+
+.fup_generalMenu {
+    cursor: pointer;
+    height: 8px;
+    left: 12px;
+    margin: 0;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 13px;
+    transform: translate(0px, 0px) scale(4);
+    width: 9px;
+}
+
+/*Grid View*/
+#grid-position {
+    background-color: transparent;
+    bottom: 0;
+    position: relative;
+    right: 0;
+    top: 25px;
+    width: 100%;
+}
+
+.grid {
+    clear: both;
+    overflow: auto;
+    font-family: Century Gothic;
+}
+
+.tabela {
+    vertical-align: middle;
+    height: 402px;
+}
+
+#gvResults {
+    border-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    width : -moz-available;
+}
+
+.grid th {
+    border-top-color: #FF931e;
+    height: 15px;
+    border-color: transparent;
+    color: #4682B4;
+    text-align: center;
+}
+
+.grid td {
+    border-color: transparent;
+    color: #333;
+    height: 15px;
+    border-left-color: #FF931e;
+    text-align: center;
+}
+
+/*Div Menu*/
+.menu {
+    height: 45px;
+    position: relative;
+    top: 10px;
+    text-align: center;
+    width: 100%;
+}
+
+/*DIV Modal aberta */
+
+.ibtnClose {
+    float: right;
+    position: relative;
+    margin: -22px;
+}
+
+.espacoModal {
+    margin-bottom: 5px;
+}
+
+.labelTitle {
+    color: #FF6600;
+    display: block;
+    font-family: century gothic;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*PREVIEW*/
+.pnlModalInformation {
+    width: 519px;
+    height: 97%;
+    overflow: scroll;
+    padding: 0.5em;
+    position: absolute;
+    background-color: #EEE9E9;
+}
+
+.form-container-DocumentList {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 8px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 0px;
+    margin: auto auto auto -275px;
+    left: 50%;
+    position: fixed;
+    width: 530px;
+    top: 15%;
+    height: 500px;
+}
+
+.form-container-Upload {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 8px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 0px;
+    margin: auto auto auto -275px;
+    left: 50%;
+    width: 450px;
+    height: 105px;
+    position: fixed;
+    top: 35%;
+}
+
+.thumbnail {
+    border: 1px solid #000000 !important;
+}
+
+
+/*PREVIEW*/
+
+.pnlModalUpload {
+    overflow: scroll;
+    padding: 0.5em;
+    position: absolute;
+    background-color: #EEE9E9;
+    width: 440px;
+    height: 95px;
+    overflow: hidden;
+}
+
+.labelModalResult {
+    color: #000000;
+    display: block;
+    font-family: century gothic;
+    font-size: 13px;
+    margin-left: 3px;
+    padding-left: 230px;
+}
+
+.labelModal {
+    color: #000000;
+    display: block;
+    float: left;
+    font-family: century gothic;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.ddlViewDocuments {
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 0;
+    position: relative;
+    top: 0 !important;
+    visibility: visible !important;
+    width: 170px;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+
+.divimageminformation {
+    position: absolute;
+    top: 10px;/*-22px;*/
+    /*height: 24px;*/
+    right: 168px;/*160px;*/
+
+}
+
+.ordenadocslist {
+    position: absolute;
+    top: 10px; /*top: -26px;*/
+    height: 40px; /*height: 24px;*/
+    right: 210px;
+}
+
+.contagemdocumentosarq {
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #FF931e;
+    border-radius: 5px;
+    background-color: White;
+    position: absolute;
+    top: 10px;/*top: -22px;*/
+    color: #333;
+    font-family: Century Gothic;
+    height: 25px;/*18px;*/
+    width: 150px;
+    padding: 3px 2px 1px 2px;
+    text-align: center;
+    right: 0;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc); 
+}
+
+.divLeft {
+    float: left;
+    width: 220px;
+}
+
+.divRight {
+    float: left;
+    width: 285px;
+}
+
+.btnGridSettings {
+    margin: auto;
+    font-size: 12pt;
+}
+
+    .btnGridSettings a {
+        margin: auto;
+        font-size: 10pt;
+    }
+
+    .btnGridSettings table {
+        margin: auto;
+    }
+
+.ibtnGridSettings {
+    margin: auto;
+    width: 118px;
+}
+
+.gvResults a:hover {
+    color: #FF931E;
+}
+
+.Upload {
+    position: relative;
+    width: 372px;
+    left: 40px;
+    top: 20px;
+}
+
+.fileUpload {
+    width: 340px;
+}
+
+.UploadButton {
+    position: relative;
+    left: 120px;
+    top: 10px;
+}
+
+#uploadForm {
+    height: 420px;
+    width: 410px;
+    background-color: rgb(255, 255, 255);
+    z-index: 11;
+    position: absolute;
+    left: 35%;
+    border: 2px outset #0C39A2;
+    border-radius: 23px;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc); 
+}
+
+    #uploadForm .fileUpload {    
+        padding: 0 40px 40px;
+    }
+
+    #uploadForm .commands {
+        position: absolute;
+        margin: 6px 0px 0px 114px;
+    }
+
+
+
+#commands {
+  /* float: right; */
+  /* margin: 189px; */
+  width: 100%;
+  top: 91%;
+  /* left: 0%; */
+  margin-left: 45%;
+  position: absolute;
+  /* background-color: aliceblue; */
+}
+
+.button {
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-right: 15px;
+}
+
+
+/*  BUTTONS  ============================================================================= */
+
+.button {
+    background: #F95200 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #D05400; /*#27277a;*/
+	-moz-border-radius: 8px;	
+    -webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+	box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    font-size: 14px; 
+    cursor: pointer;
+    padding: 6px 12px;
+    color: #fff;
+}
+
+.button:hover {
+    background: #ff6600 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #fc893c;
+}
+
+/*.button:active {
+    background: #ff6600 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass2.png) repeat-x 0 50%;
+}*/
+
+.button[disabled="disabled"], .button[disabled="disabled"]:active {
+    background: #c0c0c0 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass2.png) repeat-x 0 50%;
+    border: 1px solid #ccc;
+    color: #fff;
+    top:0;
+}
+
+input[type="submit"] {
+    text-shadow: none;
+}
+
+.buttonActive {
+    margin: 20px 50px 0 -20px;
+    background: #293094;
+    color: #ffffff;
+    font-size: 12px;
+    border: 1px solid #1A1E5F;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    /* border-radius: 2px; */
+    float: right;
+}
+
+.txtMove {
+  font-size: 14px;
+  float: left;
+  margin: 30px 0px;
+  background-color: white;
+  height: 41px;
+  padding-left: 10px;
+  position: absolute;
+}
+
+/* Firefox only. 1+ */
+.txtMove, x:-moz-any-link
+{
+    margin: 33px 0px;
+}
+
+/* Firefox 3.0+ */
+.txtMove, x:-moz-any-link, x:default  
+{
+    margin: 33px 0px;
+}
+
+/* FF 3.5+ */
+body:not(:-moz-handler-blocked) .calendar
+{
+    margin: 33px 0px;
+}
+
+
+.structure {
+    overflow: auto;
+    height: 333px;
+    width: 364px;
+    float: left;
+    margin-left: 10px;
+}

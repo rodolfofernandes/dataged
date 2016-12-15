@@ -1,0 +1,173 @@
+﻿
+
+/** Login.aspx **/
+
+#title-area {
+    position: relative;
+    top: 50%;
+    margin: -20px auto 0;
+    height: 40px;
+    width: 340px;
+}
+
+#title-area > h3 {
+    margin: 0;
+    display: inline;
+}
+
+#title-area > span {
+    display: block;
+    font-size: 14px;
+}
+
+#main-left-side, #main-right-side {
+    height: 100%;
+}
+
+#main-left-side {
+    padding: 0 0 0 8px;
+    width: 550px;
+    float: left;
+}
+
+#main-right-side {
+    padding: 0 8px 0 0;
+    width: 370px;
+    float: right;
+}
+
+#product-description {
+    padding: 30px 0 0;
+    width: 500px;
+    font-size: 15px;     
+    text-align: justify;
+}
+
+#login-area {
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
+    height: 215px;
+    width: 100%;
+    background: #d9d9d9;
+}
+
+#signIn > span {
+    margin: 0 auto;
+    width: 340px;
+    display: block;
+    font-size: 11px;
+    text-align: right;
+}
+
+#signIn {
+    margin: 60px auto 0;
+    width: 340px;
+}
+
+.signIn-section {
+    position: relative;
+    height: 30px;
+    width: 100%;
+    display: block;
+}
+
+.space-signIn-section {
+    margin: 3px 0 15px;
+}
+
+.image-sigIn {
+    position: absolute;
+    top: 50%;
+    margin: -12px 0 0;
+}
+
+.input-signIn {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    margin: -9px 0 0;
+    border: 1px solid #7f7f7f;
+    border-radius: 5px;
+    padding: 0 5px; 
+    height: 16px;
+    width: 300px;
+}
+
+.submit-signIn {
+    margin: 0 5px 0 0;
+    float: right;
+    color: #000;
+    text-decoration: none;
+}
+
+.submit-signIn:hover {
+    color: #ff931e;
+}
+
+#additional-area {
+    position: relative;
+    height: 50px;
+    width: 342px;
+    margin: 0 auto;
+}
+
+.image-company {
+    position: absolute;
+    left: 3px;
+    top: 50%;
+    margin: -12.5px 0 0;
+}
+
+.image-forgotPassword {
+    position: absolute;
+    top: 50%;
+    right: 105px;
+    margin: -8px 0 0;
+}
+
+.link-company, .link-forgotPassword {
+    height: 18px;
+    margin: -9px 0 0;    
+    color: #000;    
+    font-size: 12px;        
+    text-decoration: none;
+}
+
+.link-company {
+    position: absolute;
+    top: 50%;
+    left: 43px;
+}
+
+.link-forgotPassword {
+    position: absolute;
+    top: 50%;
+    right: 3px;
+}
+
+/*** Forgot Password Page ***/
+
+.label
+{  
+ font-size:15px; 
+ color: #4682B4; 
+}
+#ForgotPassword
+{
+ margin:33px 17px;    
+}
+.dtc {
+    margin: 51px auto;
+    width: 340px;
+    display: block;
+    font-size: 11px;
+    text-align: right;
+}
+.dtclabel
+{
+    margin: 17px auto;
+    width: 340px;
+    display: block;
+    font-size: 11px;
+    text-align: right;
+}

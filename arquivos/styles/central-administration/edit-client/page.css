@@ -1,0 +1,29 @@
+﻿#box-toggle span {
+    font-weight: bold;
+    font-size: 14px;
+    color: #000;
+}
+
+#responsivegridsystem h4{ 
+    padding: 0;
+    margin: 20px 0 0 0;
+    font-size: 16px;
+}
+
+#responsivegridsystem planData{ 
+    font-size: 12px;
+    font-family: Century Gothic;
+}
+
+#responsivegridsystem .modificationPlan{ 
+    display: block;
+}
+
+#responsivegridsystem .lblLogin{ 
+    font-weight: normal;
+}
+
+#responsivegridsystem #commands, #commands {
+    margin: 30px 45px;
+    float: none;
+}

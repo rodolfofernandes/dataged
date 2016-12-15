@@ -1,0 +1,19 @@
+﻿div#system-logo {
+    background: #f2f7f8;
+    border: 1px #e3f1f5 solid;
+    padding: 6.75em 1em;
+    margin: 0;
+    text-align: center;    
+}
+
+#creation-info li {
+    margin-bottom: 10px;
+}
+
+    #creation-info li input  {
+        width: 70%;
+    }
+
+    #creation-info li p {
+        margin-bottom: 0.5em;
+    }

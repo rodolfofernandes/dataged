@@ -1,0 +1,26 @@
+﻿
+
+body
+{
+}
+
+#EnterpriseContentPath
+{
+    position: relative;
+    top: 5px;
+    bottom: 5px;
+    left: 5px;
+    width: 98%;
+    height: 18px;
+    padding-bottom: 10px;
+}
+.linkbtn
+{
+    border:0;
+    font-family: Century Gothic;
+    font-size: 12px;
+}
+
+.linkbtn:link:hover {
+    color: #FF931E;
+}

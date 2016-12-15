@@ -1,0 +1,641 @@
+﻿body {
+}
+
+/*** ManageAccesses.aspx ***/
+[id*="pnlArchivists"], [id*="pnlOperators"] 
+{
+    bottom: 0;
+    left: 200px;
+    position: absolute !important;
+    top: 0;
+    width: 715px !important;
+}
+
+.PorArquivo
+{
+    float:left;
+    margin-right:70px;
+    
+}
+
+.PorArquivo:hover
+{    
+    box-shadow: 0 0 20px #FF931E;
+    -moz-box-shadow: 0 0 20px #FF931E;
+    -webkit-box-shadow: 0 0 20px #FF931E;
+    border-radius:15px;       
+}
+
+.PorUsuario
+{
+    float:left;  
+    margin-right:70px;  
+}
+
+.PorUsuario:hover
+{
+    box-shadow: 0 0 20px #FF931E;
+    -moz-box-shadow: 0 0 20px #FF931E;
+    -webkit-box-shadow: 0 0 20px #FF931E;
+    border-radius:15px;
+}
+
+.PorDocumento
+{
+    float:left;   
+}
+
+.PorDocumento:hover
+{
+    box-shadow: 0 0 20px #FF931E;
+    -moz-box-shadow: 0 0 20px #FF931E;
+    -webkit-box-shadow: 0 0 20px #FF931E;
+    border-radius:15px;    
+}
+
+.alinhaimagens
+{
+    margin: 45px 139px;
+}
+/* ----------------------------------- */
+
+/*** Common ***/
+
+.drop
+{ 
+ font-family:Century Gothic;
+ background:#fff;
+ font-size:13px;
+ color:#4682B4;
+ -webkit-border-radius: 6px;
+ -moz-border-radius: 6px;
+ position:relative;          
+ border:1px solid #FF931E;
+ border-radius:6px;    
+ padding: 5px;
+ top:0 !important;
+ visibility: visible !important;
+}
+.labelarquivista
+{
+    margin:0;   
+    font-size:15px; 
+    color: #4682B4; 
+    font-family:Century Gothic;
+    border-bottom:1px solid #FF931E;
+    text-align:center;
+    padding:3px;    
+}
+
+.sides-size{
+  margin:0;
+  width:262px;
+}
+
+#left-side
+{
+  float:left;  
+  left: 0px;
+}
+
+#right-side
+{
+  float:right;
+  left: 445px; 
+}
+
+.list-side-accesses-by-user, .buttons-acesses-tab 
+{
+    display:inline-block;
+    height:100%;
+    float: left;
+}
+
+.list-side-accesses-by-user 
+{
+    width:35%;
+}
+
+.no-margin {
+    margin:0 !important;
+}
+.list-side-accesses-by-operator53
+{
+    width:53% !important;
+}
+
+.list-side-accesses-by-operator26 
+{
+    width:26% !important;
+}
+
+.buttons-acesses-tab
+{
+    margin:0 4%;
+    width:20%;
+}
+
+.labeloperadores
+{
+    margin:-5px 0 0 -5px;   
+    font-size:15px; 
+    color: #4682B4; 
+    font-family:Century Gothic;
+    border-bottom:1px solid #FF931E;
+    width:170px;
+    text-align:center;
+    padding:5px;   
+    
+}
+.labeldescricao
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding: 15px 15px 20px 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:100px; 
+    margin:100px 0 0 3px; 
+    width:145px; 
+    text-align:center;        
+}
+.buttom-side-access
+{
+    height: 36px;
+    position: absolute;
+    right: 0;
+    width: 69px;
+    bottom: 0;
+}
+
+.buttom-side-accesses-doc-sec-session
+{
+    clear: both;
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 25px;
+}
+
+.progress
+{
+    height: 50px;
+    margin: 17px 0 5px 112px;
+    width: 50px;
+}
+
+.ibtnsave
+{
+   margin: 13px 0 5px 181px;
+}
+.ibtnsave-user
+{
+   margin: -3px 0 5px 22px;
+}
+
+.divArquivo {
+    border: 1px solid #FF931E;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;
+    float: left;
+    height: 205px;
+    padding: 5px;
+    position: relative;
+    width: 169px;
+}
+
+ .div-left-Operators
+{
+    margin-top: 20px;
+    position:relative;
+    width:100%;
+    float:left;
+ }
+
+.divArquivistas-left
+{
+    margin-top: 20px;
+    position:relative;    
+    border: 1px solid #FF931E;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:205px; 
+    width:100%;
+    float:left;
+ }
+
+.topDivBox27 
+{
+    margin-top: 27px;
+}
+
+.topDivBox91 
+{
+    margin-top: 91px;
+}
+
+.buttons-accesses 
+{
+    margin-top:115px;
+}
+
+.buttons-center 
+{
+    float:left;
+    padding-bottom:20px;
+    padding-left:15px;
+}
+
+.textotreeview
+{ 
+ margin: -5px 0 0 2px;
+  top:0 !important;
+ visibility: visible !important;
+}
+
+.divUsers
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:235px; 
+    margin-top:32px;
+    width:230px;
+    float:left;
+    left: 0;
+}
+.divUsersWithAccess
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #FFFFFF;   
+    height:235px;     
+    width:230px;   
+    float:right;
+    position: absolute;
+    right: 0;
+    top: 67px;
+}
+
+/* ----------------------------------- */
+
+/*** ManageAccessesByFile.aspx ***/
+
+/* operadores */
+.ddlFilesOperadores
+{    
+    float:left;    
+}
+
+.top92 {
+    top: 92px;
+}
+
+.divArquivo-margin-left15 {
+    margin-left:15px;
+}
+.divComAcessoOperadores
+{
+  position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:210px; 
+    margin-top:-222px;
+    width:170px;
+    float:right;
+}
+#buttons
+{
+    clear: both;
+    float: right;
+    margin: -215px 217px 0 0; 
+}
+#buttons-aw
+{
+    clear: both;
+    float: right;
+    margin: -210px 190px 0 0;
+    
+}
+.tvOperadores1
+{
+    overflow: auto;
+    height: 175px;
+    margin-left: -5px;
+    width: 179px;   
+}
+#tvOperadores1 a
+{
+color: #231f20;
+font-family:Century Gothic;
+font-size:12px;
+}
+/* fim do css operadores */
+
+/* convidados */
+.ddlFilesConvidados
+{
+    float:left;    
+}
+.divConvidados
+{
+    float:left;
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:210px; 
+    margin:30px 0 0 13px;
+    width:170px;      
+}
+.divComAcessoConvidados
+{
+  position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:210px; 
+    margin-top:-222px;
+    width:170px;
+    float:right;
+}
+/*fim do css convidados*/
+
+/* ----------------------------------- */
+
+/*** ManageAccessesByUser.aspx ***/
+.marginImage 
+{
+    margin-top: -12px
+}
+
+.h2 
+{
+    float:left;
+    color: #FF6600; 
+    font-family: Century Gothic;
+    width: 100%;
+}
+
+#lblDescription 
+{
+    position: relative; 
+    font-family: Century Gothic; 
+    font-size: 12px; 
+    color: #4682B4
+}
+
+#lblTitleDescription 
+{
+    position: relative; 
+    font-family: Century Gothic; 
+    margin-bottom: 5px; 
+    font-size: 16px; 
+    color: #FF6600
+}
+
+#tvOperadores1 a,#tvOperadoresAcesso1 a,#tvConvidadoAcesso1 a,#tvConvidados1 a 
+{
+color: #231f20;
+font-family:Century Gothic;
+font-size:12px;
+}
+/* ----------------------------------- */
+
+
+/*** ManageAccessesByDocumentFirstSection.aspx ***/
+
+.tvArquivo
+{
+  width:185px;
+  height:220px;  
+  overflow:auto;
+}
+#tvArquivo1 a
+{
+color: #231f20;
+font-family:Century Gothic;
+font-size:12px;
+}
+
+.labelarquivo
+{
+    margin:-5px 0 0 -5px;   
+    font-size:15px; 
+    color: #4682B4; 
+    font-family:Century Gothic;
+    border-bottom:1px solid #FF931E;
+    width:180px;
+    text-align:center;
+    padding:5px;    
+}
+.arquivo
+{
+    position:relative;    
+    border: 1px solid #FF931E;
+    padding:5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background:#fff;   
+    height:250px; 
+    margin-top:52px;
+    width:180px;
+}
+#divLeft
+{
+ width:200px;  
+ padding-left:20px;
+ float:left;  
+}
+
+/*Grid View*/
+#grid-position
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 46px;
+    bottom: 30px;
+    width: 630px;
+    background-color: #FFF;
+    height: 299px;
+    right:25px;
+}
+
+.grid
+{
+    clear:both;
+    overflow:auto;
+    font-family:Century Gothic;
+}
+
+.gridtitulo
+{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.titulo
+{ 
+    margin-top: 0px;
+    text-align:center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family:Century Gothic;
+}
+
+.tabela
+{
+    vertical-align: middle;
+    height:265px;
+    border:1px solid #FFF;
+}
+
+#gvDocuments
+{    
+    border-style:none;
+    border-color:transparent;
+    background-color: transparent;    
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;   
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;      
+}
+
+.grid th
+{
+    border-top-color:#FF931e; 
+    height:15px;
+    border-color:transparent;
+    color:#4682B4; 
+    text-align:center; 
+}
+
+.grid td
+{
+    border-color:transparent;
+    color:#333;
+    height:15px;       
+    border-left-color:#FF931e;
+    text-align:center; 
+}
+
+.accesses
+{
+    border: 0 !important;
+    position: relative;
+    top: 0 !important;
+    visibility: visible !important;
+    width: 100% !important;
+    height: 170px !important;
+    overflow: auto;
+}
+
+.chbcheckallAccUser
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #FF931e;
+    border-radius: 5px;
+    color: #231f20;
+    border-color:#FF931e; 
+    background-color: #FFFFFF;
+    position: relative;
+    top: 15px;
+    width: 130px;
+}
+
+ /***ManageAccessesByDocumentSecondSection.aspx***/
+ .lblDescription {
+    /*position:relative;*/
+    font-family: Century Gothic;
+    font-size: 14px;
+    top: 18px;
+    color: #4682B4;
+}
+
+.h2style {
+    color: #FF6600; 
+    font-family: Century Gothic;
+}
+
+.divstyle {
+    margin: -30px 0 0 210px;
+    width: 350px;
+}
+
+.label-document {
+    font-size: 14px;
+    font-family: Century Gothic;
+    color: #4682B4;
+}
+
+.lst {
+    padding-top: 5px; 
+    border: none; 
+    width: 235px; 
+    height: 204px;
+}
+
+.btn-remove {
+    margin-top: -12px;
+}
+
+.bottom-side-accesses-doc-sec-session {
+    float: right; 
+    margin: 1px 5px 0 0;
+    position: relative;
+    top: 293px;
+}
+
+.arrows-left-and-right {
+    float: left;
+    left: 68px;
+    position: relative;
+    top: 100px;
+}
+
+.button-add-and-remove {
+    float: left;
+    left: 55px;
+    position: relative;
+    top: 95px;
+}
+
+.viewListItems {
+    top: 0 !important;
+    visibility: visible !important;
+}
+    

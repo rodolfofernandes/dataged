@@ -1,0 +1,80 @@
+﻿#content-label 
+{
+    width: 100%;
+    text-align:right;
+}
+
+.btnCreateNewPlan 
+{
+    float:right;
+}
+
+#content-grid 
+{    
+    width: 100%;
+}
+
+.lblPlan 
+{
+    color:#000;
+    border: 1.5px solid #aaa;
+    padding: 5px ;
+    margin: 0px 30px 0px 0px;
+    border-radius:3px;
+}
+
+.grid-position
+{
+    position: absolute;
+    top: 20px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border: 0px;
+    background: #fff;
+}
+
+#grid-position
+{
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px; 
+    position:absolute;
+    top:40px;
+    bottom:0;
+    width:100%;
+    background-color:#FFF;
+}
+
+.grid
+{
+    background-color:f7f7f7;
+    font-family:Century Gothic;
+}
+
+.gridtitulo
+{
+    float:left;
+    width:100%;
+    text-align:center;
+}
+
+.titulo
+{ 
+    margin-top: 0px;
+    text-align:center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family:Century Gothic;
+}
+
+#responsivegridsystem input {
+    padding: 0.7px;
+}
+
+#divUnit {
+    display: inline-block;
+    margin-left: 5px;
+}

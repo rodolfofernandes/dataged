@@ -1,0 +1,95 @@
+/* html5reset.css - 01/11/2011 */
+
+#responsivegridsystem div, #responsivegridsystem span, #responsivegridsystem object, #responsivegridsystem iframe,
+#responsivegridsystem h1, #responsivegridsystem h2, #responsivegridsystem h3, #responsivegridsystem h4, #responsivegridsystem h5, #responsivegridsystem h6, #responsivegridsystem p, #responsivegridsystem blockquote, #responsivegridsystem pre,
+#responsivegridsystem abbr, #responsivegridsystem address, #responsivegridsystem cite, #responsivegridsystem code,
+#responsivegridsystem del, #responsivegridsystem dfn, #responsivegridsystem em, #responsivegridsystem img, #responsivegridsystem ins, #responsivegridsystem kbd, #responsivegridsystem q, #responsivegridsystem samp,
+#responsivegridsystem small, #responsivegridsystem strong, #responsivegridsystem sub, #responsivegridsystem sup, #responsivegridsystem var,
+#responsivegridsystem b, #responsivegridsystem i,
+#responsivegridsystem dl, #responsivegridsystem dt, #responsivegridsystem dd, #responsivegridsystem ol, #responsivegridsystem ul, #responsivegridsystem li,
+#responsivegridsystem fieldset, #responsivegridsystem form, #responsivegridsystem label, #responsivegridsystem legend,
+#responsivegridsystem table, #responsivegridsystem caption, #responsivegridsystem tbody, #responsivegridsystem tfoot, #responsivegridsystem thead, #responsivegridsystem tr, #responsivegridsystem th, #responsivegridsystem td,
+#responsivegridsystem article, #responsivegridsystem aside, #responsivegridsystem canvas, #responsivegridsystem details, #responsivegridsystem figcaption, #responsivegridsystem figure,
+#responsivegridsystem footer, #responsivegridsystem header, #responsivegridsystem hgroup, #responsivegridsystem menu, #responsivegridsystem nav, #responsivegridsystem section, #responsivegridsystem summary,
+#responsivegridsystem time, #responsivegridsystem mark, #responsivegridsystem audio, #responsivegridsystem video {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    /*background: transparent;*/
+}
+
+#responsivegridsystem {
+    line-height: 1;
+}
+
+#responsivegridsystem article, #responsivegridsystema side, #responsivegridsystem details, #responsivegridsystem figcaption, #responsivegridsystem figure,
+#responsivegridsystem footer, #responsivegridsystem header, #responsivegridsystem hgroup, #responsivegridsystem menu, #responsivegridsystem nav, #responsivegridsystem section { 
+	display: block;
+}
+
+#responsivegridsystem nav ul {
+    list-style: none;
+}
+
+#responsivegridsystem blockquote, #responsivegridsystem q {
+    quotes: none;
+}
+
+#responsivegridsystem blockquote:before, #responsivegridsystem blockquote:after,
+#responsivegridsystem q:before, #responsivegridsystem q:after {
+    content: '';
+    content: none;
+}
+
+#responsivegridsystem a {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+/* change colours to suit your needs */
+#responsivegridsystem ins {
+    background-color: #ff9;
+    color: #000;
+    text-decoration: none;
+}
+
+/* change colours to suit your needs */
+#responsivegridsystem mark {
+    background-color: #ff9;
+    color: #000; 
+    font-style: italic;
+    font-weight: bold;
+}
+
+#responsivegridsystem del {
+    text-decoration:  line-through;
+}
+
+#responsivegridsystem abbr[title], #responsivegridsystem dfn[title] {
+    border-bottom: 1px dotted;
+    cursor: help;
+}
+
+#responsivegridsystem table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* change border colour to suit your needs */
+#responsivegridsystem hr {
+    display: block;
+    height: 1px;
+    border: 0;   
+    border-top: 1px solid #cccccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+#responsivegridsystem input, #responsivegridsystem select {
+    vertical-align: middle;
+}
