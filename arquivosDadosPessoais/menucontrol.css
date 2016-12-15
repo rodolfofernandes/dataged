@@ -1,0 +1,37 @@
+﻿#divSettingsMenu > div, #divWelcomeMenu > div, #divReportMenu > div {
+    border: 1px solid #d0d0d0;
+    padding: 1px;
+}
+
+table.SettingsMenu, table.WelcomeMenu {
+    margin: 0 3px;
+    border: 1px solid transparent;
+    padding: 1px 5px 2px;
+}
+
+table.SettingsMenu {
+    margin: -15px -10px 0 10px;
+    
+}
+
+.SettingsMenu a > img {
+    width: 22px;
+    height: 22px;
+}
+
+table.SettingsMenuItem, table.WelcomeMenuItem, table.ReportMenuItem {
+    border-bottom: 1px solid #d0d0d0;
+}
+
+table.SettingsMenuItem td:hover, table.WelcomeMenuItem td:hover, table.ReportMenuItem td:hover {
+    background: #2357a5;
+    color: #fff;
+    opacity: 0.9;
+    position: relative;
+}
+
+.SelectedMenu {
+    border-radius: 5px;
+    background: #2357a5 url("../arquivos/imgbgximg.png") repeat-x scroll 0 -490px;
+    color: #fff;
+}

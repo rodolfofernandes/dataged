@@ -1,0 +1,163 @@
+﻿
+
+#divLeftSidePersonalData {
+    width: 180px;
+    float: left;
+}
+
+#divRightSidePersonalData {
+    margin: 0 5px 0 0;
+    padding-top: 20px; 
+    width: 500px;
+    float: right;
+}
+
+#divUploadPhoto, #divGender {
+    position: relative;
+    margin: 20px auto 0;
+    width: 150px;    
+}
+
+#divUploadPhoto > .photo-container {
+    margin: 0 auto;
+    height: 121px;
+    width: 93px;
+    display: block;    
+}
+
+#divUploadPhoto > .fileupload {
+    position: absolute;
+    top: 90px;
+    left: 128px;
+}
+
+#divUploadPhoto > .filename {
+    margin: 3px auto 0;
+    border: none;
+    width: 110px;
+    background: transparent;
+    display: block;
+    text-align: center;
+    color: inherit;    
+}
+
+#divGender > .gender-container {
+    margin: 0 auto;
+}
+
+#divIdentity {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 15px;    
+    font-weight: bold;
+}
+
+#userId {
+    margin-left: 5px;
+}
+
+#userName {
+    position: absolute;
+    left: 90px
+}
+
+#alcada {
+    position: absolute;
+    left: 290px;
+}
+
+.Label {
+    display: inline-block;
+    color: #ff7c00;
+}
+
+.Text {
+    color: #4682b4;
+    font-weight: normal;
+}
+
+
+/*  BUTTONS  ============================================================================= */
+
+.button {
+    background: #F95200 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #D05400; /*#27277a;*/
+	-moz-border-radius: 8px;	
+    -webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+	box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    font-size: 14px; 
+    cursor: pointer;
+}
+
+.button2 {
+    background: #F95200 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #D05400; /*#27277a;*/
+	-moz-border-radius: 8px;	
+    -webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+	box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    font-size: 14px; 
+    cursor: pointer;
+    color: #fff;
+    padding: 6px 12px;
+    margin-right: 25px;
+}
+
+.button2:hover {
+    background: #ff6600 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #fc893c;
+}
+
+
+.button:hover {
+    background: #ff6600 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #fc893c;
+}
+
+/*.button:active {
+    background: #ff6600 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass2.png) repeat-x 0 50%;
+}*/
+
+.button2[disabled="disabled"], .button2[disabled="disabled"]:active {
+    background: #c0c0c0 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass2.png) repeat-x 0 50%;
+    border: 1px solid #ccc;
+    color: #fff;
+    top:0;
+}
+
+
+.button[disabled="disabled"], .button[disabled="disabled"]:active {
+    background: #c0c0c0 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass2.png) repeat-x 0 50%;
+    border: 1px solid #ccc;
+    color: #fff;
+    top:0;
+}
+
+input[type="submit"] {
+    text-shadow: none;
+}
+
+.buttonActive {
+    margin: 20px 50px 0 -20px;
+    background: #293094;
+    color: #ffffff;
+    font-size: 12px;
+    border: 1px solid #1A1E5F;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    /* border-radius: 2px; */
+    float: right;
+}
+
+.tab2 {
+    margin: 0px 180px 0px 0px;
+}
+
+.spacing {
+    margin-bottom: 8px;
+}

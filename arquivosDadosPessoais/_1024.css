@@ -1,0 +1,16 @@
+﻿#header-items {
+    width: 68%;
+}
+
+#header-menu {
+    display: block;
+}
+
+ #header-menu .menu ul li.static:nth-child(-n+2) a .static .menu-item-text {
+	display: none;
+}
+
+input[id*="txtSearch"] {
+    width: 160px;
+}
+

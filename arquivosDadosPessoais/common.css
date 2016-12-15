@@ -1,0 +1,66 @@
+﻿.TreeViewBox, .SimpleInfoBox {
+    position: relative;
+    border: 1px solid #CCCCCC;
+    height: 100%;
+    background: #fff;
+    /*width: 70%;*/
+}
+
+.TreeViewBox2 {
+    position: relative;
+    border: 1px solid #ccc;
+    height: 100%;
+    background: #fff;
+    width: 70%;
+}
+
+.TreeViewBox {
+    border-radius: 12px;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+
+.TreeViewBox > h3 {
+    position: relative;
+    margin: 0;
+    border-bottom: 1px solid #ccc;    
+    padding: 5px;
+    font-size: 120%;
+    text-align: center; 
+}
+
+.TreeViewBox > div {
+    /*position: absolute;*/
+    top: 25px;
+    bottom: 10px;
+    width: 100%;
+    overflow: auto;
+    height: 320px;
+}
+
+.SimpleInfoBox {
+    border-radius: 18px;
+    padding: 2px 10px;
+    font-size: 12px;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+
+.SimpleInfoBox > h3 {
+    padding-left: 5px;
+}
+
+.SimpleInfoBox > p {
+    position: relative;
+    font-size: 13px;
+}
+
+.SimpleInfoBox > .more-info {
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+    font-weight: bold;
+}
+
+.LabelText {
+    display: block;
+    font-size: 12px;
+}

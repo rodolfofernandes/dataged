@@ -1,0 +1,101 @@
+﻿#head-container {
+    position: relative;
+    top: 0;
+    height: auto;
+    z-index: 999;    
+}
+
+    header { width: 100%; }
+
+    #logo { width: 80% }
+
+    #header-search { margin: 0 0 .9em 1.10em; }
+        
+         #search-bar input[id*="txtSearch"] { width: 305px; }
+
+    #header-items, #search, #nav { width: 100%; }
+
+    #header-menu { border-top: 2px solid #f90; }
+
+         #header-menu, #header-menu #site-menu, #header-menu #site-menu #welcome-menu{
+                width: 100%;
+                margin: 0;
+                display: block;
+            } 
+
+          #header-menu #site-menu {
+                 position:relative;
+                 float: left;
+                 background: #fff;
+                 box-shadow: 0px 5px 5px #888888;        
+                -moz-box-shadow: 0px 5px 5px #888888;             
+                -webkit-box-shadow: 0px 5px 5px #888888; 
+           }
+
+            #header-menu #site-menu #welcome-menu {        
+                padding: 0px 0px 10px 30px;             
+                border-bottom: 1px solid #c9c9c9;
+
+            }
+
+              #divWelcomeMenu > div { width: 100%; }
+
+                    #divWelcomeMenu #user-icon {
+                        left: -25px;
+                        top: 17px;
+                    }
+
+                        table [class^="WelcomeMenuItem"] {
+                            height: 37px;
+                        }
+
+                    #site-menu table, #site-menu td {
+                        width: 100% !important;
+                    }                 
+      
+            #header-menu .menu ul li.static:nth-child(-n+2) a.static .menu-item-text { display: block; }
+
+        #header-menu {
+            display: none;
+        }
+
+#nav-toggle {
+    position: absolute;
+    top: .5em;
+    right: .5em;
+    display: block;
+    height: 40px;
+    width: 40px;
+    text-indent: -9999px;
+    background: url("../arquivos/img/main/icon-menu.png") no-repeat 50% 50%;
+}
+
+        #main-container {
+            top: auto;
+            bottom: auto;
+            /*height: auto;*/
+            /*display: none;*/
+        }
+
+
+		#content{
+            position: relative; 
+            left: 0;         
+			width: 93.75%; /* 450px / 480px */
+		}
+		
+	
+		.main-content{
+			width: 93.75%; /* 450px / 480px */
+		}
+
+        .slide-out-div03, .slide-out-div01 { display: none; }
+
+        #footer-container {
+            height: 2px;
+        }
+
+		
+footer {
+    width: 93.75%; /* 450px / 480px */
+}

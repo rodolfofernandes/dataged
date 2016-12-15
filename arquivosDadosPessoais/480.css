@@ -1,0 +1,109 @@
+﻿#form-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background: initial;
+    z-index: 0;
+}
+    #content > div {
+       height: 100%;
+       overflow: auto;
+    }
+
+    #form-container > h1 > img,
+    #form-container > h1 > .close-button,
+    .ui-helper-reset {
+        display: none;
+    }
+
+        .content-form-container {
+            position: initial;
+            top: 0;
+            right: 0;
+            bottom: 15px;
+            left: 0;
+            border: initial;
+            background: initial;
+        }
+
+        .content-form { position: inherit; }
+
+            .ui-tabs-vertical .ui-tabs-panel{ float: initial !important; }
+
+                #divLeftSidePersonalData {
+                    width: 100%;
+                }
+
+                    #divUploadPhoto {
+                        margin: 15px auto;
+                    }
+
+                    #divIdentity {
+                        position: relative;
+                        top:0;
+                        left: 0;
+
+                        margin-bottom: 20px;
+                        font-size: 15px;
+                        font-weight: bold;
+                    }
+
+               #divRightSidePersonalData {
+                        width: 100%;
+                        padding: 0;
+                }
+
+                   #divGender {
+                       position: absolute;
+                    width: 290px;
+                    margin-top: 150px
+                }
+
+                     #divGender > .gender-container{
+                            margin: 0;
+                        }
+
+                            #divGender table tr:first-child {
+                                float: left;
+                            }
+
+                             #divGender table tr:last-child {
+                                float: right;
+                                margin-left: 40px;
+                            }
+
+                    #userName {
+                        width: 100%;
+                        position: initial;
+                    }
+
+                    #alcada {
+                        position: initial;
+                    }
+
+                    #form-container input[type="text"],
+                    #form-container input[type="password"] {
+                            width: 93.33333333333333%;
+                    }
+
+                    [id*=txtLastName] {
+                        position: relative;
+                    }
+
+                    [id*=txtCpf] {
+                        margin-top: 80px;
+                    }
+
+.FormActions {
+    bottom: -300px;
+    right: 30px;
+}
+
+.simplemodal { display: none; }
+
+#version,
+#footer-container {
+    position: fixed;
+}
