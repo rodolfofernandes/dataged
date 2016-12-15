@@ -1,1 +1,1 @@
-﻿window.jQuery.ui || document.write('<script src="/_layouts/dataxdoc/scripts/jquery-ui/jquery-ui-1.11.4/jquery-ui.min.js"><\/script>')
+﻿window.jQuery.ui || document.write('<script src="../arquivos/scripts/jquery-ui/jquery-ui-1.11.4/jquery-ui.min.js"><\/script>')

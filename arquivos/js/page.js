@@ -2,7 +2,7 @@
 
     $(".slide-out-div01").tabSlideOut({
         tabHandle: '.handle01',                                                 //class of the element that will become your tab
-        pathToTabImage: '/_layouts/images/dataxdoc/masterpage/structure.png',   //path to the image for the tab //Optionally can be set using css
+        pathToTabImage: '../arquivos/img/masterpage/structure.png',   //path to the image for the tab //Optionally can be set using css
         imageHeight: '130px',                                                   //height of tab image           //Optionally can be set using css
         imageWidth: '40px',                                                     //width of tab image            //Optionally can be set using css
         tabLocation: 'left',                                                    //side of screen where tab lives, top, right, bottom, or left
@@ -16,7 +16,7 @@
 
     $(".slide-out-div03").tabSlideOut({
         tabHandle: '.handle03',                                                 //class of the element that will become your tab
-        pathToTabImage: '/_layouts/images/dataxdoc/masterpage/workarea.png',    //path to the image for the tab //Optionally can be set using css
+        pathToTabImage: '../arquivos/img/masterpage/workarea.png',    //path to the image for the tab //Optionally can be set using css
         imageHeight: '130px',                                                   //height of tab image           //Optionally can be set using css
         imageWidth: '40px',                                                     //width of tab image            //Optionally can be set using css
         tabLocation: 'right',                                                   //side of screen where tab lives, top, right, bottom, or left
@@ -124,7 +124,7 @@ function changeImage(title) {
 function imgList() {
 
     $(".icon").each(function () {
-        var defaultPath = "/_layouts/images/dataxdoc/main/";
+        var defaultPath = "../arquivos/img/main/";
         var imgPathGrid = $(this).attr("src");
 
         if (imgPathGrid === defaultPath + "ws-128x128.png") {
@@ -145,7 +145,7 @@ function imgList() {
 function imgGrid() {
 
     $(".icon").each(function () {
-        var defaultPath = "/_layouts/images/dataxdoc/main/";
+        var defaultPath = "../arquivos/img/main/";
         var imgPathList = $(this).attr("src");
 
         if (imgPathList === defaultPath + "ws-24x24.png") {

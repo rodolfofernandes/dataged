@@ -19,12 +19,12 @@
         $(".list input:checkbox").not(this).prop('checked', this.checked);
 
         if (this.checked) {
-            $("[id*='lbtnIndexDocument']").attr('disabled', false).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/bt-salvararqdoc.png');
-            $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/delete-doc-on-3-24x24.png');
+            $("[id*='lbtnIndexDocument']").attr('disabled', false).find("img").prop('src', '../arquivos/img/workarea/bt-salvararqdoc.png');
+            $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '../arquivos/img/workarea/delete-doc-on-3-24x24.png');
         }
         else {
-            $("[id*='lbtnIndexDocument']").attr('disabled', true).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/bt-salvararqdocoff.png');
-            $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/delete-doc-off-4-24x24.png');
+            $("[id*='lbtnIndexDocument']").attr('disabled', true).find("img").prop('src', '../arquivos/img/workarea/bt-salvararqdocoff.png');
+            $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '../arquivos/img/workarea/delete-doc-off-4-24x24.png');
         }
     });
 
@@ -33,20 +33,20 @@
             if ($(".list input[type='checkbox']:checked").length == 0) {
                 $("input[id*='cbSelectAllDocuments']").prop('checked', false);
 
-                $("[id*='lbtnIndexDocument']").attr('disabled', true).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/bt-salvararqdocoff.png');
-                $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/delete-doc-off-4-24x24.png');
+                $("[id*='lbtnIndexDocument']").attr('disabled', true).find("img").prop('src', '../arquivos/img/workarea/bt-salvararqdocoff.png');
+                $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '../arquivos/img/workarea/delete-doc-off-4-24x24.png');
             }
         }
         else {
             if ($(".list input[type='checkbox']:checked").length == $(".list input[type='checkbox']").length) {
                 $("input[id*='cbSelectAllDocuments']").prop('checked', true);
 
-                $("[id*='lbtnIndexDocument']").attr('disabled', false).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/bt-salvararqdoc.png');
-                $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/delete-doc-on-3-24x24.png');
+                $("[id*='lbtnIndexDocument']").attr('disabled', false).find("img").prop('src', '../arquivos/img/workarea/bt-salvararqdoc.png');
+                $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '../arquivos/img/workarea/delete-doc-on-3-24x24.png');
             }
             else {
-                $("[id*='lbtnIndexDocument']").attr('disabled', false).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/bt-salvararqdoc.png');
-                $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '/_layouts/images/dataxdoc/workarea/delete-doc-on-3-24x24.png');
+                $("[id*='lbtnIndexDocument']").attr('disabled', false).find("img").prop('src', '../arquivos/img/workarea/bt-salvararqdoc.png');
+                $("[id*='lbtnDeleteDocument']").attr('disabled', false).find("img").prop('src', '../arquivos/img/workarea/delete-doc-on-3-24x24.png');
             }
         }
     });

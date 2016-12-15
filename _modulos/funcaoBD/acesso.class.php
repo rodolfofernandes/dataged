@@ -14,7 +14,7 @@ if($senha == $row['cd_senha'] )
     
     $_SESSION["id_usuario"]= $row["id_usuario"]; //pega o id do usuario e coloca na sessão 
     $_SESSION["nm_usuario"] = stripslashes($row["nm_usuario"]); //Guarda o nome do usuario da sessao
-    $_SESSION["tp_usuario"]= $row["tp_usuario"]; // Pega o tipo de usuario para poder definir as permissoes dentro do sistema
+    $_SESSION["tp_acesso"]= $row["tp_acesso"]; // Pega o tipo de usuario para poder definir as permissoes dentro do sistema
 
     
     return '1';

@@ -415,7 +415,7 @@ SP.UI.Dialog.prototype = {
     
     $1k_0: function($p0) {
         if (this.$S_0) {
-            this.$3_0.innerHTML = '<span style=\"height:18px;width:18px;position:relative;display:inline-block;overflow:hidden;\" class=\"s4-clust\"><img src=\"/_layouts/images/fgimg.png\" style=\"left:-0px !important;top:-676px !important;position:absolute;\" class=\'ms-dlgCloseBtnImg\' /></span>';
+            this.$3_0.innerHTML = '<span style=\"height:18px;width:18px;position:relative;display:inline-block;overflow:hidden;\" class=\"s4-clust\"><img src=\"../arquivos/imgfgimg.png\" style=\"left:-0px !important;top:-676px !important;position:absolute;\" class=\'ms-dlgCloseBtnImg\' /></span>';
             this.$3_0.setAttribute('title', SP.Res.maximize);
             this.$Q_0(this.$B_0, this.$A_0);
             this.$m_0(this.$T_0, this.$U_0);
@@ -431,7 +431,7 @@ SP.UI.Dialog.prototype = {
                 this.$B_0 = this.$I_0.offsetWidth;
                 this.$A_0 = this.$I_0.offsetHeight;
             }
-            this.$3_0.innerHTML = '<span style=\"height:18px;width:18px;position:relative;display:inline-block;overflow:hidden;\" class=\"s4-clust\"><img src=\"/_layouts/images/fgimg.png\" style=\"left:-0px !important;top:-694px !important;position:absolute;\" class=\'ms-dlgCloseBtnImg\' /></span>';
+            this.$3_0.innerHTML = '<span style=\"height:18px;width:18px;position:relative;display:inline-block;overflow:hidden;\" class=\"s4-clust\"><img src=\"../arquivos/imgfgimg.png\" style=\"left:-0px !important;top:-694px !important;position:absolute;\" class=\'ms-dlgCloseBtnImg\' /></span>';
             this.$3_0.setAttribute('title', SP.Res.restore);
             this.$1G_0();
         }
@@ -866,7 +866,7 @@ SP.UI.Dialog.prototype = {
             this.$3_0.className = 'ms-dlgCloseBtn';
             this.$3_0.setAttribute('title', SP.Res.maximize);
             SP.UI.Dialog.$1m_0(this.$3_0);
-            this.$3_0.innerHTML = '<span style=\"height:18px;width:18px;position:relative;display:inline-block;overflow:hidden;\" class=\"s4-clust\"><img src=\"/_layouts/images/fgimg.png\" style=\"left:-0px !important;top:-676px !important;position:absolute;\" class=\'ms-dlgCloseBtnImg\' /></span>';
+            this.$3_0.innerHTML = '<span style=\"height:18px;width:18px;position:relative;display:inline-block;overflow:hidden;\" class=\"s4-clust\"><img src=\"../arquivos/imgfgimg.png\" style=\"left:-0px !important;top:-676px !important;position:absolute;\" class=\'ms-dlgCloseBtnImg\' /></span>';
             this.$h_0 = this.$z;
             $addHandler(this.$6_0, 'dblclick', this.$h_0);
             $addHandler(this.$3_0, 'click', this.$z);
@@ -881,7 +881,7 @@ SP.UI.Dialog.prototype = {
             this.$5_0.setAttribute('title', SP.Res.close);
             SP.UI.Dialog.$1m_0(this.$5_0);
             this.$5_0.setAttribute('accesskey', SP.Res.dialogCancelAK);
-            this.$5_0.innerHTML = '<span style=\"height:18px;width:18px;position:relative;display:inline-block;overflow:hidden;\" class=\"s4-clust\"><img src=\"/_layouts/images/fgimg.png\" style=\"left:-0px !important;top:-658px !important;position:absolute;\" class=\'ms-dlgCloseBtnImg\' /></span>';
+            this.$5_0.innerHTML = '<span style=\"height:18px;width:18px;position:relative;display:inline-block;overflow:hidden;\" class=\"s4-clust\"><img src=\"../arquivos/imgfgimg.png\" style=\"left:-0px !important;top:-658px !important;position:absolute;\" class=\'ms-dlgCloseBtnImg\' /></span>';
             $addHandler(this.$5_0, 'click', this.$w);
             $addHandler(this.$5_0, 'mousedown', this.$Y);
             $addHandler(this.$5_0, 'mouseup', this.$Y);
@@ -1289,10 +1289,10 @@ SP.UI.ModalDialog.$1I_1 = function($p0, $p1, $p2, $p3, $p4, $p5, $p6, $p7, $p8) 
     }
     var $v_8 = SP.UI.Dialog.get_$1().document.createElement('IMG');
     if ($p8 === 1) {
-        $v_8.src = '/_layouts/images/gears_anv4.gif';
+        $v_8.src = '../arquivos/imggears_anv4.gif';
     }
     else if (!$p8) {
-        $v_8.src = '/_layouts/images/loadingcirclests16.gif';
+        $v_8.src = '../arquivos/imgloadingcirclests16.gif';
     }
     $v_7.appendChild($v_8);
     $v_6.appendChild($v_7);

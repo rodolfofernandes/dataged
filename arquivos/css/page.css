@@ -25,9 +25,9 @@
         height: 16px;
     }
 
-    #list-default { background: url("/_layouts/images/DataXDOC/Main/ico-properties-blue.png") no-repeat 0 1px; }
+    #list-default { background: url("../arquivos/img/Main/ico-properties-blue.png") no-repeat 0 1px; }
 
-    #grid-default { background: url("/_layouts/images/DataXDOC/Main/preview-icon-16x16.png") no-repeat; }
+    #grid-default { background: url("../arquivos/img/Main/preview-icon-16x16.png") no-repeat; }
 
 #title-list {
     display: none;

@@ -2465,7 +2465,7 @@ SP.Ribbon.ListViewWebPartPageComponent.prototype = {
         var $v_0 = new Sys.StringBuilder();
         $v_0.append('\r\n                <Menu Id=\"Ribbon.List.Settings.EditDefaultForms.Menu\">');
         $v_0.append('\r\n                  <MenuSection Id=\"Ribbon.List.Settings.EditDefaultForms.Menu.Default\" Scrollable=\"false\" DisplayMode=\"Menu16\">\r\n                    <Controls Id=\"Ribbon.List.Settings.EditDefaultForms.Menu.Default.Controls\">');
-        $v_0.append('\r\n                    <Button \r\n                        Id=\"Ribbon.List.Settings.EditDefaultForms.Menu.MS.ListFormFetchErrorMessage\"\r\n                        Image16by16=\"/_layouts/images/edit.gif\"\r\n                        Image32by32=\"/_layouts/images/placeholder32x32.png\"\r\n                        LabelText=\"' + $p0 + '\"\r\n                    />');
+        $v_0.append('\r\n                    <Button \r\n                        Id=\"Ribbon.List.Settings.EditDefaultForms.Menu.MS.ListFormFetchErrorMessage\"\r\n                        Image16by16=\"../arquivos/imgedit.gif\"\r\n                        Image32by32=\"../arquivos/imgplaceholder32x32.png\"\r\n                        LabelText=\"' + $p0 + '\"\r\n                    />');
         $v_0.append('\r\n                    </Controls>\r\n                  </MenuSection>');
         $v_0.append('\r\n                </Menu>');
         return $v_0.toString();
@@ -2917,7 +2917,7 @@ SP.Ribbon.DocLibWebPartPageComponent.prototype = {
             $v_1.append(' Id=\'Ribbon.Document.All.SendTo.Menu.Items.ExistingCopies\'');
             $v_1.append(' Command=\'');
             $v_1.append('SendToExistingCopies');
-            $v_1.append('\' Image16by16=\'/_layouts/images/existingLocations.gif\'');
+            $v_1.append('\' Image16by16=\'../arquivos/imgexistingLocations.gif\'');
             $v_1.append(' LabelText=\'');
             $v_0 = this.$p('SendToExistingCopies');
             $v_1.append(SP.Utilities.HttpUtility.htmlEncode($v_0.attributes.getNamedItem('text').value));
@@ -2928,7 +2928,7 @@ SP.Ribbon.DocLibWebPartPageComponent.prototype = {
         $v_1.append(' Id=\'Ribbon.Document.All.SendTo.Menu.Items.OtherLocation\'');
         $v_1.append(' Command=\'');
         $v_1.append('SendToOtherLocation');
-        $v_1.append('\' Image16by16=\'/_layouts/images/sendOtherLoc.gif\'');
+        $v_1.append('\' Image16by16=\'../arquivos/imgsendOtherLoc.gif\'');
         $v_1.append(' LabelText=\'');
         $v_0 = this.$p('SendToOtherLocation');
         if (!SP.Ribbon.SU.$0($v_0)) {
@@ -3273,7 +3273,7 @@ SP.Ribbon.WikiPageComponent.$60_1 = function($p0, $p1, $p2, $p3) {
 }
 SP.Ribbon.WikiPageComponent.$4p_1 = function() {ULSMg8:;
     var $v_0 = new Sys.StringBuilder();
-    $v_0.append('\r\n<table style=\'padding:10px;\'>\r\n    <tr>\r\n        <td><img src=\'/_layouts/images/warning32by32.gif\' alt=\'\' /></td>\r\n        <td>');
+    $v_0.append('\r\n<table style=\'padding:10px;\'>\r\n    <tr>\r\n        <td><img src=\'../arquivos/imgwarning32by32.gif\' alt=\'\' /></td>\r\n        <td>');
     $v_0.append(SP.Utilities.HttpUtility.htmlEncode(SP.Res.saveChangeDialogDesc));
     $v_0.append('</td>\r\n    </tr>\r\n    <tr>\r\n        <td></td>\r\n        <td nowrap align=\'center\'>\r\n            <input type=\'button\' id=\'SaveDlgYes\' class=\'ms-NarrowButtonHeightWidth\' onclick=\'SP.Ribbon.WikiPageComponent.saveDialogClick(0)\' value=\'');
     $v_0.append(SP.Utilities.HttpUtility.htmlEncode(SP.Res.buttonYes));
@@ -3400,7 +3400,7 @@ SP.Ribbon.WikiPageComponent.prototype = {
     $5H_1: function($p0, $p1, $p2) {
         if (!SP.Ribbon.WikiPageComponent.$P_1) {
             CUI.PMetrics.perfMark(7111);
-            var $v_0 = '<img src=\"/_layouts/images/loadingcirclests16.gif\" style=\"vertical-align: middle\" />';
+            var $v_0 = '<img src=\"../arquivos/imgloadingcirclests16.gif\" style=\"vertical-align: middle\" />';
             $v_0 += SP.Utilities.HttpUtility.htmlEncode(SP.Res.saving);
             var $v_1 = SP.UI.Notify.addNotification($v_0, true);
             var $v_2 = $v_1;
@@ -3445,7 +3445,7 @@ SP.Ribbon.WikiPageComponent.prototype = {
             }
             var $v_0 = null;
             var $v_1;
-            var $v_2 = '<img src=\"/_layouts/images/loadingcirclests16.gif\" style=\"vertical-align: middle\" />';
+            var $v_2 = '<img src=\"../arquivos/imgloadingcirclests16.gif\" style=\"vertical-align: middle\" />';
             var $v_3 = false;
             switch ($p0) {
                 case 'PageStateGroupEdit':
@@ -5490,7 +5490,7 @@ SP.Ribbon.RelatedFieldsHelper.prototype = {
                 $v_1 = SP.Res.relationships_ListHasNoRelatedLists;
             }
             var $v_2 = String.format($v_1, listTitle);
-            $v_0.append('\r\n                    <Button \r\n                        Id=\"Ribbon.Page.InsertRelatedDataTo' + this.$T_0 + '.RelatedWebPart.Menu.MS.InsertRelatedPartMessage\"\r\n                        Image16by16=\"/_layouts/images/edit.gif\"\r\n                        Image32by32=\"/_layouts/images/placeholder32x32.png\"\r\n                        LabelText=\"' + SP.Utilities.HttpUtility.htmlEncode($v_2) + '\"\r\n                    />');
+            $v_0.append('\r\n                    <Button \r\n                        Id=\"Ribbon.Page.InsertRelatedDataTo' + this.$T_0 + '.RelatedWebPart.Menu.MS.InsertRelatedPartMessage\"\r\n                        Image16by16=\"../arquivos/imgedit.gif\"\r\n                        Image32by32=\"../arquivos/imgplaceholder32x32.png\"\r\n                        LabelText=\"' + SP.Utilities.HttpUtility.htmlEncode($v_2) + '\"\r\n                    />');
         }
         else {
             var $v_3 = relatedFields.get_count();
@@ -5500,7 +5500,7 @@ SP.Ribbon.RelatedFieldsHelper.prototype = {
                 var $v_7 = $v_5.get_listId().toString('B');
                 var $v_8 = $v_5.get_fieldId().toString('B');
                 var $v_9 = $v_6 + ';' + $v_7 + ';' + $v_8;
-                $v_0.append('\r\n                        <Button \r\n                            Id=\"Ribbon.Page.InsertRelatedDataTo' + this.$T_0 + '.RelatedWebPart.Menu.MS.InsertRelatedPart' + $v_4 + '\"\r\n                            CommandValueId=\"' + SP.Utilities.HttpUtility.htmlEncode($v_9) + '\"\r\n                            Command=\"InsertRelatedWebPartTo' + this.$T_0 + '\"\r\n                            Image16by16=\"' + $v_5.get_listImageUrl() + '\"\r\n                            Image32by32=\"/_layouts/images/placeholder32x32.png\"\r\n                            LabelText=\"' + SP.Utilities.HttpUtility.htmlEncode($v_5.get_resolvedListTitle()) + '\" \r\n                            ToolTipTitle=\"' + SP.Utilities.HttpUtility.htmlEncode($v_5.get_resolvedListTitle()) + '\"\r\n                            ToolTipDescription=\"' + SP.Utilities.HttpUtility.htmlEncode($v_5.get_toolTipDescription()) + '\"\r\n                        />');
+                $v_0.append('\r\n                        <Button \r\n                            Id=\"Ribbon.Page.InsertRelatedDataTo' + this.$T_0 + '.RelatedWebPart.Menu.MS.InsertRelatedPart' + $v_4 + '\"\r\n                            CommandValueId=\"' + SP.Utilities.HttpUtility.htmlEncode($v_9) + '\"\r\n                            Command=\"InsertRelatedWebPartTo' + this.$T_0 + '\"\r\n                            Image16by16=\"' + $v_5.get_listImageUrl() + '\"\r\n                            Image32by32=\"../arquivos/imgplaceholder32x32.png\"\r\n                            LabelText=\"' + SP.Utilities.HttpUtility.htmlEncode($v_5.get_resolvedListTitle()) + '\" \r\n                            ToolTipTitle=\"' + SP.Utilities.HttpUtility.htmlEncode($v_5.get_resolvedListTitle()) + '\"\r\n                            ToolTipDescription=\"' + SP.Utilities.HttpUtility.htmlEncode($v_5.get_toolTipDescription()) + '\"\r\n                        />');
             }
         }
         $v_0.append(this.$4S_0);
@@ -5514,7 +5514,7 @@ SP.Ribbon.RelatedFieldsHelper.prototype = {
         this.$1G_0 = false;
         var $v_0 = new Sys.StringBuilder();
         $v_0.append(this.$41_0());
-        $v_0.append('\r\n                <Button \r\n                    Id=\"Ribbon.Page.InsertRelatedDataTo' + this.$T_0 + '.RelatedWebPart.Menu.MS.InsertRelatedPartMessage\"\r\n                    Image16by16=\"/_layouts/images/edit.gif\"\r\n                    Image32by32=\"/_layouts/images/placeholder32x32.png\"\r\n                    LabelText=\"' + SP.Utilities.HttpUtility.htmlEncode(localizedErrorMessage) + '\"\r\n                />');
+        $v_0.append('\r\n                <Button \r\n                    Id=\"Ribbon.Page.InsertRelatedDataTo' + this.$T_0 + '.RelatedWebPart.Menu.MS.InsertRelatedPartMessage\"\r\n                    Image16by16=\"../arquivos/imgedit.gif\"\r\n                    Image32by32=\"../arquivos/imgplaceholder32x32.png\"\r\n                    LabelText=\"' + SP.Utilities.HttpUtility.htmlEncode(localizedErrorMessage) + '\"\r\n                />');
         $v_0.append(this.$4S_0);
         this.$a_0 = $v_0.toString();
     },

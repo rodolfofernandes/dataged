@@ -1400,7 +1400,7 @@ SPIcon.prototype={
 		str=str.substr(0, str.indexOf("|"));
 		if (str.length <=1)
 			return "";
-		return "/_layouts/images/"+str;
+		return "../arquivos/img"+str;
 	}
 };
 SPUrl=function () {};

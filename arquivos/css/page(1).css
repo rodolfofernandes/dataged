@@ -26,7 +26,7 @@
                     right: 35px;
                     width: 16px;
                     height: 16px;
-                    background: url("/_layouts/images/DataXDOC/Main/ico-properties-blue.png") no-repeat 0 1px;
+                    background: url("../arquivos/img/Main/ico-properties-blue.png") no-repeat 0 1px;
                 }
 
                 #grid-simplified {
@@ -34,7 +34,7 @@
                     right: 12px;
                     width: 16px;
                     height: 16px;
-                    background: url("/_layouts/images/DataXDOC/Main/preview-icon-16x16.png") no-repeat;
+                    background: url("../arquivos/img/Main/preview-icon-16x16.png") no-repeat;
                 }
 
             .name-result { word-wrap: break-word; } 

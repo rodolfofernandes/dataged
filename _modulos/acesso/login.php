@@ -22,7 +22,7 @@ $erro = $_GET['errorid']; //para saber se o usuario foi digitado ou nao
 
 <div class="container">
     
-<form name="login" method="post" action="valida.php" id="ctl01" class="form-signin ng-pristine ng-valid">
+<form name="login" method="post" action="valida.php" id="login" class="form-signin ng-pristine ng-valid">
 <div>
 <input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
 <input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
@@ -31,9 +31,9 @@ $erro = $_GET['errorid']; //para saber se o usuario foi digitado ou nao
 
 <script type="text/javascript">
 //<![CDATA[
-var theForm = document.forms['ctl01'];
+var theForm = document.forms['login'];
 if (!theForm) {
-    theForm = document.ctl01;
+    theForm = document.login;
 }
 function __doPostBack(eventTarget, eventArgument) {
     if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
@@ -46,22 +46,22 @@ function __doPostBack(eventTarget, eventArgument) {
 </script>
 
 
-<script src="../../arquivoslogin/WebResource.axd" type="text/javascript"></script>
+<script src="../../arquivos/js/WebResource.axd" type="text/javascript"></script>
 
 
 <script type="text/javascript">
 //<![CDATA[
-var MSOWebPartPageFormName = 'ctl01';//]]>
+var MSOWebPartPageFormName = 'login';//]]>
 </script>
 
-<script src="../../arquivoslogin/ScriptResource.axd" type="text/javascript"></script>
+<script src="../../arquivos/js/ScriptResource.axd" type="text/javascript"></script>
 <script type="text/javascript">
 //<![CDATA[
 if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
 //]]>
 </script>
 
-<script src="../../arquivoslogin/ScriptResource(1).axd" type="text/javascript"></script>
+<script src="../../arquivos/js/ScriptResource(1).axd" type="text/javascript"></script>
 <div>
 
 	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="A2CC1DA6">
@@ -71,7 +71,7 @@ if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side frame
     <!-- handles SharePoint scripts -->
     <script type="text/javascript">
 //<![CDATA[
-Sys.WebForms.PageRequestManager._initialize('ScriptManager', document.getElementById('ctl01'));
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', document.getElementById('login'));
 Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tupRecoverPassword'], [], [], 90);
 //]]>
 </script>
@@ -118,14 +118,14 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tupRecoverPasswo
     </form>
 </tbody></table>                       
     <div class="form-group">
-        <a id="pageDemo4" href="https://dtc-server01/_layouts/dataxdoc/signin.aspx?ReturnUrl=%2fsites%2fdemo%2f_layouts%2fAuthenticate.aspx%3fSource%3d%252Fsites%252Fdemo&amp;Source=%2Fsites%2Fdemo">Esqueci minha senha</a>
+        <a id="pageDemo4" href="login.php">Esqueci minha senha</a>
     </div>    	    
     <div>
        <a href="http://www.datacopy.com.br/">Desenvolvido por Datacopy® </a>
     </div>    
 
     <div id="recover-password" class="modal-wrapper" style="display:none;">
-        <img class="close" src="../../arquivoslogin/close.png">
+        <img class="close" src="../../arquivos/img/close.png">
         <h4>Esqueci minha senha</h4>
         <p>Receba sua senha pelo e-mail, digitando o número do CPF. Sua senha será enviada para o seu endereço de email cadastrado no sistema.</p>
         <div id="upRecoverPassword" placeholder="Senha" ng-model="password">
@@ -139,24 +139,16 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tupRecoverPasswo
 
 	<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if necessary -->
     <!--<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>-->
-	<script>window.jQuery || document.write('<script src="/_layouts/dataxdoc/scripts/jquery/jquery-1.11.3.min.js"><\/script>')</script><script src="../../arquivoslogin/jquery-1.11.3.min.js"></script>
+	<script>window.jQuery || document.write('<script src="../../arquivos/scripts/jquery/jquery-1.11.3.min.js"><\/script>')</script><script src="../../arquivos/js/jquery-1.11.3.min.js"></script>
 
 
 	<!-- More Scripts-->
-    <script src="../../arquivoslogin/jquery.blockUI.js"></script>
-    <script src="../../arquivoslogin/jquery.mask.min.js"></script>   
+    <script src="../../arquivos/js/jquery.blockUI.js"></script>
+    <script src="../../arquivos/js/jquery.mask.min.js"></script>   
     
-    <script src="../../arquivoslogin/_site.js"></script>
-    <script src="../../arquivoslogin/page.js"></script>   
+    <script src="../../arquivos/js/_site.js"></script>
+    <script src="../../arquivos/js/page.js"></script>   
     
-    
-
-
-<script type="text/javascript">
-//<![CDATA[
-var _fV4UI = true;Sys.Application.initialize();
-//]]>
-</script>
 
 
 </div>
