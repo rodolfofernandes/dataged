@@ -1,0 +1,248 @@
+﻿/*Grid View*/
+[id$='gvResults'] {
+    width: 100%;
+}
+
+#grid-position
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 35px;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;    
+    right:0;
+}
+.grid
+{
+    clear:both;
+    overflow:auto;
+    font-family:Century Gothic;
+}
+.tabela
+{
+    vertical-align: middle;
+    height:292px;
+    border:1px solid #FFF;    
+}
+
+#gvResults
+{    
+    border-style:none;
+    border-color:transparent;
+    background-color: transparent;    
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;   
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;      
+}
+
+.grid th
+{
+    border-top-color:#FF931e; 
+    height:15px;
+    border-color:transparent;
+    color:#4682B4; 
+    text-align:center; 
+}
+
+.grid td
+{
+    border-color:transparent;
+    color:#333;
+    height:15px;       
+    border-left-color:#FF931e;
+    text-align:center; 
+}
+
+.gridtitulo
+{
+    float:left;
+    width:100%;
+    text-align:center; 
+    border-bottom: 1px solid #FF931e;
+    color: #4682B4;
+    font-size:14px;    
+}
+.imageminformation{
+    position:absolute;
+    top:0;
+    height:24px;
+    right:160px;
+}
+.ordenaresult{
+    position:absolute;
+    top:-5px;
+    height:24px;
+    right:210px;
+}
+.contagemdocumentos
+{
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;      
+    border:1px solid #FF931e;
+    border-radius:5px;
+    background-color:White;
+    position:absolute;
+    top:0;
+    color:#333;
+    font-family:Century Gothic;
+    height:18px;
+    width:150px;
+    padding:3px 2px 1px 2px;
+    text-align:center;
+    right:0;
+}
+.title
+{ 
+    margin-top: 0px;
+    text-align:center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family:Century Gothic;
+}
+.ddlSearchResults
+{
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    margin: 0 0 10px 755px;
+    position: relative;
+    top: 0 !important;
+    visibility: visible !important;
+    width: 170px;
+}
+
+/*DIV Modal aberta */
+
+.ibtnClose
+{
+    float: right;
+    position: relative;
+    margin: -22px;
+}
+
+.espacoModal
+{
+   margin-bottom: 5px;
+}
+
+.labelTitle
+{
+    color: #FF6600;
+    display: block;
+    font-family: century gothic;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+/*PREVIEW*/
+.pnlModalInformation
+{
+    width: 519px;
+    height: 97%;
+    overflow: scroll;
+    padding: 0.5em;
+    position: absolute;
+    background-color: #EEE9E9;
+}
+
+.form-container-DocumentList
+{
+    background-color: rgba(255,255,255,0.7);
+    border: 8px solid rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0;
+    height: 80%;
+    width: 530px;
+    margin: auto;
+    position: relative;
+
+    left: 50%;
+    margin-left: -275px;
+    position: fixed;
+    top: 56px;
+}
+
+.thumbnail {
+    border: 1px solid #000000 !important;
+}
+/*PREVIEW*/
+
+.labelModalResult {
+    color: #000000;
+    display: block;
+    font-family: century gothic;
+    font-size: 13px;
+    margin-left: 3px;
+    padding-left: 230px;
+}
+.labelModal {
+    color: #000000;
+    display: block;
+    float: left;
+    font-family: century gothic;
+    font-size: 13px;
+    font-weight: bold;
+    margin-left: 25px;
+}
+
+.simplemodalresult
+{
+    height:2200px;
+    width:4800px;
+    background-color:#4B4B4B;
+    border:0;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    margin-top: -300px;
+    margin-left: -100px;
+    float:left;
+    position:fixed;
+    z-index:3000;
+    overflow:hidden;
+}
+.btnGridSettings
+{
+    margin:auto;
+    font-size: 12pt;  
+}
+
+.btnGridSettings a
+{
+    margin:auto;
+    font-size: 10pt;
+}
+
+.btnGridSettings table
+{
+    margin:auto;   
+}
+
+.ibtnGridSettings
+{
+    margin:auto;
+    width: 118px;
+}
+
+.gvResults a:hover
+{
+    color: #FF931E;
+}

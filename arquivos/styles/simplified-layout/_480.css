@@ -1,0 +1,11 @@
+﻿/* Resultado da pesquisa em lista */
+#main-content-container { max-height: 420px; }
+
+    #enterprise-content .col { margin-left: 0 !important; }
+
+    [id*=pnlResultSearch] {
+        width: 99%;
+        height: 50px;
+    }
+
+        .indexer-result-list { width: 22.313718%; }

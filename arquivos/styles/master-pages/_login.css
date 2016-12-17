@@ -1,0 +1,139 @@
+﻿/*--------------------------------------------------------
+[Login Master stylesheet]
+
+Project:       DataXDOC
+URL:
+Version:       1.0
+Creator:       Isaac Gomes
+Last changed:  09/04/2014
+Last updated:  Isaac Gomes
+Primary use:   Define o layout da masterpage
+----------------------------------------------------------*/
+/*--------------------------------------------------------
+Table of contents
+
+1. Layout
+----------------------------------------------------------*/
+
+
+
+/*-----------------------------------------------------------
+$Layout
+-------------------------------------------------------------*/
+
+#main-content {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+#content, #footer {
+    /*display: none;*/
+}
+
+#content {
+    width: 75%; /*750px;*/
+    margin: 0 auto;
+}
+
+#content article {
+    float: left;
+    width: 66.66666666666667%; /* 500px / 750px */    
+    background: #33ccff;
+}
+
+#content article p {
+    width: 66.66666666666667%; /* 500px / 750px */
+    text-align: justify;
+
+}
+
+#content aside {
+    float: right;
+    width: 32%; /* 240px / 750px */
+    background: #99ffcc;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    height: 69px;
+    width: 100%;
+    /*background: url("../arquivos/img/masterpages/footer.png") repeat-x;*/
+}
+
+/*-----------------------------------------------------------
+$Headings
+-------------------------------------------------------------*/
+
+/* Text Replacement */
+h1#sitename {
+    position: relative;
+    height: 81px;
+    width: 500px;
+    margin: 0;
+    overflow: hidden;
+}
+
+h1#sitename span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 81px;
+    width: 500px;
+    background: url("../arquivos/img/masterpages/logo.png") no-repeat;
+}
+
+
+
+
+
+
+
+
+
+
+/*
+#container {  
+    min-height: 600px;
+    height: 100%;
+    min-width: 100%;
+    float: left;
+    background: transparent url("../arquivos/img/Login/rodape.png") repeat-x left bottom;
+}
+
+#centered-container {
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+    width: 940px;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    bottom: 70px;
+    width: 100%; 
+}
+
+#content-container {    
+    position: absolute;
+    top: 50%;
+    margin: -150px 0 0;
+    height: 300px;
+    width: 100%;
+}
+
+#title {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    height: 50px;
+    width: 340px;
+}
+
+#main {
+    height: 300px;
+}
+*/

@@ -1,0 +1,259 @@
+﻿input
+{
+    vertical-align: baseline !important;
+}
+.text-simples
+{
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    width: 260px;
+}
+
+.text-metadados
+{
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    width: 280px;
+}
+
+.text-borda
+{
+    box-shadow: 0 0 5px #FF931E;
+    -moz-box-shadow: 0 0 5px #FF931E;
+    -webkit-box-shadow: 0 0 5px #FF931E;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    width: 260px;
+}
+.dropdownlist
+{
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 272px;
+    top: 0 !important;
+    visibility: visible !important;
+}
+.dropdownlistData {
+    Width: 121px;
+}
+#divMetadadosPadroes, #divMetadadosArquivo, #divMetadadosEspecie
+{
+    background: #F2F2F2;
+    border-top: 1px solid #CDC9C9;
+    text-align: center;
+    overflow: auto;
+    width: 326px !important;
+    height: 250px !important;
+    margin-top: -1px;
+}
+.pnlMetadadoArquivo, .pnlMetadadoEspecie
+{
+    position: relative;
+    top: 24px;
+}
+
+.tipodocs
+{
+    display: none;
+    margin: -5px 19px 5px;
+    text-align: center;
+    width: 272px;
+}
+
+.abas
+{
+    padding: 5px 4px !important;
+}
+#botao
+{
+    float: right;
+    margin-right: 20px;
+    width: 100px;
+}
+
+.ddl
+{
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    width: 287px;
+}
+.labeltitulo
+{
+    margin: -5px 0 0 -5px;
+    font-size: 15px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    border-bottom: 1px solid #FF931E;
+    width: 301px;
+    text-align: center;
+    padding: 5px;
+}
+.bottom-side
+{
+    clear: both;
+    position: relative;
+    float: right;
+    margin: -22px 25px;
+}
+.divMetadados
+{
+    position: relative;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #fff;
+    height: 226px;
+    margin-top: 15px;
+    width: 300px;
+}
+.left-side
+{
+    width: 200px;
+    float: left;
+    margin: -13px 0 0 0;
+}
+.divTvLocal
+{
+    width: 309px;
+    height: 195px;
+    overflow: auto;
+}
+.conteudo
+{
+    position: absolute;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    width: 180px;
+    height: 55px;
+    margin: 205px 0 0 -5px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    background: #fff;
+}
+.label
+{
+    font-size: 14px;
+    color: #000;
+}
+.labelprop
+{
+    font-size: 12px;
+    color: #000;
+    margin: 15px;
+}
+.txt
+{
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    width: 275px;
+}
+.txtfocus
+{
+    box-shadow: 0 0 5px #FF931E;
+    -moz-box-shadow: 0 0 5px #FF931E;
+    -webkit-box-shadow: 0 0 5px #FF931E;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    width: 275px;
+}
+.espaco
+{
+    margin-bottom: 15px !important;
+}
+
+.tipometadado
+{
+    text-align: center;
+    border-bottom: 1px solid #4682B4;
+    margin-bottom: 5px;
+    padding: 2px;
+    width: 282px;
+}
+
+.ddlBusca
+{
+    position: relative !important;
+    top: 0 !important;
+    visibility: visible !important;
+}
+.simplemodalAdvSearch
+{
+    visibility: hidden;
+    background-color: #FCFCFC;
+    border: 0 none;
+    float: left;
+    height: 351px;
+    margin-left: -17px;
+    margin-top: 4px;
+    opacity: 0.4;
+    overflow: hidden;
+    position: absolute;
+    width: 416px;
+    z-index: 1000;
+}
+.circle_loaderAdvSearch
+{
+    margin-top: 30%;
+    margin-left: 45%;
+}
+.tabs {
+    width: 368px; 
+    height: 305px; 
+    padding: 0; 
+    margin: 10px auto; 
+    background: #F2F2F2; 
+    border: none;
+}
+#Temporality {
+    margin-right: 25px;
+}
+.paragraph {
+    padding: 0 1px 5px 0; 
+    margin: 0;
+}
+

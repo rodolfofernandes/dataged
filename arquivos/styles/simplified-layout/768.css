@@ -1,0 +1,15 @@
+﻿#enterprise-content .col { margin-left: 4.8%; }
+
+    #main-content { margin: auto; }
+
+    /* Barra de pesquisa do Layout Simplificado */
+    input[id*="txtSearchSimplified"] { width: 202px !important; }
+
+    /* Resultado da pesquisa com preview */
+        .indexer-result {
+            max-width: 114px;
+        }
+
+        .img-properties {
+            right: -22px;
+        }

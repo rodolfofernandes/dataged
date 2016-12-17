@@ -1,0 +1,272 @@
+﻿.gridtitulo1
+{
+    float: left;
+    width: 66%;
+    text-align: center;
+}
+
+.gridtitulo2
+{
+    float: left;
+    width: 34%;
+}
+#gvContentTypes
+{
+    border-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+th
+{
+    border-top-color: #FF931e;
+    height: 15px;
+    border-color: transparent;
+    color: #4682B4;
+}
+
+td
+{
+    border-color: transparent;
+    color: #333;
+    height: 15px;
+    text-align: center;
+    border-left-color: #FF931e;
+}
+
+.ibtnGrid
+{
+    padding: 0 4px 0 4px;
+}
+.ibtnGrid > img
+{
+    border: none;
+}
+#cabecalho_titulo
+{
+    margin-left: -2px;
+    width: 1030px;
+    position: absolute;
+}
+
+#cabecalho_fechar
+{
+    float: right;
+    margin: 16px 12px 0 0;
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+.cabecalho
+{
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+.botaocriacao
+{
+    position: absolute;
+    top: 0;
+    height: 32px;
+}
+
+.imginformacao-manage
+{
+    position: absolute;
+    top: 4px;
+    height: 24px;
+    right: 180px;
+}
+.items_cadastrados-manage
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #FF931e;
+    border-radius: 5px;
+    background-color: White;
+    position: absolute;
+    top: 4px;
+    color: #333;
+    font-family: Century Gothic;
+    height: 18px;
+    width: 170px;
+    padding: 3px 2px 1px 2px;
+    text-align: center;
+    right: 0px;
+}
+.tabelamanage
+{
+    vertical-align: middle;
+    height: 286px;
+    border: 1px solid #FFF;
+}
+#grid-position-manage
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.grid-manage
+{
+    clear: both;
+    overflow: auto;
+    font-family: Century Gothic;
+}
+.titulo-manage
+{
+    margin-top: 0px;
+    text-align: center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family: Century Gothic;
+}
+#background
+{
+    background-color: #363636;
+    bottom: 0;
+    left: 80px;
+    opacity: 0.1;
+    position: absolute;
+    right: 34%;
+    top: 0;
+}
+.drop
+{
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    top: 0 !important;
+    visibility: visible !important;
+}
+
+.positionContentTypeName {
+    left: 26px;
+    top: 30px;
+}
+
+.positionCheckTemporalities {
+
+}
+.positionHeaderForm {
+    height: 80px;
+    left: 0;
+    position: relative;
+    right: 0;
+    top: 0;
+}
+
+.positionBodyForm {
+    position: relative;
+}
+.btnCreate-Add-Metadata {
+}
+
+.imginformacaoEditCT {
+    height: 24px;
+    position: absolute;
+    right: 195px;
+    top: 0;
+}
+
+.items_cadastradosEditCT{
+    background-color: White;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #FF931e;
+    border-radius: 5px;
+    color: #333;
+    font-family: Century Gothic;
+    height: 18px;
+    padding: 3px 2px 1px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    width: 180px;
+}
+
+.grid-positionEditCT {
+    background-color: #fff;
+    border: 1px solid #ff931e;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    bottom: 0;
+    height: 220px;
+    position: relative;
+    top: 5px;
+    width: 100%;
+}
+
+.temporalidadeEditCT {
+    margin: 0 0 0 295px;
+    position: relative;
+    top: 8px;
+}
+
+.h2TempEditCT {
+    color: #ff6600;
+    float: left;
+    font-family: Century Gothic;
+    margin: 0;
+    width: 124px;
+}
+
+.alinhaCorrenteEditCT {
+    left: 160px;
+    position: absolute;
+    top: -20px;
+    width: 130px;
+}
+
+.alinhaIntermediariaEditCT {
+    left: 306px;
+    position: absolute;
+    top: -20px;
+    width: 130px;
+}
+
+.alinhaPermanenteEditCT {
+    left: 440px;
+    position: absolute;
+    top: -20px;
+    width: 100px;
+}
+
+.btnSalvarEditCT {
+    clear: both;
+    float: right;
+    height: 35px;
+    margin: 10px 0 0;
+    width: 70px;
+}
+
+.enableTemporalityControls {
+    background-color:#FFF;
+}
+
+.disableTemporalityControls {
+    background-color:#e5e5e1;
+}

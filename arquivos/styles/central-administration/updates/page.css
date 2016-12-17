@@ -1,0 +1,230 @@
+﻿#status {
+    padding: 5px;
+    font-size: 25px;
+    color: #f60;
+}
+
+#myDiv {
+    padding: 20px;
+    font-size: 25px;
+    color: #f60;
+}
+
+img#loading {
+    height: 200px;
+    width: 200px;
+}
+
+pop#responsivegridsystem div {
+    margin-left: 22px;
+    margin-right: 22px;
+}
+
+#commands {
+    float: right;
+    margin-right: 35px;
+}
+
+#responsivegridsystem .button {
+    color: #fff;
+    float: left;
+    margin: 5px 22px 5px 45px;
+}
+
+.button {
+    color: #fff;
+    font-size: 14px;
+    padding: 6px 12px;
+    margin-right: 15px;
+}
+
+#responsivegridsystem .btnAddUpdate, .btnAddUpdate {
+    display: block;
+}
+
+#responsivegridsystem .buttonUpload, .buttonUpload {
+    float: right;
+    margin: 0px 0px 0px 0px;
+}
+
+#responsivegridsystem .button2:hover {
+    background: #ff6600 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #fc893c;
+}
+
+#responsivegridsystem .buttonActivated {
+    float: left;
+}
+
+#responsivegridsystem .pnlUpdateManager {
+    border: solid 1px black;
+    margin: 0 45px 0 45px;
+    height: 70px;
+}
+
+#responsivegridsystem .spBorderLeft {
+    width: 25px;
+    height: 70px;
+    float: left;
+    background: #ff0000;
+    background-image: -webkit-linear-gradient(top, #ff0000, #a30000);
+    background-image: -moz-linear-gradient(top, #ff0000, #a30000);
+    background-image: -ms-linear-gradient(top, #ff0000, #a30000);
+    background-image: -o-linear-gradient(top, #ff0000, #a30000);
+    background-image: linear-gradient(to bottom, #ff0000, #a30000);
+}
+
+#responsivegridsystem .lblTitle {
+    float: left;
+    padding: 10px 0 0 20px;
+    font-size: 14px;
+    position: absolute;
+    left: 80px;
+ }
+
+#responsivegridsystem .lblDescription {
+    float: left;
+    padding: 35px 0 0 30px;
+    font-size: 12px;
+    color: gray;
+}
+
+#responsivegridsystem .close {
+    text-align: right;
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+#responsivegridsystem input[type="button"] {
+    padding: 0.6em 1em;
+}
+
+#responsivegridsystem input[type="submit"] {   
+    color: #888;
+    text-shadow: none;
+    vertical-align: bottom;
+    color: white;
+    box-shadow:none;
+    text-shadow: none;
+    font-size: 14px;
+}
+
+#responsivegridsystem input[type="submit"] {   
+    color: #888;
+    text-shadow: none;
+    vertical-align: bottom;
+    color: white;
+    box-shadow:none;
+    text-shadow: none;
+    font-size: 14px;
+}
+
+
+.file-upload {
+    /*border: solid 1px #293094;*/
+    z-index: 2;
+    color: gray;
+    left: 0;
+    margin: 3px 15px 0 -10px;
+    float: left;
+    opacity: 1;
+    /*font-size: 14px;*/
+
+    vertical-align: bottom;
+}
+
+#responsivegridsystem .file-upload-submit, file-upload-submit {
+    background: #3f6bf2;
+    background-image: -webkit-linear-gradient(top, #3f6bf2, #235aad);
+    background-image: -moz-linear-gradient(top, #3f6bf2, #235aad);
+    background-image: -ms-linear-gradient(top, #3f6bf2, #235aad);
+    background-image: -o-linear-gradient(top, #3f6bf2, #235aad);
+    background-image: linear-gradient(to bottom, #3f6bf2, #235aad);
+    -webkit-border-radius: 3;
+    -moz-border-radius: 3;
+    border-radius: 3px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+#responsivegridsystem .file-upload-submit:hover, .file-upload-submit:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none
+}
+
+#responsivegridsystem .iconUpload, .iconUpload {
+    pointer-events: none;
+    background: url("../arquivos/img/central-administration/fileUploadIcon.png")no-repeat;
+    position: absolute;
+    left: 0;
+    margin: -4px 0px 0px -6px;
+    width: 95px;
+    height: 32px;
+    z-index: 2;
+}
+
+#responsivegridsystem .pop, .pop {
+    display: none;
+    height: 30px;
+}
+
+.closePop {
+    background: url("../arquivos/img/central-administration/close2.png")no-repeat;
+    background-size: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 3;
+    margin: -23px 0px 0px 130px;
+}
+ 
+#responsivegridsystem .white_content, .black_overlay {
+    display: none;
+    position: fixed;
+    top: 48%;
+    width: 325px;
+    left: 50%;
+    margin-left: -162px;
+    /* height: 65px; */
+    padding: 30px 25px 10px 5px;
+    border: 1px solid #ccc;
+    border-radius: 40px;
+    background-color: white;
+    z-index: 1002;
+    overflow: auto;
+}
+
+#responsivegridsystem input {
+    border: solid 1px #293094;
+    font-size: 14px;
+    padding: 0.5px;
+}
+
+#responsivegridsystem .grid {
+    float: left
+}
+
+/* Firefox only. 1+ */
+.file-upload,  x:-moz-any-link  { margin: 2px 0px 0px 6px;}
+.closePop,   x:-moz-any-link  { margin: -23px 0px 0px 30px;} 
+
+/* Firefox 3.0+ */
+.file-upload,  x:-moz-any-link, x:default  { margin: 2px 0px 0px 6px;}
+.closePop,   x:-moz-any-link  { margin: -23px 0px 0px 30px;} 
+/* FF 3.5+ */
+body:not(:-moz-handler-blocked) .file-upload { margin: 2px 0px 0px 6px;}
+.closePop,   x:-moz-any-link  { margin: -23px 0px 0px 30px;} 
+
+
+
+
+
+
+       

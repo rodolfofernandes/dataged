@@ -1,0 +1,186 @@
+﻿h2 {
+    margin: 0; 
+    color: #ff6600; 
+}
+
+h3.title {
+    position: absolute;
+    top: 1em;
+    width: 80px;
+    margin: 0;
+}
+
+.checkbox-list {
+    margin-left: 8px;
+    text-align: left;
+}
+
+[id$="pnlChooseStorageLocation"] .right-column .row {
+    margin-top: 14px;
+}
+
+    .selected-documents, .storage-location-structure {
+        position: relative;
+        width: 300px;
+        margin: 0 auto;       
+        background: #fff;
+        border: 1px solid #ff931e;
+        border-radius: 15px;
+    }
+
+    .selected-documents {        
+        margin-top: 38px;
+        height: 251px;
+        width: 240px;
+    }
+        h4.header {
+            height: 25px;
+            margin: 0;
+            font-size: 15px;
+            text-align: center;    
+            color: #4682b4;                    
+            border-bottom: 1px solid #ff931e;
+        }
+
+        .selected-documents .list, #tree-container {
+            position: absolute;
+            top: 26px;
+            bottom: 0;
+            width: 100%;
+            overflow-y: auto;
+            border: none;
+            border-radius: 0 0 15px 15px;        
+        }
+
+        .selected-documents .grid {
+            width: 97%;
+            margin: 0 auto;
+            border: none;
+        }
+
+        .selected-documents .grid td {
+            border: none;
+        }
+
+        .selected-documents .grid tr:nth-child(even) {
+            background-color: #f0f0f0;
+        }
+
+
+
+    .right-column div.center, .right-column h2.center {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .storage-location-structure {  
+        height: 200px;
+    }
+
+[id$='ibtnConfirmRename'] {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 0;
+    padding-left: 5px;
+}
+
+/* Preview */
+
+.left-column {
+    position: relative;
+    float: left;
+    height: 320px;
+    width: 39.04%;
+    color: #4682b4; 
+    border-right: 1px solid #4a7ebb;
+}
+    #thumbnail-preview {
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 200px;
+        margin: 0 auto;
+        padding: 5px;
+        border: 2px solid #adadad;
+        border-radius: 8px;
+    }
+
+        [id$=imgPreview] {
+            height: 306px;
+            width: auto;
+        }
+
+    #filename-container {
+        position: absolute;
+        bottom: -30px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #filename-container img {
+        vertical-align: middle;
+    }    
+
+.right-column {
+    float: left;
+    height: 320px;
+    width: 59.36%;
+    margin-left: 1.4%;
+    overflow-y: auto;
+}
+
+    .container {
+        position: relative;
+        float: left;
+        width: 100%;
+    }
+
+    .row {
+        float: left;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+        .default-indexer, .custom-indexer {
+            float: left;
+            width: 60%;
+            text-align: center;
+            margin-left: 15%;
+        }
+
+        .keep-data-title {
+            float: right;
+            font-size: 0.9em;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .keep-data {
+            float: left;    
+            text-align: center;
+        }
+
+        .keep-data-title, .keep-data {
+            width: 25%;        
+        }
+
+#counter {
+    position: absolute;
+    left: 0;
+    bottom: 0;    
+    right: 0;    
+    width: 60px;
+    margin: 0 auto;
+    text-align: center; 
+    color: #4682b4;
+}
+
+#commands {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}

@@ -1,0 +1,14 @@
+﻿/* Resultado da pesquisa em list */
+#enterprise-content .span_1_of_5 {
+    width: 99.72%;
+    margin-left: 0px !important;
+} 
+
+    [id*=pnlResultSearch] { height: 50px; }
+
+        .indexer-result-list {
+            width: 30.598756%;
+            padding: 10px;
+        }
+
+        .img-properties { padding: 17px; }

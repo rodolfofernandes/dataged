@@ -1,0 +1,79 @@
+﻿#responsivegridsystem .client-label {
+  float: left;
+  margin: -20px 0 0 45px;
+  font-size: 14px;
+  font-style: italic;
+}
+
+#responsivegridsystem .module-header {
+  margin: 0px 15px;
+  padding: 3px 40px 3px 10px;
+  background: #ddd;
+  text-align: left;
+  font-weight: bold;
+}
+
+.module-item, .module-alternating-item {
+    margin: 0px 15px;
+    display: block;
+    font-size: 11px;
+}
+
+.module-alternating-item {
+    background: #eee;
+    margin-bottom: 20px;
+}
+
+#responsivegridsystem .imgStatus {
+    vertical-align: middle;
+} 
+
+#responsivegridsystem .module-title-item, .module-title-item {
+  margin: 0;
+  font-size: 12px;
+  font-weight: bold;
+  display: block;
+  color: #2e3192;
+}
+
+#responsivegridsystem .module-title-description, .module-title-description {
+  float: left;
+}
+
+#responsivegridsystem .column-info, .column-info {
+  float: left;
+  width: 350px;
+  text-align: left;
+  padding: 5px 0px 5px 10px;
+}
+
+
+#responsivegridsystem input {
+    border-radius: 0;
+    font-size: 14px;
+    margin-left: 40%;
+    margin-right: 10%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background: #f5f5f5;
+    background-image: -webkit-linear-gradient(top, #f5f5f5, #d1d1d1);
+    background-image: -moz-linear-gradient(top, #f5f5f5, #d1d1d1);
+    background-image: -ms-linear-gradient(top, #f5f5f5, #d1d1d1);
+    background-image: -o-linear-gradient(top, #f5f5f5, #d1d1d1);
+    background-image: linear-gradient(to bottom, #f5f5f5, #d1d1d1);
+}
+
+/*MEDIA SCREEN / NAVEGADORES */
+
+@media screen and (min-width: 50px) and (max-width: 1200px) {
+    #responsivegridsystem input {
+        margin-left: 0%;
+        margin-right:3%;
+    }
+}
+
+@media screen and (min-width: 275px) and (max-width: 900px) {
+    #responsivegridsystem .client-label {
+      font-size: 11px;
+    }
+}

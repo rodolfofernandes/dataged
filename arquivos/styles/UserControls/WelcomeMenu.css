@@ -1,0 +1,40 @@
+﻿#divWelcomeMenu {
+    position: relative;
+    font-size: 12px;
+}
+
+#divWelcomeMenu > table {
+    display: inline-block;
+}
+
+.divWelcomeMenu > div {
+    border-radius: 3px;    
+    height: 87px !important;
+}
+
+.divWelcomeMenuJur > div {
+    border-radius: 3px;    
+    height: 117px !important;
+}
+
+#user-icon {
+    position: relative;
+    top: -3px;
+    height: 16px;
+    width: 16px; 
+    display: inline-block;
+}
+
+table.WelcomeMenuItem td { 
+    border-radius: 2px;
+    padding: 5px;
+    background: #fff;
+}
+
+a.WelcomeMenu, a.WelcomeMenuItem {
+    color: inherit !important;
+}
+
+.WelcomeMenuItem img {
+    margin-right: 10px;
+}

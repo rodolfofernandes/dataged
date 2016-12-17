@@ -1,0 +1,26 @@
+﻿/* Define a área de conteúdo do sistema */  		
+#content {
+  	position: absolute;
+  	/*top: 108px;*/
+	top: 5px;
+  	bottom: 22px;  			
+  	left: 30px;
+  	right: 30px;
+  	background: transparent url("../arquivos/img/MasterPage/content-background.png") no-repeat 50% 50%;
+}
+  		
+.slide-out-div1, .slide-out-div2, .slide-out-div3 {
+	border: 1px solid #d0d0d0;
+	height: 360px;
+	width: 400px;
+	background: #f2f2f2;
+    z-index: 0;
+}
+.slide-out-div2{ z-index:0;}
+.slide-out-div4 {
+	border: 1px solid #d0d0d0;
+	height: 360px;
+	width: 500px;
+	background: #f2f2f2;
+    z-index: 0;
+}

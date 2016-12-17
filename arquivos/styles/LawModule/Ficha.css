@@ -1,0 +1,786 @@
+﻿body {
+    /*font-size: 14px;*/
+}
+
+#main-container {
+   overflow-y: auto;
+   overflow-x: hidden;
+}
+
+.ficha {
+    position: relative;
+    margin: 0 auto;   
+    border: none;  
+    border-radius: 15px;    
+    padding: 0; 
+    width: 940px;
+    background: #F5F5F5;
+}
+
+.ficha_border {
+    margin: 1px;
+    border-left: 1px solid #a6a6a6;
+    border-right: 1px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    border-radius: 0 0 15px 15px;
+}
+
+#topo {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 40px;   
+    /*left: -17px;
+    position: relative;
+    top: -22px;
+    z-index: 5;*/
+}
+
+.status_arrow{
+    position: absolute;
+    right: 10px;
+    top: 8px;
+}
+
+#actions {
+    position: absolute;
+    right: 0;
+    padding: 5px 30px 5px 0;
+}
+
+h1 > .close-button {
+   position: absolute;
+   top: 50%;
+   right: 15px;
+   margin: -6px 0 0;
+}
+
+.left_block {
+    float: left;
+}
+
+.right_block {
+    float: right;
+}
+
+.left_block, .right_block {
+    margin: 30px 0 20px;
+    width: 48%;
+}
+
+.central {
+    padding: 10px 0;
+    clear: both;
+}
+
+#divResponsable {
+    float: left;
+    margin-right: 5px;
+}
+
+#divJuridicalProcessFormStatus, #ddlLawyer {
+    width: 160px;
+}
+
+#divResponsable, #divJuridicalProcessFormStatus, #divStatus {
+    display: inline-block;
+}
+
+.htmlInputText220, .htmlInputText700 {
+    float: left;
+}
+
+.htmlInputText850, .htmlInputText240 {
+    height: 80px;
+}
+
+.htmlInputText200, .htmlInputText240 {
+    margin-left: 75px;
+    clear: both;
+}
+
+#NewJuridicalProgress {
+    clear: both;
+}
+
+.botoes {
+    position: relative;   
+    height: 60px;
+    width: 100%;
+    background-color: #e5e5e5;    
+    clear: both;
+    z-index: 5;
+}
+
+.puxador {
+    position: relative;    
+    width: 100%;
+    background-color: #fff;
+}
+
+.imgPuxador {
+    position: relative;    
+    left: 50%;
+    cursor: pointer;
+}
+
+.imgBotoes {
+    padding: 0 10px;
+}
+
+.imgBotoesAndamentos {
+    padding: 0 0 0 10px;
+}
+
+.btnDados {
+    padding: 15px 0 0;
+    float: left;
+}
+.cabecalhoGrid {
+    position: relative;  
+    padding-top: 10px;    
+    height: 28px;    
+    width: 100%;    
+    background-color: #fff;
+    z-index: 4;
+}
+
+.gridAndamento {
+    width: 100%;
+}
+
+.novaLinha {
+    background-color: #F5F5F5;
+    position: relative;
+    width: 100%;
+    margin: 20px 0;
+}
+
+.tbNovaLinha {
+    position: relative;
+    z-index: 3;
+}
+
+label {
+    padding: 0 10px 10px 0;
+    width: 150px;
+    float: left;
+    text-align: right;
+}
+
+.clNovaLinha {
+    position: relative;
+    float: left;
+    padding-left: 30px;
+}
+
+.clNovaLinhaCtr {
+    position: relative;
+    float: left;
+}
+
+.lineNumber {
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 10px !important;
+    height: 20px;
+    width: 40px;
+}
+
+.clNovaLinhaAlert {
+    position: relative;
+    float: left;
+    padding-left: 12px;
+    height: 20px;
+    width: 20px;
+}
+
+.imgShowLawyer {    
+    cursor: pointer;
+}
+
+.obs {
+    cursor: pointer;
+}
+
+.AndConteudo {
+    clear: both;
+    padding: 10px 0 10px 40px;
+}
+
+#ctl00_PlaceHolderMain_txtContent {
+    margin: 0px 31px 0px 35px; 
+    width: 770px; 
+    height: 18px;
+}
+
+#ctl00_PlaceHolderMain_txtNoteContent {
+    width: 770px; 
+    height: 18px;
+}
+
+#ctl00_PlaceHolderMain_txtDelegateTo {
+    width: 770px; 
+    height: 18px;
+}
+
+.andamentosNewProcesso {
+    background-color: #F5F5F5;
+    width: 19%;
+}
+
+.andamentosProcesso {
+    background-color: #F5F5F5;
+    width: 16%;
+}
+
+.novaObservacao, .Observacao {
+    background-color: #F5F5F5;
+    position: relative;
+    height: 200px;
+    width: 100%;
+    display: none;
+}
+
+.history_title {
+    display: block;
+}
+
+.history_container {
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: 150px;
+}
+
+.history_spacing {
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.history_item {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.history_label {
+    display: block;
+    font-weight: bold;
+}
+
+.history_content {
+    display: block;
+}
+
+.l_obs, .r_obs {
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+
+.r_obs {
+    margin-left: 10px;
+}
+
+.obs_label {
+    margin-left: 75px;
+    text-align: left;
+    display: block;
+}
+
+
+.deleteNote {
+    float: right;
+    margin: 0 10px 0;
+}
+
+#imgClose {
+    display: block;
+    height: 20px;
+    left: 1000px;
+    position: absolute;
+    top: 10px;
+    width: 20px;
+    z-index: 6;
+}
+
+.simplemodalForm {
+    background-color: #4B4B4B;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.simplemodalFormEmail {
+    height: 2200px;
+    width: 4800px;
+    background-color: #4B4B4B;
+    border: 0;
+    opacity: 0.46;
+    filter: alpha(opacity=40);
+    margin-top: -1000px;
+    margin-left: -200px;
+    float: left;
+    position: fixed;
+    z-index: 6;
+    overflow: hidden;
+    display: block;
+}
+
+.form-container-DocumentList {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 8px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 10px 10px;
+    height: 80%;
+    left: 25%;
+    margin: auto auto auto -65px;
+    padding: 0;
+    position: fixed;
+    bottom: 21px;
+    top: 100px;
+    width:795px;
+    height:360px;
+    /*display: none;*/
+}
+
+.disabled {
+    cursor: default;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.gvResults {
+    text-align: center;
+}
+
+.pnlModalInformation {
+    width: 789px;
+    overflow: auto;
+    height: 350px;
+    top:0px;
+    left:-1px;
+    padding-right:3px;
+    padding: 0.5em;
+    position: absolute;
+    background-color: #EEE9E9;
+}
+
+.ibtnClose {
+    float: right;
+    position: relative;
+    margin: -22px;
+    cursor: pointer;
+}
+
+.labelTitle {
+    color: #FF6600;
+    display: block;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.fichaA, .fichaB {
+    width: 480px;
+    float: left;
+    margin: 10px 0 20px 0;
+    position: relative;
+    top: -15px;
+}
+
+.fichaC {
+    width: 1000px;
+    float: left;
+    position: relative;
+    top: -10px;
+}
+
+
+
+fieldset {
+    border: none;
+}
+
+label, input[type=text]{
+    /*float: left;*/
+}
+
+
+
+
+input {
+    /*width: 71%;*/
+}
+
+.ddlResponsavel {
+    position: relative;
+    top: -20px;
+}
+
+.dropkick { 
+    font-family:Century Gothic;
+    background:#fff;
+    font-size:13px;
+    color:#4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position:relative;          
+    border:1px solid #FF931E;
+    border-radius:6px;    
+    padding: 5px;
+    top:0 !important;
+    visibility: visible !important;
+}
+
+.dados {
+    position: relative;
+    top: -5px;
+}
+
+.dadosCliente, .dadosExAdverso{
+    position: absolute;
+    width: 435px;
+    border: 1px solid #cec5c5;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background: #f5f2f2;
+    padding: 10px;
+    box-shadow: 1px 1px 10px 1px #c6bfbf;
+    display: none;
+    z-index: 10;
+}
+
+.advResponsaveis {
+    background: none repeat scroll 0 0 #F5F2F2;
+    border: 1px solid #CEC5C5;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 1px 1px 10px 1px #C6BFBF;
+    display: none;
+    left: 340px;
+    padding: 10px;
+    position: absolute;
+    top: 85px;
+    width: 300px;
+    z-index: 10;
+}
+
+.lbCloseAdvList {
+    left: 305px;
+    position: absolute;
+    top: -10px;
+    cursor: pointer;
+}
+
+.dadosCliente > label, .dadosExAdverso label {
+    width: 60px;
+}
+
+.dadosCliente {
+    top: 250px;
+    left: 425px;
+    height: 310px;
+}
+
+.dadosExAdverso {
+    left: 425px;
+    top: 285px;
+    height: 440px;
+}
+
+.imgBotoesAdd, .imgShowAdv {
+    padding-left: 0;
+    position: relative;
+    top: 4px;
+    cursor: pointer;
+}
+
+
+
+
+
+.cabecalhoFonte {
+    color: #4682B4;
+    font-weight: bold;
+    margin-left: -201px;
+    margin-right: 66px;
+    padding-left: 281px;
+}
+
+br {
+    clear: left;
+}
+
+td.tdObservacoes {
+    padding-left: 20px;
+}
+
+.btObservacoes, .btExcluir, .ibAddObservacao, .imgBotoes, .dados {
+    cursor: pointer;
+}
+
+.ibAddObservacao {
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.divHObs {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    display: block;
+    left: 470px;
+    padding: 15px;
+    position: relative;
+    top: -162px;
+    width: 430px;
+}
+
+
+
+.inputTextNovaLinha {
+    width: 920px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.labelFicha {
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.labelContadorLinha {
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 5px;
+    position: relative;
+    top: -10px;
+}
+
+.lbLocalFicha {
+    color: #FFFFFF;
+    font-size: 14px;
+    left: 15px;
+    position: relative;
+    top: -37px;
+    font-weight: bold;
+}
+
+.lbLocalFicha2 {
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+
+
+
+
+.botoesNovaLinha {
+    margin-left: 70px;
+}
+
+.selectAll {
+    left: 48px;
+    position: absolute;
+    top: 11px;
+}
+
+.divUpload {
+    background-color: #EEE9E9;
+    border: 8px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    height: 75px;
+    margin: auto auto auto -65px;
+    padding: 0;
+    position: absolute;
+    top: 200px;
+    width: 500px;
+    z-index: 2000;
+}
+
+.imgUpload {
+    position: absolute;
+    left: 440px;
+    bottom: 54px;
+    height: 25px;
+    width: 25px;
+    top: 22px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.fup_Ficha {
+    height: 30px;
+    left: -10px;
+    margin-left: 30px;
+    padding-top: 5px;
+    position: absolute;
+    top: 15px;
+    width: 335px;
+}
+
+.pnlModalUpload {
+    left: 250px;
+    visibility: visible;
+}
+
+.lbtnCarregar {
+    position: absolute;
+    font-size: 14px;
+    color: #4682B4;
+    top: 25px;
+    left: 380px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-right: 1px solid #CDC9C9;
+}
+
+.txtDocumentos {
+    box-shadow: inset;
+    margin-top: 8px;
+    height: 20px;
+    border: 1px solid #a6a6a6;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin-left: 1px;
+}
+
+.imgCloseUpload {
+    left: 490px;
+    position: absolute;
+    top: -15px;
+}
+
+.lbtnCloseUpload {
+    position: absolute;
+    right: -480px;
+    left: 520px;
+    top: 2px;
+}
+
+.lbtnUpload {
+    position: absolute;
+    bottom: 13px;
+    right: 416px;
+    left: 610px;
+    top: 30px;
+}
+
+.grid {
+    clear: both;
+    overflow: auto;
+    font-family: Century Gothic;
+}
+
+.gridtabela {
+    vertical-align: middle;
+    height: 402px;
+}
+
+#imgLogo {
+    width: 100% !important;
+}
+
+.pnlModalEmail {
+    height: 400px;
+    left: 220px;
+    position: absolute;
+    visibility: visible;
+    width: 500px;
+}
+.divEmail {
+    background-color: #EEE9E9;
+    border: 8px solid rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    padding: 0;
+    top: 10px;
+    z-index: 1010;
+}
+
+.divLinkButtonsEmail {
+    margin: 10px;
+}
+
+.htmlInputTextPopup200, .htmlInputTextPopup300 {
+    border: 1px solid #FFA44E;
+    border-radius: 6px;
+    color: #4682B4;
+    display: block;
+    font-family: Century Gothic;
+    font-size: 14px;
+    height: 18px;
+    outline: medium none;
+    padding: 3px 5px;
+    position: relative;
+}
+
+.htmlInputTextPopup200 {
+    width:200px;
+}
+
+.htmlInputTextPopup300 {
+    width:300px;
+}
+
+.htmlInputTextPopup {
+    border: 1px solid #FFA44E;
+    border-radius: 6px;
+    color: #4682B4;
+    display: block;
+    font-family: Century Gothic;
+    font-size: 14px;
+    outline: medium none;
+    padding: 3px 5px;
+    resize: none;
+}
+
+.labelPopup {
+    float: left;
+    padding: 5px 10px 10px 0;
+    text-align: right;
+    width: 40px;
+}
+
+.lkbEnviarEmail {
+    border-right: 1px solid #CDC9C9;
+    color: #4682B4;
+    font-size: 14px;
+    right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    position: absolute;
+    top: 56px;
+}
+
+.lkbEnviarEmail:hover {
+    color: #FFA44E;
+}
+
+.imgRemoveAdv {
+    width: 16px;
+    height: 16px;
+    top: 4px;
+    position: relative;
+    padding-right: 2px;
+}
+.jName {
+    color: #FFFFFF;
+    font-size: 15px;
+    left: 20px;
+    position: absolute;
+    top: 11px;
+}
+
+.docName {
+    color: #0072BC !important;
+    text-decoration: none;
+}

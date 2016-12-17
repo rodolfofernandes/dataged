@@ -1,0 +1,1066 @@
+﻿body
+{
+}
+
+
+/*** ManageContentTypesAndMetadata.aspx ***/
+.metadata
+{
+    float: left;
+    margin-right: 70px;
+}
+.metadata:hover
+{
+    box-shadow: 0 0 20px #FF931E;
+    -moz-box-shadow: 0 0 20px #FF931E;
+    -webkit-box-shadow: 0 0 20px #FF931E;
+    border-radius: 15px;
+}
+.ContentTypes
+{
+    float: left;
+    margin-right: 70px;
+}
+.ContentTypes:hover
+{
+    box-shadow: 0 0 20px #FF931E;
+    -moz-box-shadow: 0 0 20px #FF931E;
+    -webkit-box-shadow: 0 0 20px #FF931E;
+    border-radius: 15px;
+}
+.Files
+{
+    float: left;
+}
+.Files:hover
+{
+    box-shadow: 0 0 20px #FF931E;
+    -moz-box-shadow: 0 0 20px #FF931E;
+    -webkit-box-shadow: 0 0 20px #FF931E;
+    border-radius: 15px;
+}
+.alinhaimagens
+{
+    margin: 45px 139px;
+}
+/*** ------------------------------------------------ ***/
+
+/*** Common Manages ***/
+th
+{
+    border-top-color: #FF931e;
+    height: 15px;
+    border-color: transparent;
+    color: #4682B4;
+}
+
+td
+{
+    border-color: transparent;
+    color: #333;
+    height: 15px;
+    text-align: center;
+    border-left-color: #FF931e;
+}
+
+.ibtnGrid
+{
+    padding: 0 4px 0 4px;
+}
+.ibtnGrid > img
+{
+    border: none;
+}
+#cabecalho_titulo
+{
+    margin-left: -2px;
+    width: 1030px;
+    position: absolute;
+}
+
+#cabecalho_fechar
+{
+    float: right;
+    margin: 16px 12px 0 0;
+    width: 15px;
+    height: 15px;
+    position: relative;
+}
+.cabecalho
+{
+    width: 100%;
+    height: 40px;
+    position: relative;
+}
+.botaocriacao
+{
+    position: absolute;
+    top: 0;
+    height: 32px;
+}
+
+.imginformacao-manage
+{
+    position: absolute;
+    top: 4px;
+    height: 24px;
+    right: 180px;
+}
+.items_cadastrados-manage
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #FF931e;
+    border-radius: 5px;
+    background-color: White;
+    position: absolute;
+    top: 4px;
+    color: #333;
+    font-family: Century Gothic;
+    height: 18px;
+    width: 170px;
+    padding: 3px 2px 1px 2px;
+    text-align: center;
+    right: 0px;
+}
+.tabelamanage
+{
+    vertical-align: middle;
+    height: 286px;
+    border: 1px solid #FFF;
+}
+#grid-position-manage
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 40px;
+    bottom: 0;
+    width: 100%;
+    background-color: #FFF;
+}
+
+.grid-manage
+{
+    clear: both;
+    overflow: auto;
+    font-family: Century Gothic;
+}
+
+.gridtitulo1
+{
+    float: left;
+    width: 66%;
+    text-align: center;
+}
+
+.gridtitulo2
+{
+    float: left;
+    width: 34%;
+}
+
+.titulo-manage
+{
+    margin-top: 0px;
+    text-align: center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family: Century Gothic;
+}
+#background
+{
+    background-color: #363636;
+    bottom: 0;
+    left: 80px;
+    opacity: 0.1;
+    position: absolute;
+    right: 34%;
+    top: 0;
+}
+.drop
+{
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    top: 0 !important;
+    visibility: visible !important;
+}
+/*** ------------------------------------------------ ***/
+
+/*** ManageMetadata.aspx ***/
+
+.gridtitulo-manage
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+
+#gvMetadata
+{
+    border-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+/*** ------------------------------------------------ ***/
+
+/*** ManageMetadataFiles.aspx ***/
+
+.btsalvar-manage-file
+{
+    /*margin: 210px 5px 0 0;
+    clear: both;
+    float: right;*/
+    height: 32px;
+    width: 70px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+.imginformacao-manage-file
+{
+    position: absolute;
+    top: 100px;
+    height: 24px;
+    right: 195px;
+}
+.items_cadastrados-manage-file
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #FF931e;
+    border-radius: 5px;
+    background-color: White;
+    position: absolute;
+    top: 100px;
+    color: #333;
+    font-family: Century Gothic;
+    height: 18px;
+    width: 180px;
+    padding: 3px 2px 1px 2px;
+    text-align: center;
+    right: 0;
+}
+.grid-position-manage-file
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 135px;
+    bottom: 0;
+    width: 100%;
+    height: 190px;
+    background-color: #FFF;
+}
+.tabela-manage-file
+{
+    vertical-align: middle;
+    height: 157px;
+    border: 1px solid #FFF;
+}
+
+#gvContentTypes
+{
+    border-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+#gvMetadata
+{
+    border-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+
+.divFiles
+{
+    margin: 0 0 0 19px;
+}
+
+#divAddMetadata 
+{
+    margin: 29px 0 0 4px; 
+    width: 270px;
+}
+
+#h2AddMetadata 
+{
+    color: #FF6600; 
+    font-family: Century Gothic; 
+    width: 270px;
+}
+
+.divAddContentTypeAndMetadata 
+{
+    height: 31px; 
+    position: absolute; 
+    bottom: 10px;
+}
+
+/*** ------------------------------------------------ ***/
+
+/*** NewMetadata / NewMetadataFile / EditMetadata / EditMetadataInFile / EditMetadataFile ***/
+#divMultiChoiceItems 
+{
+    margin: -92px 0 0 116px; 
+    width: 50px;
+}
+
+#divMultiChoiceAddAndRemove 
+{
+    margin: 25px 10px; 
+    width: 50px;
+}
+
+#divChoiceItems 
+{
+    margin: -68px 0 0 116px; 
+    width: 50px;
+}
+
+#divChoiceAddAndRemove 
+{
+    margin: 10px 10px 0 0; 
+    width: 50px;
+}
+
+#divChoice 
+{
+    color: #FF6600; 
+    font-family: Century Gothic; 
+    width: 105px; 
+    margin:0;
+}
+
+#divDate 
+{
+    color: #FF6600; 
+    margin-bottom:0; 
+    font-family: Century Gothic; 
+    width: 35px;
+}
+
+.h3Field
+{
+    color: #FF6600; 
+    font-family: Century Gothic; 
+    width: 205px; 
+    padding-left:10px;
+}
+
+#divFieldNewGroupName 
+{
+    margin: 63px 0 0 0;
+}
+
+#divAlignGroups 
+{
+    margin: -30px 0 0 -27px;
+}
+
+.h2TypesAndAlignGroups 
+{
+    color: #FF6600; 
+    font-family: Century Gothic; 
+    width: 35px;
+}
+
+#divEditFieldName 
+{
+    margin: 30px 0 0 30px;
+    width: 235px;
+}
+
+#divFieldName 
+{
+    margin: 30px 0 0 26px; 
+    width: 210px;
+}
+
+.h2TypeAndGroup
+{
+    color: #FF6600; 
+    font-family: Century Gothic; 
+    width: 35px;
+}
+
+.h3Example 
+{
+    color: #FF6600;
+    font-family: Century Gothic;
+    width: 205px;
+    padding-left: 10px;
+}
+
+#divMultiChoise 
+{
+    margin: -92px 0 0 116px;
+    width: 50px;
+}
+
+#divMultiChoiseAddAndRemove 
+{
+    margin: 25px 10px;
+    width: 50px;
+}
+
+#divChoiseItems 
+{
+    margin: -68px 0 0 116px;
+    width: 50px;
+}
+
+#divItemImages
+{
+    margin: 10px 10px 0 0; 
+    width: 50px;
+}
+
+#h2SelectType 
+{
+    color: #FF6600;
+    font-family: Century Gothic;
+    width: 105px;
+    margin: 0;
+}
+
+#h2Preview 
+{
+    color: #FF6600;
+    margin-bottom: 0;
+    font-family: Century Gothic;
+    width: 35px;
+}
+
+#divNewGroupName 
+{
+    margin: 79px 0 0 0;
+}
+
+#divGroup 
+{
+    margin: -30px 0 0 -27px;
+}
+
+#divFieldName 
+{
+    margin: 30px 0 0 30px; 
+    width: 235px;
+}
+
+[id*="imgExDate"] 
+{
+    margin: -10px 0 0 10px;
+}
+
+#rblChoice_Type 
+{
+    margin: 0 0 0 -8px;
+}
+
+[id*="imgExChoice"]
+{
+    margin: -32px 0 0 225px;
+}
+
+[id*="imgExBool"] 
+{
+    margin: -35px 0 0 212px;
+}
+
+[id*="imgExMultiChoice"] 
+{
+    margin:-32px 0 0 225px;
+}
+
+[id*=imgExMultline] 
+{
+    padding-left: 10px;
+}
+
+.pnlDisable
+{
+    margin: 70px 0 0 -10px;
+    position: absolute;
+    background-color: #F5F5F5;
+    width: 449px;
+    height: 62px;
+    filter: alpha(opacity=20);
+    opacity: .5;
+    z-index: 1;
+    height: 300px;
+}
+.txt-focus
+{
+    box-shadow: 0 0 5px #FF931E;
+    -moz-box-shadow: 0 0 5px #FF931E;
+    -webkit-box-shadow: 0 0 5px #FF931E;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    width: 220px;
+    font-family: Century Gothic;
+}
+.txt
+{
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    color: #4682B4;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    width: 220px;
+    font-family: Century Gothic;
+}
+.tiposegrupos
+{
+    margin: 0 0 0 30px;
+    position: absolute;
+}
+.labeltipoescolha
+{
+    font-size: 14px;
+    color: #4682B4;
+    font-family: Century Gothic;
+}
+.alinhagrupos
+{
+    position: absolute;
+    top: 77px;
+    width: 305px;
+}
+.btsaveneweditmetadata
+{
+    margin: 290px 5px 0 0;
+    clear: both;
+    float: right;
+    height: 35px;
+    width: 70px;
+}
+.alinhapaineis
+{
+    height: 300px;
+    margin: -15px 0 0 400px;
+    position: absolute;
+    width: 500px;
+}
+.txt-focusum
+{
+    box-shadow: 0 0 5px #FF931E;
+    -moz-box-shadow: 0 0 5px #FF931E;
+    -webkit-box-shadow: 0 0 5px #FF931E;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    width: 295px;
+    font-family: Century Gothic;
+}
+.txtum
+{
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    width: 295px;
+    font-family: Century Gothic;
+}
+.pnlNum, .pnlText, .pnlMultiline, .pnlDate, .pnlChoice, .pnlBoolean, .pnlCurrency, .pnlMultiChoice
+{
+    margin: 0 0 0 70px;
+}
+
+.divFieldType
+{
+    margin: -14px 0 0;
+}
+
+.divExistingGroupName
+{
+    margin: -92px 0 0 1px;
+}
+
+.lista
+{
+    background: #fff;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    font-family: Century Gothic;
+    top: 0 !important;
+    visibility: visible !important;
+    width: 212px; 
+    height: 65px;
+}
+.exText, .exBool, .exCurrency
+{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background: #FFF;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    margin: 35px 0 0 0;
+    position: relative;
+    width: 302px;
+}
+.exMultiline
+{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background: #FFF;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    margin: 10px 0 0 0;
+    position: relative;
+    width: 370px;
+    padding-bottom: 2px;
+}
+.exChoice
+{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background: #FFF;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    margin: 10px 0 0 0;
+    position: relative;
+    width: 325px;
+    padding-bottom: 2px;
+}
+.exDate
+{
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    background: #FFF;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    margin: 10px 0 0 0;
+    position: relative;
+    width: 285px;
+    padding-bottom: 2px;
+}
+
+.pnlOcultar
+{
+    font-size: 15px;
+    left: 468px;
+    position: absolute;
+    top: 13px;
+}
+
+/*** NewContentType.aspx | EditContentType.aspx  | EditContentTypeInFile.aspx ***/
+#divTemporality 
+{
+    margin: -22px 0 0 270px; 
+    width: 10px;
+}
+
+#h2Temporality
+{
+    color: #FF6600; 
+    font-family: Century Gothic; 
+    width: 92px;
+}
+
+#divCreateAndAddMetadata 
+{
+    margin: -24px 5px 0 0;
+    width: 475px;
+}
+
+#ddlPermanent 
+{
+    margin-top: 5px;
+    width: 135px;
+}
+
+.temporalidade
+{
+    margin: -34px 0 0 295px;
+    position: relative;
+    top: -44px;
+}
+.alinhacorrente
+{
+    margin: -48px 0 0 155px;
+    position: absolute;
+    width: 130px;
+}
+.alinhaintermediaria
+{
+    margin: -48px 0 0 305px;
+    position: absolute;
+    width: 130px;
+}
+.alinhapermanente
+{
+    margin: -48px 0 0 455px;
+    position: absolute;
+    width: 100px;
+}
+.label
+{
+    font-size: 12px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    padding-left: 35px;
+}
+.labelCorrente
+{
+    font-size: 12px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    padding-left: 29px;
+}
+.labelInter
+{
+    font-size: 12px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    padding-left: 15px;
+}
+.labelPermanente
+{
+    font-size: 12px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    padding-left: 30px;
+}
+.btsalvar
+{
+    margin: 230px 5px 0 0;
+    clear: both;
+    float: right;
+    height: 35px;
+    width: 70px;
+}
+
+.btCreate {
+    position: relative;
+    top: 12px;
+}
+.imginformacao
+{
+    position: absolute;
+    top: 88px;
+    height: 24px;
+    right: 195px;
+}
+.items_cadastrados
+{
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border: 1px solid #FF931e;
+    border-radius: 5px;
+    background-color: White;
+    position: absolute;
+    top: 88px;
+    color: #333;
+    font-family: Century Gothic;
+    height: 18px;
+    width: 180px;
+    padding: 3px 2px 1px 2px;
+    text-align: center;
+    right: 0;
+}
+#grid-position1
+{
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border: 1px solid #FF931e;
+    border-radius: 15px;
+    position: absolute;
+    top: 120px;
+    bottom: 0;
+    width: 100%;
+    height: 220px;
+    background-color: #FFF;
+}
+#gvMetadata
+{
+    border-style: none;
+    border-color: transparent;
+    background-color: transparent;
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+.gridtitulo3
+{
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.grid
+{
+    clear: both;
+    overflow: auto;
+    font-family: Century Gothic;
+}
+.titulo
+{
+    margin-top: 0px;
+    text-align: center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family: Century Gothic;
+}
+.tabela
+{
+    vertical-align: middle;
+    height: 187px;
+    border: 1px solid #FFF;
+}
+.pnlDisableTemp
+{
+    margin: -5px 0 0 -10px;
+    position: relative;
+    background-color: #F5F5F5;
+    width: 610px;
+    height: 62px;
+    filter: alpha(opacity=20);
+    opacity: 0;
+    z-index: 1;
+}
+.txt-especie
+{
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    color: #4682B4;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    width: 220px;
+    font-family: Century Gothic;
+}
+
+.txt-focus-especie
+{
+    box-shadow: 0 0 5px #FF931E !important;
+    -moz-box-shadow: 0 0 5px #FF931E !important;
+    -webkit-box-shadow: 0 0 5px #FF931E !important;
+    background: #fff !important;
+    -webkit-border-radius: 6px !important;
+    -moz-border-radius: 6px !important;
+    position: relative !important;
+    border: 1px solid #FF931E !important;
+    border-radius: 6px !important;
+    padding: 5px !important;
+    width: 220px !important;
+    font-family: Century Gothic !important;
+}
+
+.divCurrentPeriodType
+{
+    margin: -26px 0 0px 35px;
+}
+
+.divIntermediatePeriodType
+{
+    margin: -26px 0 0 35px;
+}
+
+.divPermanent
+{
+    margin: 1px 0 0 14px;
+}
+
+/*** AddMetadata.aspx | AddMetadataInContentTypeFile | AddMetadataInFile | AddContentTypeInFile.aspx ***/
+
+.labeltituloadd
+{
+    border-bottom: 1px solid #FF931E;
+    color: #4682B4;
+    font-family: Century Gothic;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    width: 295px;
+}
+
+.labeltitulo
+{
+    border-bottom: 1px solid #FF931E;
+    color: #4682B4;
+    font-family: Century Gothic;
+    font-size: 14px;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+    width: 295px;
+}
+.bottom-side
+{
+    clear: both;
+    position: relative;
+    float: right;
+    margin: 5px 25px;
+}
+.divMetadados
+{
+    position: relative;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #fff;
+    height: 220px;
+    margin-top: 54px;
+    width: 300px;
+    right: 185px;
+
+    /*
+    margin: -232px 13px 0 0;
+    float: right;*/
+}
+.divMetadados-h4
+{
+    position: relative;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 15px;
+    background: #fff;
+    height: 220px;    
+    width: 300px;    
+    margin: -232px 13px 0 0;
+    float: right;
+}
+#left-side
+{
+    color: #FF6600;
+    width:285px;
+    margin-bottom:30px; 
+    font-family: Century Gothic;
+    width: 200px;
+    float: left;
+    margin: 0 0 0 -155px;
+    position: relative;
+    left: 184px;
+}
+
+#Choice-fields {
+    color: #FF6600;
+    width:255px; 
+    font-family: Century Gothic;
+    position: relative;
+    right: 174px;
+}
+
+#bottons-acesses-tab
+{
+    clear: both;
+    float: right;
+    margin: -150px 405px 0 0;
+}
+#bottons-acesses-tab-Aw
+{
+    clear: both;
+    float: right;
+    margin: -143px 370px 0 0;
+}
+
+.lst
+{
+    position: relative;
+    top: 0 !important;
+    visibility: visible !important;
+    border: none; 
+    height: 190px;
+    margin: 0 0 0 -4px; 
+    width: 309px; 
+    padding-top: 5px;
+
+}
+
+.Remove-Field-Button {
+    margin-top: -12px;
+}
+
+.alinhaimagens h1 
+{
+    color: #FF6600;
+    font-family:Century Gothic;
+    margin-left:150px;
+}
+
+.classtop {
+    position: relative;
+    top: 20px;
+}
+
+.cssNomedaEspecie {
+    position: relative;
+    top:19px;
+}
+
+h2 {
+    color:#FF6600;
+    width: 285px;
+    margin-bottom:30px;
+    font-family: 'Century Gothic';
+}
+
+.divGroups {
+    position: relative;
+    right: 185px;
+    top: -11px;
+}
+
+

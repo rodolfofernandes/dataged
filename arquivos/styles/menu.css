@@ -1,0 +1,92 @@
+﻿/*.menu-container {    
+    display: inline-block;
+    height: 18px;
+    margin: 0 3px; 
+    padding: 2px 5px 3px;
+    border: 1px solid transparent;
+}
+
+.menu-container {
+    background: transparent none no-repeat;
+}
+
+.menu-container:hover {
+    background-color: #2357a5;   
+    border-color: #8b929a;
+}
+
+.menu-container .menu ul.dynamic li.dynamic {
+    text-align: left
+}
+
+.menu-container .menu ul.dynamic li.dynamic {
+    padding: 1px 0;
+    border-bottom: 1px solid #d0d0d0;
+}
+
+.menu-container .menu ul.dynamic li.dynamic:last-child {
+    border-bottom: none;
+}
+
+.menu-container .menu a.menu-item span.additional-background {
+
+}
+
+.menu-container .menu a.menu-item span.additional-background .menu-item-image,
+.menu-container .menu a.menu-item span.additional-background .menu-item-text {
+    vertical-align: middle;
+}
+
+.menu-container .menu a.menu-item span.additional-background .menu-item-image {
+    padding: 3px 5px;
+}
+
+.menu-container .menu a.menu-item span.additional-background .menu-item-text {
+    display: inline;
+    padding: 1px 5px 1px 0;
+}
+
+.menu-container li.hover a.dynamic-children span.additional-background {
+    color: #fff;   
+    background-image: url("../arquivos/img/UserControls/dynamic_arrow.png");
+}
+
+.menu-container li.hover-off a.dynamic-children span.additional-background {
+    background-image: url("../arquivos/img/UserControls/static_arrow.png");
+}
+
+.menu-container a.dynamic-children span.additional-background {
+
+    background-image: url("../arquivos/img/UserControls/static_arrow.png");
+}
+
+.menu-container ul.dynamic {
+    padding: 0 1px;
+    background-color: #fff;
+}
+
+.menu-container ul.dynamic {
+    border: 1px solid;
+    border-top-color: #a4aab4;
+    border-left-color: #a4aab4;
+    border-bottom-color: #7895ac;    
+    border-right-color: #7895ac;
+}
+
+.menu-container ul.dynamic li.dynamic .menu-item {
+    margin: 0;
+    padding: 3px 2px;
+    border: 1px solid;
+    border-color: transparent;
+}
+
+.menu-container ul.dynamic li.dynamic .menu-item {
+
+}
+
+.menu-container ul.dynamic li.dynamic .menu-item:hover { 
+    color: #c77405;
+    background-color: #fdf5ce;
+    border: 1px solid #fbcb09;
+    outline: none;
+}*/

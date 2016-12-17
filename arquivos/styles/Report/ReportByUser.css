@@ -1,0 +1,171 @@
+﻿
+
+#filtros
+{
+    border: 1px solid #FF931e;
+    background-color: White;
+    left: 5px;
+    position: absolute;
+    top: 10px;
+    width: 905px;
+    height: 75px;
+    border-radius: 10px;
+}
+.title
+{
+    background: #F5F5F5;
+    margin: -9px 10px;
+    padding: 0 5px;
+    position: absolute;
+    color: #0072BC;
+}
+.menudrop
+{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #FF931E;
+    border-radius: 6px 6px 6px 6px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    font-size: 13px;
+    padding: 5px;
+    position: relative;
+    width: 215px;
+    visibility: visible !important;
+    top: -11px !important;
+    left: 15px !important;
+}
+#resultados
+{
+    border: 1px solid #FF931e;
+    background-color: White;
+    left: 5px;
+    position: absolute;
+    top: 105px;
+    width: 905px;
+    height: 250px;
+    border-radius: 10px;
+}
+.text-data
+{
+    background: #fff;
+    color: #4682B4;
+    font-family: Century Gothic;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #FF931E;
+    padding: 5px;
+    height: 19px;
+    top: -11px;
+    left: 20px;
+    width: 150px;
+}
+
+.text-data-borda
+{
+    box-shadow: 0 0 5px #FF931E;
+    -moz-box-shadow: 0 0 5px #FF931E;
+    -webkit-box-shadow: 0 0 5px #FF931E;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    height: 19px;
+    top: -11px;
+    left: 20px;
+    width: 150px;
+}
+.pnlResults
+{
+    margin: 25px 35px 0 0;
+}
+
+
+h2
+{
+    color: Black;
+    margin: -8px 0 5px 15px;
+}
+
+.lbl
+{
+    margin-left: 15px;
+}
+.lblUp
+{
+    font-size: 13px !important;
+}
+.lblDown
+{
+    font-size: 18px !important;
+    color: Black;
+}
+
+#status
+{
+    background-color: white;
+    border: 1px solid #FF931E;
+    border-radius: 10px 10px 10px 10px;
+    height: 71px;
+    left: 243px;
+    margin-top: 5px;
+    position: absolute;
+    top: 15px;
+    width: 300px;
+}
+
+#qtdDocIndex
+{
+    margin-left: 2px;
+    margin-top: 13px;
+}
+
+.lblDocsIndexed
+{
+    margin-left: 150px;
+    color: Black;
+    font-family: century gothic;
+    font-size: 16px;
+    font-weight: bold;
+}
+#status2
+{
+    background-color: white;
+    border: 1px solid #FF931E;
+    border-radius: 10px 10px 10px 10px;
+    height: 71px;
+    left: 556px;
+    margin-top: 5px;
+    position: absolute;
+    top: 15px;
+    width: 342px;
+}
+#qtdDocsWorkArea
+{
+    margin-left: -6px;
+    margin-top: 13px;
+}
+
+.lblQtdDocsWorkArea
+{
+    margin-left: 171px;
+    color: Black;
+    font-family: century gothic;
+    font-size: 16px;
+    font-weight: bold;
+}
+#dadosGerenciais
+{
+    margin-left: 390px;
+    margin-top: -92px;
+}
+#dataRelatorio
+{
+    float: right;
+    margin-right: -28px;
+    margin-top: 60px;
+}

@@ -1,0 +1,441 @@
+﻿
+.slide-out-div01, .slide-out-div02, .slide-out-div03, .slide-out-div04 {
+    padding: 20px;                
+    height: 350px !important;
+    width: 400px;
+    font-size: 0.8125em; /* 13px / 16px */
+    background: #f2f2f2;
+    border: 2px solid #373180;
+    border-radius: 4px;
+}
+
+.tab-content {
+    height: 300px;
+    padding: 2px;
+    overflow: auto;    
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0 0 4px 4px;
+ 
+}
+
+/*  ESTRUTURA DE PASTAS  ============================================================================= */
+
+.tab-content .tree table {
+    width: auto;
+}
+
+
+#divDocumentStructure {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    bottom: 20px;
+    left: 30px;
+}
+
+/*Treeview*/
+ #divDocumentStructure .divContentTab {
+    z-index: 3;
+}
+
+.tree {
+    /*position: absolute;*/
+    top: 5px;
+    left: 5px;
+}
+
+/*.TreeViewBox, .SimpleInfoBox {
+    position: relative;
+    border: 1px solid #ccc;
+    background: #fff;
+    width: 70%;
+}*/
+
+
+/*  MEUS DOCUMENTOS  ============================================================================= */
+
+.check-all {
+    height: 16px;
+}
+
+.tab-content table.list {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.tab-content table.list tr {
+    height: 20px;
+}
+
+.tab-content table.list td, .check-all {
+    padding: 2px 5px;
+}
+
+.tab-content table.list td label, .check-all label {
+    margin-left: 5px;
+}
+
+.tab-content table.list tr:nth-child(odd) {
+    background-color: #efefef;
+}
+
+ul#tab-commands {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+    li.icon {
+        float: left;
+        padding: 5px;
+        margin: 0 10px 0 0;
+    }
+
+
+
+
+#uploadForm {
+    height: 300px;
+    text-align: left;
+    margin: 0 30px;
+    padding: 50px 0 0;
+}
+    #uploadForm #closeUploadForm {
+        position: absolute;
+        top: 5px;
+        right: 8px;
+    }
+
+
+
+.fileUploadQueue {
+    height: 200px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin: 0 auto;
+    width: 381px;
+}
+
+.fileUploadQueueItem {
+    font: 11px Verdana, Geneva, sans-serif;
+    background-color: #F5F5F5;
+    border: 3px solid #E5E5E5;
+    margin-top: 5px;
+    padding: 10px;
+    width: 345px;
+}
+
+.fileUploadQueueItem .cancel {
+    float: right;
+}
+
+.buttonbar, .fileupload-progress {
+    float: left;
+    width: 200px;
+}
+
+.fileupload-progress {
+    padding-left: 30px;
+}
+
+.progress, .fileUploadProgress {
+    height: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.1);
+}
+
+.fileUploadProgress {
+    margin-bottom: 0;
+    margin-top: 10px;
+    background-color: #eee;
+}
+
+.progress-bar, .fileUploadProgressBar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    text-align: center;
+    background-color: #428bca;
+    box-shadow: inset 0 -1px 0 rgba(0,0,0,.15);
+    transition: width .6s ease;
+}
+
+.progress-bar-success {
+    background-color: #5cb85c;
+}
+
+
+
+/***** CSS ANTIGO  ******/
+
+
+
+
+
+.folderName
+{
+    right: 10px;
+}
+
+
+.divWorkArea
+{
+    height: 345px;
+    margin: 10px 5px;
+    width: 485px;
+}
+#divDocumentosWorkArea
+{
+    background: #F2F2F2;
+    border-top: 1px solid #CDC9C9;
+    text-align: center;
+    overflow: hidden;
+    width: 445px !important;
+    height: 290px !important;
+    margin-top: -1px;
+    position: relative;
+}
+
+#pnlFolders {
+    background: #F2F2F2;
+    border-top: 1px solid #CDC9C9;
+    text-align: center;
+    overflow: hidden;
+    width: 445px !important;
+    height: 290px !important;
+    margin-top: -1px;
+    position: absolute;
+}
+
+.divLinkButtons
+{
+    margin: 10px 74px;
+}
+
+#botoesMenu
+{
+    height: 110px;
+    width: 500px;
+}
+#abas
+{
+    width: 392px;
+    margin: 15px auto 0;
+}
+.text-normal
+{
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border-radius: 6px;
+    border: 1px solid #FF931E;
+    padding: 5px;
+}
+.text-focus
+{
+    box-shadow: 0 0 5px #FF931E;
+    -moz-box-shadow: 0 0 5px #FF931E;
+    -webkit-box-shadow: 0 0 5px #FF931E;
+    background: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+}
+.botoes-acao-documento
+{
+    position: absolute;
+    top: 53px;
+    left: 10px;
+    width: 30px; /*margin: 80px 0 0 -15px;*/
+    height: 235px;
+}
+
+#treeView
+{
+    border: 1px solid #FF931E;
+    border-radius: 10px;
+    margin: -230px 0 0 55px;
+    position: relative;
+    width: 200px;
+    height: 248px;
+    background: #fff;
+}
+#list, #pnlListaDocumentos, #pnlDestinoArquivo, #treeViewDestino
+{
+    border: 1px solid #FF931E;
+    border-radius: 10px;
+    margin: -250px 15px 0 0;
+    position: relative;
+    width: 200px;
+    height: 248px;
+    float: right;
+    background: #fff;
+}
+.labeltitulo
+{
+    margin: 0;
+    font-size: 14px;
+    color: #4682B4;
+    font-family: Century Gothic;
+    border-bottom: 1px solid #FF931E;
+    width: 191px;
+    text-align: center;
+    padding: 5px;
+}
+#tvArq, #tvArqDestino
+{
+    height: 215px;
+    overflow: auto;
+    width: 200px;
+}
+#lstDocs
+{
+    height: 211px;
+    margin: 5px 0 0 5px;
+    overflow: auto;
+}
+.txt_documentoWorkArea
+{
+    float: left;
+    margin: 2px 0 0 35px;
+    width: 190px;
+}
+
+.alinhamento
+{
+    width: 24px;
+    height: 24px;
+    display: block;
+    padding-top: 5px;
+    margin: 0 auto 10px;
+}
+
+.linha
+{
+    border-top: 1px solid #FF931E;
+    padding-top: 10px;
+}
+.alinhacentro
+{
+    position: absolute;
+    right: 5px;
+}
+
+table.tabela1 tbody tr:nth-child(odd){
+   background-color: #F2F2F2;
+}
+
+table.tabela2 tbody tr:hover{
+   background-color: #FFFACD;
+}
+
+/*PREVIEW*/
+.form-preview-WorkArea
+{
+    background-color: rgba(255,255,255,0.7);
+    border: 8px solid rgba(0,0,0,0.3);
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    padding: 0;
+    height: 80%;
+    width: 530px;
+    margin: auto;
+    position: relative;
+
+    left: 50%;
+    margin-left: -275px;
+    position: fixed;
+    top: 56px;
+}
+
+.simplemodalWorkArea
+{
+    /*height: 3000px;
+    margin-left: 0px;
+    margin-top: 0px;
+    width: 5000px;
+    position: fixed;
+    */
+    
+    background-color: #FCFCFC;
+    border: 0 none;
+    float: left;
+    height: 342px;
+    margin-left: -17px;
+    margin-top: -262px;
+    opacity: 0.4;
+    overflow: hidden;
+    position: absolute;
+    width: 475px;
+    z-index: 1000;
+}
+
+.simplemodalPreviewWA 
+{
+    height:2500px;
+    width:5300px;
+    background-color:#4B4B4B;
+    border:0;
+    opacity:0.4;
+    filter:alpha(opacity=40);
+    margin-left: -4400px;
+    margin-top: -600px;
+    float:left;
+    position:fixed;
+    overflow:hidden;
+}
+
+.pnlModalInformationWA {
+    background-color: #EEE9E9;
+    height: 78%;
+    overflow: scroll;
+    padding: 0.5em;
+    position: fixed;
+    width: 519px;
+}
+
+.pnlModalPreviewWA
+{
+    z-index:100;
+    position: relative;
+}
+
+.ibtnCloseWorkArea
+{
+    float: right;
+    margin: -22px;
+    position: relative;
+}
+
+.thumbnail {
+    border: 1px solid #000000 !important;
+}
+
+/*PREVIEW*/
+
+.circle_loader{
+    margin-top: 30%;
+}
+
+
+.fup_workArea
+{
+    width: 24px;
+    height: 24px;
+    left: 0;
+}

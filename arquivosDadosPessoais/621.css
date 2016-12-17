@@ -1,0 +1,98 @@
+﻿#form-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background: initial
+}
+    #content > div {
+        height: 100%;
+        overflow: auto;
+    }
+
+    #form-container > h1 > img,
+    #form-container > h1 > .close-button,
+    .ui-helper-reset {
+        display: none;
+    }
+
+        .content-form-container {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 15px;
+            left: 0;
+            border: initial;
+            background: initial;
+        }
+
+        .content-form { position: inherit; }
+
+            .ui-tabs-vertical .ui-tabs-panel{ float: initial !important; }
+
+            #divLeftSidePersonalData {
+                width: 39.666667%;
+            }
+
+                #divUploadPhoto {
+                    margin: 20px 0 10px 0;
+                }
+
+                #divGender {
+                    position: absolute;
+                    width: 373px;
+                    margin-top: 90px
+                }
+
+                    #divGender > .gender-container{
+                        margin: 0;
+                    }
+
+                        #divGender table tr:first-child {
+                            float: left;
+                        }
+
+                         #divGender table tr:last-child {
+                            float: right;
+                            margin-left: 40px;
+                        }
+
+            #divRightSidePersonalData {
+                width: 100%;
+                padding: 0;
+            }
+
+                #divIdentity {
+                    position: absolute;
+                    top: 66px;
+                    left: 178px;
+                }
+
+                    #userName {
+                        width: 100%;
+                        position: initial;
+                    }
+
+                    #alcada {
+                        position: initial;
+                    }
+
+                    #form-container input[type="text"] {
+                            width: 93.33333333333333%;
+                    }
+
+                    [id*=txtLastName] {
+                        position: relative;
+                    }
+
+                    [id*=txtCpf] {
+                        margin-top: 80px;
+                    }
+
+            .FormActions {
+                right: 36px;
+                bottom: -150px;
+            }
+
+.simplemodal { display: none; }

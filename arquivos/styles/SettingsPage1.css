@@ -1,0 +1,185 @@
+﻿#form-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -215px 0 0 -470px;
+    height: 430px;
+    width: 940px;
+    background: transparent url("../arquivos/img/Common/FormFooter.png") no-repeat left bottom;
+    font-family: Century Gothic !important;
+    color: #4682b4;
+    z-index: 1000;
+}
+
+#form-container > h1 {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+
+#form-container > h1 > .close-button {
+   position: absolute;
+   top: 50%;
+   right: 15px;
+   margin: -6px 0 0;
+}
+
+.content-form-container {
+    position: absolute;
+    top: 40px;
+    bottom: 15px;     
+    left: 0;
+    right: 0;
+    border-left: 2px solid #d0d0d0;
+    border-right: 2px solid #d0d0d0;    
+    background: #f5f5f5;    
+}
+
+.content-form {
+    position: absolute;
+    top: 12px;
+    bottom: 0;
+    left: 10px;
+    right: 10px;
+}
+
+/*#vtab {
+    position: absolute;
+    top:0;
+    bottom:0;
+    /*margin: 0 auto;
+    /*border: 1px solid #ccc; 
+    width: 100%;
+}*/
+
+/*#vtab > ul {
+    position: relative;
+    margin: 15px 0 0;
+    border-right: 1px solid #4a7ebb;
+    padding: 0;
+    height: 340px;
+    width: 190px;
+    float: left;
+}
+
+#vtab > ul > li {
+    margin: -16px 0 0;
+    padding: 0 0 20px;
+    height: 34px;
+    width: 180px;
+    list-style-type: none;
+}*/
+
+/*#vtab > div.tab {
+    position: relative;
+    /*margin: 0 0 0 210px;
+    max-height: 330px;
+    width: 710px;
+    float: right; 
+}*/
+
+.InfoBox {
+    position: absolute;
+    top: 270px;
+    left: 20px;
+    border: 1px solid #FF931E;
+    background-color: white;
+    border-radius: 15px;
+    behavior: url(../arquivos/stylesPIE-1.0.0/PIE.htc);
+}
+
+.TabTitle {
+    margin: 8px 0 0;
+    color: #f15a24;
+}
+
+.InfoBoxTitle {
+  margin: 6px 0 0;
+  padding: 5px;
+  color: #f15a24;
+  font-size: 14px;
+}
+
+.InfoBoxImage {
+    margin: 2px 10px 0;
+}
+
+.FormActions {
+    position: absolute;
+    bottom: 10px;
+    right: 30px;
+}
+
+#htab
+ {
+    position: absolute;
+    top:-15px;
+    bottom:0;
+    margin: 0 auto;
+    /*border: 1px solid #ccc;*/  
+    width: 910px;   
+}
+
+#htab > ul {
+    margin: -5px 142px 0 0;
+    /*border-right: 1px solid #4a7ebb;*/
+    padding: 0;
+    height: 35px;
+    width: 250px;  
+    float:right;
+}
+
+#htab > ul > li {
+    margin: -34px 0 0 0;    
+    height: 34px;
+    width: 100px;
+    list-style-type: none;
+}
+
+/* não sei onde é aplicado esses estilos */
+
+.grid-position
+{
+    position: absolute;
+    top: 20px;
+    bottom: 10px;
+    left: 10px;
+    right: 10px;
+    border: 0px;
+    background: #ffff;
+
+}
+
+.page-container
+{   
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    background-color:#F2F2F2;
+    margin: 20px 0;
+    border: 1px solid #000;
+    height: 100%;
+    width: 100%;
+}
+
+.page-content
+{   
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px; 
+    background-color:#FFF;  
+    border: 1px solid #000;
+    width: 98%;
+    height: 85%;
+    margin: 0 auto; 
+}
+.links, .labels
+{
+ padding-left:20px;
+ font-size:13px;
+ color:Black;
+}
+
+#divRightSideFolderStructure {
+    bottom: 95px;
+    right: 20px;
+}

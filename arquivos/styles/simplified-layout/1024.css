@@ -1,0 +1,7 @@
+﻿ [id*=pnlResultSearch]{ margin-left: 1%; }
+
+/* Barra de pesquisa */
+input[id*="txtSearchSimplified"] { width: 266px !important; }
+
+/* Resultado da pesquisa em preview */
+    .img-properties { right: -12px; }

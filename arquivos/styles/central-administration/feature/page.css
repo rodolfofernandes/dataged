@@ -1,0 +1,67 @@
+﻿#header-status {
+    position: absolute;
+    right: 40px;
+}
+
+#divClient {
+    position: absolute;
+    top: 30px;
+    left: 70px;
+    display: inline-block;
+}
+
+.client-label {
+    position: absolute;
+    top: 35px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.module-section {
+    position: relative;
+    top: 80px;
+    height: 240px;
+    display: block;
+    overflow-y: scroll;
+}
+
+.module-header {
+    padding: 3px 8px;
+    height: 21px;
+    background: #ddd;
+}
+
+.module-item, .module-alternating-item {
+    display: block;
+    font-size: 11px;
+}
+
+.module-alternating-item {
+    background: #eee;
+}
+
+.module-title-item, .module-title-description {
+    padding: 4px 8px;
+    display: block;
+}
+
+.module-title-item > h3 {
+    margin: 0;
+    font-size: 11px;
+}
+
+.column-info, .column-button {
+    display: inline-block;
+}
+
+.column-info {
+    width: 90%;
+}
+
+#divOK {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
