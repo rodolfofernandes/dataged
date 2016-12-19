@@ -19,15 +19,8 @@
             <div id="main-content">
                 
     <div class="wrapper">
-
-        
-
         <div id="ctl00_PlaceHolderMain_upMain">
-	
-
-                
-
-                
+	              
                     <div id="nav">
                         <span id="ctl00_PlaceHolderMain_lblTrail"><span class="bold">Principal</span></span>
 
@@ -113,7 +106,7 @@
         
 
     
-        <div class="slide-out-div01 open" style="line-height: 1; position: absolute; height: 394px; top: 155px; left: -3px;">
+        <div class="slide-out-div01 open" style="line-height: 1; position: absolute; height: 394px; top: 100px; left: -3px;">
             <a class="handle01" href="http://link-for-non-js-users.html/"> <img src="../../arquivosMain/structure.png" style="no-repeat; width: 40px; height: 130px; display: block; text-indent: -99999px; outline: none; position: absolute; top: 0px;">Estrutura de Pastas</a>
             <h3>Estrutura</h3>
             <div class="tab-content">
@@ -624,7 +617,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
                 <!-- link back to homepage, SiteLogoImage gets replaced by the Site Icon, you can hard code this so that its not overridden by the Site Icon or even remove -->
                 <div class="s4-notdlg">
                     <!-- NOTE: any time you see s4-notdlg, this element will be hidden from SharePoint dialog windows  -->
-                    <a href="/sites/demo/">
+                    <a href="main.php">
                         <img src="../../arquivosMain/logo.png" alt="Demo" style="border-width:0px;">
                     </a>
                 </div>
@@ -652,7 +645,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
                     <div id="zz10_TopNavigationMenuV4" class="s4-tn">
 	<div class="menu horizontal menu-horizontal">
 		<ul class="root static">
-			<li class="static selected"><a class="static selected menu-item" href="/sites/demo/" accesskey="1"><span class="additional-background"><span class="menu-item-text">Home</span><span class="ms-hidden">Currently selected</span></span></a></li>
+			<li class="static selected"><a class="static selected menu-item" href="/_modulos/" accesskey="1"><span class="additional-background"><span class="menu-item-text">Home</span><span class="ms-hidden">Currently selected</span></span></a></li>
 		</ul>
 	</div>
 </div>

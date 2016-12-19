@@ -1,3 +1,21 @@
+<?php session_start(); 
+
+if($_SESSION['user'] == null)
+   {
+       header("Location: ../acesso/login.php");     
+   }
+
+    require("../funcaoBD/usuario.class.php");
+    $usuario = consultaUsuario($_SESSION["id_usuario"]);   
+?>
+
+
+  
+
+       
+        
+     
+
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!-- saved from url=(0071)/sites/demo/_layouts/dataxdoc/my/personal-info.aspx -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Expires" content="0"><meta http-equiv="X-UA-Compatible" content="IE=8"><meta name="viewport" content="width=device-width, initial-scale=1">
@@ -562,7 +580,7 @@ var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002fsites\u00
 </script>
 <script type="text/javascript">
 <!--
-var L_Menu_BaseUrl="/sites/demo";
+var L_Menu_BaseUrl="/_modulos/";
 var L_Menu_LCID="1033";
 var L_Menu_SiteTheme="";
 //-->
@@ -625,7 +643,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
         <div id="head-container">
             <header class="group">
                 <div id="logo">
-		            <a href="/sites/demo/">
+		            <a href="/_modulos/">
 			            <img src="../../arquivosDadosPessoais/logo.png" alt="Demo" style="border-width:0px;">
 		            </a>
                 </div>
@@ -773,7 +791,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 	<tbody><tr>
 		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz2_menuWelcomen0"><table class="WelcomeMenu zz2_menuWelcome_4" cellpadding="0" cellspacing="0" border="0" width="100%">
 			<tbody><tr>
-				<td style="white-space:nowrap;"><a class="zz2_menuWelcome_1 WelcomeMenu zz2_menuWelcome_3" href="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx#" style="border-style:none;font-size:1em;cursor:text;">Olá, Administrador</a></td><td style="width:0;"><img src="../../arquivosDadosPessoais/static_arrow.png" alt="Expand Olá, Administrador" style="border-style:none;vertical-align:middle;"></td>
+				<td style="white-space:nowrap;"><a class="zz2_menuWelcome_1 WelcomeMenu zz2_menuWelcome_3" href="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx#" style="border-style:none;font-size:1em;cursor:text;">Olá <?=$_SESSION['user']; ?></a></td><td style="width:0;"><img src="../../arquivosDadosPessoais/static_arrow.png" alt="Expand Olá, Administrador" style="border-style:none;vertical-align:middle;"></td>
 			</tr>
 		</tbody></table></td>
 	</tr>
@@ -822,7 +840,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
     <div id="form-container">
         <h1>
             <img alt="MEUS DADOS PESSOAIS" src="../../arquivosDadosPessoais/personal-infoheading.png">
-            <input type="image" name="close" title="Fechar" src="../../arquivosDadosPessoais/close-button.png" class="close-button" onclick="return Redirect(&#39;/sitepages/main.aspx&#39;);">
+            <input type="image" name="close" title="Fechar" src="../../arquivosDadosPessoais/close-button.png" class="close-button" onclick="return Redirect(&#39;teste&#39;);">
         </h1>
         <div class="content-form-container">
             <div class="content-form">
@@ -838,46 +856,66 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
                             <h2 class="TabTitle">Dados Pessoais</h2>
                             <div id="divUploadPhoto">
                                 <span class="photo-container">
-                                    <img id="ctl00_PlaceHolderMain_imgUserPhoto" class="photo" src="../../arquivosDadosPessoais/no-photo.png" style="height:121px;width:91px;border-width:0px;">                                   
+                                    <img id="imgUserPhoto" class="photo" src="../../arquivosDadosPessoais/no-photo.png" style="height:121px;width:91px;border-width:0px;">                                   
                                 </span>
                                 <div class="fileupload">
                                     <span class="fileinput-button">
-                                        <img id="ctl00_PlaceHolderMain_imgUploadPhoto" src="../../arquivosDadosPessoais/image-upload.png" style="border-width:0px;">
-                                        <input type="file" name="ctl00$PlaceHolderMain$fuPhoto" id="ctl00_PlaceHolderMain_fuPhoto" title="Upload de imagem">
+                                        <img id="imgUploadPhoto" src="../../arquivosDadosPessoais/image-upload.png" style="border-width:0px;">
+                                        <input type="file" name="$fuPhoto" id="fuPhoto" title="Upload de imagem">
                                     </span>
                                 </div>
-                                <input name="ctl00$PlaceHolderMain$txtFileName" type="text" id="ctl00_PlaceHolderMain_txtFileName" disabled="disabled" class="filename">
+                                <input name="$txtFileName" type="text" id="txtFileName" disabled="disabled" class="filename">
                             </div>
                             <div id="divGender">
-                                <table id="ctl00_PlaceHolderMain_rblGender" class="gender-container" border="0">
+                                <table id="rblGender" class="gender-container" border="0">
+
+                    <?php 
+                           
+                    
+                        if($usuario['tp_sexo'] == 'm')
+                        {
+                            $feminino= "";
+                            $masculino = "checked="."'checked'";
+                        }else{
+                            $masculino = "";
+                            $feminino = "checked="."'checked'";
+                        }
+                     ?>              
 	<tbody><tr>
-		<td><input id="ctl00_PlaceHolderMain_rblGender_0" type="radio" name="ctl00$PlaceHolderMain$rblGender" value="1" class="hiddenCheckbox"><label for="ctl00_PlaceHolderMain_rblGender_0" class="prettyCheckbox radio list"><span class="holderWrap" style="width: 20px; height: 20px;"><span class="holder" style="width: 20px;"></span></span>Feminino</label></td>
+		<td><input id="rblGender_0" type="radio" name="$rblGender" value="1" <?=$feminino;?> class="hiddenCheckbox"><label for="rblGender_0" class="prettyCheckbox radio list"><span class="holderWrap" style="width: 20px; height: 20px;"></span>Feminino</label></td>
 	</tr><tr>
-		<td><input id="ctl00_PlaceHolderMain_rblGender_1" type="radio" name="ctl00$PlaceHolderMain$rblGender" value="2" checked="checked" class="hiddenCheckbox"><label for="ctl00_PlaceHolderMain_rblGender_1" class="checked prettyCheckbox radio list"><span class="holderWrap" style="width: 20px; height: 20px;"><span class="holder" style="width: 20px;"></span></span>Masculino</label></td>
+		<td><input id="rblGender_1" type="radio" name="$rblGender" value="2" <?=$masculino;?> class="hiddenCheckbox"><label for="rblGender_1" class="prettyCheckbox radio list"><span class="holderWrap" style="width: 20px; height: 20px;"></span>Masculino</label></td>
 	</tr>
 </tbody></table>
                             </div>
                         </div>
                         <!-- Aba Dados Pessoais | Conteúdo - Lado Direito -->
+
+
+
+  
+
+
+
                         <div id="divRightSidePersonalData">
                             <div id="divIdentity">
-                                <span id="userName" class="Label">Usuário:&nbsp;<span id="ctl00_PlaceHolderMain_lblLogin" class="Text">sysadmin</span></span>
-                                <span id="alcada" class="Label">Alçada:&nbsp;<span id="ctl00_PlaceHolderMain_lblAlcada" class="Text">Administrador do Sistema</span></span>
+                                <span id="userName" class="Label">Usuário:&nbsp;<span id="lblLogin" class="Text"><?=$usuario['nome'];?></span></span>
+                                <span id="alcada" class="Label">Alçada:&nbsp;<span id="lblAlcada" class="Text"><?=$usuario['categoria'];?></span></span>
                             </div>
-                            <input name="ctl00$PlaceHolderMain$txtFirstName" type="text" value="Administrador" id="ctl00_PlaceHolderMain_txtFirstName" class="htmlInputText220 InlineElement" placeholder="Nome">
-                            <input name="ctl00$PlaceHolderMain$txtLastName" type="text" value="Sistema" id="ctl00_PlaceHolderMain_txtLastName" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Sobrenome">
-                            <input name="ctl00$PlaceHolderMain$txtCpf" type="text" value="474.547.585-33" id="ctl00_PlaceHolderMain_txtCpf" class="htmlInputText220 TopSpacing20 InlineElement cpf" placeholder="CPF">
-                            <input name="ctl00$PlaceHolderMain$txtDateofBirth" type="text" value="15/02/1986" id="ctl00_PlaceHolderMain_txtDateofBirth" class="htmlInputText220 TopSpacing20  InlineElement date" placeholder="Data de Nascimento">
-                            <input name="ctl00$PlaceHolderMain$txtEmail" type="text" value="isaac@datacopy.com.br" id="ctl00_PlaceHolderMain_txtEmail" class="htmlInputText460 TopSpacing20" placeholder="Email">
-                            <input name="ctl00$PlaceHolderMain$txtConfirmEmail" type="text" value="isaac@datacopy.com.br" id="ctl00_PlaceHolderMain_txtConfirmEmail" class="htmlInputText460 TopSpacing20" placeholder="Confirmar email">
-                            <input name="ctl00$PlaceHolderMain$txtPassword" type="password" maxlength="18" id="ctl00_PlaceHolderMain_txtPassword" disabled="disabled" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Senha">
-                            <input name="ctl00$PlaceHolderMain$txtConfirmPassword" type="password" maxlength="18" id="ctl00_PlaceHolderMain_txtConfirmPassword" disabled="disabled" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Confirmar senha">
+                            <input name="$txtFirstName" type="text" value="<?=$usuario['nome'];?>" id="txtFirstName" class="htmlInputText220 InlineElement" placeholder="Nome">
+                            <input name="$txtLastName" type="text" value="<?=$usuario['snome'];?>" id="txtLastName" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Sobrenome">
+                            <input name="$txtCpf" type="text" value="<?=$usuario['cd_CPF'];?>" id="txtCpf" class="htmlInputText220 TopSpacing20 InlineElement cpf" placeholder="CPF">
+                            <input name="$txtDateofBirth" type="text" value="<?=$usuario['dt_nascimento'];?>" id="txtDateofBirth" class="htmlInputText220 TopSpacing20  InlineElement date" placeholder="Data de Nascimento">
+                            <input name="$txtEmail" type="text" value="<?=$usuario['ds_email'];?>" id="txtEmail" class="htmlInputText460 TopSpacing20" placeholder="Email">
+                            <input name="$txtConfirmEmail" type="text" value="<?=$usuario['ds_email'];?>" id="txtConfirmEmail" class="htmlInputText460 TopSpacing20" placeholder="Confirmar email">
+                            <input name="$txtPassword" type="password" maxlength="18" id="txtPassword" disabled="disabled" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Senha">
+                            <input name="$txtConfirmPassword" type="password" maxlength="18" id="txtConfirmPassword" disabled="disabled" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Confirmar senha">
                         </div>
                     </div>
                     <!-- Botões -->
                     <div class="FormActions">
-                        <input type="submit" name="ctl00$PlaceHolderMain$btnResetPassword" value="Redefinir Senha" id="ctl00_PlaceHolderMain_btnResetPassword" class="button">
-                        <input type="submit" name="ctl00$PlaceHolderMain$btnSavePersonalInfo" value="Salvar" id="ctl00_PlaceHolderMain_btnSavePersonalInfo" class="button">
+                        <input type="submit" name="$btnResetPassword" value="Redefinir Senha" id="btnResetPassword" class="button">
+                        <input type="submit" name="$btnSavePersonalInfo" value="Salvar" id="btnSavePersonalInfo" class="button">
                         
                         
                     </div>
@@ -1021,7 +1059,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
 
 	<!-- link back to homepage, SiteLogoImage gets replaced by the Site Icon, you can hard code this so that its not overridden by the Site Icon or even remove -->
 	<div class="s4-notdlg"><!-- NOTE: any time you see s4-notdlg, this element will be hidden from SharePoint dialog windows  -->
-		<a href="/sites/demo/">
+		<a href="/_modulos/">
 			<img src="../../arquivosDadosPessoais/logo.png" alt="Demo" style="border-width:0px;">
 		</a>	
 	</div>
@@ -1032,7 +1070,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
 			<table class="s4-wpTopTable" border="0" cellpadding="0" cellspacing="0" width="100%">
 	<tbody><tr>
 		<td valign="top"><div webpartid="00000000-0000-0000-0000-000000000000" haspers="true" id="WebPartWPQ1" width="100%" class="noindex" onlyformepart="true" allowdelete="false" style=""><div id="SRSB"> <div>
-			<input name="ctl00$PlaceHolderSearchArea$ctl01$ctl00" type="hidden" id="ctl00_PlaceHolderSearchArea_ctl01_ctl00" value="/sites/demo"><table class="ms-sbtable ms-sbtable-ex s4-search" cellpadding="0" cellspacing="0" border="0">
+			<input name="ctl00$PlaceHolderSearchArea$ctl01$ctl00" type="hidden" id="ctl00_PlaceHolderSearchArea_ctl01_ctl00" value="/_modulos/"><table class="ms-sbtable ms-sbtable-ex s4-search" cellpadding="0" cellspacing="0" border="0">
 				<tbody><tr class="ms-sbrow">
 					<td class="ms-sbcell"><input name="InputKeywords" type="text" value="Search this site..." maxlength="200" id="ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords" accesskey="S" title="Search..." class="ms-sbplain s4-searchbox-QueryPrompt" alt="Search..." onkeypress="javascript: return S3031AEBB_OSBEK(event);" onfocus="if (document.getElementById(&#39;ctl00_PlaceHolderSearchArea_ctl01_ctl04&#39;).value ==&#39;0&#39;) {this.value=&#39;&#39;; if (this.className == &#39;s4-searchbox-QueryPrompt&#39;) this.className = &#39;&#39;; else this.className = this.className.replace(&#39; s4-searchbox-QueryPrompt&#39;,&#39;&#39;); document.getElementById(&#39;ctl00_PlaceHolderSearchArea_ctl01_ctl04&#39;).value=1;}" onblur="if (this.value ==&#39;&#39;) {this.value=&#39;Search this site...&#39;; if (this.className.indexOf(&#39;s4-searchbox-QueryPrompt&#39;) == -1) this.className += this.className?&#39; s4-searchbox-QueryPrompt&#39;:&#39;s4-searchbox-QueryPrompt&#39;; document.getElementById(&#39;ctl00_PlaceHolderSearchArea_ctl01_ctl04&#39;).value = &#39;0&#39;} else {document.getElementById(&#39;ctl00_PlaceHolderSearchArea_ctl01_ctl04&#39;).value=&#39;1&#39;;}" style="width:170px;"></td><td class="ms-sbgo ms-sbcell"><a id="ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_go" title="Search" href="javascript:S3031AEBB_Submit()"><img title="Search" onmouseover="this.src=&#39;\u002f_layouts\u002fimages\u002fgosearchhover15.png&#39;" onmouseout="this.src=&#39;\u002f_layouts\u002fimages\u002fgosearch15.png&#39;" class="srch-gosearchimg" alt="Search" src="../../arquivosDadosPessoais/gosearch15.png" style="border-width:0px;"></a></td><td class="ms-sbLastcell"></td>
 				</tr>
@@ -1049,7 +1087,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
 		<div id="zz11_TopNavigationMenuV4" class="s4-tn">
 	<div class="menu horizontal menu-horizontal">
 		<ul class="root static">
-			<li class="static selected"><a class="static selected menu-item" href="/sites/demo/" accesskey="1"><span class="additional-background"><span class="menu-item-text">Home</span><span class="ms-hidden">Currently selected</span></span></a></li>
+			<li class="static selected"><a class="static selected menu-item" href="/_modulos/" accesskey="1"><span class="additional-background"><span class="menu-item-text">Home</span><span class="ms-hidden">Currently selected</span></span></a></li>
 		</ul>
 	</div>
 </div>

@@ -209,7 +209,7 @@
                 <!-- link back to homepage, SiteLogoImage gets replaced by the Site Icon, you can hard code this so that its not overridden by the Site Icon or even remove -->
                 <div class="s4-notdlg">
                     <!-- NOTE: any time you see s4-notdlg, this element will be hidden from SharePoint dialog windows  -->
-                    <a href="/sites/demo/">
+                    <a href="/_modulos/">
                         <img src="../../arquivos/img/logo.png" alt="Demo" style="border-width:0px;">
                     </a>
                 </div>
@@ -222,7 +222,7 @@
                     <div id="zz10_TopNavigationMenuV4" class="s4-tn">
 	<div class="menu horizontal menu-horizontal">
 		<ul class="root static">
-			<li class="static selected"><a class="static selected menu-item" href="/sites/demo/" accesskey="1"><span class="additional-background"><span class="menu-item-text">Home</span><span class="ms-hidden">Currently selected</span></span></a></li>
+			<li class="static selected"><a class="static selected menu-item" href="/_modulos/" accesskey="1"><span class="additional-background"><span class="menu-item-text">Home</span><span class="ms-hidden">Currently selected</span></span></a></li>
 		</ul>
 	</div>
 </div>
