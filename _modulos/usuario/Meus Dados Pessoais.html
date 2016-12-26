@@ -148,7 +148,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
                         $.each(data.originalFiles, function (i, originalFile) {
                             if (file.name === originalFile.name) {
-                                node = $('<div class="cancel item' + i + '" />').append($('<a id="' + i + '" />').append($('<img />').prop("src", "/_layouts/images/dataxdoc/site/cancel.png")));
+                                node = $('<div class="cancel item' + i + '" />').append($('<a id="' + i + '" />').append($('<img />').prop("src", ""../../arquivos/scripts/dataxdoc/site/cancel.png")));
 
                                 node.appendTo(data.context);
 
@@ -259,15 +259,15 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
             function disableMyDocumentsCommands() {
                 $("[id*='ibtnIndexDocument']").prop("disabled", true);
-                $("[id*='ibtnIndexDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-salvararqdocoff.png");
+                $("[id*='ibtnIndexDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-salvararqdocoff.png");
                 $("[id*='ibtnPreviewDocument']").prop("disabled", true);
-                $("[id*='ibtnPreviewDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/ico-view-off.png");
+                $("[id*='ibtnPreviewDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/ico-view-off.png");
                 $("[id*='ibtnDownloadDocument']").prop("disabled", true);
-                $("[id*='ibtnDownloadDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-downloaddocoff.png");
+                $("[id*='ibtnDownloadDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-downloaddocoff.png");
                 $("[id*='ibtnRenameDocument']").prop("disabled", true);
-                $("[id*='ibtnRenameDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/32tp-renomear3.png");
+                $("[id*='ibtnRenameDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/32tp-renomear3.png");
                 $("[id*='ibtnDeleteDocument']").prop("disabled", true);
-                $("[id*='ibtnDeleteDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-excluirarqdocoff.png");
+                $("[id*='ibtnDeleteDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-excluirarqdocoff.png");
             }
 
             $("#lstDocs [id*='cbSelectAllDocuments']").change(function () {
@@ -275,15 +275,15 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
                 if ($("#lstDocs [id*='cbSelectAllDocuments']").prop('checked')) {
                     $("[id*='ibtnIndexDocument']").prop("disabled", false);
-                    $("[id*='ibtnIndexDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-salvararqdoc.png");
+                    $("[id*='ibtnIndexDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-salvararqdoc.png");
                     $("[id*='ibtnPreviewDocument']").prop("disabled", true);
-                    $("[id*='ibtnPreviewDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/ico-view-off.png");
+                    $("[id*='ibtnPreviewDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/ico-view-off.png");
                     $("[id*='ibtnDownloadDocument']").prop("disabled", false);
-                    $("[id*='ibtnDownloadDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-downloaddoc.png");
+                    $("[id*='ibtnDownloadDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-downloaddoc.png");
                     $("[id*='ibtnRenameDocument']").prop("disabled", true);
-                    $("[id*='ibtnRenameDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/32tp-renomear3.png");
+                    $("[id*='ibtnRenameDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/32tp-renomear3.png");
                     $("[id*='ibtnDeleteDocument']").prop("disabled", false);
-                    $("[id*='ibtnDeleteDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-excluirarqdoc.png");
+                    $("[id*='ibtnDeleteDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-excluirarqdoc.png");
                 }
                 else {
                     disableMyDocumentsCommands();
@@ -299,28 +299,28 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
                 if (checked == 1) {
                     $("[id*='ibtnIndexDocument']").prop("disabled", false);
-                    $("[id*='ibtnIndexDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-salvararqdoc.png");
+                    $("[id*='ibtnIndexDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-salvararqdoc.png");
                     $("[id*='ibtnPreviewDocument']").prop("disabled", false);
-                    $("[id*='ibtnPreviewDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/ico-view-on.png");
+                    $("[id*='ibtnPreviewDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/ico-view-on.png");
                     $("[id*='ibtnDownloadDocument']").prop("disabled", false);
-                    $("[id*='ibtnDownloadDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-downloaddoc.png");
+                    $("[id*='ibtnDownloadDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-downloaddoc.png");
                     $("[id*='ibtnRenameDocument']").prop("disabled", false);
-                    $("[id*='ibtnRenameDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/32cl-renomear3.png");
+                    $("[id*='ibtnRenameDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/32cl-renomear3.png");
                     $("[id*='ibtnDeleteDocument']").prop("disabled", false);
-                    $("[id*='ibtnDeleteDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-excluirarqdoc.png");
+                    $("[id*='ibtnDeleteDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-excluirarqdoc.png");
                 }
 
                 if (checked > 1) {
                     $("[id*='ibtnIndexDocument']").prop("disabled", false);
-                    $("[id*='ibtnIndexDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-salvararqdoc.png");
+                    $("[id*='ibtnIndexDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-salvararqdoc.png");
                     $("[id*='ibtnPreviewDocument']").prop("disabled", true);
-                    $("[id*='ibtnPreviewDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/ico-view-off.png");
+                    $("[id*='ibtnPreviewDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/ico-view-off.png");
                     $("[id*='ibtnDownloadDocument']").prop("disabled", false);
-                    $("[id*='ibtnDownloadDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-downloaddoc.png");
+                    $("[id*='ibtnDownloadDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-downloaddoc.png");
                     $("[id*='ibtnRenameDocument']").prop("disabled", true);
-                    $("[id*='ibtnRenameDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/32tp-renomear3.png");
+                    $("[id*='ibtnRenameDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/32tp-renomear3.png");
                     $("[id*='ibtnDeleteDocument']").prop("disabled", false);
-                    $("[id*='ibtnDeleteDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-excluirarqdoc.png");
+                    $("[id*='ibtnDeleteDocument']").prop("src", ""../../arquivos/scripts/dataxdoc/workarea/bt-excluirarqdoc.png");
                 }
 
                 if (checked == $("[id*='cblDocuments'] input:checkbox").length)
@@ -663,20 +663,20 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
         $(document).ready(function () {
             $("table.SettingsMenu").hover(function () {
                 $("table.SettingsMenu").addClass("SelectedMenu");
-                $("table.SettingsMenu img").attr("src", "/_layouts/images/DataXDOC/UserControls/dynamic_arrow.png");
+                $("table.SettingsMenu img").attr("src", ""../../arquivos/scripts/DataXDOC/UserControls/dynamic_arrow.png");
             }, function () {
                 $("table.SettingsMenu").removeClass("SelectedMenu");
-                $("table.SettingsMenu img").attr("src", "/_layouts/images/DataXDOC/UserControls/static_arrow.png");
+                $("table.SettingsMenu img").attr("src", ""../../arquivos/scripts/DataXDOC/UserControls/static_arrow.png");
             });
         });
 
         $(document).ready(function () {
             $("table.SettingsMenuItem").hover(function () {
                 $("table.SettingsMenu").addClass("SelectedMenu");
-                $("table.SettingsMenu img").attr("src", "/_layouts/images/DataXDOC/UserControls/dynamic_arrow.png");
+                $("table.SettingsMenu img").attr("src", ""../../arquivos/scripts/DataXDOC/UserControls/dynamic_arrow.png");
             }, function () {
                 $("table.SettingsMenu").removeClass("SelectedMenu");
-                $("table.SettingsMenu img").attr("src", "/_layouts/images/DataXDOC/UserControls/static_arrow.png");
+                $("table.SettingsMenu img").attr("src", ""../../arquivos/scripts/DataXDOC/UserControls/static_arrow.png");
             });
         });
 
@@ -748,20 +748,20 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
         $(document).ready(function () {
             $("table.WelcomeMenu").hover(function () {
                 $("table.WelcomeMenu").addClass("SelectedMenu");
-                $("table.WelcomeMenu td > img").attr("src", "/_layouts/images/DataXDOC/UserControls/dynamic_arrow.png");
+                $("table.WelcomeMenu td > img").attr("src", ""../../arquivos/scripts/DataXDOC/UserControls/dynamic_arrow.png");
             }, function () {
                 $("table.WelcomeMenu").removeClass("SelectedMenu");
-                $("table.WelcomeMenu td > img").attr("src", "/_layouts/images/DataXDOC/UserControls/static_arrow.png");
+                $("table.WelcomeMenu td > img").attr("src", ""../../arquivos/scripts/DataXDOC/UserControls/static_arrow.png");
             });
         });
 
         $(document).ready(function () {
             $("table.WelcomeMenuItem td").hover(function () {
                 $("table.WelcomeMenu").addClass("SelectedMenu");
-                $("table.WelcomeMenu td > img").attr("src", "/_layouts/images/DataXDOC/UserControls/dynamic_arrow.png");
+                $("table.WelcomeMenu td > img").attr("src", ""../../arquivos/scripts/DataXDOC/UserControls/dynamic_arrow.png");
             }, function () {
                 $("table.WelcomeMenu").removeClass("SelectedMenu");
-                $("table.WelcomeMenu td > img").attr("src", "/_layouts/images/DataXDOC/UserControls/static_arrow.png");
+                $("table.WelcomeMenu td > img").attr("src", ""../../arquivos/scripts/DataXDOC/UserControls/static_arrow.png");
             });
         });
 

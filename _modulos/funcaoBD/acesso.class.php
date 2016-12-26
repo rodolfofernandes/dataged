@@ -25,7 +25,14 @@ if($senha == $row['cd_senha'] )
 }
 
 
+}
 
+function desconecta()
+{
+    session_start();
+    session_destroy();
+
+    header("location: ../acesso/login.php");
 }
 
 

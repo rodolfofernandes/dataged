@@ -7,6 +7,11 @@ if($_SESSION['user'] == null)
 
     require("../funcaoBD/usuario.class.php");
     $usuario = consultaUsuario($_SESSION["id_usuario"]);   
+
+
+    $resetaSenha = isset($_GET['param']) ? $_GET['param'] : '';
+
+
 ?>
 
 
@@ -166,7 +171,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
                         $.each(data.originalFiles, function (i, originalFile) {
                             if (file.name === originalFile.name) {
-                                node = $('<div class="cancel item' + i + '" />').append($('<a id="' + i + '" />').append($('<img />').prop("src", "/_layouts/images/dataxdoc/site/cancel.png")));
+                                node = $('<div class="cancel item' + i + '" />').append($('<a id="' + i + '" />').append($('<img />').prop("src", "../../arquivos/scripts/dataxdoc/site/cancel.png")));
 
                                 node.appendTo(data.context);
 
@@ -277,15 +282,15 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
             function disableMyDocumentsCommands() {
                 $("[id*='ibtnIndexDocument']").prop("disabled", true);
-                $("[id*='ibtnIndexDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-salvararqdocoff.png");
+                $("[id*='ibtnIndexDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-salvararqdocoff.png");
                 $("[id*='ibtnPreviewDocument']").prop("disabled", true);
-                $("[id*='ibtnPreviewDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/ico-view-off.png");
+                $("[id*='ibtnPreviewDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/ico-view-off.png");
                 $("[id*='ibtnDownloadDocument']").prop("disabled", true);
-                $("[id*='ibtnDownloadDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-downloaddocoff.png");
+                $("[id*='ibtnDownloadDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-downloaddocoff.png");
                 $("[id*='ibtnRenameDocument']").prop("disabled", true);
-                $("[id*='ibtnRenameDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/32tp-renomear3.png");
+                $("[id*='ibtnRenameDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/32tp-renomear3.png");
                 $("[id*='ibtnDeleteDocument']").prop("disabled", true);
-                $("[id*='ibtnDeleteDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-excluirarqdocoff.png");
+                $("[id*='ibtnDeleteDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-excluirarqdocoff.png");
             }
 
             $("#lstDocs [id*='cbSelectAllDocuments']").change(function () {
@@ -293,15 +298,15 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
                 if ($("#lstDocs [id*='cbSelectAllDocuments']").prop('checked')) {
                     $("[id*='ibtnIndexDocument']").prop("disabled", false);
-                    $("[id*='ibtnIndexDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-salvararqdoc.png");
+                    $("[id*='ibtnIndexDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-salvararqdoc.png");
                     $("[id*='ibtnPreviewDocument']").prop("disabled", true);
-                    $("[id*='ibtnPreviewDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/ico-view-off.png");
+                    $("[id*='ibtnPreviewDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/ico-view-off.png");
                     $("[id*='ibtnDownloadDocument']").prop("disabled", false);
-                    $("[id*='ibtnDownloadDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-downloaddoc.png");
+                    $("[id*='ibtnDownloadDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-downloaddoc.png");
                     $("[id*='ibtnRenameDocument']").prop("disabled", true);
-                    $("[id*='ibtnRenameDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/32tp-renomear3.png");
+                    $("[id*='ibtnRenameDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/32tp-renomear3.png");
                     $("[id*='ibtnDeleteDocument']").prop("disabled", false);
-                    $("[id*='ibtnDeleteDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-excluirarqdoc.png");
+                    $("[id*='ibtnDeleteDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-excluirarqdoc.png");
                 }
                 else {
                     disableMyDocumentsCommands();
@@ -317,28 +322,28 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
                 if (checked == 1) {
                     $("[id*='ibtnIndexDocument']").prop("disabled", false);
-                    $("[id*='ibtnIndexDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-salvararqdoc.png");
+                    $("[id*='ibtnIndexDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-salvararqdoc.png");
                     $("[id*='ibtnPreviewDocument']").prop("disabled", false);
-                    $("[id*='ibtnPreviewDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/ico-view-on.png");
+                    $("[id*='ibtnPreviewDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/ico-view-on.png");
                     $("[id*='ibtnDownloadDocument']").prop("disabled", false);
-                    $("[id*='ibtnDownloadDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-downloaddoc.png");
+                    $("[id*='ibtnDownloadDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-downloaddoc.png");
                     $("[id*='ibtnRenameDocument']").prop("disabled", false);
-                    $("[id*='ibtnRenameDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/32cl-renomear3.png");
+                    $("[id*='ibtnRenameDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/32cl-renomear3.png");
                     $("[id*='ibtnDeleteDocument']").prop("disabled", false);
-                    $("[id*='ibtnDeleteDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-excluirarqdoc.png");
+                    $("[id*='ibtnDeleteDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-excluirarqdoc.png");
                 }
 
                 if (checked > 1) {
                     $("[id*='ibtnIndexDocument']").prop("disabled", false);
-                    $("[id*='ibtnIndexDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-salvararqdoc.png");
+                    $("[id*='ibtnIndexDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-salvararqdoc.png");
                     $("[id*='ibtnPreviewDocument']").prop("disabled", true);
-                    $("[id*='ibtnPreviewDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/ico-view-off.png");
+                    $("[id*='ibtnPreviewDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/ico-view-off.png");
                     $("[id*='ibtnDownloadDocument']").prop("disabled", false);
-                    $("[id*='ibtnDownloadDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-downloaddoc.png");
+                    $("[id*='ibtnDownloadDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-downloaddoc.png");
                     $("[id*='ibtnRenameDocument']").prop("disabled", true);
-                    $("[id*='ibtnRenameDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/32tp-renomear3.png");
+                    $("[id*='ibtnRenameDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/32tp-renomear3.png");
                     $("[id*='ibtnDeleteDocument']").prop("disabled", false);
-                    $("[id*='ibtnDeleteDocument']").prop("src", "/_layouts/images/dataxdoc/workarea/bt-excluirarqdoc.png");
+                    $("[id*='ibtnDeleteDocument']").prop("src", "../../arquivos/scripts/dataxdoc/workarea/bt-excluirarqdoc.png");
                 }
 
                 if (checked == $("[id*='cblDocuments'] input:checkbox").length)
@@ -523,29 +528,8 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
 <body scroll="no" onload="javascript:_spBodyOnLoadWrapper();">
 
-<form name="formPrincipal" method="post" action="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="formPrincipal" enctype="multipart/form-data">
-<div>
-<input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="">
-<input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="">
-<input type="hidden" name="MSOTlPn_View" id="MSOTlPn_View" value="0">
-<input type="hidden" name="MSOTlPn_ShowSettings" id="MSOTlPn_ShowSettings" value="False">
-<input type="hidden" name="MSOGallery_SelectedLibrary" id="MSOGallery_SelectedLibrary" value="">
-<input type="hidden" name="MSOGallery_FilterString" id="MSOGallery_FilterString" value="">
-<input type="hidden" name="MSOTlPn_Button" id="MSOTlPn_Button" value="none">
-<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="">
-<input type="hidden" name="MSOSPWebPartManager_DisplayModeName" id="MSOSPWebPartManager_DisplayModeName" value="Browse">
-<input type="hidden" name="MSOSPWebPartManager_ExitingDesignMode" id="MSOSPWebPartManager_ExitingDesignMode" value="false">
-<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
-<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
-<input type="hidden" name="MSOWebPartPage_Shared" id="MSOWebPartPage_Shared" value="">
-<input type="hidden" name="MSOLayout_LayoutChanges" id="MSOLayout_LayoutChanges" value="">
-<input type="hidden" name="MSOLayout_InDesignMode" id="MSOLayout_InDesignMode" value="">
-<input type="hidden" name="MSOSPWebPartManager_OldDisplayModeName" id="MSOSPWebPartManager_OldDisplayModeName" value="Browse">
-<input type="hidden" name="MSOSPWebPartManager_StartWebPartEditingName" id="MSOSPWebPartManager_StartWebPartEditingName" value="false">
-<input type="hidden" name="MSOSPWebPartManager_EndWebPartEditing" id="MSOSPWebPartManager_EndWebPartEditing" value="false">
-<input type="hidden" name="_maintainWorkspaceScrollPosition" id="_maintainWorkspaceScrollPosition" value="0">
-<input type="hidden" name="__REQUESTDIGEST" id="__REQUESTDIGEST" value="0x1269C738658759B630BBE6D64C77ACE9BEC6CF38555C1ECD0DCB347A5DCC010C79918B70CD5BF69F6E06E3963AE407E3CE36E17562FBF0B45577582B5241A671,08 Dec 2016 18:24:29 -0000">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTc3NDE1NzU5Ng8WAh4EVXNlcjLODgABAAAA/////wEAAAAAAAAADAIAAABSRGF0YVhET0MuRG9tYWluLCBWZXJzaW9uPTEuMC4wLjAsIEN1bHR1cmU9bmV1dHJhbCwgUHVibGljS2V5VG9rZW49YmI0NTk4OGI5NjhiMDM0MwUBAAAAIERhdGFYRE9DLkRvbWFpbi5Nb2RlbC5Vc2Vycy5Vc2VyEAAAAB1tZW1iZXJzaGlwVXNlclByb3ZpZGVyVXNlcktleQ5tZW1iZXJzaGlwVXNlcghzcFVzZXJJRAhiaXJ0aGRheQZnZW5kZXIad29ya0FyZWFTUExpc3RJdGVtVW5pcXVlSWQZcGljdHVyZVNQTGlzdEl0ZW1VbmlxdWVJZAhyb2xlVHlwZQRyb2xlC2ZpcnN0QWNjZXNzCGlzT25saW5lEW15RG9jdW1lbnRzRm9sZGVyElBoeXNpY2FsUGVyc29uK2NwZhBQZXJzb24rZmlyc3ROYW1lD1BlcnNvbitsYXN0TmFtZQ5FbnRpdHlCYXNlK2tleQIEAAMEAwMEBAAABAEBAQIwRGF0YVhET0MuRG9tYWluLk1vZGVsLlVzZXJzLkN1c3RvbU1lbWJlcnNoaXBVc2VyAgAAAAgPU3lzdGVtLkRhdGVUaW1lHERhdGFYRE9DLkRvbWFpbi5Nb2RlbC5HZW5kZXICAAAAC1N5c3RlbS5HdWlkbVN5c3RlbS5OdWxsYWJsZWAxW1tTeXN0ZW0uR3VpZCwgbXNjb3JsaWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iNzdhNWM1NjE5MzRlMDg5XV0kRGF0YVhET0MuRG9tYWluLk1vZGVsLlVzZXJzLlJvbGVUeXBlAgAAACBEYXRhWERPQy5Eb21haW4uTW9kZWwuVXNlcnMuUm9sZQIAAAABASREYXRhWERPQy5Eb21haW4uTW9kZWwuU3RvcmFibGVPYmplY3QCAAAAAgAAAAkDAAAACQQAAAASAAAACA0AQF+ijpOxCAX7////HERhdGFYRE9DLkRvbWFpbi5Nb2RlbC5HZW5kZXIBAAAAB3ZhbHVlX18ACAIAAAACAAAABPr///8LU3lzdGVtLkd1aWQLAAAAAl9hAl9iAl9jAl9kAl9lAl9mAl9nAl9oAl9pAl9qAl9rAAAAAAAAAAAAAAAIBwcCAgICAgICAsf13UI79J5CsWQqFccZXnQKBfn///8kRGF0YVhET0MuRG9tYWluLk1vZGVsLlVzZXJzLlJvbGVUeXBlAQAAAAd2YWx1ZV9fAAgCAAAAdScAAAkIAAAAAAAKBgkAAAALNDc0NTQ3NTg1MzMGCgAAAA1BZG1pbmlzdHJhZG9yBgsAAAAHU2lzdGVtYQkMAAAAAQMAAAD6////vH+OPMVmAEGoYjPMuB1PuwwNAAAATVN5c3RlbS5XZWIsIFZlcnNpb249Mi4wLjAuMCwgQ3VsdHVyZT1uZXV0cmFsLCBQdWJsaWNLZXlUb2tlbj1iMDNmNWY3ZjExZDUwYTNhBQQAAAAwRGF0YVhET0MuRG9tYWluLk1vZGVsLlVzZXJzLkN1c3RvbU1lbWJlcnNoaXBVc2VyAQAAAA5tZW1iZXJzaGlwVXNlcgQiU3lzdGVtLldlYi5TZWN1cml0eS5NZW1iZXJzaGlwVXNlcg0AAAACAAAACQ4AAAAFCAAAACBEYXRhWERPQy5Eb21haW4uTW9kZWwuVXNlcnMuUm9sZQQAAAAFdGl0bGULZGVzY3JpcHRpb24Icm9sZVR5cGUORW50aXR5QmFzZStrZXkBAQQCJERhdGFYRE9DLkRvbWFpbi5Nb2RlbC5Vc2Vycy5Sb2xlVHlwZQIAAAACAAAABg8AAAAYQWRtaW5pc3RyYWRvciBkbyBTaXN0ZW1hBhAAAAAAAe/////5////dScAAAgIdScAAAEMAAAA+v///xyvZ9TVK4lFsZ57Juk0ooAFDgAAACJTeXN0ZW0uV2ViLlNlY3VyaXR5Lk1lbWJlcnNoaXBVc2VyDQAAAAlfVXNlck5hbWUQX1Byb3ZpZGVyVXNlcktleQZfRW1haWwRX1Bhc3N3b3JkUXVlc3Rpb24IX0NvbW1lbnQLX0lzQXBwcm92ZWQMX0lzTG9ja2VkT3V0EF9MYXN0TG9ja291dERhdGUNX0NyZWF0aW9uRGF0ZQ5fTGFzdExvZ2luRGF0ZRFfTGFzdEFjdGl2aXR5RGF0ZRhfTGFzdFBhc3N3b3JkQ2hhbmdlZERhdGUNX1Byb3ZpZGVyTmFtZQECAQEBAAAAAAAAAAEBAQ0NDQ0NDQAAAAYSAAAADGRlbS5zeXNhZG1pbgkDAAAABhQAAAAVaXNhYWNAZGF0YWNvcHkuY29tLmJyCgkQAAAAAQAAgIhyW1atR4BaHIZH3tFIYP85bpcf1Ehg/zlulx/USJCcP3Y/RNJIBhYAAAAKTWVtYmVyc2hpcAsWAmYPZBYCAgEPZBYCAgMPFgIeB2VuY3R5cGUFE211bHRpcGFydC9mb3JtLWRhdGEWDAIJD2QWBAIBDw8WAh4HVmlzaWJsZWdkZAIDDw8WAh8CZ2RkAgsPZBYCZg8WAh4FY2xhc3MFDW1lbnVTZXR0aW5nczEWAgIBDzwrAA0BDBQrAAJkFCsAAhYCHgpTZWxlY3RhYmxlaBQrAAcFAzA6NRQrAAIWAh4LTmF2aWdhdGVVcmwFRWh0dHBzOi8vZHRjLXNlcnZlcjAxL3NpdGVzL2RlbW8vX2xheW91dHMvZGF0YXhkb2Mvc2V0dGluZ3MvdXNlcnMuYXNweGQUKwACFgIfBQVPaHR0cHM6Ly9kdGMtc2VydmVyMDEvc2l0ZXMvZGVtby9fbGF5b3V0cy9kYXRheGRvYy9vbGQvc2V0dGluZ3MvTWFuYWdlRmlsZXMuYXNweGQUKwACFgIfBQVSaHR0cHM6Ly9kdGMtc2VydmVyMDEvc2l0ZXMvZGVtby9fbGF5b3V0cy9kYXRheGRvYy9vbGQvc2V0dGluZ3MvTWFuYWdlQWNjZXNzZXMuYXNweGQUKwACFgIfBQVhaHR0cHM6Ly9kdGMtc2VydmVyMDEvc2l0ZXMvZGVtby9fbGF5b3V0cy9kYXRheGRvYy9vbGQvc2V0dGluZ3MvTWFuYWdlQ29udGVudFR5cGVzQW5kTWV0YWRhdGEuYXNweGQUKwACFgIfBQVPaHR0cHM6Ly9kdGMtc2VydmVyMDEvc2l0ZXMvZGVtby9fbGF5b3V0cy9kYXRheGRvYy9nZW5lcmFsL2dlbmVyYWwtc2V0dGluZ3MuYXNweGQUKwACFgYeBFRleHQFFkNvbmZpZ3VyYcOnw6NvIGRvIFNpdGUeCEltYWdlVXJsBT1+L19sYXlvdXRzL2ltYWdlcy9EYXRhWERPQy9Vc2VyQ29udHJvbHMvY29uZmlndXJhY2FvLXNpdGUucG5nHwUFNmh0dHBzOi8vZHRjLXNlcnZlcjAxL3NpdGVzL2RlbW8vX2xheW91dHMvc2V0dGluZ3MuYXNweGRkAg0PZBYCAgEPPCsADQIADxYEHghDc3NDbGFzcwUOZGl2V2VsY29tZU1lbnUeBF8hU0ICAmQMFCsAAmQUKwACFgQfBGgfBgUTT2zDoSwgQWRtaW5pc3RyYWRvchQrAAQFCzA6MCwwOjEsMDoyFCsAAhYIHwYFIk1ldXMgw5psdGltb3MgRG9jdW1lbnRvcyBJbmRleGFkb3MeBVZhbHVlBSF1bHRpbW9zZG9jdW1lbnRvc2luZGV4YWRvc1dlbGNvbWUfBwU0fi9fbGF5b3V0cy9pbWFnZXMvRGF0YVhET0MvVXNlckNvbnRyb2xzL2xhc3Rkb2NzLnBuZx8FBVJodHRwczovL2R0Yy1zZXJ2ZXIwMS9zaXRlcy9kZW1vL19sYXlvdXRzL2RhdGF4ZG9jL29sZC9teS9MYXN0SW5kZXhlZERvY3VtZW50cy5hc3B4ZBQrAAIWCB8GBRNNZXVzIERhZG9zIFBlc3NvYWlzHwoFFGRhZG9zUGVzc29haXNXZWxjb21lHwcFOH4vX2xheW91dHMvaW1hZ2VzL0RhdGFYRE9DL1VzZXJDb250cm9scy9wZXJzb25hbGluZm8ucG5nHwUFR2h0dHBzOi8vZHRjLXNlcnZlcjAxL3NpdGVzL2RlbW8vX2xheW91dHMvZGF0YXhkb2MvbXkvcGVyc29uYWwtaW5mby5hc3B4ZBQrAAIWBh8GBQRTYWlyHwoFDWxvZ291dFdlbGNvbWUfBwU0fi9fbGF5b3V0cy9pbWFnZXMvRGF0YVhET0MvVXNlckNvbnRyb2xzL3NpZ2lub3V0LnBuZ2RkAg8PZBYUAgsPDxYCHwYFCHN5c2FkbWluZGQCDQ8PFgIfBgUYQWRtaW5pc3RyYWRvciBkbyBTaXN0ZW1hZGQCDw8PZBYCHgtwbGFjZWhvbGRlcgUETm9tZWQCEQ8PZBYCHwsFCVNvYnJlbm9tZWQCEw8PZBYCHwsFA0NQRmQCFQ8PZBYCHwsFEkRhdGEgZGUgTmFzY2ltZW50b2QCFw8PZBYCHwsFBUVtYWlsZAIZDw9kFgIfCwUPQ29uZmlybWFyIGVtYWlsZAIbDw8WBB4ETW9kZQsqJVN5c3RlbS5XZWIuVUkuV2ViQ29udHJvbHMuVGV4dEJveE1vZGUCHgdFbmFibGVkaBYCHwsFBVNlbmhhZAIdDw8WBB8MCysEAh8NaBYCHwsFD0NvbmZpcm1hciBzZW5oYWQCEw9kFgRmD2QWBAIBD2QWAmYPZBYEAgIPZBYUAgEPFgIfAmhkAgMPFggeE0NsaWVudE9uQ2xpY2tTY3JpcHQFfGphdmFTY3JpcHQ6Q29yZUludm9rZSgnVGFrZU9mZmxpbmVUb0NsaWVudFJlYWwnLDEsIDEsICdodHRwczpcdTAwMmZcdTAwMmZkdGMtc2VydmVyMDFcdTAwMmZzaXRlc1x1MDAyZmRlbW8nLCAtMSwgLTEsICcnLCAnJykeGENsaWVudE9uQ2xpY2tOYXZpZ2F0ZVVybGQeKENsaWVudE9uQ2xpY2tTY3JpcHRDb250YWluaW5nUHJlZml4ZWRVcmxkHgxIaWRkZW5TY3JpcHQFIVRha2VPZmZsaW5lRGlzYWJsZWQoMSwgMSwgLTEsIC0xKWQCBQ8WAh8CaGQCBw8WAh8CaGQCCQ8WAh8CaGQCCw8WAh8CaGQCDw8WAh8CaGQCEQ8WAh8CaGQCEw8WAh8CaGQCFQ8WAh8CaGQCAw8PFgoeCUFjY2Vzc0tleQUBLx4PQXJyb3dJbWFnZVdpZHRoAgUeEEFycm93SW1hZ2VIZWlnaHQCAx4RQXJyb3dJbWFnZU9mZnNldFhmHhFBcnJvd0ltYWdlT2Zmc2V0WQLrA2RkAgMPZBYCAgEPZBYCAgMPZBYCAgEPPCsABQEADxYCHg9TaXRlTWFwUHJvdmlkZXIFEVNQU2l0ZU1hcFByb3ZpZGVyZGQCAQ9kFgYCBQ9kFgICAQ8QFgIfAmhkFCsBAGQCBw9kFgJmD2QWAmYPFCsAA2RkZGQCCQ8PFgIfAmhkZAIZD2QWAgIDD2QWAgIBD2QWAmYPZBYCAgEPD2QWBh8DBSJtcy1zYnRhYmxlIG1zLXNidGFibGUtZXggczQtc2VhcmNoHgtjZWxscGFkZGluZwUBMB4LY2VsbHNwYWNpbmcFATBkGAIFGWN0bDAwJFRvcE5hdmlnYXRpb25NZW51VjQPD2QFBEhvbWVkBR5fX0NvbnRyb2xzUmVxdWlyZVBvc3RCYWNrS2V5X18WAQUUY3RsMDAkY3RsNjMkaWJSZXBvcnQGA9w9srovIO5hKmEXJOo6GSlVag==">
+<form name="formPrincipal" method="post" action="salvardadospessoais.php" onsubmit="javascript:return WebForm_OnSubmit();" id="formPrincipal" enctype="multipart/form-data">
+
 </div>
 
 <script type="text/javascript">
@@ -579,18 +563,18 @@ var g_wsaListTemplateId = null;
 var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002fsites\u002fdemo", webLanguage: 1033, currentLanguage: 1033, webUIVersion:4,userId:18, alertsEnabled:false, siteServerRelativeUrl: "\u002fsites\u002fdemo", allowSilverlightPrompt:'True'};//]]>
 </script>
 <script type="text/javascript">
-<!--
+
 var L_Menu_BaseUrl="/_modulos/";
 var L_Menu_LCID="1033";
 var L_Menu_SiteTheme="";
-//-->
+
 </script>
 <script type="text/javascript">
 //<![CDATA[
 var MSOWebPartPageFormName = 'formPrincipal';//]]>
 </script>
 <script type="text/javascript">
-<!--
+
 //-->
 </script>
 <script src="../../arquivosDadosPessoais/ScriptResource(2).axd" type="text/javascript"></script>
@@ -681,20 +665,20 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
         $(document).ready(function () {
             $("table.SettingsMenu").hover(function () {
                 $("table.SettingsMenu").addClass("SelectedMenu");
-                $("table.SettingsMenu img").attr("src", "/_layouts/images/DataXDOC/UserControls/dynamic_arrow.png");
+                $("table.SettingsMenu img").attr("src", "../../arquivos/scripts/DataXDOC/UserControls/dynamic_arrow.png");
             }, function () {
                 $("table.SettingsMenu").removeClass("SelectedMenu");
-                $("table.SettingsMenu img").attr("src", "/_layouts/images/DataXDOC/UserControls/static_arrow.png");
+                $("table.SettingsMenu img").attr("src", "../../arquivos/scripts/DataXDOC/UserControls/static_arrow.png");
             });
         });
 
         $(document).ready(function () {
             $("table.SettingsMenuItem").hover(function () {
                 $("table.SettingsMenu").addClass("SelectedMenu");
-                $("table.SettingsMenu img").attr("src", "/_layouts/images/DataXDOC/UserControls/dynamic_arrow.png");
+                $("table.SettingsMenu img").attr("src", "../../arquivos/scripts/DataXDOC/UserControls/dynamic_arrow.png");
             }, function () {
                 $("table.SettingsMenu").removeClass("SelectedMenu");
-                $("table.SettingsMenu img").attr("src", "/_layouts/images/DataXDOC/UserControls/static_arrow.png");
+                $("table.SettingsMenu img").attr("src", "../../arquivos/scripts/DataXDOC/UserControls/static_arrow.png");
             });
         });
 
@@ -766,20 +750,20 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
         $(document).ready(function () {
             $("table.WelcomeMenu").hover(function () {
                 $("table.WelcomeMenu").addClass("SelectedMenu");
-                $("table.WelcomeMenu td > img").attr("src", "/_layouts/images/DataXDOC/UserControls/dynamic_arrow.png");
+                $("table.WelcomeMenu td > img").attr("src", "../../arquivos/scripts/DataXDOC/UserControls/dynamic_arrow.png");
             }, function () {
                 $("table.WelcomeMenu").removeClass("SelectedMenu");
-                $("table.WelcomeMenu td > img").attr("src", "/_layouts/images/DataXDOC/UserControls/static_arrow.png");
+                $("table.WelcomeMenu td > img").attr("src", "../../arquivos/scripts/DataXDOC/UserControls/static_arrow.png");
             });
         });
 
         $(document).ready(function () {
             $("table.WelcomeMenuItem td").hover(function () {
                 $("table.WelcomeMenu").addClass("SelectedMenu");
-                $("table.WelcomeMenu td > img").attr("src", "/_layouts/images/DataXDOC/UserControls/dynamic_arrow.png");
+                $("table.WelcomeMenu td > img").attr("src", "../../arquivos/scripts/DataXDOC/UserControls/dynamic_arrow.png");
             }, function () {
                 $("table.WelcomeMenu").removeClass("SelectedMenu");
-                $("table.WelcomeMenu td > img").attr("src", "/_layouts/images/DataXDOC/UserControls/static_arrow.png");
+                $("table.WelcomeMenu td > img").attr("src", "../../arquivos/scripts/DataXDOC/UserControls/static_arrow.png");
             });
         });
 
@@ -840,7 +824,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
     <div id="form-container">
         <h1>
             <img alt="MEUS DADOS PESSOAIS" src="../../arquivosDadosPessoais/personal-infoheading.png">
-            <input type="image" name="close" title="Fechar" src="../../arquivosDadosPessoais/close-button.png" class="close-button" onclick="return Redirect(&#39;teste&#39;);">
+            <input type="image" name="close" title="Fechar" src="../../arquivosDadosPessoais/close-button.png" class="close-button" onclick="javascript:history.back()">
         </h1>
         <div class="content-form-container">
             <div class="content-form">
@@ -856,15 +840,30 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
                             <h2 class="TabTitle">Dados Pessoais</h2>
                             <div id="divUploadPhoto">
                                 <span class="photo-container">
-                                    <img id="imgUserPhoto" class="photo" src="../../arquivosDadosPessoais/no-photo.png" style="height:121px;width:91px;border-width:0px;">                                   
+                             <?php  $imgPerfil = consultaImagem($_SESSION['id_usuario']); 
+                                if(!isset($imgPerfil)) { ?>
+
+
+                                      <img id="imgUserPhoto" class="photo" src="../../arquivosDadosPessoais/no-photo.png" style="height:121px;width:91px;border-width:0px;">    
+
+                             <?php  }else{  ?>
+
+                                    <img id="imgUserPhoto" class="photo" src="../fabricaArquivo/fabricaImg.php" style="height:121px;width:91px;border-width:0px;">  
+
+                              <?php } ?>
                                 </span>
                                 <div class="fileupload">
                                     <span class="fileinput-button">
-                                        <img id="imgUploadPhoto" src="../../arquivosDadosPessoais/image-upload.png" style="border-width:0px;">
-                                        <input type="file" name="$fuPhoto" id="fuPhoto" title="Upload de imagem">
+
+                                  
+                                           
+                                 <img id="imgUploadPhoto" src="../../arquivosDadosPessoais/image-upload.png" style="border-width:0px;">                               
+                                
+                                        
+                                        <input type="file" name="fuPhoto" id="fuPhoto" title="Upload de imagem">
                                     </span>
                                 </div>
-                                <input name="$txtFileName" type="text" id="txtFileName" disabled="disabled" class="filename">
+                                <input name="txtFileName" type="text" id="txtFileName" disabled="disabled" class="filename">
                             </div>
                             <div id="divGender">
                                 <table id="rblGender" class="gender-container" border="0">
@@ -882,9 +881,9 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
                         }
                      ?>              
 	<tbody><tr>
-		<td><input id="rblGender_0" type="radio" name="$rblGender" value="1" <?=$feminino;?> class="hiddenCheckbox"><label for="rblGender_0" class="prettyCheckbox radio list"><span class="holderWrap" style="width: 20px; height: 20px;"></span>Feminino</label></td>
+		<td><input id="rblGender_0" type="radio" name="rblGender" value="f" <?=$feminino;?> class="hiddenCheckbox"><label for="rblGender_0" class="prettyCheckbox radio list"><span class="holderWrap" style="width: 20px; height: 20px;"></span>Feminino</label></td>
 	</tr><tr>
-		<td><input id="rblGender_1" type="radio" name="$rblGender" value="2" <?=$masculino;?> class="hiddenCheckbox"><label for="rblGender_1" class="prettyCheckbox radio list"><span class="holderWrap" style="width: 20px; height: 20px;"></span>Masculino</label></td>
+		<td><input id="rblGender_1" type="radio" name="rblGender" value="m" <?=$masculino;?> class="hiddenCheckbox"><label for="rblGender_1" class="prettyCheckbox radio list"><span class="holderWrap" style="width: 20px; height: 20px;"></span>Masculino</label></td>
 	</tr>
 </tbody></table>
                             </div>
@@ -902,22 +901,33 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
                                 <span id="userName" class="Label">Usuário:&nbsp;<span id="lblLogin" class="Text"><?=$usuario['nome'];?></span></span>
                                 <span id="alcada" class="Label">Alçada:&nbsp;<span id="lblAlcada" class="Text"><?=$usuario['categoria'];?></span></span>
                             </div>
-                            <input name="$txtFirstName" type="text" value="<?=$usuario['nome'];?>" id="txtFirstName" class="htmlInputText220 InlineElement" placeholder="Nome">
-                            <input name="$txtLastName" type="text" value="<?=$usuario['snome'];?>" id="txtLastName" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Sobrenome">
-                            <input name="$txtCpf" type="text" value="<?=$usuario['cd_CPF'];?>" id="txtCpf" class="htmlInputText220 TopSpacing20 InlineElement cpf" placeholder="CPF">
-                            <input name="$txtDateofBirth" type="text" value="<?=$usuario['dt_nascimento'];?>" id="txtDateofBirth" class="htmlInputText220 TopSpacing20  InlineElement date" placeholder="Data de Nascimento">
-                            <input name="$txtEmail" type="text" value="<?=$usuario['ds_email'];?>" id="txtEmail" class="htmlInputText460 TopSpacing20" placeholder="Email">
-                            <input name="$txtConfirmEmail" type="text" value="<?=$usuario['ds_email'];?>" id="txtConfirmEmail" class="htmlInputText460 TopSpacing20" placeholder="Confirmar email">
-                            <input name="$txtPassword" type="password" maxlength="18" id="txtPassword" disabled="disabled" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Senha">
-                            <input name="$txtConfirmPassword" type="password" maxlength="18" id="txtConfirmPassword" disabled="disabled" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Confirmar senha">
+                            <input name="txtFirstName" type="text" value="<?=$usuario['nome'];?>" id="txtFirstName" class="htmlInputText220 InlineElement" placeholder="Nome">
+                            <input name="txtLastName" type="text" value="<?=$usuario['snome'];?>" id="txtLastName" class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Sobrenome">
+                            <input name="txtCpf" type="text" value="<?=$usuario['cd_CPF'];?>" id="txtCpf" class="htmlInputText220 TopSpacing20 InlineElement cpf" placeholder="CPF">
+                            <input name="txtDateofBirth" type="text" value="<?=$usuario['dt_nascimento'];?>" id="txtDateofBirth" class="htmlInputText220 TopSpacing20  InlineElement date" placeholder="Data de Nascimento">
+                            <input name="txtEmail" type="text" value="<?=$usuario['ds_email'];?>" id="txtEmail" class="htmlInputText460 TopSpacing20" placeholder="Email">
+                           
+
+                            <?php  if($resetaSenha != '')
+                                    {
+                                        $habilita = "";
+                                        $habilitabtn = "disabled='disabled'";
+                                    }else{
+                                        $habilita = "disabled='disabled'";
+                                        $habilitabtn = "";
+                                    }
+                            
+                                ?>
+                                   
+                            <input name="txtPassword" type="password" maxlength="18" id="txtPassword" <?=$habilita?> class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Senha"> 
+                          <input name="txtConfirmPassword" type="password" maxlength="18" id="txtConfirmPassword" <?=$habilita?> class="htmlInputText220 TopSpacing20 InlineElement" placeholder="Confirmar senha"> 
                         </div>
                     </div>
                     <!-- Botões -->
-                    <div class="FormActions">
-                        <input type="submit" name="$btnResetPassword" value="Redefinir Senha" id="btnResetPassword" class="button">
-                        <input type="submit" name="$btnSavePersonalInfo" value="Salvar" id="btnSavePersonalInfo" class="button">
-                        
-                        
+                    <div class="FormActions">                      
+                        <a href="dadospessoais.php?param=1"><input type="button" class="button" value="Redefinir Senha"></input></a>
+
+                        <input type="submit" name="btnSavePersonalInfo" value="Salvar" id="btnSavePersonalInfo" class="button"/>                                    
                     </div>
                 </div>
             </div>

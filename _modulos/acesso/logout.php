@@ -1,11 +1,8 @@
 <?php
 
-session_start();
+require("../funcaoBD/acesso.class.php");
 
-session_destroy();
-
-
-header("location: login.php");
+ $desconecta = desconecta();
 
 
 ?>
