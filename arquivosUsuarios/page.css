@@ -1,0 +1,678 @@
+﻿#wrapper { overflow: hidden; }
+/*** NewUser.aspx | EditUser.aspx  ***/
+
+#divLeftSidePersonalData, #divLeftSideManagerialData {
+    width: 180px;
+    float: left;
+}
+
+#divRightSidePersonalData, #divRightSideManagerialData {
+    margin: 0 5px 0 0;
+    padding-top: 35px; 
+    width: 500px;
+    float: right;
+}
+
+#layout-type {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    margin-top: 15px;
+    height: 342px;
+    width: 348px;
+    border-left: 1px solid #ffa44e;
+    padding-left: 22px;
+}
+   
+#container-layout-type { margin-top: 22px; }
+
+     [id*=upLayoutType] > ul {
+            list-style: none;
+        }
+
+#divUploadPhoto, #divGender, #divAlcada, #divUploadCertificate, #divDigitalAuthenticationOption {
+    position: relative;
+    margin: 20px auto 0;
+    width: 150px;    
+}
+
+#divUploadPhoto > .photo-container {
+    margin: 0 auto;
+    height: 121px;
+    width: 93px;
+    display: block;    
+}
+
+#divUploadPhoto > .fileupload {
+    position: absolute;
+    top: 90px;
+    left: 128px;
+}
+
+#divUploadPhoto > .filename, #divUploadCertificate > .filename {
+    margin: 3px auto 0;
+    border: none;
+    width: 110px;
+    background: transparent;
+    display: block;
+    text-align: center;
+    color: inherit;    
+}
+
+#divGender > .gender-container, #divDigitalAuthenticationOption > .digitalAuthenticationOption-container {
+    margin: 0 auto;
+}
+
+#divUploadCertificate > .certificate-container {
+    margin: 0 auto;
+    height: 114px;
+    width: 117px;
+    display: block;    
+}
+
+#divUploadCertificate > .fileupload {
+    position: absolute;
+    top: 60px;
+    left: 140px;
+}
+
+#divAlcadaInfo, #divDigitalAuthenticationInfo {
+    margin: -30px 0px 0px 0px;
+    border: 1px solid #ffa44e;
+    border-radius: 30px;    
+    height: 160px;/* 130px */
+    width: 300px; /* 480px */
+    background: #F5F5F5;
+    behavior: url(/_layouts/dataxdoc/styles/PIE-1.0.0/PIE.htc);
+}
+
+.infobox {
+    margin: 10px 20px 0 20px; /* 20px auto 0 */ 
+    /*width: 440px;*/
+    text-align: justify;
+    font-size: 14px;
+}
+
+
+#divIdentity {
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 15px;    
+    font-weight: bold;
+}
+
+#userId {
+    margin-left: 5px;
+}
+
+#userName {
+    position: absolute;
+    left: 90px
+}
+
+#alcada {
+    position: absolute;
+    left: 290px;
+}
+
+.Label {
+    display: inline-block;
+    color: #ff7c00;
+}
+
+.Text {
+    color: #4682b4;
+    font-weight: normal;
+}
+
+
+
+
+
+/*** ManageUsers.aspx ***/
+
+#cabecalho_titulo
+{
+    margin-left:-2px;
+    width:1030px;
+    position:absolute;
+}
+
+#cabecalho_fechar
+{
+    float:right;
+    margin:16px 12px 0 0;
+    width:15px;
+    height:15px;
+    position:relative;
+}
+
+.header_user
+{
+    width:100%;
+    height:40px;
+    position:relative;
+}
+
+.ibtnCriarNovoUsuario
+{
+    position:absolute;
+    top:0;
+    height:32px;
+}
+
+.imginformacao{
+    position:absolute;
+    top:4px;
+    height:24px;
+    right:480px;
+}
+
+.users_cadastrados
+{
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;      
+    border:1px solid #999999;
+    border-radius:5px;
+    background-color:White;
+    position:absolute;
+    top:4px;
+    color:#333;
+    font-family:Century Gothic;
+    height:16px;
+    width: 150px;
+    padding: 5px 7px 5px 7px;
+    text-align:center;
+    right:40%;
+    behavior: url(/_layouts/dataxdoc/styles/PIE-1.0.0/PIE.htc);
+}
+
+.users_desativados
+{
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px; 
+    border:1px solid #999999;
+    border-radius:5px; 
+    background-color:White;
+    position:absolute;
+    top:4px;
+    color:#333;
+    font-family:Century Gothic;
+    height:16px;
+    width:150px;
+    padding:5px 7px 5px 7px;
+    text-align:center;
+    right:20%;
+    behavior: url(/_layouts/dataxdoc/styles/PIE-1.0.0/PIE.htc);
+}
+
+.users_bloqueados
+{   
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px; 
+    border:1px solid #999999;
+    border-radius:5px; 
+    background-color:White;
+    position:absolute;
+    top:4px;
+    color:#333;
+    font-family:Century Gothic;
+    height:16px;
+    width:150px;
+    padding:5px 7px 5px 7px;
+    text-align:center;
+    right:0;
+    behavior: url(/_layouts/dataxdoc/styles/PIE-1.0.0/PIE.htc);
+}
+
+#grid-position
+{   
+   -webkit-border-radius: 15px;
+   -moz-border-radius: 15px; 
+    border:1px solid #999999;
+    border-radius:15px; 
+    position:absolute;
+    top:40px;
+    bottom:0;
+    width:100%;
+    background-color:#FFF;
+    behavior: url(/_layouts/dataxdoc/styles/PIE-1.0.0/PIE.htc);
+}
+
+#plano-fundo
+{
+    background-color:#363636;
+    position:absolute;
+    left:80px;
+    right:28%;
+    top:0px;
+    bottom:0px;
+    filter:alpha(opacity=20);
+    opacity:.1;
+}
+
+.grid
+{
+    clear:both;
+    overflow:auto;
+    font-family:Century Gothic;
+    text-align: center;
+}
+
+.gridtitulo
+{
+    float:left;
+    width:72%;
+    text-align:center;
+}
+
+.gridtitulo2
+{
+    float:left;
+    width:28%;
+}
+
+.titulo
+{ 
+    margin-top: 0px;
+    text-align:center;
+    border-width: 1px;
+    border-style: none none solid none;
+    border-color: #FF931e;
+    font-size: 14px;
+    color: #4682B4;
+    font-family:Century Gothic;
+}
+
+.tabelagrid
+{
+    vertical-align: middle;
+    height: 319px;
+    border:1px solid #FFF;
+    border-radius: 15px;
+}
+
+#gvUsers
+{    
+    border-style:none;
+    border-color:transparent;
+    background-color: transparent;    
+    overflow: auto;
+    max-height: 80%;
+    border-radius: 20px;    
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;      
+}
+
+[id*=gvUsers] tr:first-child {
+    background-color: #fff !important;
+    border-bottom: 1px solid #999999 !important;
+}
+
+th
+{
+    border-top-color:#FF931e; 
+    height:15px;
+    border-color:transparent;
+    color:#4682B4; 
+}
+
+td
+{
+    border-color:transparent;
+    color:#333;
+    height:15px;   
+    text-align:center; 
+    border-left-color:#FF931e;
+}
+
+.ibtnGrid
+{
+    padding:0 4px 0 4px;  
+}
+.ibtnGrid > img
+{
+    border:none;
+}
+
+
+
+
+
+
+
+.center
+ {
+    width: 180px;
+    float: left;
+}
+.alcada
+{
+color:#4682B4;       
+}  
+.right-side-1
+{
+    width: 500px;
+    float: right;
+    margin-top: 0px; 
+}
+.textbox {
+    margin: 00 20px 22px 0;
+    border: 1px solid #ff931e;
+    border-radius: 5px;
+    background:#fff;
+   -webkit-border-radius: 5px;
+   -moz-border-radius: 5px;
+    position:relative;
+    height:22px;   
+    padding-left:5px;
+    font-family:Century Gothic; 
+}
+.txtbox-focus
+{
+    box-shadow: 0 0 5px #FF931E;
+    -moz-box-shadow: 0 0 5px #FF931E;
+    -webkit-box-shadow: 0 0 5px #FF931E; 
+    margin: 00 20px 22px 0;
+    background:#fff;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    position:relative;          
+    border:1px solid #FF931E;
+    border-radius:5px;    
+    padding-left: 5px;
+    height:22px; 
+    font-family:Century Gothic;    
+}
+
+.label
+{
+    font-size:15px;
+    color:black;    
+}
+.padding
+{   
+    padding-left:10px;    
+}
+.botao_padrao_2
+{  
+ position:relative;
+ bottom:5px;
+ margin-bottom:-130px;
+}
+.certificado
+{        
+    margin-left: 25px;
+}
+   
+
+/*** NewUser.aspx ***/
+
+.div-center-1 {
+    width: 180px;
+    float: left;
+    margin-top:-25px;
+    margin-right:50px;
+}
+.right-side
+ {
+    width: 500px;
+    float: left;
+    margin: 35px 0 0 20px;   
+}
+.tabelanewuser
+{
+    width:450px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top:222px;
+    height: 220px;
+    border:1px solid #FF931e; 
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+    position:absolute;
+    background:#fff;
+}
+.tabela1newuser
+{
+    width:450px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top:-40px;
+    height: 220px;
+    border:1px solid #FF931e;   
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+    position:absolute;
+    text-align:justify;
+    padding:8px;
+    background:#fff;
+}
+.botao_padrao
+{  
+ position:relative;
+ bottom:5px; 
+}
+           
+.botao_salvar1
+{
+    margin: 42px 0 0 165px;
+    position:absolute;    
+}
+.botao_concluir
+{
+margin: 159px 0 0 400px;  
+}          
+
+.drop
+{ 
+ font-family:Century Gothic;
+ background:#fff;
+ font-size:13px;
+ color:#4682B4;
+ -webkit-border-radius: 6px;
+ -moz-border-radius: 6px;
+ position:relative;          
+ border:1px solid #FF931E;
+ border-radius:6px;    
+ padding: 5px;
+}
+
+.divFuncao 
+{
+    background-color: #E1E1E1;
+    border: 1px solid #000000;
+    border-radius: 5px;
+    font-size: 14px;
+    left: 17px;
+    padding: 2px;
+    position: absolute;
+    top: 330px;
+    width: 100px;
+}
+
+
+/*** EditUser.aspx / EditPersonalInfo***/
+.divBtnSalvartela1 {
+    position: absolute;
+    right: 17px;
+    top: 318px;
+    width: 329px;
+}
+.divBtnSalvar
+{
+    position:absolute;
+    right: 18px;
+    top: 285px;
+    width: 212px;
+}
+.divBtnSalvarDois
+{  
+  margin: -1px 0 0 254px;
+}
+.divBtnSalvarUm
+{  
+  margin:0;
+}
+.center1
+ {
+    width: 180px;
+    float: left;
+    margin:-9px 35px 0 0;
+}
+.right-side
+ {
+    width: 500px;
+    float: right;
+    margin: 18px 0 0 18px;
+}
+.tabela1
+{
+    width:450px;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 0px;
+    height: 220px;
+    border:1px solid #FF931e;   
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+    position:absolute;
+    text-align:justify;
+    background:#fff;
+}
+.tabela2
+{
+    width:450px;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top:-3px;
+    height: 220px;
+    border:1px solid #FF931e;   
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+    position:absolute;
+    text-align:justify;
+    padding:8px;
+    background:#fff;
+}
+.LV_validation_message{
+    font-weight:bold;
+    margin:0 0 0 5px;
+}
+
+.LV_valid {
+    color:#FF931e;
+}
+	
+.LV_invalid {
+    color:#CC0000;
+}
+    
+.LV_valid_field,
+input.LV_valid_field:hover, 
+input.LV_valid_field:active,
+textarea.LV_valid_field:hover, 
+textarea.LV_valid_field:active {
+    border: 1px solid #FF931e;
+}
+    
+.LV_invalid_field, 
+input.LV_invalid_field:hover, 
+input.LV_invalid_field:active,
+textarea.LV_invalid_field:hover, 
+textarea.LV_invalid_field:active {
+    border: 1px solid #CC0000;
+}
+.divBtnSalvartela {
+    position: absolute;
+    right: 17px;
+    top: 318px;
+    width: 214px;
+}
+
+/*  BUTTONS  ============================================================================= */
+
+/*.button {
+    background: #F95200 url(/../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #D05400; /*#27277a;
+	-moz-border-radius: 8px;	
+    -webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+	box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    font-size: 14px; 
+    cursor: pointer;
+    padding: 6px 12px;
+    color: #fff;
+}*/
+
+.button2 {
+    background: #F95200 url(/../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #D05400; /*#27277a;*/
+	-moz-border-radius: 8px;	
+    -webkit-border-radius: 8px;
+	border-radius: 8px;
+	-moz-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    -webkit-box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+	box-shadow: 0 1px 2px rgba(49,57,63,.4), 0 1px 0 rgba(255,255,255,.3) inset;
+    font-size: 14px; 
+    cursor: pointer;
+    color: #fff;
+    padding: 6px 12px;
+    margin-right: 25px;
+}
+
+.button2:hover {
+    background: #ff6600 url(/../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #fc893c;
+}
+
+
+.button:hover {
+    background: #ff6600 url(/../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #fc893c;
+}
+
+/*.button:active {
+    background: #ff6600 url(/../../arquivos/styles/central-administration/responsivegridsystem/images/glass2.png) repeat-x 0 50%;
+}*/
+
+.button2[disabled="disabled"], .button2[disabled="disabled"]:active {
+    background: #c0c0c0 url(/../../arquivos/styles/central-administration/responsivegridsystem/images/glass2.png) repeat-x 0 50%;
+    border: 1px solid #ccc;
+    color: #fff;
+    top:0;
+}
+
+
+.button[disabled="disabled"], .button[disabled="disabled"]:active {
+    background: #c0c0c0 url(/../../arquivos/styles/central-administration/responsivegridsystem/images/glass2.png) repeat-x 0 50%;
+    border: 1px solid #ccc;
+    color: #fff;
+    top:0;
+}
+
+input[type="submit"] {
+    text-shadow: none;
+}
+
+.buttonActive {
+    margin: 20px 50px 0 -20px;
+    background: #293094;
+    color: #ffffff;
+    font-size: 12px;
+    border: 1px solid #1A1E5F;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    /* border-radius: 2px; */
+    float: right;
+}
+
+.tab2 {
+    margin: 0px 180px 0px 0px;
+}
+
+.spacing {
+    margin-bottom: 8px;
+}

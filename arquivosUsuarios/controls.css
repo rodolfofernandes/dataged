@@ -1,0 +1,415 @@
+﻿/*** Style padrão do controle TextBox ***/
+.htmlInputText20, .htmlInputText40, .htmlInputText80,
+.htmlInputText100, .htmlInputText120, .htmlInputText140, .htmlInputText160, .htmlInputText170, .htmlInputText180, 
+.htmlInputText190,.htmlInputText200, .htmlInputText220, .htmlInputText240, .htmlInputText260, .htmlInputText280, .htmlInputText290, 
+.htmlInputText300, .htmlInputText320, .htmlInputText340, .htmlInputText360, .htmlInputText380,
+.htmlInputText400, .htmlInputText420, .htmlInputText440, .htmlInputText460, .htmlInputText480, 
+.htmlInputText700, .htmlInputText740, .htmlInputText850 {
+    position: relative;
+    height: 18px;    
+    padding: 3px 5px;    
+    font-family: Century Gothic;
+    font-size: 14px;
+    color: #4682B4;
+    border: 1px solid #ffa44e;
+    border-radius: 6px;    
+    outline: none;
+}
+
+.ddl {
+    position: relative; 
+    padding: 3px 5px;    
+    font-family: Century Gothic;
+    font-size: 14px;
+    color: #4682B4;
+    border: 1px solid #ffa44e;
+    border-radius: 6px;
+    outline: none;
+}
+
+.htmlInputText20:hover, .htmlInputText40:hover, .htmlInputText80:hover,
+.htmlInputText100:hover, .htmlInputText120:hover, .htmlInputText140:hover, .htmlInputText160:hover, .htmlInputText170:hover, .htmlInputText180:hover,
+.htmlInputText190:hover,.htmlInputText200:hover, .htmlInputText220:hover, .htmlInputText240:hover, .htmlInputText260:hover, .htmlInputText280:hover, .htmlInputText290:hover, 
+.htmlInputText300:hover, .htmlInputText320:hover, .htmlInputText340:hover, .htmlInputText360:hover, .htmlInputText380:hover, 
+.htmlInputText400:hover, .htmlInputText420:hover, .htmlInputText440:hover, .htmlInputText460:hover, .htmlInputText480:hover,
+.htmlInputText700:hover, .htmlInputText740:hover, .htmlInputText850:hover {
+    border-color: #ff7c00;
+}
+
+.htmlInputText20 {
+    width: 20px;
+}
+
+.htmlInputText40 {
+    width: 40px;
+}
+
+.htmlInputText80 {
+    width: 80px;
+}
+
+.htmlInputText100 {
+    width: 100px;
+}
+
+.htmlInputText120 {
+    width: 120px;
+}
+
+.htmlInputText140 {
+    width: 140px;
+}
+
+.htmlInputText160 {
+    width: 160px;
+}
+
+.htmlInputText170 {
+    width: 170px;
+}
+
+.htmlInputText180 {
+    width: 180px;
+}
+
+.htmlInputText190 {
+    width: 190px;
+}
+
+.htmlInputText200 {
+    width: 200px;
+}
+
+.htmlSelect215 {
+  width: 215px !important;
+}
+
+.htmlSelect250 {
+  width: 250px !important;
+}
+
+.htmlInputText220 {
+    width: 220px;
+}
+
+.htmlInputText240 {
+    width: 240px;
+}
+
+.htmlInputText250 {
+    width: 250px;
+}
+
+.htmlInputText260 {
+    width: 260px;
+}
+
+.htmlInputText280 {
+    width: 280px;
+}
+
+.htmlInputText290 {
+    width: 290px;
+}
+
+.htmlInputText300 {
+    width: 300px;
+}
+
+.htmlInputText320 {
+    width: 320px;
+}
+
+.htmlInputText340 {
+    width: 340px;
+}
+
+.htmlInputText360 {
+    width: 360px;
+}
+
+.htmlInputText380 {
+    width: 380px;
+}
+
+.htmlInputText400 {
+    width: 400px;
+}
+
+.htmlInputText420 {
+    width: 420px;
+}
+
+.htmlInputText440 {
+    width: 440px;
+}
+
+.htmlInputText460 {
+    width: 460px;
+}
+
+.htmlInputText480 {
+    width: 480px;
+}
+
+.htmlInputText700 {
+    width: 700px;
+}
+
+.htmlInputText740 {
+    width: 740px;
+}
+
+.htmlInputText850 {
+    width: 850px;
+}
+
+.htmlSelect40, .htmlSelect60, .htmlSelect80, .htmlSelect100, 
+.htmlSelect170, .htmlSelect185, .htmlSelect200, .htmlSelect230, 
+.htmlSelect260, .htmlSelect300, .htmlSelect360, .htmlSelect380 {
+
+}
+
+.htmlSelect40 {
+    width: 40px !important;
+}
+
+.htmlSelect60 {
+    width: 60px !important;
+}
+
+.htmlSelect80 {
+    width: 80px !important;
+}
+
+.htmlSelect100 {
+    width: 100px !important;
+}
+
+.htmlSelect120 {
+    width: 120px !important;
+}
+
+.htmlSelect140 {
+    width: 140px !important;
+}
+
+.htmlSelect160 {
+    width: 160px !important;
+}
+
+.htmlSelect170 {
+    width: 170px !important;
+}
+
+.htmlSelect185 {
+    width: 185px !important;
+}
+
+.htmlSelect190 {
+  width: 190px !important;
+}
+
+.htmlSelect200 {
+    width: 200px !important;
+}
+
+.htmlSelect230 {
+    width: 230px !important;
+}
+
+.htmlSelect240 {
+    width: 240px !important;
+}
+
+.htmlSelect250 {
+    width: 250px !important;
+}
+
+.htmlSelect260 {
+    width: 260px !important;
+}
+
+.htmlSelect300 {
+    width: 300px !important;
+}
+
+.htmlSelect360 {
+    width: 360px !important;
+}
+
+.htmlSelect380 {
+    width: 380px !important;
+}
+
+
+.htmlSelect40 {
+    /*width: 40px;*/
+}
+
+.htmlInputImage {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -16px;
+}
+
+
+
+.SetFocus {
+    border-color: #ff7c00;
+    box-shadow: 0 0 5px #ff931e;
+}
+
+.filledHtmlInputText {
+    font-style: normal;
+    color: #4682b4;
+}
+
+.nonFilledHtmlInputText {
+    font-style: italic;
+    color: #808080;
+}
+
+.inputTextPopUpA, .inputTextPopUpB, .inputTextPopUpC, .inputTextPopUpD {
+    padding: 0;
+    border: 1px solid #d0d0d0;
+    background: #f2f2f2;
+    display: none;
+    width:230px;
+    position:absolute;
+    opacity:0.0;
+}
+
+.inputTextPopUpA{
+    left: 960px;
+    top: 290px;
+    z-index: 4;
+}
+
+.inputTextPopUpB {
+    left: 220px;
+    top: 130px;
+    z-index: 4;
+}
+
+.inputTextPopUpC {
+    left: 620px;
+    top: 100px;
+    z-index: 4;
+}
+
+.inputTextPopUpD {
+    left: 20px;
+    top: 65px;
+    z-index: 1;
+}
+
+.Centered {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.InlineElement {
+    display: inline !important;
+}
+
+.BlockElement {
+    display: block !important;
+}
+
+/*** TopSpacing ***/
+.TopSpacing10 {
+    margin-top: 10px;
+}
+
+.TopSpacing15 {
+    margin-top: 15px;
+}
+
+.TopSpacing20 {
+    margin-top: 20px;
+}
+
+.TopSpacing25 {
+    margin-top: 25px;
+}
+
+.TopSpacing30 {
+    margin-top: 30px;
+}
+
+/*** LeftSpacing ***/
+
+.LeftSpacing5 {
+    margin-left: 5px;
+}
+
+.LeftSpacing10 {
+    margin-left: 10px;
+}
+
+.LeftSpacing15 {
+    margin-left: 15px;
+}
+
+.LeftSpacing20 {
+    margin-left: 20px;
+}
+
+.LeftSpacing25 {
+    margin-left: 25px;
+}
+
+.LeftSpacing30 {
+    margin-left: 30px;
+}
+
+.LeftSpacing35 {
+    margin-left: 35px;
+}
+
+.LeftSpacing40 {
+    margin-left: 40px;
+}
+
+.LeftSpacing45 {
+    margin-left: 45px;
+}
+
+.LeftSpacing50 {
+    margin-left: 50px;
+}
+
+
+
+.ddl2
+{
+    font-family: Century Gothic;
+    background: #fff;
+    font-size: 13px;
+    color: #4682B4;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    position: relative;
+    border: 1px solid #FF931E;
+    border-radius: 6px;
+    padding: 5px;
+    behavior: url(/_layouts/dataxdoc/styles/PIE-1.0.0/PIE.htc);
+}
+
+/* Buttons */
+
+.default-button {
+    padding: 6px 12px;
+    background: #2357a5 url(/../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border-radius: 8px;
+    border: 1px solid #2357a5;
+    font-size: 14px;
+    color: #fff;
+}
+
+    .default-button:hover {
+        background: #ff822d /*#ff6600*/ url(/../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+        border: 1px solid #fc893c;
+    }

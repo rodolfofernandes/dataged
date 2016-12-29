@@ -1,0 +1,233 @@
+﻿/*  IMPORT FONTS  ============================================================================= */
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url('/_layouts/dataxdoc/fonts/OpenSans-Regular.ttf') format('truetype');
+    font-style: normal;    
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/_layouts/dataxdoc/fonts/Oswald-Light.ttf') format('truetype');
+    font-style: normal;    
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/_layouts/dataxdoc/fonts/Oswald-Regular.ttf') format('truetype');
+    font-style: normal;    
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/_layouts/dataxdoc/fonts/Oswald-Regular.ttf') format('truetype');
+    font-style: normal;    
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Oswald';
+    src: url('/_layouts/dataxdoc/fonts/Oswald-Bold.ttf') format('truetype');
+    font-style: normal;    
+    font-weight: 700;
+}
+
+/*  IMAGES  ============================================================================= */
+img {
+    height: auto;
+    max-width: 100%;
+}
+
+/*  MAIN LAYOUT  ============================================================================= */
+#wrapper {
+    position: relative;
+    height: 100%; /* 600px */
+    min-height: 600px;
+    width: 100%; /* 800px */
+    text-align: left;
+}
+
+    #head-container {
+            height: 90px;
+            width: 100%; /* 800px */
+            background: #f2f2f2;
+            border-bottom: 2px solid #ff931e;
+    } 
+    
+        header {
+            position: relative;
+            clear: both;
+            height: 100%; /* 90px */
+            width: 90%; /* 720px / 800px */
+            margin: 0 auto;
+            padding: 0;
+            font-size: 0.8125em; /* 13px / 16px */
+        }
+
+            #logo {
+                float: left;
+                height: 75px;
+                width: 25%; /* 180px / 720px */
+                padding: 10px 0 5px 0;
+            }
+
+            #logo img {
+                height: 100%;
+            }
+
+            #header-items {
+                float: right;
+                width: 63.88888888888889%; /* 460px / 720px */
+                              
+            }
+                #header-search {
+                    float: left;
+                    margin-top: 35px;
+                }
+
+                #header-menu {
+                    display: block;
+                    float: right;
+                    margin-top: 45px;
+                }
+
+                #welcome-menu {
+                    display: block;
+                }
+
+                #nav-toggle { display: none; } 
+            
+    #main-container {
+        position: absolute;
+        top: 92px;
+        bottom: 5px;
+        height: 84%; /* 504px / 600px*/
+        width: 100%; /* 800px */
+        background: transparent url("../../arquivos/img/masterpage/content-background.png") no-repeat 50% 50%;
+    }
+
+        #content {
+            position: absolute;
+            top: 0;
+            right: 45px;
+            bottom: 0;
+            left: 45px;
+            clear: both;
+            height: 93.25396825396825%; /* 470px / 504px */
+            /*height: 86.253968%;*/
+            width: auto;
+            margin: auto;
+            /*font-size: 0.8125em; 13px / 16px */
+            line-height: 1.5;
+            color: #333;
+        }
+
+        #content > div {
+            /*height: 100%;*/ /* 740px */
+            /*overflow: auto;*/
+        }
+
+        #version {
+            position: absolute;
+            right: 15px;
+            bottom: 15px;
+            /*font-size: 0.625em;*/
+        }
+
+    #footer-container {
+        position: absolute;
+        bottom: 0;
+        /*height: 0.3333333333333333%;*/ /* 2px / 600px */
+        height: 2px;
+        width: 100%;
+        color: #fff;
+        background: #21409a;
+        border-top: 2px solid #f90;
+    }
+
+        footer {
+            clear: both;
+            font-size: 0.8125em; /* 13px / 16px */
+        }
+
+#s4-ribbonrow, #s4-workspace {
+    display: none;
+}
+
+/* SEARCH, integrar com o novo css padrão */
+
+.search-bar input[id*="txtSearchSimplified"],
+.search-bar input[id*="txtSearch"] {
+    height: 25px;
+    padding-left: 2.2em;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    box-shadow: inset 0px 1px 6px #ccc;
+    background: #fff url("../../arquivos/img/site/search.png") no-repeat 6px center;
+    background-size: 16px;
+    outline: none;
+}
+
+input[id*="txtSearch"],
+input[id*="txtSearchSimplified"] {
+     width: 200px;
+}
+
+.search-bar .button {
+    margin-left: -4px;
+    padding: 0.5em 1em 0.5em !important;
+    color: #fff;
+    font-size: 14px;
+    background-image: none;
+    background-color: #2357a5;
+    border: none;
+    border-radius: 0 4px 4px 0;
+}
+
+/* BUTTON */
+.search-bar .button:hover {
+    background: #ff822d;
+}
+
+/* FORMS ============================================================================= */
+
+input[disabled="disabled"], input:disabled, input.disabled, .button[disabled="disabled"]:hover {
+	color: #999;
+	background: #c5c5c5 url(../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #c5c5c5;
+    border-radius: 5px;
+    border-radius: 4px;
+}
+
+input[type="image"]:disabled {
+    background-color: transparent;
+    border: none;
+}
+
+/*  BUTTONS  ============================================================================= */
+
+.button {
+	display: inline-block;
+    margin: 1px;
+    padding: .5em 1em;
+    text-align: center;
+	text-decoration: none;
+    color: #fff;
+    background: #2357a5 url(../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #2357a5;
+    border-radius: 5px;
+    border-radius: 4px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);
+    box-shadow: 0 1px 2px rgba(49,57,63,.4),0 1px 0 rgba(255,255,255,.3) inset;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background: #ff822d /*#ff6600*/ url(../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    border: 1px solid #ff822d;
+}
+
