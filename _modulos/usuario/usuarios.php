@@ -772,25 +772,26 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 
                 case '0':
                     $inativo = $inativo++;
+                    $usuarios[$i]['imgon'] = "16-usuario-offline.png";
                     $status = "Inativo";
-                    $imgOn = "16-usuario-offline.png";
+                    
                      break;
 
                  case '1':
                      $ativos = 1 + $ativos ;
                      $status = "Ativo";
-                     $imgOn = "16-usuario-offline.png";
+                     $usuarios[$i]['imgon'] =  "16-usuario-offline.png";
                      break;
                 
                 case '2':
                     $bloqueado = $bloqueado++;
                     $status = "Bloqueado";
-                    $imgOn = "16-usuario-offline.png";
+                    $usuarios[$i]['imgon'] =  "16-usuario-offline.png";
                      break;
                 case '3':
                      $ativos = 1 + $ativos ;
                      $status = "Online";
-                     $imgOn = "16-usuario-online.png";
+                     $usuarios[$i]['imgon'] =  "16-usuario-online.png";
                      break;
 
 
@@ -865,6 +866,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 
                      $usuarios[$i]['dt_cadastro'] = formatadatatela($usuarios[$i]['dt_cadastro']);
                      $usuarios[$i]['dt_ultimoAcesso'] = formatadatatela($usuarios[$i]['dt_ultimoAcesso']);
+                   
                     
               ?>  
 
@@ -873,7 +875,8 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
                         <input type="image" name="ctl00$PlaceHolderMain$gvUsers$ctl02$ibtnEdit" id="ctl00_PlaceHolderMain_gvUsers_ctl02_ibtnEdit" src="../../arquivosusuarios/16CL_EDITAR.png" alt="Editar" style="border-width:0px;">
                         <input type="image" name="ctl00$PlaceHolderMain$gvUsers$ctl02$ibtnDelete" id="ctl00_PlaceHolderMain_gvUsers_ctl02_ibtnDelete" src="../../arquivosusuarios/16CL_EXCLUIR.png" alt="Excluir" onclick="return ConfirmMessage(&#39;Deseja realmente excluir este usuário?&#39;);" style="border-width:0px;">                     
                     </td><td style="width:168px;"><?=$usuarios[$i]['nm_login'] ?></td><td style="width:168px;"><?=$usuarios[$i]['nm_usuario'];?></td><td style="width:106px;"><?=$alcada;?></td><td style="width:114px;"><?=$usuarios[$i]['dt_cadastro']; ?></td><td style="width:114px;"><?=$usuarios[$i]['dt_ultimoAcesso']; ?></td><td style="width:150px;">
-                      <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_ImgStatus" title="<?=$status;?>" class="ibtnGrid" src="../../arquivosusuarios/<?=$imgOn;?>" style="border-width:0px;">
+                      <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_ImgStatus" title="<?=$status;?>" class="ibtnGrid" src="../../arquivosusuarios/<?=$usuarios[$i]['imgon'];
+                    ;?>" style="border-width:0px;">
                       <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_imgBlocked" title="Desbloqueado" class="ibtnGrid" src="../../arquivosusuarios/16cl-cadeado-gray.png" style="border-width:0px;">
                       <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_imgDesativado" title="Ativo" class="ibtnGrid" src="../../arquivosusuarios/16-desativado-gray.png" style="border-width:0px;">
                     </td>
