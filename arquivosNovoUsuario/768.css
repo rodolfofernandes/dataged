@@ -1,0 +1,58 @@
+﻿/* Ocultando o css settinga-page-1.css */
+#form-container {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0 auto;
+    background: initial
+}
+    #content > div {
+        height: 100%;
+    }
+
+    #form-container > h1 > img,
+    #form-container > h1 > .close-button,
+    .ui-helper-reset {
+        display: none;
+    }
+
+        .content-form-container {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 15px;
+            left: 0;
+            border: initial;
+            background: initial;
+        }
+
+        .content-form { position: inherit; }
+
+            .ui-tabs-vertical .ui-tabs-panel{ float: initial !important; }
+
+            #divLeftSidePersonalData { width: 26.66666666666667%; /* 120/450 */ }
+
+            #divRightSidePersonalData { 
+                width: 66.66666666666667%; /* 300 / 350  */
+                padding-top: 50px;
+            }
+
+                #userName { position: initial; }
+
+                #alcada { 
+                    position: initial;
+                    float: right;
+                }
+
+                     #form-container input[type="text"]
+                     {
+                        width: 93.33333333333333%;
+                    }
+
+                    input[type="password"] {
+                        width: 45%;
+                    }
+
+.simplemodal { display: none; }
+

@@ -26,7 +26,7 @@ z-index:1000;
 line-height:13px;
 }
 .psrch-PopupContainer{
-/* [ReplaceColor(themeColor:"Light1")] */ background:#FFF url("/_layouts/images/recent_doc_gradient.png") repeat-x;
+/* [ReplaceColor(themeColor:"Light1")] */ background:#FFF url("../../arquivos/img/recent_doc_gradient.png") repeat-x;
 /* [ReplaceColor(themeColor:"Light1-Darker")] */ border-bottom:2px solid #BEC2C7;
 height:193px;
 width:502px;
@@ -375,7 +375,7 @@ border-left:#D0D0D0 1px solid;
 border-right:#D0D0D0 1px solid;
 border-top:#D0D0D0 1px solid;
 border-bottom:#D0D0D0 2px solid;
-background:#FFF url("/_layouts/images/recent_doc_gradient.png") repeat-x scroll center bottom;
+background:#FFF url("../../arquivos/img/recent_doc_gradient.png") repeat-x scroll center bottom;
 padding:3px 5px;
 }
 .psrch-OptionsLayoutTable{
@@ -426,7 +426,7 @@ position:absolute;
 z-index:1000;
 }
 .srch-AutoCompDropImg{
-background:transparent url("/_layouts/images/querysuggest.gif") no-repeat;
+background:transparent url("../../arquivos/img/querysuggest.gif") no-repeat;
 height:8px;
 left:14px;
 position:absolute;
@@ -451,7 +451,7 @@ margin:0;
 padding:4px 2px 4px 11px;
 }
 .srch-AutoCompHListItem{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("/_layouts/images/hover_tab_gradient.png") repeat-x;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/hover_tab_gradient.png") repeat-x;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
 /* [ReplaceColor(themeColor:"Accent1",themeShade:"0.20")] */ color:#003759;
 margin:0;
@@ -599,7 +599,7 @@ margin:0;
 /* [ReplaceColor(themeColor:"Light2")] */ background-color:#fcfcfc;
 /* [ReplaceColor(themeColor:"Light2-Lightest")] */ border:1px solid #dbddde;
 border-width:0 0 1px;
-/* [RecolorImage(themeColor:"Light2-Lighter")] */ background-image:url("/_layouts/images/vertical_refinement_gradient.png");
+/* [RecolorImage(themeColor:"Light2-Lighter")] */ background-image:url("../../arquivos/img/vertical_refinement_gradient.png");
 background-repeat:repeat-y;
 background-position:right;
 }
@@ -1137,7 +1137,7 @@ left:0;
 padding-bottom:15px;
 }
 div.ms-searchtaChannelTitle{
-background:url("/_layouts/images/checkmark.gif");
+background:url("../../arquivos/img/checkmark.gif");
 background-repeat:no-repeat;
 background-position:center left;
 padding:0;
@@ -1182,7 +1182,7 @@ font-family:verdana,tahoma,sans-serif !important;
 margin-left:10px;
 }
 .srch-HCSocDistTitle{
-background:url("/_layouts/images/checkmark.gif");
+background:url("../../arquivos/img/checkmark.gif");
 background-repeat:no-repeat;
 background-position:top left;
 padding-left:19px;
@@ -1238,7 +1238,7 @@ border-collapse:collapse;
 font-size:10.5pt;
 padding:6px 2px 7px 10px;
 font-family:verdana,tahoma,sans-serif;
-background:url("/_layouts/images/bgximg.png") repeat-x -0px -511px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -511px;
 /* [ReplaceColor(themeColor:"Light1")] */ background-color:#fff;
 height:17px;
 display:block;
@@ -1545,7 +1545,7 @@ vertical-align:bottom;
 font-size:1.1em;
 margin:0 3px;
 padding:4px 7.5px;
-/* [RecolorImage(themeColor:"Light1")] */ background:url("/_layouts/images/selbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
 text-decoration:none;
 float:left;
@@ -1575,7 +1575,7 @@ font-style:normal;
 font-weight:normal;
 vertical-align:middle;
 /* [ReplaceColor(themeColor:"Accent1",themeShade:"0.20")] */ color:#003759;
-/* [RecolorImage(themeColor:"Light1")] */ background:url("/_layouts/images/selbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
 /* [ReplaceColor(themeColor:"Accent1-Lightest")] */ border-top:solid 1px #c6e5f8;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-right:solid 1px #91cdf2;
@@ -1589,7 +1589,7 @@ font-size:1.0em;
 padding:0px 10px;
 vertical-align:middle;
 /* [ReplaceColor(themeColor:"Accent1",themeShade:"0.20")] */ color:#003759;
-/* [RecolorImage(themeColor:"Light1")] */ background:url("/_layouts/images/selbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
 /* [ReplaceColor(themeColor:"Accent1-Lightest")] */ border-top:solid 1px #c6e5f8;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-right:solid 1px #91cdf2;
@@ -1664,7 +1664,7 @@ margin-left:5px;
 }
 .srch-gosearchimg{
 height:30px;
-background:#fff url("/_layouts/images/bgximg.png") repeat-x -0px -511px;
+background:#fff url("../../arquivos/img/bgximg.png") repeat-x -0px -511px;
 }
 .srch-clear{
 clear:both;
@@ -1714,7 +1714,7 @@ padding-top:8px;
 margin-top:10px;
 }
 div.srch-BestBetsWPTitle{
-background:url("/_layouts/images/checkmark.gif");
+background:url("../../arquivos/img/checkmark.gif");
 background-repeat:no-repeat;
 background-position:top left;
 position:relative;
@@ -1755,14 +1755,14 @@ padding:0 0 2px;
 font-size:1.1em;
 border-right:0 !important;
 width:191px !important;
-background:url("/_layouts/images/bgximg.png") repeat-x -0px -511px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -511px;
 border:1px solid #e3e3e3 !important;
 background-color:#fff;
 height:17px;
 padding:2px 3px 0;
 }
 .s4-search .srch-gosearchimg{
-background:url("/_layouts/images/bgximg.png") repeat-x -0px -511px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -511px;
 border:1px solid #e3e3e3 !important;
 border-left:none !important;
 background-color:#fff;

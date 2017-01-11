@@ -6,7 +6,7 @@
     ?>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- saved from url=(0069)https://dtc-server01/sites/demo/_layouts/dataxdoc/settings/users.aspx -->
+<!-- saved from url=(0069)usuarios.php -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Expires" content="0"><meta http-equiv="X-UA-Compatible" content="IE=8"><meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- robots -->
@@ -94,7 +94,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
                 },
                 dataType: 'json',
                 autoUpload: false,
-                url: '/_layouts/dataxdoc/Upload.ashx',
+                url: '../../arquivosUpload.ashx',
                 limitMultiFileUploadSize: 20480000,
                 add: function (e, data) {
                     if (exceeded === false && validateLimit === true) {
@@ -373,7 +373,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
     <link type="text/css" rel="stylesheet" href="../../arquivosusuarios/custommaster.css">
 
     <!--[if IE]>
-    <link type="text/css" rel="stylesheet" href="/_layouts/dataxdoc/styles/masterpages/ie-custommaster.css" />
+    <link type="text/css" rel="stylesheet" href="../../arquivosstyles/masterpages/ie-custommaster.css" />
 	<![endif]-->
 
     <!-- novo layout -->
@@ -450,7 +450,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
 <body scroll="no" onload="javascript:_spBodyOnLoadWrapper();">
 
-<form name="aspnetForm" method="post" action="https://dtc-server01/sites/demo/_layouts/dataxdoc/settings/users.aspx" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
+<form name="aspnetForm" method="post" action="usuarios.php" onsubmit="javascript:return WebForm_OnSubmit();" id="aspnetForm">
 <div>
 <input type="hidden" name="MSOWebPartPage_PostbackSource" id="MSOWebPartPage_PostbackSource" value="">
 <input type="hidden" name="MSOTlPn_SelectedWpId" id="MSOTlPn_SelectedWpId" value="">
@@ -506,7 +506,7 @@ var _fV4UI=true;var _spPageContextInfo = {webServerRelativeUrl: "\u002fsites\u00
 </script>
 <script type="text/javascript">
 <!--
-var L_Menu_BaseUrl="/sites/demo";
+var L_Menu_BaseUrl="_modulos/";
 var L_Menu_LCID="1033";
 var L_Menu_SiteTheme="";
 //-->
@@ -547,11 +547,7 @@ return true;
 //]]>
 </script>
 
-<div>
 
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="D7A2A191">
-	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWLQLo+YfPBQKI0eLECgKEmrzaDwK167L+AgLQ6LL+AgK4kZWDDgLzi/qnBwKVgOj4CwKOzeGrCwL67pPSCwKprqL1BwLLopDGDALE74n5CwKwkbyfDALf0MrCCAKp+8npCwL6kbLGDAKO6vXCCwL1raOpBwK/2KLQCgKQ74qtCwKkx86pCgLt/JqACAK0p4raDwKIvoKEDAKZlrazDwLzi+b5BQKSgMT9DgKOzc39CQL37u/WDgKpro7HBgLIouzKDwLE7/XKCgKtkZikDwLf0LaUBwKm+6XuDgL6kZ6YCwKL6tHHDgL1rY/7BQK82P7UDQKQ7/b+CQKhx6quDQKpn5bCCwLNrvW5AwK9+p7tAm/tVr4xX0HNIFbaYkQ5yL3gULrx">
-</div>
 
 <!-- handles SharePoint scripts -->
 <script type="text/javascript">
@@ -626,11 +622,11 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 
     </script>
     
-    <a href="https://dtc-server01/sites/demo/_layouts/dataxdoc/settings/users.aspx#zz1_menuSettings_SkipLink"><img alt="Skip Navigation Links" src="../../arquivosusuarios/WebResource(2).axd" width="0" height="0" style="border-width:0px;"></a><table id="zz1_menuSettings" class="zz1_menuSettings_2" cellpadding="0" cellspacing="0" border="0">
+    <a href="usuarios.php#zz1_menuSettings_SkipLink"><img alt="Skip Navigation Links" src="../../arquivosusuarios/WebResource(2).axd" width="0" height="0" style="border-width:0px;"></a><table id="zz1_menuSettings" class="zz1_menuSettings_2" cellpadding="0" cellspacing="0" border="0">
 	<tbody><tr>
 		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn0"><table class="SettingsMenu zz1_menuSettings_4" cellpadding="0" cellspacing="0" border="0" width="100%">
 			<tbody><tr>
-				<td style="white-space:nowrap;"><a class="zz1_menuSettings_1 SettingsMenu zz1_menuSettings_3" href="https://dtc-server01/sites/demo/_layouts/dataxdoc/settings/users.aspx#" style="border-style:none;font-size:1em;cursor:text;"><img src="../../arquivosusuarios/settings-24x24.png" alt="" style="border-style:none;vertical-align:middle;"></a></td><td style="width:0;"><img src="../../arquivosusuarios/static_arrow.png" alt="Expand " style="border-style:none;vertical-align:middle;"></td>
+				<td style="white-space:nowrap;"><a class="zz1_menuSettings_1 SettingsMenu zz1_menuSettings_3" href="usuarios.php#" style="border-style:none;font-size:1em;cursor:text;"><img src="../../arquivosusuarios/settings-24x24.png" alt="" style="border-style:none;vertical-align:middle;"></a></td><td style="width:0;"><img src="../../arquivosusuarios/static_arrow.png" alt="Expand " style="border-style:none;vertical-align:middle;"></td>
 			</tr>
 		</tbody></table></td>
 	</tr>
@@ -639,31 +635,31 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 		<tbody><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn1">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="https://dtc-server01/sites/demo/_layouts/dataxdoc/settings/users.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/user.png" alt="" style="border-style:none;vertical-align:middle;">Usuários</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="usuarios.php" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/user.png" alt="" style="border-style:none;vertical-align:middle;">Usuários</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn2">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="https://dtc-server01/sites/demo/_layouts/dataxdoc/old/settings/ManageFiles.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/file.png" alt="" style="border-style:none;vertical-align:middle;">Locais de Guarda</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="https://dtc-server01/sites/demo../../arquivosold/settings/ManageFiles.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/file.png" alt="" style="border-style:none;vertical-align:middle;">Locais de Guarda</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn3">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="https://dtc-server01/sites/demo/_layouts/dataxdoc/old/settings/ManageAccesses.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/access.png" alt="" style="border-style:none;vertical-align:middle;">Permissões</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="https://dtc-server01/sites/demo../../arquivosold/settings/ManageAccesses.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/access.png" alt="" style="border-style:none;vertical-align:middle;">Permissões</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn4">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="https://dtc-server01/sites/demo/_layouts/dataxdoc/old/settings/ManageContentTypesAndMetadata.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/IconIndexadoresETipoDocumental.png" alt="" style="border-style:none;vertical-align:middle;">Tipos Documentais</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="https://dtc-server01/sites/demo../../arquivosold/settings/ManageContentTypesAndMetadata.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/IconIndexadoresETipoDocumental.png" alt="" style="border-style:none;vertical-align:middle;">Tipos Documentais</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn5">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="https://dtc-server01/sites/demo/_layouts/dataxdoc/general/general-settings.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/general-settings-icon.png" alt="" style="border-style:none;vertical-align:middle;">Configuração Geral</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="https://dtc-server01/sites/demo../../arquivosgeneral/general-settings.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/general-settings-icon.png" alt="" style="border-style:none;vertical-align:middle;">Configuração Geral</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr>
@@ -707,11 +703,11 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 
     <span id="user-icon"><img alt="" src="../../arquivosusuarios/user(1).png" style="margin-left: 8px;"></span>
     
-    <a href="https://dtc-server01/sites/demo/_layouts/dataxdoc/settings/users.aspx#zz2_menuWelcome_SkipLink"><img alt="Skip Navigation Links" src="../../arquivosusuarios/WebResource(2).axd" width="0" height="0" style="border-width:0px;"></a><table id="zz2_menuWelcome" class="divWelcomeMenu zz2_menuWelcome_2" cellpadding="0" cellspacing="0" border="0">
+    <a href="usuarios.php#zz2_menuWelcome_SkipLink"><img alt="Skip Navigation Links" src="../../arquivosusuarios/WebResource(2).axd" width="0" height="0" style="border-width:0px;"></a><table id="zz2_menuWelcome" class="divWelcomeMenu zz2_menuWelcome_2" cellpadding="0" cellspacing="0" border="0">
 	<tbody><tr>
 		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz2_menuWelcomen0"><table class="WelcomeMenu zz2_menuWelcome_4" cellpadding="0" cellspacing="0" border="0" width="100%">
 			<tbody><tr>
-				<td style="white-space:nowrap;"><a class="zz2_menuWelcome_1 WelcomeMenu zz2_menuWelcome_3" href="https://dtc-server01/sites/demo/_layouts/dataxdoc/settings/users.aspx#" style="border-style:none;font-size:1em;cursor:text;">Olá, Gledson</a></td><td style="width:0;"><img src="../../arquivosusuarios/static_arrow.png" alt="Expand Olá, Gledson" style="border-style:none;vertical-align:middle;"></td>
+				<td style="white-space:nowrap;"><a class="zz2_menuWelcome_1 WelcomeMenu zz2_menuWelcome_3" href="usuarios.php" style="border-style:none;font-size:1em;cursor:text;">Olá, <?=$_SESSION['user']?></a></td><td style="width:0;"><img src="../../arquivosusuarios/static_arrow.png" alt="Expand Olá, <?=$_SESSION['user']?>" style="border-style:none;vertical-align:middle;"></td>
 			</tr>
 		</tbody></table></td>
 	</tr>
@@ -720,19 +716,19 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 		<tbody><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz2_menuWelcomen1">
 			<td><table class="WelcomeMenuItem zz2_menuWelcome_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="https://dtc-server01/sites/demo/_layouts/dataxdoc/old/my/LastIndexedDocuments.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/lastdocs.png" alt="" style="border-style:none;vertical-align:middle;">Meus Últimos Documentos Indexados</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="https://dtc-server01/sites/demo../../arquivosold/my/LastIndexedDocuments.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/lastdocs.png" alt="" style="border-style:none;vertical-align:middle;">Meus Últimos Documentos Indexados</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz2_menuWelcomen2">
 			<td><table class="WelcomeMenuItem zz2_menuWelcome_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="https://dtc-server01/sites/demo/_layouts/dataxdoc/my/personal-info.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/personalinfo.png" alt="" style="border-style:none;vertical-align:middle;">Meus Dados Pessoais</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="https://dtc-server01/sites/demo../../arquivosmy/personal-info.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/personalinfo.png" alt="" style="border-style:none;vertical-align:middle;">Meus Dados Pessoais</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz2_menuWelcomen3">
 			<td><table class="WelcomeMenuItem zz2_menuWelcome_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="javascript:__doPostBack(&#39;ctl00$ctl65$menuWelcome&#39;,&#39;Olá, Gledson\\logoutWelcome&#39;)" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/siginout.png" alt="" style="border-style:none;vertical-align:middle;">Sair</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="javascript:__doPostBack(&#39;ctl00$ctl65$menuWelcome&#39;,&#39;Olá, <?=$_SESSION['user']?>\\logoutWelcome&#39;)" style="border-style:none;font-size:1em;"><img src="../../arquivosusuarios/siginout.png" alt="" style="border-style:none;vertical-align:middle;">Sair</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr>
@@ -755,9 +751,9 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 
         <?php
 
-            $usuarios = consultaTodosUsuarios();
+            $usuarios = consultaTodosUsuariosAtivos();
 
-            var_dump($usuarios);
+    
 
              $desativado = 0;
              $bloqueado = 0;
@@ -770,29 +766,37 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
              switch ($ic_ativo)
               {
 
-                case '0':
-                    $inativo = $inativo++;
-                    $usuarios[$i]['imgon'] = "16-usuario-offline.png";
-                    $status = "Inativo";
-                    
-                     break;
-
-                 case '1':
-                     $ativos = 1 + $ativos ;
-                     $status = "Ativo";
+            
+                 case '1':  // 1 = usuario que estao ativos no sistema
+                     $ativos++;
+                 
                      $usuarios[$i]['imgon'] =  "16-usuario-offline.png";
+                     $usuarios[$i]['blq'] = "16cl-cadeado-gray";
+                     $usuarios[$i]['ativo'] = "16-desativado-gray.png";
                      break;
                 
-                case '2':
-                    $bloqueado = $bloqueado++;
-                    $status = "Bloqueado";
+                case '2': // usuarios que estao bloquados no sistema
+                    $bloqueado++;
+             
+                    $usuarios[$i]['blq'] = "16cl-cadeado";
                     $usuarios[$i]['imgon'] =  "16-usuario-offline.png";
+                    $usuarios[$i]['ativo'] = "16-desativado-gray.png";
                      break;
-                case '3':
-                     $ativos = 1 + $ativos ;
-                     $status = "Online";
+                case '3': //usuarios que estao ativos e online no momento
+                     $ativos++;
+                     
+                     $usuarios[$i]['blq'] = "16cl-cadeado-gray";
                      $usuarios[$i]['imgon'] =  "16-usuario-online.png";
+                     $usuarios[$i]['ativo'] = "16-desativado-gray.png";
                      break;
+                case '4': //usuarios que estão inativo no sistema
+                    $inativo++;
+                    $usuarios[$i]['ativo'] = "16-desativado.png";
+                    $usuarios[$i]['imgon'] = "16-usuario-offline.png";
+                  
+                    $usuarios[$i]['blq'] = "16cl-cadeado-gray";
+                    
+                    break;
 
 
 
@@ -800,8 +804,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 
             }
 
-           
-
+       
 
         ?>
 
@@ -816,12 +819,12 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
   <div id="form-container">
     <h1>
       <img alt="USUÁRIOS" src="../../arquivosusuarios/manage-usersheading.png">
-      <input type="image" name="close" title="Fechar" src="../../arquivosusuarios/close-button.png" class="close-button" onclick="return Redirect(&#39;/sitepages/main.aspx&#39;);">
+      <input type="image" name="close" title="Fechar" src="../../arquivosDadosPessoais/close-button.png" class="close-button" onclick="javascript:history.back()">
     </h1>
     <div class="content-form-container">
       <div class="content-form">
         <div id="header_user" class="header_user">
-          <input type="submit" name="new-user" value="Novo Usuário" class="button" onclick="return Redirect(&#39;/_layouts/dataxdoc/settings/new-user.aspx&#39;);">          
+         <a href="novousuario.php"><input type="button" name="new-user" value="Novo Usuário" class="button"></a>
           <span id="ctl00_PlaceHolderMain_lblTotal" class="users_cadastrados"><?=$usuarios['qtdReg'];?> Usuário(s)</span>
           <span id="ctl00_PlaceHolderMain_lblDeactivated" class="users_desativados"><?=$desativado;?> Desativado(s)</span>
           <span id="ctl00_PlaceHolderMain_lblBlocked" class="users_bloqueados"><?=$bloqueado?> Bloqueado(s)</span>
@@ -872,13 +875,14 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 
             <tr style="background-color:<?=$background;?>; border-style:None;">
 				<td style="width:80px;">                        
-                        <input type="image" name="ctl00$PlaceHolderMain$gvUsers$ctl02$ibtnEdit" id="ctl00_PlaceHolderMain_gvUsers_ctl02_ibtnEdit" src="../../arquivosusuarios/16CL_EDITAR.png" alt="Editar" style="border-width:0px;">
-                        <input type="image" name="ctl00$PlaceHolderMain$gvUsers$ctl02$ibtnDelete" id="ctl00_PlaceHolderMain_gvUsers_ctl02_ibtnDelete" src="../../arquivosusuarios/16CL_EXCLUIR.png" alt="Excluir" onclick="return ConfirmMessage(&#39;Deseja realmente excluir este usuário?&#39;);" style="border-width:0px;">                     
+                        <a title="Editar Usuário" href="editausuario.php?id=<?=$usuarios[$i]['id_usuario']?>"><img name="ctl00$PlaceHolderMain$gvUsers$ctl02$ibtnEdit" id="ctl00_PlaceHolderMain_gvUsers_ctl02_ibtnEdit" src="../../arquivosusuarios/16CL_EDITAR.png" alt="Editar" style="border-width:0px;"/></a>
+
+                        <a title="Excluir Usuário" href="excluirUsuario.php?id=<?=$usuarios[$i]['id_usuario']?>"><img name="ctl00$PlaceHolderMain$gvUsers$ctl02$ibtnDelete" id="ctl00_PlaceHolderMain_gvUsers_ctl02_ibtnDelete" src="../../arquivosusuarios/16CL_EXCLUIR.png" alt="Excluir" onclick="return ConfirmMessage('Deseja exluir esse usuário ?');" style="border-width:0px;"></a>  
                     </td><td style="width:168px;"><?=$usuarios[$i]['nm_login'] ?></td><td style="width:168px;"><?=$usuarios[$i]['nm_usuario'];?></td><td style="width:106px;"><?=$alcada;?></td><td style="width:114px;"><?=$usuarios[$i]['dt_cadastro']; ?></td><td style="width:114px;"><?=$usuarios[$i]['dt_ultimoAcesso']; ?></td><td style="width:150px;">
-                      <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_ImgStatus" title="<?=$status;?>" class="ibtnGrid" src="../../arquivosusuarios/<?=$usuarios[$i]['imgon'];
+                      <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_ImgStatus" title="" class="ibtnGrid" src="../../arquivosusuarios/<?=$usuarios[$i]['imgon'];
                     ;?>" style="border-width:0px;">
-                      <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_imgBlocked" title="Desbloqueado" class="ibtnGrid" src="../../arquivosusuarios/16cl-cadeado-gray.png" style="border-width:0px;">
-                      <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_imgDesativado" title="Ativo" class="ibtnGrid" src="../../arquivosusuarios/16-desativado-gray.png" style="border-width:0px;">
+                      <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_imgBlocked" title="" class="ibtnGrid" src="../../arquivosusuarios/<?= $usuarios[$i]['blq'];?>.png" style="border-width:0px;">
+                      <img id="ctl00_PlaceHolderMain_gvUsers_ctl02_imgDesativado" title="" class="ibtnGrid" src="../../arquivosusuarios/<?=$usuarios[$i]['ativo'];?>" style="border-width:0px;">
                     </td>
 		</tr>
 

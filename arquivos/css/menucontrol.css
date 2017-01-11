@@ -32,6 +32,6 @@ table.SettingsMenuItem td:hover, table.WelcomeMenuItem td:hover, table.ReportMen
 
 .SelectedMenu {
     border-radius: 5px;
-    background: #2357a5 url("/_layouts/images/bgximg.png") repeat-x scroll 0 -490px;
+    background: #2357a5 url("../../arquivos/img/bgximg.png") repeat-x scroll 0 -490px;
     color: #fff;
 }

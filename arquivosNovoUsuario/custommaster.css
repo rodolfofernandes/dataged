@@ -1,0 +1,215 @@
+﻿html, body, form {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+/* define a cor do plano de fundo do sistema */
+body {
+    background: #f9f9f9;
+    font-family: Century Gothic, Arial;
+    font-size: 8pt;
+    color: #4682b4;
+}
+
+/* oculta o conteúdo da masterpage do sharepoint */
+#s4-ribbonrow, #s4-workspace {
+    display: none;
+}
+
+/* Define o container da página */
+#page-container {
+    position: relative;
+    min-height: 600px;
+    height: 100%;
+    min-width: 100%; /* conferir style */
+    float: left;
+}
+
+/* Define o container do cabeçalho */
+#header-container {
+    position: relative;
+    border-bottom: 2px solid #ff931e;
+    height: 100px;
+    background: #f2f2f2 url("../../arquivos/img/DataXDOC/MasterPage/header-background.png") repeat-x;
+}
+
+/* Define o container principal e o rodapé da página */
+#main-container {
+    position: absolute;
+    top: 103px;
+    bottom: 0;
+    width: 100%;
+    /*background: transparent url("../../arquivos/img/DataXDOC/MasterPage/footer-background.png") repeat-x left bottom;*/
+}
+
+#site-logo {
+    position: absolute;
+    top: 50%;
+    margin: -38px 0 0 10px;
+}
+
+.s4-notdlg {
+        max-width: 350px;
+        width: 100%;
+        height: auto;
+    }
+
+    .s4-notdlg img {
+        max-width: 350px;   
+        width: 100%;
+    }
+
+#search {
+    position: absolute;     
+    top: 50%;
+    left: 50%;
+    margin: -13px 0 0 -150px;
+    width: 300px;
+}
+
+/*#settings-menu {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}*/
+
+/*#common-menu {
+    position: absolute;
+    right: 15px;
+    bottom: 5px;
+}*/
+
+#report-menu, #settings-menu, #welcome-menu {
+    float: left;
+}
+        
+#welcome-menu {
+    margin-left: 10px;    
+}
+
+#site-actions {
+    position: absolute;
+    right: 0;
+    bottom: 3px;
+    display: none;
+}
+        
+#welcome {
+    position: absolute;
+    right: 85px;
+    bottom: -8px;
+    display: none;
+}
+
+/* Define a área de conteúdo do sistema */
+#content {
+    position: absolute;
+    top: 5px;
+    bottom: 22px;
+    left: 30px;
+    right: 30px;
+    /*background: transparent url("../../arquivos/img/DataXDOC/MasterPage/content-background.png") no-repeat 50% 50%;*/
+}
+
+.s4-ca {
+    position: absolute;
+    top: 15px;
+    bottom: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    /*overflow: auto;*/
+    overflow-y:hidden;
+    overflow-x:hidden;
+}
+        
+.s4-ca > #page-title
+{
+    padding: 0 0 2px;
+}
+        
+.s4-ca > #page-description
+{
+    padding: 0 0 3px;
+}
+        
+.s4-ca > #main
+{
+    position: relative;
+    height: 92%;
+}
+        
+.centered {
+    margin: 0 auto;
+    height: 5px;
+    width: 1024px;
+    float: left;
+    display: block;
+}
+       
+.slide-out-div1, .slide-out-div2
+{
+    padding: 0;
+}
+        
+.slide-out-div3, .slide-out-div4
+{
+    padding: 0;
+}
+
+.slide-out-div1, .slide-out-div2, .slide-out-div3
+{
+    border: 1px solid #ccc;
+    height: 360px;
+    width: 400px;
+    background: #f2f2f2;
+    z-index: 0;
+    display: none;
+}
+
+.slide-out-div2
+{
+    z-index: 3;
+}
+
+.slide-out-div4
+{
+    border: 1px solid #ccc;
+    height: 360px;
+    width: 400px;
+    background: #f2f2f2;
+    z-index: 3;
+    display: none;
+}
+
+.secondLeftSideTab, .secondRightSideTab 
+{
+    top: 10px !important;
+}
+
+.treeview-selection
+{
+    background-color: #FFF281;
+    font-size: 9pt;
+    border: 2px solid #FFF281;
+}
+
+.treeview-unselection
+{
+    /*background-color: white;
+    border: 2px solid white;*/
+    background-color: #FFFFFF;
+    font-size: 9pt;
+    border: 2px solid #FFFFFF;
+}
+
+.ctl00_PlaceHolderMain_tvEstrutura_4 
+{
+    background-color: #FFF281 !important;
+}
+
+@media screen and (max-device-width: 480px) { 
+     .s4-notdlg img { max-width: 200px; height: auto; background-color: yellow; }
+
+}

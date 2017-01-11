@@ -120,7 +120,7 @@
 		</tbody></table><div id="ctl00_PlaceHolderTabArea_tvFoldersn0Nodes" style="display:block;">
 			<table cellpadding="0" cellspacing="0" style="border-width:0;">
 				<tbody><tr class="zebraUm">
-					<td><div style="width:20px;height:1px"></div></td><td><a id="ctl00_PlaceHolderTabArea_tvFoldersn1" href="javascript:TreeView_ToggleNode(ctl00_PlaceHolderTabArea_tvFolders_Data,1,document.getElementById(&#39;ctl00_PlaceHolderTabArea_tvFoldersn1&#39;),&#39; &#39;,document.getElementById(&#39;ctl00_PlaceHolderTabArea_tvFoldersn1Nodes&#39;))"><img src="../../arquivosMain/WebResource(2).axd" alt="Collapse " style="border-width:0;"></a></td><td><a href="/sites/demo/_layouts/dataxdoc/old/modules/ws/general.aspx?pid=108&amp;type=1" id="ctl00_PlaceHolderTabArea_tvFolderst1i" tabindex="-1"><img src="../../arquivosMain/filecabinet.png" alt="" style="border-width:0;"></a></td><td style="white-space:nowrap;"><a class="ctl00_PlaceHolderTabArea_tvFolders_0" href="/sites/demo/_layouts/dataxdoc/old/modules/ws/general.aspx?pid=108&amp;type=1" id="ctl00_PlaceHolderTabArea_tvFolderst1">WS</a></td>
+					<td><div style="width:20px;height:1px"></div></td><td><a id="ctl00_PlaceHolderTabArea_tvFoldersn1" href="javascript:TreeView_ToggleNode(ctl00_PlaceHolderTabArea_tvFolders_Data,1,document.getElementById(&#39;ctl00_PlaceHolderTabArea_tvFoldersn1&#39;),&#39; &#39;,document.getElementById(&#39;ctl00_PlaceHolderTabArea_tvFoldersn1Nodes&#39;))"><img src="../../arquivosMain/WebResource(2).axd" alt="Collapse " style="border-width:0;"></a></td><td><a href="/sites/demo"./../arquivos/js/old/modules/ws/general.aspx?pid=108&amp;type=1" id="ctl00_PlaceHolderTabArea_tvFolderst1i" tabindex="-1"><img src="../../arquivosMain/filecabinet.png" alt="" style="border-width:0;"></a></td><td style="white-space:nowrap;"><a class="ctl00_PlaceHolderTabArea_tvFolders_0" href="/sites/demo"./../arquivos/js/old/modules/ws/general.aspx?pid=108&amp;type=1" id="ctl00_PlaceHolderTabArea_tvFolderst1">WS</a></td>
 				</tr>
 			</tbody></table><div id="ctl00_PlaceHolderTabArea_tvFoldersn1Nodes" style="display: block;">
 	<table cellpadding="0" cellspacing="0" style="border-width:0;">
@@ -240,7 +240,7 @@
 
                 <span class="btn fileinput-button" style="display: none;">
                     <span>Adicionar</span>
-                    <input id="fileuploadtest" type="file" name="file" data-url="/_layouts/dataxdoc/Upload.ashx" multiple="multiple">
+                    <input id="fileuploadtest" type="file" name="file" data-url=""./../arquivos/js/Upload.ashx" multiple="multiple">
                 </span>
 
                 <!-- The file upload form used as target for the file upload widget -->
@@ -823,11 +823,11 @@ S3031AEBB_Submit();return false;
 { var searchTextBox = document.getElementById('ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords');if (searchTextBox.className.indexOf('s4-searchbox-QueryPrompt') == -1) searchTextBox.className += searchTextBox.className?' s4-searchbox-QueryPrompt':'s4-searchbox-QueryPrompt'; }// -->
 </script><script type="text/javascript">
 // <![CDATA[
-document.write('<script type="text/javascript" src="../../arquivos/scripts/plugins/jquery.blockui/custom/jquery.blockui.js"></' + 'script>');
-document.write('<script type="text/javascript" src="../../arquivos/scripts/_plugins/jquery.mask/dist/jquery.mask.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src="../../arquivosjquery.blockui/custom/jquery.blockui.js"></' + 'script>');
+document.write('<script type="text/javascript" src="../../arquivos/jquery.mask/dist/jquery.mask.min.js"></' + 'script>');
 document.write('<script type="text/javascript" src="../../arquivos/scripts/jquery.mcustomscrollbar/jquery.mcustomscrollbar.js"></' + 'script>');
 document.write('<script type="text/javascript" src="../../arquivos/scripts/_site.js"></' + 'script>');
-document.write('<script type="text/javascript" src="../../arquivos/scripts/_plugins/jquery.tabslideout/jquery.tabslideout.v1.3.js"></' + 'script>');
+document.write('<script type="text/javascript" src="../../arquivos/jquery.tabslideout/jquery.tabslideout.v1.3.js"></' + 'script>');
 document.write('<script type="text/javascript" src="../../arquivos/scripts/tabs.js"></' + 'script>');
 document.write('<script type="text/javascript" src="../../arquivos/scripts/main/cookies.js"></' + 'script>');
 // ]]>

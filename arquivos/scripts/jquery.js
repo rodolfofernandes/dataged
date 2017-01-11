@@ -1,1 +1,1 @@
-﻿window.jQuery || document.write('<script src="../arquivos/scripts/jquery/jquery-1.12.3.min.js"><\/script>')
+﻿window.jQuery || document.write('<script src="../../arquivos/scripts/jquery/jquery-1.12.3.min.js"><\/script>')

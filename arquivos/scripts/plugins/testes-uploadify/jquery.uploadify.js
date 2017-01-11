@@ -97,7 +97,7 @@ Released under the MIT License <http://www.opensource.org/licenses/mit-license.p
 					// Required Settings
 					id       : $this.attr('id'), // The ID of the DOM object
 					swf      : 'uploadify.swf',  // The path to the uploadify SWF file
-					uploader : '../_layouts/dataxdoc/Upload.ashx',  // The path to the server-side upload script
+					uploader : '..../../arquivosUpload.ashx',  // The path to the server-side upload script
 					
 					// Options
 					auto            : true,               // Automatically upload files when added to the queue

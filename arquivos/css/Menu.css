@@ -37,20 +37,20 @@ background-position:right;
 }
 .ms-MenuUI
 {
-background-image:url("/_layouts/images/MGrad.gif");
+background-image:url("../../arquivos/img/MGrad.gif");
 }
 .ms-MenuUILarge
 {
-background-image:url("/_layouts/images/MGradLarge.gif");
+background-image:url("../../arquivos/img/MGradLarge.gif");
 width:250px;
 }
 .ms-MenuUIRtL
 {
-background-image:url("/_layouts/images/MGradRtl.gif");
+background-image:url("../../arquivos/img/MGradRtl.gif");
 }
 .ms-MenuUILargeRtL
 {
-background-image:url("/_layouts/images/MGradLargeRtl.gif");
+background-image:url("../../arquivos/img/MGradLargeRtl.gif");
 width:250px;
 }
 .ms-MenuUIDisabled SPAN
@@ -189,7 +189,7 @@ margin:0px 48px 0px 0px;
 }
 .ms-MenuUICheckMark
 {
-background-image:url("/_layouts/images/ChkMrk.gif");
+background-image:url("../../arquivos/img/ChkMrk.gif");
 }
 .ms-MenuUIItemTableCellDisabled
 {

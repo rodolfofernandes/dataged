@@ -31,7 +31,7 @@ body {
     position: relative;
     border-bottom: 2px solid #ff931e;
     height: 100px;
-    background: #f2f2f2 url("../arquivos/img/MasterPage/header-background.png") repeat-x;
+    background: #f2f2f2 url("../../arquivos/img/MasterPage/header-background.png") repeat-x;
 }
 
 /* Define o container principal e o rodapé da página */
@@ -40,7 +40,7 @@ body {
     top: 103px;
     bottom: 0;
     width: 100%;
-    /*background: transparent url("../arquivos/img/MasterPage/footer-background.png") repeat-x left bottom;*/
+    /*background: transparent url("../../arquivos/img/MasterPage/footer-background.png") repeat-x left bottom;*/
 }
 
 #site-logo {
@@ -109,7 +109,7 @@ body {
     bottom: 22px;
     left: 30px;
     right: 30px;
-    /*background: transparent url("../arquivos/img/MasterPage/content-background.png") no-repeat 50% 50%;*/
+    /*background: transparent url("../../arquivos/img/MasterPage/content-background.png") no-repeat 50% 50%;*/
 }
 
 .s4-ca {

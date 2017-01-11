@@ -22,7 +22,7 @@ if($_SESSION['user'] == null)
      
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<!-- saved from url=(0071)/sites/demo/_layouts/dataxdoc/my/personal-info.aspx -->
+<!-- saved from url=(0071)/sites/demo"./../arquivos/js/my/personal-info.aspx -->
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-us" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="Expires" content="0"><meta http-equiv="X-UA-Compatible" content="IE=8"><meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- robots -->
@@ -62,20 +62,20 @@ if($_SESSION['user'] == null)
 	<!-- load SharePoint javascript -->
     <script type="text/javascript">
 // <![CDATA[
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/jquery.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/jquery-ui.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/load-image.all.min.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.fileupload.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.iframe-transport.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.fileupload-process.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_plugins/jquery.mask/dist/jquery.mask.min.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/plugins/jquery.blockui/custom/jquery.blockui.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/plugins/prettycheckboxes/compressed.1.1/prettycheckboxes.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/plugins/jquery.watermark/3.1.4/jquery.watermark.min.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/plugins/jquery.maskmoney/3.0.2/jquery.maskmoney.min.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/site.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_site.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/controls.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/jquery.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/jquery-ui.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/load-image.all.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.fileupload.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.iframe-transport.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.fileupload-process.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery.mask/dist/jquery.mask.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery.blockui/custom/jquery.blockui.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/js/prettycheckboxes/compressed.1.1/prettycheckboxes.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery.watermark/3.1.4/jquery.watermark.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery.maskmoney/3.0.2/jquery.maskmoney.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/site.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/_site.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/controls.js"></' + 'script>');
 document.write('<script type="text/javascript" src="/_layouts/1033/init.debug.js?rev=%2FOmktAG7ectPWwTJWj46Jg%3D%3D"></' + 'script>');
 document.write('<script type="text/javascript" src="/_layouts/1033/msstring.debug.js?rev=%2FBVJveHLTRPyAS7JcY4oHw%3D%3D"></' + 'script>');
 document.write('<script type="text/javascript" src="/_layouts/1033/menu.debug.js?rev=8Ug9xUnLHRem%2BNTg9KlN3A%3D%3D"></' + 'script>');
@@ -113,7 +113,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
                 },
                 dataType: 'json',
                 autoUpload: false,
-                url: '/_layouts/dataxdoc/Upload.ashx',
+                url: '"./../arquivos/js/Upload.ashx',
                 limitMultiFileUploadSize: 20480000,
                 add: function (e, data) {
                     if (exceeded === false && validateLimit === true) {
@@ -392,7 +392,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
     <link type="text/css" rel="stylesheet" href="../../arquivosDadosPessoais/custommaster.css">
 
     <!--[if IE]>
-    <link type="text/css" rel="stylesheet" href="/_layouts/dataxdoc/styles/masterpages/ie-custommaster.css" />
+    <link type="text/css" rel="stylesheet" href=""./../arquivos/js/styles/masterpages/ie-custommaster.css" />
 	<![endif]-->
 
     <!-- novo layout -->
@@ -528,7 +528,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
 <body scroll="no" onload="javascript:_spBodyOnLoadWrapper();">
 
-<form name="formPrincipal" method="post" action="salvardadospessoais.php" onsubmit="javascript:return WebForm_OnSubmit();" id="formPrincipal" enctype="multipart/form-data">
+<form name="formPrincipal" method="post" action="alterardadospessoais.php" onsubmit="javascript:return WebForm_OnSubmit();" id="formPrincipal" enctype="multipart/form-data">
 
 </div>
 
@@ -605,11 +605,7 @@ return true;
 //]]>
 </script>
 
-<div>
 
-	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CC829F3F">
-	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEWFwKclrmMDwKI0eLECgKEmrzaDwK167L+AgLQ6LL+AgLF19zFDwKa3a/ABgKw1fufCgKx1fufCgK/utHxBgK37I1uAu3iqoQHAqv5q6kEAuKL6oQHAqazyZEPApbd2Z0MAqPpx8kPAtjii4UNAq7tpfIEAoCi6XQCqZ+WwgsCza71uQMCvfqe7QL7HNh/1d5HyMGjJZCseHLOE7s6LA==">
-</div>
 
 <!-- handles SharePoint scripts -->
 <script type="text/javascript">
@@ -684,11 +680,11 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 
     </script>
     
-    <a href="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx#zz1_menuSettings_SkipLink"><img alt="Skip Navigation Links" src="../../arquivosDadosPessoais/WebResource(2).axd" width="0" height="0" style="border-width:0px;"></a><table id="zz1_menuSettings" class="zz1_menuSettings_2" cellpadding="0" cellspacing="0" border="0">
+    <a href="/sites/demo"./../arquivos/js/my/personal-info.aspx#zz1_menuSettings_SkipLink"><img alt="Skip Navigation Links" src="../../arquivosDadosPessoais/WebResource(2).axd" width="0" height="0" style="border-width:0px;"></a><table id="zz1_menuSettings" class="zz1_menuSettings_2" cellpadding="0" cellspacing="0" border="0">
 	<tbody><tr>
 		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn0"><table class="SettingsMenu zz1_menuSettings_4" cellpadding="0" cellspacing="0" border="0" width="100%">
 			<tbody><tr>
-				<td style="white-space:nowrap;"><a class="zz1_menuSettings_1 SettingsMenu zz1_menuSettings_3" href="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx#" style="border-style:none;font-size:1em;cursor:text;"><img src="../../arquivosDadosPessoais/settings-24x24.png" alt="" style="border-style:none;vertical-align:middle;"></a></td><td style="width:0;"><img src="../../arquivosDadosPessoais/static_arrow.png" alt="Expand " style="border-style:none;vertical-align:middle;"></td>
+				<td style="white-space:nowrap;"><a class="zz1_menuSettings_1 SettingsMenu zz1_menuSettings_3" href="/sites/demo"./../arquivos/js/my/personal-info.aspx#" style="border-style:none;font-size:1em;cursor:text;"><img src="../../arquivosDadosPessoais/settings-24x24.png" alt="" style="border-style:none;vertical-align:middle;"></a></td><td style="width:0;"><img src="../../arquivosDadosPessoais/static_arrow.png" alt="Expand " style="border-style:none;vertical-align:middle;"></td>
 			</tr>
 		</tbody></table></td>
 	</tr>
@@ -697,31 +693,31 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 		<tbody><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn1">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo/_layouts/dataxdoc/settings/users.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/user.png" alt="" style="border-style:none;vertical-align:middle;">Usuários</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo"./../arquivos/js/settings/usuarios.php" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/user.png" alt="" style="border-style:none;vertical-align:middle;">Usuários</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn2">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo/_layouts/dataxdoc/old/settings/ManageFiles.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/file.png" alt="" style="border-style:none;vertical-align:middle;">Locais de Guarda</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo"./../arquivos/js/old/settings/ManageFiles.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/file.png" alt="" style="border-style:none;vertical-align:middle;">Locais de Guarda</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn3">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo/_layouts/dataxdoc/old/settings/ManageAccesses.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/access.png" alt="" style="border-style:none;vertical-align:middle;">Permissões</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo"./../arquivos/js/old/settings/ManageAccesses.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/access.png" alt="" style="border-style:none;vertical-align:middle;">Permissões</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn4">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo/_layouts/dataxdoc/old/settings/ManageContentTypesAndMetadata.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/IconIndexadoresETipoDocumental.png" alt="" style="border-style:none;vertical-align:middle;">Tipos Documentais</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo"./../arquivos/js/old/settings/ManageContentTypesAndMetadata.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/IconIndexadoresETipoDocumental.png" alt="" style="border-style:none;vertical-align:middle;">Tipos Documentais</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn5">
 			<td><table class="SettingsMenuItem zz1_menuSettings_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo/_layouts/dataxdoc/general/general-settings.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/general-settings-icon.png" alt="" style="border-style:none;vertical-align:middle;">Configuração Geral</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz1_menuSettings_1 SettingsMenuItem zz1_menuSettings_5" href="/sites/demo"./../arquivos/js/general/general-settings.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/general-settings-icon.png" alt="" style="border-style:none;vertical-align:middle;">Configuração Geral</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz1_menuSettingsn6">
@@ -771,11 +767,11 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 
     <span id="user-icon"><img alt="" src="../../arquivosDadosPessoais/user(1).png" style="margin-left: 8px;"></span>
     
-    <a href="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx#zz2_menuWelcome_SkipLink"><img alt="Skip Navigation Links" src="../../arquivosDadosPessoais/WebResource(2).axd" width="0" height="0" style="border-width:0px;"></a><table id="zz2_menuWelcome" class="divWelcomeMenu zz2_menuWelcome_2" cellpadding="0" cellspacing="0" border="0">
+    <a href="/sites/demo"./../arquivos/js/my/personal-info.aspx#zz2_menuWelcome_SkipLink"><img alt="Skip Navigation Links" src="../../arquivosDadosPessoais/WebResource(2).axd" width="0" height="0" style="border-width:0px;"></a><table id="zz2_menuWelcome" class="divWelcomeMenu zz2_menuWelcome_2" cellpadding="0" cellspacing="0" border="0">
 	<tbody><tr>
 		<td onmouseover="Menu_HoverStatic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz2_menuWelcomen0"><table class="WelcomeMenu zz2_menuWelcome_4" cellpadding="0" cellspacing="0" border="0" width="100%">
 			<tbody><tr>
-				<td style="white-space:nowrap;"><a class="zz2_menuWelcome_1 WelcomeMenu zz2_menuWelcome_3" href="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx#" style="border-style:none;font-size:1em;cursor:text;">Olá <?=$_SESSION['user']; ?></a></td><td style="width:0;"><img src="../../arquivosDadosPessoais/static_arrow.png" alt="Expand Olá, Administrador" style="border-style:none;vertical-align:middle;"></td>
+				<td style="white-space:nowrap;"><a class="zz2_menuWelcome_1 WelcomeMenu zz2_menuWelcome_3" href="/sites/demo"./../arquivos/js/my/personal-info.aspx#" style="border-style:none;font-size:1em;cursor:text;">Olá <?=$_SESSION['user']; ?></a></td><td style="width:0;"><img src="../../arquivosDadosPessoais/static_arrow.png" alt="Expand Olá, Administrador" style="border-style:none;vertical-align:middle;"></td>
 			</tr>
 		</tbody></table></td>
 	</tr>
@@ -784,13 +780,13 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 		<tbody><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz2_menuWelcomen1">
 			<td><table class="WelcomeMenuItem zz2_menuWelcome_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="/sites/demo/_layouts/dataxdoc/old/my/LastIndexedDocuments.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/lastdocs.png" alt="" style="border-style:none;vertical-align:middle;">Meus Últimos Documentos Indexados</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="/sites/demo"./../arquivos/js/old/my/LastIndexedDocuments.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/lastdocs.png" alt="" style="border-style:none;vertical-align:middle;">Meus Últimos Documentos Indexados</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz2_menuWelcomen2">
 			<td><table class="WelcomeMenuItem zz2_menuWelcome_6" cellpadding="0" cellspacing="0" border="0" width="100%">
 				<tbody><tr>
-					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/personalinfo.png" alt="" style="border-style:none;vertical-align:middle;">Meus Dados Pessoais</a></td>
+					<td style="white-space:nowrap;width:100%;"><a class="zz2_menuWelcome_1 WelcomeMenuItem zz2_menuWelcome_5" href="/sites/demo"./../arquivos/js/my/personal-info.aspx" style="border-style:none;font-size:1em;"><img src="../../arquivosDadosPessoais/personalinfo.png" alt="" style="border-style:none;vertical-align:middle;">Meus Dados Pessoais</a></td>
 				</tr>
 			</tbody></table></td>
 		</tr><tr onmouseover="Menu_HoverDynamic(this)" onmouseout="Menu_Unhover(this)" onkeyup="Menu_Key(event)" id="zz2_menuWelcomen3">
@@ -831,7 +827,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
                 <div id="vtab" class="ui-tabs ui-widget ui-widget-content ui-corner-all ui-tabs-vertical">
                     <!-- Abas -->
                     <ul class="ui-tabs-nav ui-helper-reset ui-helper-clearfix ui-widget-header ui-corner-all" role="tablist">
-                        <li class="ui-state-default ui-tabs-active ui-state-active ui-corner-left" role="tab" tabindex="0" aria-controls="tabs-1" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx#tabs-1" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">Dados Pessoais</a></li>
+                        <li class="ui-state-default ui-tabs-active ui-state-active ui-corner-left" role="tab" tabindex="0" aria-controls="tabs-1" aria-labelledby="ui-id-1" aria-selected="true" aria-expanded="true"><a href="/sites/demo"./../arquivos/js/my/personal-info.aspx#tabs-1" class="ui-tabs-anchor" role="presentation" tabindex="-1" id="ui-id-1">Dados Pessoais</a></li>
                     </ul>
                     <!-- Conteúdo | Aba Dados Pessoais -->
                     <div id="tabs-1" class="tab ui-tabs-panel ui-widget-content ui-corner-bottom" aria-labelledby="ui-id-1" role="tabpanel" aria-hidden="false">
@@ -960,8 +956,8 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 					<span class="ms-siteactionsmenu" id="siteactiontd">
 					
 						
-						<span style="display:none"><menu type="ServerMenu" id="zz3_SiteActionsMenuMain" largeiconmode="true"><ie:menuitem id="ctl00_SiteActionsMenuMain_ctl00_MenuItem_TakeOffline" type="option" iconsrc="/_layouts/images/connecttospworkspace32.png" onmenuclick="javaScript:CoreInvoke(&#39;TakeOfflineToClientReal&#39;,1, 1, &#39;https:\u002f\u002fdtc-server01\u002fsites\u002fdemo&#39;, -1, -1, &#39;&#39;, &#39;&#39;)" hidden="TakeOfflineDisabled(1, 1, -1, -1)" text="Sync to SharePoint Workspace" description="Create a synchronized copy of this site on your computer." menugroupid="100"></ie:menuitem>
-<ie:menuitem id="zz4_MenuItem_ViewAllSiteContents" type="option" iconsrc="/_layouts/images/allcontent32.png" onmenuclick="STSNavigate2(event,&#39;/sites/demo/_layouts/viewlsts.aspx&#39;);" text="View All Site Content" description="View all libraries and lists in this site." menugroupid="300"></ie:menuitem>
+						<span style="display:none"><menu type="ServerMenu" id="zz3_SiteActionsMenuMain" largeiconmode="true"><ie:menuitem id="ctl00_SiteActionsMenuMain_ctl00_MenuItem_TakeOffline" type="option" iconsrc="../../arquivos/img/connecttospworkspace32.png" onmenuclick="javaScript:CoreInvoke(&#39;TakeOfflineToClientReal&#39;,1, 1, &#39;https:\u002f\u002fdtc-server01\u002fsites\u002fdemo&#39;, -1, -1, &#39;&#39;, &#39;&#39;)" hidden="TakeOfflineDisabled(1, 1, -1, -1)" text="Sync to SharePoint Workspace" description="Create a synchronized copy of this site on your computer." menugroupid="100"></ie:menuitem>
+<ie:menuitem id="zz4_MenuItem_ViewAllSiteContents" type="option" iconsrc="../../arquivos/img/allcontent32.png" onmenuclick="STSNavigate2(event,&#39;/sites/demo/_layouts/viewlsts.aspx&#39;);" text="View All Site Content" description="View all libraries and lists in this site." menugroupid="300"></ie:menuitem>
 </menu></span><span id="zz5_SiteActionsMenu_t" class="ms-siteactionsmenuinner" title="Open Menu" onmouseover="MMU_PopMenuIfShowing(this);MMU_EcbTableMouseOverOut(this, true)" hoveractive="ms-siteactionsmenuhover" hoverinactive="ms-siteactionsmenuinner" onclick=" CoreInvoke(&#39;MMU_Open&#39;,byid(&#39;zz3_SiteActionsMenuMain&#39;), MMU_GetMenuFromClientId(&#39;zz5_SiteActionsMenu&#39;),event,false, null, 0); return false;" foa="MMU_GetMenuFromClientId(&#39;zz5_SiteActionsMenu&#39;)" oncontextmenu="ClkElmt(this); return false;" style="white-space:nowrap"><a class="ms-menu-a" id="zz5_SiteActionsMenu" accesskey="/" href="javascript:;" style="cursor:pointer;white-space:nowrap;" onfocus="MMU_EcbLinkOnFocusBlur(byid(&#39;zz3_SiteActionsMenuMain&#39;), this, true);" onkeydown="MMU_EcbLinkOnKeyDown(byid(&#39;zz3_SiteActionsMenuMain&#39;), MMU_GetMenuFromClientId(&#39;zz5_SiteActionsMenu&#39;), event);" onclick=" CoreInvoke(&#39;MMU_Open&#39;,byid(&#39;zz3_SiteActionsMenuMain&#39;), MMU_GetMenuFromClientId(&#39;zz5_SiteActionsMenu&#39;),event,false, null, 0); return false;" oncontextmenu="ClkElmt(this); return false;" menutokenvalues="MENUCLIENTID=zz5_SiteActionsMenu,TEMPLATECLIENTID=zz3_SiteActionsMenuMain" serverclientid="zz5_SiteActionsMenu"><span>Site Actions</span><img src="../../arquivosDadosPessoais/blank.gif" style="border:0px" alt="Use SHIFT+ENTER to open the menu (new window)."></a><span style="height:3px;width:5px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust ms-viewselector-arrow"><img src="../../arquivosDadosPessoais/fgimg.png" alt="Open Menu" style="border-width:0px;position:absolute;left:-0px !important;top:-491px !important;"></span></span></span>
 			
 			  <!-- global navigation dhtml popout menu -->
@@ -989,7 +985,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['fctl00$WebPartAd
 					 <div>
 						
 	 
-	<span style="display:none"><menu type="ServerMenu" id="zz6_ID_PersonalActionMenu" largeiconmode="true"><ie:menuitem id="zz7_ID_PersonalInformation" type="option" iconsrc="/_layouts/images/menuprofile.gif" onmenuclick="javascript:GoToPage(&#39;\u002fsites\u002fdemo\u002f_layouts\u002fuserdisp.aspx?Force=True\u0026ID=&#39; + _spUserId);return false;" text="My Settings" description="Update your user information, regional settings, and alerts." menugroupid="100"></ie:menuitem>
+	<span style="display:none"><menu type="ServerMenu" id="zz6_ID_PersonalActionMenu" largeiconmode="true"><ie:menuitem id="zz7_ID_PersonalInformation" type="option" iconsrc="../../arquivos/img/menuprofile.gif" onmenuclick="javascript:GoToPage(&#39;\u002fsites\u002fdemo\u002f_layouts\u002fuserdisp.aspx?Force=True\u0026ID=&#39; + _spUserId);return false;" text="My Settings" description="Update your user information, regional settings, and alerts." menugroupid="100"></ie:menuitem>
 <ie:menuitem id="zz8_ID_LoginAsDifferentUser" type="option" onmenuclick="javascript:LoginAsAnother(&#39;\u002fsites\u002fdemo\u002f_layouts\u002fcloseConnection.aspx?loginasanotheruser=true&#39;, 0)" text="Sign in as Different User" description="Login with a different account." menugroupid="200"></ie:menuitem>
 <ie:menuitem id="zz9_ID_Logout" type="option" onmenuclick="STSNavigate2(event,&#39;/sites/demo/_layouts/SignOut.aspx&#39;);" text="Sign Out" description="Logout of this site." menugroupid="200"></ie:menuitem>
 </menu></span><span id="zz10_Menu_t" class="ms-SPLink ms-SpLinkButtonInActive ms-welcomeMenu" title="Open Menu" onmouseover="MMU_PopMenuIfShowing(this);MMU_EcbTableMouseOverOut(this, true)" hoveractive="ms-SPLink ms-SpLinkButtonActive ms-welcomeMenu" hoverinactive="ms-SPLink ms-SpLinkButtonInActive ms-welcomeMenu" onclick=" CoreInvoke(&#39;MMU_Open&#39;,byid(&#39;zz6_ID_PersonalActionMenu&#39;), MMU_GetMenuFromClientId(&#39;zz10_Menu&#39;),event,false, null, 0); return false;" foa="MMU_GetMenuFromClientId(&#39;zz10_Menu&#39;)" oncontextmenu="ClkElmt(this); return false;" style="white-space:nowrap"><a class="ms-menu-a" id="zz10_Menu" accesskey="W" href="javascript:;" style="cursor:pointer;white-space:nowrap;" onfocus="MMU_EcbLinkOnFocusBlur(byid(&#39;zz6_ID_PersonalActionMenu&#39;), this, true);" onkeydown="MMU_EcbLinkOnKeyDown(byid(&#39;zz6_ID_PersonalActionMenu&#39;), MMU_GetMenuFromClientId(&#39;zz10_Menu&#39;), event);" onclick=" CoreInvoke(&#39;MMU_Open&#39;,byid(&#39;zz6_ID_PersonalActionMenu&#39;), MMU_GetMenuFromClientId(&#39;zz10_Menu&#39;),event,false, null, 0); return false;" oncontextmenu="ClkElmt(this); return false;" menutokenvalues="MENUCLIENTID=zz10_Menu,TEMPLATECLIENTID=zz6_ID_PersonalActionMenu" serverclientid="zz10_Menu"><span>dem.sysadmin</span><img src="../../arquivosDadosPessoais/blank.gif" style="border:0px" alt="Use SHIFT+ENTER to open the menu (new window)."></a><span style="height:3px;width:5px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust ms-viewselector-arrow"><img src="../../arquivosDadosPessoais/fgimg.png" alt="Open Menu" style="border-width:0px;position:absolute;left:-0px !important;top:-491px !important;"></span></span><script type="text/javascript">
@@ -1172,11 +1168,9 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
 
 
 <!-- =====  Hidden Placeholders ============================================================ -->
+<input type="hidden" name="nomePagina" value="dadospessoais">
 
 
-<!-- Handle Search "enter" key and back button -->
-<input type="text" name="__spDummyText1" style="display:none;" size="1">
-<input type="text" name="__spDummyText2" style="display:none;" size="1">
 
 
 

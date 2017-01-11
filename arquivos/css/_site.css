@@ -2,35 +2,35 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/_layouts/dataxdoc/fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('../../arquivosfonts/OpenSans-Regular.ttf') format('truetype');
     font-style: normal;    
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('/_layouts/dataxdoc/fonts/Oswald-Light.ttf') format('truetype');
+    src: url('../../arquivosfonts/Oswald-Light.ttf') format('truetype');
     font-style: normal;    
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('/_layouts/dataxdoc/fonts/Oswald-Regular.ttf') format('truetype');
+    src: url('../../arquivosfonts/Oswald-Regular.ttf') format('truetype');
     font-style: normal;    
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('/_layouts/dataxdoc/fonts/Oswald-Regular.ttf') format('truetype');
+    src: url('../../arquivosfonts/Oswald-Regular.ttf') format('truetype');
     font-style: normal;    
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('/_layouts/dataxdoc/fonts/Oswald-Bold.ttf') format('truetype');
+    src: url('../../arquivosfonts/Oswald-Bold.ttf') format('truetype');
     font-style: normal;    
     font-weight: 700;
 }

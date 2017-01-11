@@ -4,7 +4,7 @@
 
     /*
     * {
-        behavior: url("../arquivos/scripts/PIE-1.0.0/PIE.htc");
+        behavior: url("../../arquivos/Scripts/PIE-1.0.0/PIE.htc");
     }
     */
 
@@ -15,7 +15,7 @@
 	
 	label.radio span.holder {
 		height: 44px; /* Total height of your radio buttons image */
-		background: url("../arquivos/scripts/plugins/prettyCheckboxes/images/radio.png") 0 0 no-repeat; /* Path to your radio button image */
+		background: url("../../arquivos/Scripts/plugins/prettyCheckboxes/images/radio.png") 0 0 no-repeat; /* Path to your radio button image */
 	}
 	
 	label.checkbox:hover span.holder,

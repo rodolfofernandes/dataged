@@ -23,11 +23,7 @@ $erro = $_GET['errorid']; //para saber se o usuario foi digitado ou nao
 <div class="container">
     
 <form name="login" method="post" action="valida.php" id="login" class="form-signin ng-pristine ng-valid">
-<div>
-<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="">
-<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="">
-<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" ="/wEPDwUKLTY0NzYxNzMwMQ8WAh4HU2l0ZVVybAUfaHR0cHM6Ly9kdGMtc2VydmVyMDEvc2l0ZXMvZGVtbxYCAgMPZBYCAgUPFgIeBFRleHQFBERlbW9kZNY6yDH0adZD3GrikzBdHpO5OCUB">
-</div>
+
 
 <script type="text/javascript">
 //<![CDATA[
@@ -82,22 +78,39 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tupRecoverPasswo
         <img src="../../arquivos/img/dataxdoc-logo.png" style="width:400px;"/><span></span>
         </center>
     </div>   
-     <?php
-        if($erro ==1)
-        {
+    
+    <?php   /* Vai veificar qual a mensagem de erro se houver.*/
 
-      ?>
-            <h4 class="form-signin-heading" style="color:red;">Usuário ou Senha inválidos</h4>
-      <?php
-        }else{
-            ?>
-           
-           <h2 class="form-signin-heading">Bem Vindo</h2>
-            <?php
-
+        switch ($erro) {
+            case '0':
+                $msg = "Usuário Exluído";
+                $style = 'style="color:red;"';
+                break;
+            case '1':
+                $msg = "Usuário e Senha Inválidos";
+                $style = 'style="color:red;"';
+                break;
+            case '2':
+                $msg = "Usuário Bloqueado";
+                $style = 'style="color:red;"';
+                break;
+            case '4':
+                $msg = "Usuário Inativo";
+                $style = 'style="color:red;"';
+                break;
+            default:
+                $msg = "Bem Vindo";
+                $style = "";
+                break;
         }
 
-     ?>
+
+
+    ?>
+
+
+
+    <h4 class="form-signin-heading"<?=$style?> > <?=$msg?></h4><hr>    
    
  
 
@@ -118,11 +131,13 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tupRecoverPasswo
     </form>
 </tbody></table>                       
     <div class="form-group">
-        <a id="pageDemo4" href="login.php">Esqueci minha senha</a>
+        <a id="pageDemo4" href="login.php?errorid=e">Esqueci minha senha</a>
     </div>    	    
     <div>
        <a href="http://www.datacopy.com.br/">Desenvolvido por Datacopy® </a>
     </div>    
+
+        
 
     <div id="recover-password" class="modal-wrapper" style="display:none;">
         <img class="close" src="../../arquivos/img/close.png">
@@ -143,8 +158,8 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tupRecoverPasswo
 
 
 	<!-- More Scripts-->
-    <script src="../../arquivos/js/jquery.blockUI.js"></script>
-    <script src="../../arquivos/js/jquery.mask.min.js"></script>   
+    <script src="../../arquivos/scripts/_plugins/jquery.blockUI/jquery.blockUI.js"></script>
+    <script src="../../arquivos/scripts/_plugins/jquery.mask/jquery.mask.min.js"></script>   
     
     <script src="../../arquivos/js/_site.js"></script>
     <script src="../../arquivos/js/page.js"></script>   

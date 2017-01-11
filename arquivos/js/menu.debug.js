@@ -342,9 +342,9 @@ function PrepContents(oMaster)
 		else
 			oMaster._wzMenuStyle="ms-MenuUI";
 	}
-	oMaster._wzChkMrkPath="/_layouts/images/ChkMrk.gif";
-	oMaster._wzMArrPath="/_layouts/images/MArr.gif";
-	oMaster._wzMArrPathRtL="/_layouts/images/MArrRtL.gif";
+	oMaster._wzChkMrkPath="../../arquivos/img/ChkMrk.gif";
+	oMaster._wzMArrPath="../../arquivos/img/MArr.gif";
+	oMaster._wzMArrPathRtL="../../arquivos/img/MArrRtL.gif";
 }
 function FixUpMenuStructure(oMaster)
 {ULS0ug:;
@@ -1949,7 +1949,7 @@ function CreateMenuOption(oMaster, oMenuitem, oNode, wzID, wzHtml)
 	}
 	else
 	{
-		oImg.src="/_layouts/images/blank.gif";
+		oImg.src="../../arquivos/img/blank.gif";
 		oImg.alt="";
 		oImg.title="";
 	}

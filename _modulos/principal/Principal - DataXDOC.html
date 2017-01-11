@@ -37,11 +37,11 @@
     <!-- load SharePoint javascript -->
     <script type="text/javascript">
 // <![CDATA[
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/jquery.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/jquery-ui.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.iframe-transport.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.fileupload.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/main/page.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/jquery.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/jquery-ui.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.iframe-transport.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery-file-upload-9.11.2/js/jquery.fileupload.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/main/page.js"></' + 'script>');
 document.write('<script type="text/javascript" src="/_layouts/1033/init.debug.js?rev=%2FOmktAG7ectPWwTJWj46Jg%3D%3D"></' + 'script>');
 document.write('<script type="text/javascript" src="/ScriptResource.axd?d=XvvOo7W8vztjXeS3rN4QshK7dJ9Rf64cIYNEf7yRvL0pq-xzXzZfJ-m7k3hFS1JcBiHJVIeNJhvMEBBhkDPW-8mrmwxx5Ef6eeuFDq067dCvuBXn6mKLufmw375pgT3aFFKcGDo_g8ZgXAQ3nnd4mkigSYDJ30eFqakFxh9YszcC9-Sq0&amp;t=2e2045e2"></' + 'script>');
 document.write('<script type="text/javascript" src="/_layouts/blank.debug.js?rev=jE3bS2JFTB63z3iWgauX9w%3D%3D"></' + 'script>');
@@ -71,7 +71,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
                 },
                 dataType: 'json',
                 autoUpload: false,
-                url: '/_layouts/dataxdoc/Upload.ashx',
+                url: '"./../arquivos/js/Upload.ashx',
                 limitMultiFileUploadSize: 20480000,
                 add: function (e, data) {
                     if (exceeded === false && validateLimit === true) {
@@ -294,7 +294,7 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
 
     <!-- CSS do Layout Padrão -->
     <link rel="stylesheet" href="../../arquivosMain/page.css">
-    <link rel="alternate stylesheet" title="default-list" href="/_layouts/dataxdoc/styles/main/list.css" disabled="">
+    <link rel="alternate stylesheet" title="default-list" href=""./../arquivos/js/styles/main/list.css" disabled="">
 
 
     <!-- CSS do Layout Simplificado -->
@@ -308,8 +308,8 @@ document.write('<script type="text/javascript" src="/ScriptResource.axd?d=P29XPZ
     <link rel="stylesheet" media="only screen and (max-width: 621px) and (min-width: 481px)" href="../../arquivosMain/621.css">
     <link rel="stylesheet" media="only screen and (max-width: 480px)" href="../../arquivosMain/480(1).css">
 
-    <link rel="alternate stylesheet" media="only screen and (max-width: 621px) and (min-width: 481px)" title="simplified-list" href="/_layouts/dataxdoc/styles/simplified-layout/_621.css" disabled="">
-    <link rel="alternate stylesheet" media="only screen and (max-width: 480px)" title="simplified-list" href="/_layouts/dataxdoc/styles/simplified-layout/_480.css" disabled="">
+    <link rel="alternate stylesheet" media="only screen and (max-width: 621px) and (min-width: 481px)" title="simplified-list" href=""./../arquivos/js/styles/simplified-layout/_621.css" disabled="">
+    <link rel="alternate stylesheet" media="only screen and (max-width: 480px)" title="simplified-list" href=""./../arquivos/js/styles/simplified-layout/_480.css" disabled="">
 
     
 
@@ -475,10 +475,10 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$PlaceHold
     <div id="zz1_mnuSite" class="menu-container">
 	<div class="menu horizontal menu-horizontal">
 		<ul class="root static">
-			<li class="static"><a class="static menu-item" title="Relatório" href="/sites/demo/_layouts/dataxdoc/settings/report.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/report-24x24.png" alt=""><span class="menu-item-text">Relatório</span></span></a></li><li class="static dynamic-children"><a class="static dynamic-children menu-item" title="Configurações do Site"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/settings-24x24.png" alt=""><span class="menu-item-text">Configurações do Site</span></span></a><ul class="dynamic">
-				<li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/dataxdoc/settings/users.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/users-24x24.png" alt=""><span class="menu-item-text">Usuários</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/dataxdoc/old/settings/managefiles.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/file-cabinet-24x24.png" alt=""><span class="menu-item-text">Locais de Guarda</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/dataxdoc/settings/permissions.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/access-24x24.png" alt=""><span class="menu-item-text">Permissões</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/dataxdoc/settings/content-types-and-indexers.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/content-type-24x24.png" alt=""><span class="menu-item-text">Tipos Documentais</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/dataxdoc/general/general-settings.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/general-settings-icon.png" alt=""><span class="menu-item-text">Geral</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/settings.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/configuracao-site.png" alt=""><span class="menu-item-text">Configurações do Site</span></span></a></li>
+			<li class="static"><a class="static menu-item" title="Relatório" href="/sites/demo"./../arquivos/js/settings/report.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/report-24x24.png" alt=""><span class="menu-item-text">Relatório</span></span></a></li><li class="static dynamic-children"><a class="static dynamic-children menu-item" title="Configurações do Site"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/settings-24x24.png" alt=""><span class="menu-item-text">Configurações do Site</span></span></a><ul class="dynamic">
+				<li class="dynamic"><a class="dynamic menu-item" href="/sites/demo"./../arquivos/js/settings/usuarios.php"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/users-24x24.png" alt=""><span class="menu-item-text">Usuários</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo"./../arquivos/js/old/settings/managefiles.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/file-cabinet-24x24.png" alt=""><span class="menu-item-text">Locais de Guarda</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo"./../arquivos/js/settings/permissions.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/access-24x24.png" alt=""><span class="menu-item-text">Permissões</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo"./../arquivos/js/settings/content-types-and-indexers.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/content-type-24x24.png" alt=""><span class="menu-item-text">Tipos Documentais</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo"./../arquivos/js/general/general-settings.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/general-settings-icon.png" alt=""><span class="menu-item-text">Geral</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/settings.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/configuracao-site.png" alt=""><span class="menu-item-text">Configurações do Site</span></span></a></li>
 			</ul></li><li class="static dynamic-children"><a class="static dynamic-children menu-item"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/user-24x24.png" alt=""><span class="menu-item-text">Olá, Administrador</span></span></a><ul class="dynamic" style="">
-				<li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/dataxdoc/old/my/lastindexeddocuments.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/last-indexed-docs-24x24.png" alt=""><span class="menu-item-text">Meus Últimos Documentos Indexados</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/dataxdoc/my/personal-info.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/personal-info-24x24.png" alt=""><span class="menu-item-text">Meus Dados Pessoais</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo/_layouts/dataxdoc/signout.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/sign-out-24x24.png" alt=""><span class="menu-item-text">Sair</span></span></a></li>
+				<li class="dynamic"><a class="dynamic menu-item" href="/sites/demo"./../arquivos/js/old/my/lastindexeddocuments.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/last-indexed-docs-24x24.png" alt=""><span class="menu-item-text">Meus Últimos Documentos Indexados</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo"./../arquivos/js/my/personal-info.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/personal-info-24x24.png" alt=""><span class="menu-item-text">Meus Dados Pessoais</span></span></a></li><li class="dynamic"><a class="dynamic menu-item" href="/sites/demo"./../arquivos/js/signout.aspx"><span class="additional-background"><img class="menu-item-image" src="../../arquivosMain/sign-out-24x24.png" alt=""><span class="menu-item-text">Sair</span></span></a></li>
 			</ul></li>
 		</ul>
 	</div>
@@ -553,7 +553,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$PlaceHold
 
     
         <div class="slide-out-div01 open" style="line-height: 1; position: absolute; height: 394px; top: 155px; left: -3px;">
-            <a class="handle01" href="http://link-for-non-js-users.html/" style="background: url(&quot;/_layouts/images/dataxdoc/masterpage/structure.png&quot;) no-repeat; width: 40px; height: 130px; display: block; text-indent: -99999px; outline: none; position: absolute; top: 0px; right: -40px;">Estrutura de Pastas</a>
+            <a class="handle01" href="http://link-for-non-js-users.html/" style="background: url(&quot;/../../arquivos/img/dataxdoc/masterpage/structure.png&quot;) no-repeat; width: 40px; height: 130px; display: block; text-indent: -99999px; outline: none; position: absolute; top: 0px; right: -40px;">Estrutura de Pastas</a>
             <h3>Estrutura</h3>
             <div class="tab-content">
                 <div id="ctl00_PlaceHolderTabArea_upFolders">
@@ -566,7 +566,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$PlaceHold
 		</tbody></table><div id="ctl00_PlaceHolderTabArea_tvFoldersn0Nodes" style="display:block;">
 			<table cellpadding="0" cellspacing="0" style="border-width:0;">
 				<tbody><tr class="zebraUm">
-					<td><div style="width:20px;height:1px"></div></td><td><a id="ctl00_PlaceHolderTabArea_tvFoldersn1" href="javascript:TreeView_ToggleNode(ctl00_PlaceHolderTabArea_tvFolders_Data,1,document.getElementById(&#39;ctl00_PlaceHolderTabArea_tvFoldersn1&#39;),&#39; &#39;,document.getElementById(&#39;ctl00_PlaceHolderTabArea_tvFoldersn1Nodes&#39;))"><img src="../../arquivosMain/WebResource(2).axd" alt="Collapse " style="border-width:0;"></a></td><td><a href="/sites/demo/_layouts/dataxdoc/old/modules/ws/general.aspx?pid=108&amp;type=1" id="ctl00_PlaceHolderTabArea_tvFolderst1i" tabindex="-1"><img src="../../arquivosMain/filecabinet.png" alt="" style="border-width:0;"></a></td><td style="white-space:nowrap;"><a class="ctl00_PlaceHolderTabArea_tvFolders_0" href="/sites/demo/_layouts/dataxdoc/old/modules/ws/general.aspx?pid=108&amp;type=1" id="ctl00_PlaceHolderTabArea_tvFolderst1">WS</a></td>
+					<td><div style="width:20px;height:1px"></div></td><td><a id="ctl00_PlaceHolderTabArea_tvFoldersn1" href="javascript:TreeView_ToggleNode(ctl00_PlaceHolderTabArea_tvFolders_Data,1,document.getElementById(&#39;ctl00_PlaceHolderTabArea_tvFoldersn1&#39;),&#39; &#39;,document.getElementById(&#39;ctl00_PlaceHolderTabArea_tvFoldersn1Nodes&#39;))"><img src="../../arquivosMain/WebResource(2).axd" alt="Collapse " style="border-width:0;"></a></td><td><a href="/sites/demo"./../arquivos/js/old/modules/ws/general.aspx?pid=108&amp;type=1" id="ctl00_PlaceHolderTabArea_tvFolderst1i" tabindex="-1"><img src="../../arquivosMain/filecabinet.png" alt="" style="border-width:0;"></a></td><td style="white-space:nowrap;"><a class="ctl00_PlaceHolderTabArea_tvFolders_0" href="/sites/demo"./../arquivos/js/old/modules/ws/general.aspx?pid=108&amp;type=1" id="ctl00_PlaceHolderTabArea_tvFolderst1">WS</a></td>
 				</tr>
 			</tbody></table><div id="ctl00_PlaceHolderTabArea_tvFoldersn1Nodes" style="display: block;">
 	<table cellpadding="0" cellspacing="0" style="border-width:0;">
@@ -643,7 +643,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$PlaceHold
 
     
         <div class="slide-out-div03" style="line-height: 1; position: absolute; height: 394px; top: 155px; right: -444px;">
-            <a class="handle03" href="http://link-for-non-js-users.html/" style="background: url(&quot;/_layouts/images/dataxdoc/masterpage/workarea.png&quot;) no-repeat; width: 40px; height: 130px; display: block; text-indent: -99999px; outline: none; position: absolute; top: 0px; left: -40px;">Meus Documentos</a>
+            <a class="handle03" href="http://link-for-non-js-users.html/" style="background: url(&quot;/../../arquivos/img/dataxdoc/masterpage/workarea.png&quot;) no-repeat; width: 40px; height: 130px; display: block; text-indent: -99999px; outline: none; position: absolute; top: 0px; left: -40px;">Meus Documentos</a>
             <h3>Documentos</h3>
             <div class="tab-content">
                 <div id="ctl00_PlaceHolderTabArea_upDocuments">
@@ -686,7 +686,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$PlaceHold
 
                 <span class="btn fileinput-button" style="display: none;">
                     <span>Adicionar</span>
-                    <input id="fileuploadtest" type="file" name="file" data-url="/_layouts/dataxdoc/Upload.ashx" multiple="multiple">
+                    <input id="fileuploadtest" type="file" name="file" data-url=""./../arquivos/js/Upload.ashx" multiple="multiple">
                 </span>
 
                 <!-- The file upload form used as target for the file upload widget -->
@@ -743,8 +743,8 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$PlaceHold
                     <span class="ms-siteactionsmenu" id="siteactiontd">
                         
                                 
-                            <span style="display:none"><menu type="ServerMenu" id="zz2_SiteActionsMenuMain" largeiconmode="true"><ie:menuitem id="ctl00_SiteActionsMenuMain_ctl00_MenuItem_TakeOffline" type="option" iconsrc="/_layouts/images/connecttospworkspace32.png" onmenuclick="javaScript:CoreInvoke(&#39;TakeOfflineToClientReal&#39;,1, 1, &#39;https:\u002f\u002fdtc-server01\u002fsites\u002fdemo&#39;, -1, -1, &#39;&#39;, &#39;&#39;)" hidden="TakeOfflineDisabled(1, 1, -1, -1)" text="Sync to SharePoint Workspace" description="Create a synchronized copy of this site on your computer." menugroupid="100"></ie:menuitem>
-<ie:menuitem id="zz3_MenuItem_ViewAllSiteContents" type="option" iconsrc="/_layouts/images/allcontent32.png" onmenuclick="STSNavigate2(event,&#39;/sites/demo/_layouts/viewlsts.aspx&#39;);" text="View All Site Content" description="View all libraries and lists in this site." menugroupid="300"></ie:menuitem>
+                            <span style="display:none"><menu type="ServerMenu" id="zz2_SiteActionsMenuMain" largeiconmode="true"><ie:menuitem id="ctl00_SiteActionsMenuMain_ctl00_MenuItem_TakeOffline" type="option" iconsrc="/../../arquivos/img/connecttospworkspace32.png" onmenuclick="javaScript:CoreInvoke(&#39;TakeOfflineToClientReal&#39;,1, 1, &#39;https:\u002f\u002fdtc-server01\u002fsites\u002fdemo&#39;, -1, -1, &#39;&#39;, &#39;&#39;)" hidden="TakeOfflineDisabled(1, 1, -1, -1)" text="Sync to SharePoint Workspace" description="Create a synchronized copy of this site on your computer." menugroupid="100"></ie:menuitem>
+<ie:menuitem id="zz3_MenuItem_ViewAllSiteContents" type="option" iconsrc="/../../arquivos/img/allcontent32.png" onmenuclick="STSNavigate2(event,&#39;/sites/demo/_layouts/viewlsts.aspx&#39;);" text="View All Site Content" description="View all libraries and lists in this site." menugroupid="300"></ie:menuitem>
 </menu></span><span id="zz4_SiteActionsMenu_t" class="ms-siteactionsmenuinner" title="Open Menu" onmouseover="MMU_PopMenuIfShowing(this);MMU_EcbTableMouseOverOut(this, true)" hoveractive="ms-siteactionsmenuhover" hoverinactive="ms-siteactionsmenuinner" onclick=" CoreInvoke(&#39;MMU_Open&#39;,byid(&#39;zz2_SiteActionsMenuMain&#39;), MMU_GetMenuFromClientId(&#39;zz4_SiteActionsMenu&#39;),event,false, null, 0); return false;" foa="MMU_GetMenuFromClientId(&#39;zz4_SiteActionsMenu&#39;)" oncontextmenu="ClkElmt(this); return false;" style="white-space:nowrap"><a class="ms-menu-a" id="zz4_SiteActionsMenu" accesskey="/" href="javascript:;" style="cursor:pointer;white-space:nowrap;" onfocus="MMU_EcbLinkOnFocusBlur(byid(&#39;zz2_SiteActionsMenuMain&#39;), this, true);" onkeydown="MMU_EcbLinkOnKeyDown(byid(&#39;zz2_SiteActionsMenuMain&#39;), MMU_GetMenuFromClientId(&#39;zz4_SiteActionsMenu&#39;), event);" onclick=" CoreInvoke(&#39;MMU_Open&#39;,byid(&#39;zz2_SiteActionsMenuMain&#39;), MMU_GetMenuFromClientId(&#39;zz4_SiteActionsMenu&#39;),event,false, null, 0); return false;" oncontextmenu="ClkElmt(this); return false;" menutokenvalues="MENUCLIENTID=zz4_SiteActionsMenu,TEMPLATECLIENTID=zz2_SiteActionsMenuMain" serverclientid="zz4_SiteActionsMenu"><span>Site Actions</span><img src="../../arquivosMain/blank.gif" style="border:0px" alt="Use SHIFT+ENTER to open the menu (new window)."></a><span style="height:3px;width:5px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust ms-viewselector-arrow"><img src="../../arquivosMain/fgimg.png" alt="Open Menu" style="border-width:0px;position:absolute;left:-0px !important;top:-491px !important;"></span></span>
                     </span>
 
@@ -774,7 +774,7 @@ Sys.WebForms.PageRequestManager.getInstance()._updateControls(['tctl00$PlaceHold
                         <div>
                             
 	 
-	<span style="display:none"><menu type="ServerMenu" id="zz5_ID_PersonalActionMenu" largeiconmode="true"><ie:menuitem id="zz6_ID_PersonalInformation" type="option" iconsrc="/_layouts/images/menuprofile.gif" onmenuclick="javascript:GoToPage(&#39;\u002fsites\u002fdemo\u002f_layouts\u002fuserdisp.aspx?Force=True\u0026ID=&#39; + _spUserId);return false;" text="My Settings" description="Update your user information, regional settings, and alerts." menugroupid="100"></ie:menuitem>
+	<span style="display:none"><menu type="ServerMenu" id="zz5_ID_PersonalActionMenu" largeiconmode="true"><ie:menuitem id="zz6_ID_PersonalInformation" type="option" iconsrc="/../../arquivos/img/menuprofile.gif" onmenuclick="javascript:GoToPage(&#39;\u002fsites\u002fdemo\u002f_layouts\u002fuserdisp.aspx?Force=True\u0026ID=&#39; + _spUserId);return false;" text="My Settings" description="Update your user information, regional settings, and alerts." menugroupid="100"></ie:menuitem>
 <ie:menuitem id="zz7_ID_LoginAsDifferentUser" type="option" onmenuclick="javascript:LoginAsAnother(&#39;\u002fsites\u002fdemo\u002f_layouts\u002fcloseConnection.aspx?loginasanotheruser=true&#39;, 0)" text="Sign in as Different User" description="Login with a different account." menugroupid="200"></ie:menuitem>
 <ie:menuitem id="zz8_ID_Logout" type="option" onmenuclick="STSNavigate2(event,&#39;/sites/demo/_layouts/SignOut.aspx&#39;);" text="Sign Out" description="Logout of this site." menugroupid="200"></ie:menuitem>
 </menu></span><span id="zz9_Menu_t" class="ms-SPLink ms-SpLinkButtonInActive ms-welcomeMenu" title="Open Menu" onmouseover="MMU_PopMenuIfShowing(this);MMU_EcbTableMouseOverOut(this, true)" hoveractive="ms-SPLink ms-SpLinkButtonActive ms-welcomeMenu" hoverinactive="ms-SPLink ms-SpLinkButtonInActive ms-welcomeMenu" onclick=" CoreInvoke(&#39;MMU_Open&#39;,byid(&#39;zz5_ID_PersonalActionMenu&#39;), MMU_GetMenuFromClientId(&#39;zz9_Menu&#39;),event,false, null, 0); return false;" foa="MMU_GetMenuFromClientId(&#39;zz9_Menu&#39;)" oncontextmenu="ClkElmt(this); return false;" style="white-space:nowrap"><a class="ms-menu-a" id="zz9_Menu" accesskey="W" href="javascript:;" style="cursor:pointer;white-space:nowrap;" onfocus="MMU_EcbLinkOnFocusBlur(byid(&#39;zz5_ID_PersonalActionMenu&#39;), this, true);" onkeydown="MMU_EcbLinkOnKeyDown(byid(&#39;zz5_ID_PersonalActionMenu&#39;), MMU_GetMenuFromClientId(&#39;zz9_Menu&#39;), event);" onclick=" CoreInvoke(&#39;MMU_Open&#39;,byid(&#39;zz5_ID_PersonalActionMenu&#39;), MMU_GetMenuFromClientId(&#39;zz9_Menu&#39;),event,false, null, 0); return false;" oncontextmenu="ClkElmt(this); return false;" menutokenvalues="MENUCLIENTID=zz9_Menu,TEMPLATECLIENTID=zz5_ID_PersonalActionMenu" serverclientid="zz9_Menu"><span>dem.sysadmin</span><img src="../../arquivosMain/blank.gif" style="border:0px" alt="Use SHIFT+ENTER to open the menu (new window)."></a><span style="height:3px;width:5px;position:relative;display:inline-block;overflow:hidden;" class="s4-clust ms-viewselector-arrow"><img src="../../arquivosMain/fgimg.png" alt="Open Menu" style="border-width:0px;position:absolute;left:-0px !important;top:-491px !important;"></span></span><script type="text/javascript">
@@ -1174,7 +1174,7 @@ var g_commandUIHandlers = {"name":"CommandHandlers","attrs":{},"children":[]};
 
 <div id="ctl00_panelZone">
 	<div style="display:none" id="hidZone"><menu class="ms-SrvMenuUI">
-		<ie:menuitem id="MSOMenu_Help" iconsrc="/_layouts/images/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute(&#39;helpLink&#39;), MenuWebPart.getAttribute(&#39;helpMode&#39;))" text="Help" type="option" style="display:none">
+		<ie:menuitem id="MSOMenu_Help" iconsrc="/../../arquivos/img/HelpIcon.gif" onmenuclick="MSOWebPartPage_SetNewWindowLocation(MenuWebPart.getAttribute(&#39;helpLink&#39;), MenuWebPart.getAttribute(&#39;helpMode&#39;))" text="Help" type="option" style="display:none">
 
 		</ie:menuitem>
 	</menu></div>
@@ -1269,13 +1269,13 @@ S3031AEBB_Submit();return false;
 { var searchTextBox = document.getElementById('ctl00_PlaceHolderSearchArea_ctl01_S3031AEBB_InputKeywords');if (searchTextBox.className.indexOf('s4-searchbox-QueryPrompt') == -1) searchTextBox.className += searchTextBox.className?' s4-searchbox-QueryPrompt':'s4-searchbox-QueryPrompt'; }// -->
 </script><script type="text/javascript">
 // <![CDATA[
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/plugins/jquery.blockui/custom/jquery.blockui.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_plugins/jquery.mask/dist/jquery.mask.min.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/jquery.mcustomscrollbar/jquery.mcustomscrollbar.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_site.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/_plugins/jquery.tabslideout/jquery.tabslideout.v1.3.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/tabs.js"></' + 'script>');
-document.write('<script type="text/javascript" src="/_layouts/dataxdoc/scripts/main/cookies.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery.blockui/custom/jquery.blockui.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery.mask/dist/jquery.mask.min.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/jquery.mcustomscrollbar/jquery.mcustomscrollbar.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/_site.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""./../arquivos/scripts/_plugins/jquery.tabslideout/jquery.tabslideout.v1.3.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/tabs.js"></' + 'script>');
+document.write('<script type="text/javascript" src=""../../arquivos/scripts/main/cookies.js"></' + 'script>');
 // ]]>
 </script><script type="text/javascript" src="../../arquivosMain/jquery.blockui.js.download"></script><script type="text/javascript" src="../../arquivosMain/jquery.mask.min.js.download"></script><script type="text/javascript" src="../../arquivosMain/jquery.mcustomscrollbar.js.download"></script><script type="text/javascript" src="../../arquivosMain/_site.js.download"></script><script type="text/javascript" src="../../arquivosMain/jquery.tabslideout.v1.3.js.download"></script><script type="text/javascript" src="../../arquivosMain/tabs.js.download"></script><script type="text/javascript" src="../../arquivosMain/cookies.js.download"></script>
 <script type="text/javascript">RegisterSod("sp.core.js", "\u002f_layouts\u002fsp.core.debug.js?rev=Qp5K7ycU\u00252FEY9IvE0KOi7zQ\u00253D\u00253D");</script>

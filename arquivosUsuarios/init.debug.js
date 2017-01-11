@@ -1034,7 +1034,7 @@ function NotifyBrowserOfAsyncUpdate(container)
 	iframe.style.display='none';
 	document.body.appendChild(iframe);
   }
-  iframe.contentWindow.document.location.replace('/_layouts/images/blank.gif');
+  iframe.contentWindow.document.location.replace('../../arquivos/img/blank.gif');
 }
 function UpdateAccessibilityUI()
 {ULSxSy:;
@@ -1828,12 +1828,12 @@ function ShowHideSection(sectionid, imgid)
 	if (group.style.display !="none")
 	{
 		group.style.display="none";
-		img.src="/_layouts/images/plus.gif";
+		img.src="../../arquivos/img/plus.gif";
 	}
 	else
 	{
 		group.style.display="";
-		img.src="/_layouts/images/minus.gif";
+		img.src="../../arquivos/img/minus.gif";
 	}
 }
 function ShowSection(sectionid, imgid)
@@ -1845,7 +1845,7 @@ function ShowSection(sectionid, imgid)
 	if (group.style.display=="none")
 	{
 		group.style.display="";
-		img.src="/_layouts/images/minus.gif";
+		img.src="../../arquivos/img/minus.gif";
 	}
 }
 function ShowHideInputFormSection(sectionid, bShow)
@@ -1971,7 +1971,7 @@ function ProcessPNGImages()
 			if (img !=null && g_PNGImageSources[i] !=null)
 			{
 				img.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src="+g_PNGImageSources[i]+"),sizingMethod=scale);";
-				img.src="/_layouts/images/blank.gif";
+				img.src="../../arquivos/img/blank.gif";
 			}
 		}
 	}
@@ -2421,13 +2421,13 @@ function ExpCollGroup(groupName, imgName, evt, noAjax)
 	{
 		fOpen=true;
 		displayStr="";
-		img.src='/_layouts/images/minus.gif';
+		img.src='../../arquivos/img/minus.gif';
 	}
 	else
 	{
 		fOpen=false;
 		displayStr="none";
-		img.src='/_layouts/images/plus.gif';
+		img.src='../../arquivos/img/plus.gif';
 	}
 	for (var i=0;i<numElts;i++)
 	{
@@ -2469,7 +2469,7 @@ function ExpCollGroup(groupName, imgName, evt, noAjax)
 			if (fOpen && childObj.id.substr(0,4)=="titl")
 			{
 				imgObj=document.getElementById("img_"+childObj.id.slice(4));
-				imgObj.src='/_layouts/images/plus.gif';
+				imgObj.src='../../arquivos/img/plus.gif';
 			}
 			var groupID="tbod"+groupName;
 			if (childObj.id.substr(0, groupID.length)==groupID)
@@ -4312,7 +4312,7 @@ function IMNUpdateImage(id, imgInfo)
 			if (isPng)
 			{
 				obj.style.filter="progid:DXImageTransform.Microsoft.AlphaImageLoader(src="+newImg+"),sizingMethod=scale,enabled=true);";
-				obj.src="/_layouts/images/blank.gif";
+				obj.src="../../arquivos/img/blank.gif";
 			}
 			else
 			{
@@ -5427,7 +5427,7 @@ function _ribbonOnStartInit(ribbonInfo)
 	var _elmBlankTab=document.createElement("ul");
 	_elmBlankTab.id="Ribbon.BlankTab";
 	_elmBlankTab.className="ms-cui-tabBody";
-	_elmBlankTab.innerHTML="<span class=\"ms-ribbontabswitchloading\"><img src=\"/_layouts/images/loadingcirclests16.gif\" alt=\"\"/><span>"+L_Loading_Text+"</span></span>";
+	_elmBlankTab.innerHTML="<span class=\"ms-ribbontabswitchloading\"><img src=\"../../arquivos/img/loadingcirclests16.gif\" alt=\"\"/><span>"+L_Loading_Text+"</span></span>";
 	_elmTabCont.appendChild(_elmBlankTab);
 	_elmRibbon.appendChild(_elmTabCont);
 }

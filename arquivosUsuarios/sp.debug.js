@@ -12028,7 +12028,7 @@ SP.Utilities.Utility.getLocalizedLayoutsPageUrl = function(pageName) {ULS5Vl:;
     return SP.Utilities.UrlBuilder.urlCombine(SP.PageContextInfo.get_webServerRelativeUrl(), SP.PageContextInfo.get_webLanguage().toString() + '/_layouts/' + pageName);
 }
 SP.Utilities.Utility.getImageUrl = function(imageName) {ULS5Vl:;
-    return '/_layouts/images/' + imageName;
+    return '../../arquivos/img/' + imageName;
 }
 SP.Utilities.Utility.formatDateTime = function(Context, web, datetime, format) {ULS5Vl:;
     var $v_0;

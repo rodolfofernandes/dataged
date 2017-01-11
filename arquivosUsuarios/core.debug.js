@@ -2052,12 +2052,12 @@ function _ExpGroupBy(formObj)
 	if (imgName=='plus.gif')
 	{
 		displayStr="";
-		img.src='/_layouts/images/minus.gif';
+		img.src='../../arquivos/img/minus.gif';
 	}
 	else
 	{
 		displayStr="none";
-		img.src='/_layouts/images/plus.gif';
+		img.src='../../arquivos/img/plus.gif';
 	}
 	oldName=img.name;
 	img.name=img.alt;
@@ -2125,11 +2125,11 @@ function _ExpGroupBy(formObj)
 			childObj.tagName=="IMG" &&
 			childObj.src !=null)
 		{
-			if (childObj.src.slice(childObj.src.length - 25)=='/_layouts/images/plus.gif')
+			if (childObj.src.slice(childObj.src.length - 25)=='../../arquivos/img/plus.gif')
 			{
 				displayStr="none";
 			}
-			else if (childObj.src.slice(childObj.src.length - 26)=='/_layouts/images/minus.gif')
+			else if (childObj.src.slice(childObj.src.length - 26)=='../../arquivos/img/minus.gif')
 			{
 				displayStr="";
 			}
@@ -3955,7 +3955,7 @@ function UpdateAutoMode(tr)
 			{
 				if (c.getAttribute("requiresCheckout")==null)
 					c.onclick=ClickToEdit;
-				AddAutoModeTag(c, tr, "/_layouts/images/edititem.gif");
+				AddAutoModeTag(c, tr, "../../arquivos/img/edititem.gif");
 			}
 			else if (tr.cells.length > 1)
 			{
@@ -3964,7 +3964,7 @@ function UpdateAutoMode(tr)
 				{
 					if (c.getAttribute("requiresCheckout")==null)
 						c.onclick=ClickToEdit;
-					AddAutoModeTag(c, tr, "/_layouts/images/edititem.gif");
+					AddAutoModeTag(c, tr, "../../arquivos/img/edititem.gif");
 				}
 			}
 		}
@@ -3981,7 +3981,7 @@ function ClickToEdit(evt)
 		{
 			var img=a.firstChild;
 			if (img !=null && img.tagName=="IMG")
-				img.src="/_layouts/images/spinnyrefresh.gif";
+				img.src="../../arquivos/img/spinnyrefresh.gif";
 		}
 	}
 	if (window.event)
@@ -5918,7 +5918,7 @@ function CreateCtxImg(td, outHandler)
 		ctxImgLink.onfocusout=outHandler;
 		var menuImgTag=document.createElement("img");
 		menuImgTag.style.visibility="hidden";
-		menuImgTag.src="/_layouts/images/ecbarw.png";
+		menuImgTag.src="../../arquivos/img/ecbarw.png";
 		menuImgTag.alt=L_OpenMenu_Text;
 		ctxImgLink.appendChild(menuImgTag);
 	}
@@ -9146,7 +9146,7 @@ function OnMouseOverAdHocFilterDeferCall(elm, fieldStr)
 		var titleRow=filterTable.childNodes[0].childNodes[0];
 		filterImageCell=titleRow.childNodes[titleRow.childNodes.length - 1];
 		var filterArrow=filterImageCell.childNodes[0];
-		filterArrow.src="/_layouts/images/menudark.gif";
+		filterArrow.src="../../arquivos/img/menudark.gif";
 		filterArrow.alt=L_OpenMenu_Text;
 		filterArrow.style.visibility="visible";
 		if (IsElementRtl(filterTable))
@@ -9199,9 +9199,9 @@ function UpdateFilterCallback(filterHTML, foo)
 		}
 	}
 	if (j==i - 1)
-		strImageUrl="/_layouts/images/FILTEROFFDISABLED.gif";
+		strImageUrl="../../arquivos/img/FILTEROFFDISABLED.gif";
 	else
-		strImageUrl="/_layouts/images/FILTEROFF.gif";
+		strImageUrl="../../arquivos/img/FILTEROFF.gif";
 	if (i > 0)
 	{
 	    var mi=CAMOpt(currentFilterMenu, strDisplayText, strFilterUrl, strImageUrl);
@@ -9309,9 +9309,9 @@ function ToggleSelectionAllUsers(viewCounter)
 		if (img !=null)
 		{
 			if (chkToggle.checked)
-				img.src='/_layouts/images/checkall.gif';
+				img.src='../../arquivos/img/checkall.gif';
 			else
-				img.src='/_layouts/images/unchecka.gif';
+				img.src='../../arquivos/img/unchecka.gif';
 		}
 	}
 }
@@ -9328,7 +9328,7 @@ function _UserSelectionOnClick(chk, viewCounter)
 		}
 		if (img !=null)
 		{
-			img.src='/_layouts/images/unchecka.gif';
+			img.src='../../arquivos/img/unchecka.gif';
 		}
 	}
 	else
@@ -9348,7 +9348,7 @@ function _UserSelectionOnClick(chk, viewCounter)
 		if (bAllChecked)
 		{
 			if (img)
-				img.src='/_layouts/images/checkall.gif';
+				img.src='../../arquivos/img/checkall.gif';
 			if (chkToggle)
 				chkToggle.checked=true;
 		}
@@ -9794,9 +9794,9 @@ function PrepContents(oMaster)
 		else
 			oMaster._wzMenuStyle="ms-MenuUI";
 	}
-	oMaster._wzChkMrkPath="/_layouts/images/ChkMrk.gif";
-	oMaster._wzMArrPath="/_layouts/images/MArr.gif";
-	oMaster._wzMArrPathRtL="/_layouts/images/MArrRtL.gif";
+	oMaster._wzChkMrkPath="../../arquivos/img/ChkMrk.gif";
+	oMaster._wzMArrPath="../../arquivos/img/MArr.gif";
+	oMaster._wzMArrPathRtL="../../arquivos/img/MArrRtL.gif";
 }
 function FixUpMenuStructure(oMaster)
 {ULSsa6:;
@@ -11401,7 +11401,7 @@ function CreateMenuOption(oMaster, oMenuitem, oNode, wzID, wzHtml)
 	}
 	else
 	{
-		oImg.src="/_layouts/images/blank.gif";
+		oImg.src="../../arquivos/img/blank.gif";
 		oImg.alt="";
 		oImg.title="";
 	}

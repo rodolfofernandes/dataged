@@ -11,29 +11,32 @@ $login = isset($_POST["UserName"]) ? addslashes(trim($_POST["UserName"])) : FALS
 $senha = isset($_POST["Password"]) ? md5(trim($_POST["Password"])) : FALSE; 
 
 
-if(!$login || !$senha) 
-{ 
-header("Location: login.php?errorid=1");
+$status = verificaStatus($login);
+    
 
-}else{
+if ($status != 1 && $status != 3) 
+    {
+        header("Location: login.php?errorid=$status");
+    }else
 
-$valida = ValidaLogin($login,$senha);
-
-
-
-        if($valida == 1)
+    {
+        if(!validaLogin($login,$senha))
         {
-           
-            $_SESSION['user'] = $login;
-            $_SESSION['password'] = $senha;
+            header("Location: login.php?errorid=1");
+        }
 
-            header("Location: ../principal/main.php"); 
-        }else
+        else
         {
-       header("Location: login.php?errorid=1");
-        }  
+            header("Location:../principal/main.php");
+        }
 
-} 
+    }   
+
+
+
+
+
+
 
 
 

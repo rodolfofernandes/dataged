@@ -395,7 +395,7 @@
     border: 1px solid #FF931E;
     border-radius: 6px;
     padding: 5px;
-    behavior: url(/_layouts/dataxdoc/styles/PIE-1.0.0/PIE.htc);
+    behavior: url(../../arquivosstyles/PIE-1.0.0/PIE.htc);
 }
 
 /* Buttons */

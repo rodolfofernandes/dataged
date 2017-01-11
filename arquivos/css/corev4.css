@@ -20,7 +20,7 @@ text-decoration:underline;
 table.ms-toolbar{
 height:45px;
 border:none;
-/* [RecolorImage(themeColor:"Light2",includeRectangle:{x:0,y:610,width:1,height:42})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -610px;
+/* [RecolorImage(themeColor:"Light2",includeRectangle:{x:0,y:610,width:1,height:42})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -610px;
 /* [ReplaceColor(themeColor:"Light1")] */ background-color:#fff;
 }
 table.ms-toolbar{
@@ -29,7 +29,7 @@ table.ms-toolbar{
 .ms-menutoolbar{
 /* [ReplaceColor(themeColor:"Light2-Lightest")] */ border-bottom:1px solid #f1f1f2;
 /* [ReplaceColor(themeColor:"Light1")] */ background-color:#fff;
-/* [RecolorImage(themeColor:"Light2",includeRectangle:{x:0,y:610,width:1,height:42})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -610px;
+/* [RecolorImage(themeColor:"Light2",includeRectangle:{x:0,y:610,width:1,height:42})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -610px;
 height:45px;
 }
 .ms-menutoolbar td{
@@ -57,7 +57,7 @@ white-space:nowrap;
 .ms-menubuttonactivehover,.ms-buttonactivehover{
 margin:3px;
 padding:3px 4px 4px 4px;
-/* [RecolorImage(themeColor:"Light1-Darkest",includeRectangle:{x:0,y:431,width:1,height:21})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -431px;
+/* [RecolorImage(themeColor:"Light1-Darkest",includeRectangle:{x:0,y:431,width:1,height:21})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -431px;
 /* [ReplaceColor(themeColor:"Light1")] */ background-color:#fff;
 /* [ReplaceColor(themeColor:"Light1-Lighter")] */ border:solid 1px #cccccc;
 cursor:pointer;
@@ -100,7 +100,7 @@ div.ms-viewselector a,div.ms-viewselectorhover a.ms-menu-a span{
 /* [ReplaceColor(themeColor:"Dark2")] */ color:#003759;
 }
 .ms-menutoolbar td td.ms-viewselectorhover,.ms-toolbar td td.ms-viewselectorhover{
-/* [RecolorImage(themeColor:"Accent1",method:"Tinting",includeRectangle:{x:0,y:654,width:1,height:18})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -654px;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting",includeRectangle:{x:0,y:654,width:1,height:18})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -654px;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-color:#91cdf2;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
 }
@@ -145,7 +145,7 @@ margin:0px 2px;
 }
 .ms-splitbuttonhover{
 margin:0px 2px;
-/* [RecolorImage(themeColor:"Accent6-Darker",method:"Tinting",includeRectangle:{x:0,y:431,width:1,height:21})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -431px;
+/* [RecolorImage(themeColor:"Accent6-Darker",method:"Tinting",includeRectangle:{x:0,y:431,width:1,height:21})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -431px;
 border-collapse:collapse;
 height:22px;
 background-color:#fff;
@@ -232,7 +232,7 @@ display:none;
 }
 .ms-quicklaunch table.ms-selectednav{
 /* [ReplaceColor(themeColor:"Accent6-Darker")] */ border:solid 1px #d2b47a;
-/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background-image:url("../arquivos/imgselectednav.gif");
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background-image:url("../../arquivos/img/selectednav.gif");
 background-repeat:repeat-x;
 /* [ReplaceColor(themeColor:"Accent6-Lightest")] */ background-color:#ffe6a0;
 margin:2px;
@@ -240,7 +240,7 @@ margin-bottom:0;
 width:97%;
 }
 .ms-quicklaunch table.ms-selectednav td{
-background:transparent url("../arquivos/imgselectednavbullet.gif");
+background:transparent url("../../arquivos/img/selectednavbullet.gif");
 background-repeat:no-repeat;
 background-position:left top;
 /* [ReplaceColor(themeColor:"Light1")] */ border:solid 1px #ffffff;
@@ -254,7 +254,7 @@ background:none;
 .ms-quicklaunch table.ms-selectednavheader td{
 width:100%;
 /* [ReplaceColor(themeColor:"Accent6-Lighter")] */ background-color:#ffe6a0;
-/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background-image:url("../arquivos/imgselectednav.gif");
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background-image:url("../../arquivos/img/selectednav.gif");
 background-repeat:repeat-x;
 padding-top:2px;
 padding-bottom:2px;
@@ -272,7 +272,7 @@ text-decoration:none;
 text-decoration:underline;
 }
 table.ms-navitem td,span.ms-navitem{
-background-image:url("../arquivos/imgnavBullet.gif");
+background-image:url("../../arquivos/img/navBullet.gif");
 background-repeat:no-repeat;
 background-position:left top;
 padding:3px 6px 4px 16px;
@@ -292,12 +292,12 @@ table.ms-navselected{
 padding:2px;
 }
 table.ms-navselected,span.ms-navselected{
-/* [RecolorImage(themeColor:"Accent6",method:"Tinting")] */ background-image:url("../arquivos/imgSELECTEDNAV.GIF");
+/* [RecolorImage(themeColor:"Accent6",method:"Tinting")] */ background-image:url("../../arquivos/img/SELECTEDNAV.GIF");
 /* [ReplaceColor(themeColor:"Accent6-Lighter")] */ background-color:#ffe6a0;
 background-repeat:repeat-x;
 }
 table.ms-navselected td{
-background-image:url("../arquivos/imgnavBullet.gif");
+background-image:url("../../arquivos/img/navBullet.gif");
 background-repeat:no-repeat;
 background-position:top left;
 padding:3px 6px 4px 17px;
@@ -338,7 +338,7 @@ border-width:1px;
 border-style:solid !important;
 }
 .ms-tvselected a.ms-navitem{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.15")] */ background-color:#ccebff;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-color:#91cdf2;
 /* [ReplaceColor(themeColor:"Accent1-Lightest")] */ border-top-color:#c6e5f8;
@@ -379,7 +379,7 @@ margin:0px 0px 6px 10px;
 padding:2px 6px 4px 10px;
 font-weight:bold;
 /* [ReplaceColor(themeColor:"Light1-Lighter")] */ color:#676767;
-background-image:url("../arquivos/imgquickLaunchHeader.gif");
+background-image:url("../../arquivos/img/quickLaunchHeader.gif");
 background-repeat:repeat-x;
 /* [ReplaceColor(themeColor:"Accent3-Lightest")] */ background-color:#d6e8ff;
 /* [ReplaceColor(themeColor:"Light1-Lightest")] */ border-left:solid 1px #f2f8ff;
@@ -421,7 +421,7 @@ font-family:tahoma;
 }
 .ms-globalTitleArea{
 text-align:right;
-background-image:url("../arquivos/imgsiteTitleBKGD.gif");
+background-image:url("../../arquivos/img/siteTitleBKGD.gif");
 background-position:right top;
 background-repeat:repeat-y;
 padding-left:5px;
@@ -449,7 +449,7 @@ text-decoration:underline;
 /* [ReplaceColor(themeColor:"Accent3-Lightest")] */ background-color:#d6e8ff;
 }
 td.ms-titleareaframe,div.ms-titleareaframe,.ms-pagetitleareaframe{
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -461px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -461px;
 /* [ReplaceColor(themeColor:"Accent3-Lightest")] */ background-color:#d6e8ff;
 text-align:left;
 }
@@ -457,7 +457,7 @@ div.ms-titleareaframe{
 height:100%;
 }
 .ms-pagetitleareaframe table{
-background-image:url("../arquivos/imgtopshape.jpg");
+background-image:url("../../arquivos/img/topshape.jpg");
 background-repeat:no-repeat;
 background-position:332px 4px;
 height:54px;
@@ -478,14 +478,14 @@ padding:7px 0px 1px 0px;
 unicode-bidi:embed;
 }
 .ms-areaseparatorcorner{
-background-image:url("../arquivos/imgframecornergrad.gif");
+background-image:url("../../arquivos/img/framecornergrad.gif");
 background-position:left top;
 background-repeat:repeat-y;
 height:8px;
 /* [ReplaceColor(themeColor:"Accent5-Medium")] */ border-right:1px solid #6f9dd9;
 }
 td.ms-areaseparatorleft{
-background:#d6e8ff url("../arquivos/imgbgximg.png") repeat-x -0px -461px;
+background:#d6e8ff url("../../arquivos/img/bgximg.png") repeat-x -0px -461px;
 /* [ReplaceColor(themeColor:"Accent5-Medium")] */ border-right:1px solid #6f9dd9;
 height:100%;
 }
@@ -501,7 +501,7 @@ padding-right:2px;
 height:100%;
 }
 .ms-titlearearight .ms-areaseparatorright{
-background:#d6e8ff url("../arquivos/imgbgximg.png") repeat-x -0px -461px;
+background:#d6e8ff url("../../arquivos/img/bgximg.png") repeat-x -0px -461px;
 /* [ReplaceColor(themeColor:"Accent5-Medium")] */ border-left:1px solid #6f9dd9;
 padding-right:2px;
 height:100%;
@@ -607,7 +607,7 @@ display:inline-block;
 margin-left:5px;
 }
 .ms-menuimagecell{
-/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background:url("../arquivos/imgselectednav.gif") repeat-x;
+/* [RecolorImage(themeColor:"Accent1",method:"Tinting")] */ background:url("../../arquivos/img/selectednav.gif") repeat-x;
 /* [ReplaceColor(themeColor:"Accent6-Lighter")] */ background-color:#ffe6a0;
 cursor:pointer;
 /* [ReplaceColor(themeColor:"Light1")] */ border:solid 1px #ffffff;
@@ -1013,7 +1013,7 @@ cursor:default !important;
 }
 td.ms-imglibthumbnail
 {
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Light2",themeTint:"0.15")] */ background-color:#f7f7f7;
 border:1px solid;
 /* [ReplaceColor(themeColor:"Light2-Lighter")] */ border-top-color:#e4e4e4;
@@ -1022,7 +1022,7 @@ border:1px solid;
 /* [ReplaceColor(themeColor:"Light2-Lighter")] */ border-left-color:#e4e4e4;
 }
 td.ms-imglibthumbnail-selected{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
 border:1px solid;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-color:#91cdf2;
@@ -1399,7 +1399,7 @@ border-style:solid;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-color:#7ECCFF;
 margin:5px;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.15")] */ background-color:#f5fbff;
-/* [RecolorImage(themeColor:"Accent1-Lighter",method:"Tinting")] */ background-image:url('../arquivos/imgkeyFiltersBackground.png');
+/* [RecolorImage(themeColor:"Accent1-Lighter",method:"Tinting")] */ background-image:url('../../arquivos/img/keyFiltersBackground.png');
 background-repeat:repeat-x;
 padding:5px;
 padding-bottom:10px;
@@ -1564,20 +1564,20 @@ background-position:right;
 }
 .ms-MenuUI
 {
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../arquivos/imgMGrad.png");
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../../arquivos/img/MGrad.png");
 }
 .ms-MenuUILarge
 {
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../arquivos/imgMGradLarge.png");
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../../arquivos/img/MGradLarge.png");
 width:250px;
 }
 .ms-MenuUIRtL
 {
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../arquivos/imgMGradRtl.png");
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../../arquivos/img/MGradRtl.png");
 }
 .ms-MenuUILargeRtL
 {
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../arquivos/imgMGradLargeRtl.png");
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../../arquivos/img/MGradLargeRtl.png");
 width:250px;
 }
 .ms-MenuUIDisabled span
@@ -1616,7 +1616,7 @@ padding:0px 1px 0px 1px;
 }
 .ms-MenuUIItemTableHover
 {
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.15")] */ background-color:#ccebff;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border:1px solid #91cdf2;
 /* [ReplaceColor(themeColor:"Accent1-Lightest")] */ border-top-color:#bde1f7;
@@ -1716,7 +1716,7 @@ margin:2px 42px 2px 0px;
 }
 .ms-MenuUICheckMark
 {
-background-image:url("../arquivos/imgChkMrk.gif");
+background-image:url("../../arquivos/img/ChkMrk.gif");
 }
 .ms-MenuUIItemTableCellDisabled
 {
@@ -1769,19 +1769,19 @@ border-top-color:transparent;
 }
 div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div.ms-MenuUI ul.ms-MenuUIUL
 {
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../arquivos/imgMGrad.png");
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../../arquivos/img/MGrad.png");
 }
 div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div.ms-MenuUILarge ul.ms-MenuUIUL
 {
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../arquivos/imgMGradLarge.png");
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../../arquivos/img/MGradLarge.png");
 }
 div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div.ms-MenuUIRtL ul.ms-MenuUIUL
 {
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../arquivos/imgMGradRtl.png");
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../../arquivos/img/MGradRtl.png");
 }
 div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div.ms-MenuUILargeRtL ul.ms-MenuUIUL
 {
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../arquivos/imgMGradLargeRtl.png");
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Tinting")] */ background-image:url("../../arquivos/img/MGradLargeRtl.png");
 }
 div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div.ms-MenuUILarge ul.ms-MenuUIUL,div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner div.ms-MenuUI ul.ms-MenuUIUL
 {
@@ -1840,7 +1840,7 @@ font-size:1.1em;
 }
 div.ms-MenuUIPopupScreen div.ms-MenuUIPopupInner ul.ms-MenuUIUL div.ms-MenuUIULItemHover
 {
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.30")] */ background-color:#ccebff;
 /* [ReplaceColor(themeColor:"Accent1-Medium")] */ border:1px solid #91cdf2;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-top-color:#bde1f7;
@@ -2041,7 +2041,7 @@ margin:
 /* [ReplaceColor(themeColor:"Dark2")] */ color:#65686b;
 /* [ReplaceColor(themeColor:"Light2")] */ background-color:white;
 height:200px;
-/* [RecolorImage(themeColor:"Light2",method:"Filling")] */ background-image:url(../arquivos/imgwpadder_graygrad.png);
+/* [RecolorImage(themeColor:"Light2",method:"Filling")] */ background-image:url(../../arquivos/img/wpadder_graygrad.png);
 background-repeat:repeat-x;
 background-position:bottom left;
 }
@@ -2092,7 +2092,7 @@ padding:1px 2px;
 {
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border:1px solid #aad9fa;
 /* [ReplaceColor(themeColor:"Accent1-Lightest")] */ background-color:#c5e8ff;
-background-image:url(../arquivos/imgtreeviewselected.png);
+background-image:url(../../arquivos/img/treeviewselected.png);
 background-repeat:repeat-x;
 background-position:bottom left;
 /* [ReplaceColor(themeColor:"Dark1")] */ color:black;
@@ -2202,7 +2202,7 @@ height:100%;
 width:100%;
 overflow:hidden;
 }
-body #formPrincipal{
+body #aspnetForm{
 height:100%;
 }
 a:link{
@@ -2255,11 +2255,11 @@ background-color:transparent;
 /* [ReplaceColor(themeColor:"Accent5-Medium")] */ border:#6f9dd9 1px solid;
 vertical-align:top;
 /* [ReplaceColor(themeColor:"Accent4")] */ background-color:#ffbb47;
-/* [RecolorImage(themeColor:"Accent6-Darker",method:"Tinting",includeRectangle:{x:0,y:403,width:1,height:22})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -403px;
+/* [RecolorImage(themeColor:"Accent6-Darker",method:"Tinting",includeRectangle:{x:0,y:403,width:1,height:22})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -403px;
 }
 .ms-HoverCellActiveDark
 {
-/* [RecolorImage(themeColor:"Accent6-Darker",method:"Tinting",includeRectangle:{x:0,y:403,width:1,height:22})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -403px;
+/* [RecolorImage(themeColor:"Accent6-Darker",method:"Tinting",includeRectangle:{x:0,y:403,width:1,height:22})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -403px;
 /* [ReplaceColor(themeColor:"Light1-Darkest")] */ border:solid 1px #868686;
 /* [ReplaceColor(themeColor:"Accent4")] */ background-color:#ffbb47;
 vertical-align:top;
@@ -2300,7 +2300,7 @@ font-family:"Segoe UI",Tahoma,Verdana,sans-serif;
 .ms-siteactionsmenuinner{
 /* [ReplaceColor(themeColor:"Dark2")] */ border-color:#21374C;
 /* [ReplaceColor(themeColor:"Dark2")] */ border-top-color:#394f63;
-/* [RecolorImage(themeColor:"Dark2-Lighter",method:"Filling",includeRectangle:{x:0,y:467,width:1,height:11})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -467px;
+/* [RecolorImage(themeColor:"Dark2-Lighter",method:"Filling",includeRectangle:{x:0,y:467,width:1,height:11})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -467px;
 /* [ReplaceColor(themeColor:"Dark2")] */ background-color:#21374c;
 }
 .v4master .ms-siteactionsmenuinner{
@@ -2312,7 +2312,7 @@ margin-right:4px;
 }
 .ms-siteactionsmenuhover{
 /* [ReplaceColor(themeColor:"Dark2-Lighter")] */ border-color:#8b929a;
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Filling",includeRectangle:{x:0,y:489,width:1,height:11})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -489px;
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Filling",includeRectangle:{x:0,y:489,width:1,height:11})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -489px;
 /* [ReplaceColor(themeColor:"Dark2",themeShade:"0.8")] */ background-color:#21374c;
 }
 .ms-siteactionsmenuinner > a,.ms-siteactionsmenuhover > a{
@@ -2368,7 +2368,7 @@ text-decoration:none !important;
 }
 .ms-welcomeMenu.ms-SpLinkButtonActive{
 /* [ReplaceColor(themeColor:"Dark2-Lighter")] */ border-color:#8b929a;
-/* [RecolorImage(themeColor:"Dark2-Lightest",includeRectangle:{x:0,y:489,width:1,height:11})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -489px;
+/* [RecolorImage(themeColor:"Dark2-Lightest",includeRectangle:{x:0,y:489,width:1,height:11})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -489px;
 /* [ReplaceColor(themeColor:"Dark2",themeShade:"0.8")] */ background-color:#21374c;
 }
 .ms-welcomeMenu.ms-SpLinkButtonActive a:link{
@@ -2489,7 +2489,7 @@ display:none !important;
 }
 body #s4-ribboncont{
 padding:0px;
-/* [RecolorImage(themeColor:"Dark2-Darker",includeRectangle:{x:0,y:589,width:1,height:20})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -565px;
+/* [RecolorImage(themeColor:"Dark2-Darker",includeRectangle:{x:0,y:589,width:1,height:20})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -565px;
 }
 body #RibbonContainer.loaded{
 height:auto !important;
@@ -2611,7 +2611,7 @@ margin:13px 15px 0px 0px;
 padding:0px 0px 0px 10px;
 margin:0px;
 min-height:64px;
-/* [RecolorImage(themeColor:"Light2",method:"Filling",includeRectangle:{x:0,y:1023,width:1,height:12})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -1023px;
+/* [RecolorImage(themeColor:"Light2",method:"Filling",includeRectangle:{x:0,y:1023,width:1,height:12})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -1023px;
 /* [ReplaceColor(themeColor:"Light2")] */ background-color:#f9f9f9;
 word-wrap:break-word;
 -ms-word-wrap:break-word;
@@ -2725,7 +2725,7 @@ font-weight:normal;
 text-decoration:none;
 }
 body #s4-topheader2{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Light2")] */ background-color:#f6f6f6;
 vertical-align:middle;
 min-height:25px;
@@ -2748,7 +2748,7 @@ border:0px;
 }
 .s4-breadcrumb-anchor:hover,.s4-breadcrumb-anchor-open,.ms-qatbutton:hover{
 /* [ReplaceColor(themeColor:"Dark2-Lighter")] */ border-color:#8b929a;
-/* [RecolorImage(themeColor:"Dark2-Lightest",includeRectangle:{x:0,y:489,width:1,height:11})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -489px;
+/* [RecolorImage(themeColor:"Dark2-Lightest",includeRectangle:{x:0,y:489,width:1,height:11})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -489px;
 /* [ReplaceColor(themeColor:"Dark2")] */ background-color:#21374c;
 }
 .s4-breadcrumb-menu{
@@ -2762,7 +2762,7 @@ border:1px solid;
 font-size:8pt;
 }
 .v4master .s4-breadcrumb-menu{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Light1",themeShade:"0.95")] */ background-color:#f8f8f8;
 /* [ReplaceColor(themeColor:"Light2-Medium")] */ border-color:#94989f;
 }
@@ -2869,7 +2869,7 @@ text-decoration:underline;
 /* [ReplaceColor(themeColor:"Accent1-Medium")] */ border-color:#91cdf2;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-bottom-color:#addbf7;
 /* [ReplaceColor(themeColor:"Accent1-Lightest")] */ border-top-color:#c6e5f8;
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
 /* [ReplaceColor(themeColor:"Accent1",themeShade:"0.20")] */ color:#003759;
 padding:4px 5px;
@@ -2899,7 +2899,7 @@ margin:3px 3px 0 0;
 }
 .s4-search input,.s4-search .ms-searchimage{
 float:left;
-/* [RecolorImage(themeColor:"Light1-Lighter",method:"Blending",includeRectangle:{x:0,y:511,width:1,height:18})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -511px;
+/* [RecolorImage(themeColor:"Light1-Lighter",method:"Blending",includeRectangle:{x:0,y:511,width:1,height:18})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -511px;
 /* [ReplaceColor(themeColor:"Light1")] */ background-color:#fff;
 }
 .s4-search input{
@@ -2998,7 +2998,7 @@ zoom:1;
 text-decoration:underline;
 }
 .s4-ql a.selected{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#ccebff;
 /* [ReplaceColor(themeColor:"Accent1-Medium")] */ border-color:#91cdf2 !important;
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border-top-color:#c6e5f8 !important;
@@ -3074,7 +3074,7 @@ position:absolute;
 display:block;
 }
 .s4-ctx-show{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.15")] */ background-color:#ccebff;
 border-style:solid;
 border-width:0px 1px;
@@ -3134,7 +3134,7 @@ padding:3px 10px;
 text-align:center;
 /* [ReplaceColor(themeColor:"Dark1")] */ color:#000;
 /* [ReplaceColor(themeColor:"Accent6-Darkest",themeTint:"0.71")] */ border-top:1px solid #ffde00;
-/* [RecolorImage(themeColor:"Accent6-Lighter",method:"Blending",includeRectangle:{x:0,y:134,width:1,height:24})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -134px;
+/* [RecolorImage(themeColor:"Accent6-Lighter",method:"Blending",includeRectangle:{x:0,y:134,width:1,height:24})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -134px;
 /* [ReplaceColor(themeColor:"Accent6-Lightest",themeTint:"0.93")] */ background-color:#fffbd7;
 }
 .s4-noti-in3{
@@ -3209,22 +3209,22 @@ body #pageStatusBar a:link,body #pageStatusBar a:visited{
 text-decoration:underline;
 }
 .s4-status-s1{
-background:#c9d7e6 url("../arquivos/imgbgximg.png") repeat-x -0px -209px;
+background:#c9d7e6 url("../../arquivos/img/bgximg.png") repeat-x -0px -209px;
 color:#3b4652;
 border-color:#aaafbe;
 }
 .s4-status-s2{
-background:#71b84f url("../arquivos/imgbgximg.png") repeat-x -0px -83px;
+background:#71b84f url("../../arquivos/img/bgximg.png") repeat-x -0px -83px;
 color:#1a3807;
 border-color:#3e8811;
 }
 .s4-status-s3{
-background:#fdf289 url("../arquivos/imgbgximg.png") repeat-x -0px -260px;
+background:#fdf289 url("../../arquivos/img/bgximg.png") repeat-x -0px -260px;
 color:#4b3904;
 border-color:#caac09;
 }
 .s4-status-s4{
-background:#df5a5b url("../arquivos/imgbgximg.png") repeat-x -0px -158px;
+background:#df5a5b url("../../arquivos/img/bgximg.png") repeat-x -0px -158px;
 color:#1f0000;
 border-color:#bc1213;
 }
@@ -3262,7 +3262,7 @@ tr.s4-itm-hover a:hover,tr.ms-itmhover a:hover{
 text-decoration:underline !important;
 }
 tr.s4-itm-hover,tr.ms-itmhover:hover,tr.ms-ppanerow:hover > td,tr.ms-ppanerowalt:hover > td{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.15")] */ background-color:#f2faff;
 cursor:pointer;
 }
@@ -3274,7 +3274,7 @@ tr.s4-itm-hover .ms-MenuUIULLink,tr.ms-itmhover:hover .ms-MenuUIULLink,tr.s4-itm
 /* [ReplaceColor(themeColor:"Dark2")] */ color:#003759 !important;
 }
 tr.s4-itm-selected,tr.s4-itm-selected:hover{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.65")] */ background-color:#98d6fd;
 cursor:pointer;
 }
@@ -3302,7 +3302,7 @@ background-image:none;
 border-width:0px 1px;
 }
 tr.ms-viewheadertr > th .s4-ctx-show:hover{
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Light2-Lighter")] */ background-color:#d9d9d9;
 /* [ReplaceColor(themeColor:"Light2-Medium")] */ border-right-color:#8e8e8e;
 /* [ReplaceColor(themeColor:"Light2-Medium")] */ border-right-color:#b2b2b2;
@@ -3402,7 +3402,7 @@ border:1px solid transparent;
 }
 .ms-WPHeaderTdMenu:hover{
 /* [ReplaceColor(themeColor:"Accent1-Lighter")] */ border:1px solid #91CDF2;
-/* [RecolorImage(themeColor:"Light1")] */ background:url("../arquivos/imgselbg.png") repeat-x left top;
+/* [RecolorImage(themeColor:"Light1")] */ background:url("../../arquivos/img/selbg.png") repeat-x left top;
 /* [ReplaceColor(themeColor:"Accent1",themeTint:"0.35")] */ background-color:#CCEBFF;
 }
 .ms-WPMenuDiv,.ms-WPMenuDivHover{
@@ -3498,7 +3498,7 @@ font-size:1.1em;
 color:#00558d;
 }
 .ms-selected{
-background:url("../arquivos/imgselbg.png") repeat-x left top;
+background:url("../../arquivos/img/selbg.png") repeat-x left top;
 background-color:#98d6fd;
 }
 .ms-libraryFileDlgView .ms-selected td{
@@ -4727,7 +4727,7 @@ font-size:72pt;
 -ms-name:"Thin line border";
 /* [ReplaceColor(themeColor:"Dark2")] */ background-color:#182738;
 /* [ReplaceColor(themeColor:"Dark2-Darker")] */ border:1px solid #385b83;
-/* [RecolorImage(themeColor:"Dark2-Medium",method:"Tinting")] */ background-image:url("../arquivos/imgtabtitlerowbottombg.png");
+/* [RecolorImage(themeColor:"Dark2-Medium",method:"Tinting")] */ background-image:url("../../arquivos/img/tabtitlerowbottombg.png");
 background-repeat:repeat-x;
 background-position:top;
 }
@@ -4746,7 +4746,7 @@ padding:2px;
 padding:15px;
 /* [ReplaceColor(themeColor:"Dark2")] */ background-color:#182738;
 /* [ReplaceColor(themeColor:"Dark2-Darker")] */ border:1px solid 385b83;
-/* [RecolorImage(themeColor:"Dark2-Medium",method:"Tinting")] */ background-image:url("../arquivos/imgtabtitlerowbottombg.png");
+/* [RecolorImage(themeColor:"Dark2-Medium",method:"Tinting")] */ background-image:url("../../arquivos/img/tabtitlerowbottombg.png");
 background-attachment:fixed;
 background-repeat:repeat-x;
 background-position:left bottom;
@@ -4761,7 +4761,7 @@ padding-bottom:33px;
 /* [ReplaceColor(themeColor:"Light1-Medium")] */ border-bottom:1px solid #BFBFBF;
 /* [ReplaceColor(themeColor:"Light1-Lighter")] */ border-left:1px solid #D8D8D8;
 /* [ReplaceColor(themeColor:"Light1-Medium")] */ border-right:1px solid #BFBFBF;
-background-image:url("../arquivos/imgselbg.png");
+background-image:url("../../arquivos/img/selbg.png");
 background-repeat:repeat-x;
 background-position:top;
 }
@@ -5213,7 +5213,7 @@ display:none;
 }
 .ms-dlgTitle
 {
-/* [RecolorImage(themeColor:"Light2",includeRectangle:{x:0,y:51,width:1,height:21})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -51px;
+/* [RecolorImage(themeColor:"Light2",includeRectangle:{x:0,y:51,width:1,height:21})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -51px;
 /* [ReplaceColor(themeColor:"Dark2",themeShade:"0.90")] */ background-color:#21374c;
 height:32px;
 white-space:nowrap;
@@ -5261,7 +5261,7 @@ border:0px;
 .ms-dlgCloseBtn span:hover
 {
 /* [ReplaceColor(themeColor:"Dark2-Lighter")] */ border-color:#8b929a;
-/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Filling",includeRectangle:{x:0,y:489,width:1,height:11})] */ background:url("../arquivos/imgbgximg.png") repeat-x -0px -489px;
+/* [RecolorImage(themeColor:"Dark2-Lightest",method:"Filling",includeRectangle:{x:0,y:489,width:1,height:11})] */ background:url("../../arquivos/img/bgximg.png") repeat-x -0px -489px;
 }
 .ms-dlgErrList
 {
@@ -5550,7 +5550,7 @@ border:2px solid;
 float:left;
 background-repeat:repeat-x;
 background-color:white;
-/* [RecolorImage(themeColor:"Dark2")] */ background-image:url("../arquivos/imgsettingsgraphic.jpg");
+/* [RecolorImage(themeColor:"Dark2")] */ background-image:url("../../arquivos/img/settingsgraphic.jpg");
 white-space:nowrap;
 }
 .ms-developerdashboard > table tr td
@@ -5563,7 +5563,7 @@ text-align:left;
 }
 .ms-developerdashboard > table th
 {
-background:#ebf3ff url("../arquivos/imgbgximg.png") repeat-x -0px -381px;
+background:#ebf3ff url("../../arquivos/img/bgximg.png") repeat-x -0px -381px;
 border:1px solid #add1ff;
 width:100%;
 vertical-align:top;
@@ -5751,18 +5751,18 @@ width:0px;
 }
 .ms-cui-tt-a:hover{
 /* [ReplaceColor(themeColor:"Dark2",themeTint:"0.8")] */ border-color:#5a707b;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -1000px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -1000px;
 color:#fff !important;
 }
 .ms-cui-tt-s .ms-cui-tt-a:hover{
 /* [ReplaceColor(themeColor:"Dark2-Medium")] */ border-color:#b6babf;
-background:#f1f1f1 url("../arquivos/imgbgximg.png") repeat-x -0px -976px;
+background:#f1f1f1 url("../../arquivos/img/bgximg.png") repeat-x -0px -976px;
 color:#23272c !important;
 }
 .ms-cui-tabBody{
 overflow:hidden;
 width:100%;
-/* [RecolorImage(themeColor:"Light2",method:"Tinting",includeRectangle:{x:0,y:890,width:1,height:86})] */ background:#fff url("../arquivos/imgbgximg.png") repeat-x -0px -882px;
+/* [RecolorImage(themeColor:"Light2",method:"Tinting",includeRectangle:{x:0,y:890,width:1,height:86})] */ background:#fff url("../../arquivos/img/bgximg.png") repeat-x -0px -882px;
 height:90px;
 border-style:solid;
 border-width:0px 0px 1px 0px;
@@ -5845,7 +5845,7 @@ color:#5b626c;
 background-color:#C6C6C6;
 }
 .ms-cui-toolbar-toolbar{
-background:#fff url("../arquivos/imgRibbonBG.png") repeat-x left top;
+background:#fff url("../../arquivos/img/RibbonBG.png") repeat-x left top;
 cursor:default;
 width:100%;
 text-align:center;
@@ -6011,7 +6011,7 @@ color:#23272c !important;
 .ms-cui-cg .ms-cui-tt-a:hover{
 }
 .ms-cui-cg-s .ms-cui-tt-a:hover{
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -976px !important;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -976px !important;
 }
 .ms-cui-cg .ms-cui-tt-a:hover,.ms-cui-cg-s .ms-cui-tt-s .ms-cui-tt-a:hover{
 color:#fff;
@@ -6024,7 +6024,7 @@ border-color:#0072bc;
 }
 .ms-cui-cg-db .ms-cui-cg-t{
 color:#9bc7e5;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -857px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -857px;
 }
 .ms-cui-cg-db.ms-cui-cg-s .ms-cui-cg-i{
 border-color:#005e9c;
@@ -6062,7 +6062,7 @@ background-color:#99c7e4;
 .ms-cui-cg-db .ms-cui-tt-a:hover{
 border-color:#005e9c;
 border-top-color:#0086dd;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -857px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -857px;
 }
 .ms-cui-cg-db.ms-cui-cg-s .ms-cui-tt-a:hover{
 background-color:#99c7e4 !important;
@@ -6080,7 +6080,7 @@ border-color:#00adee;
 }
 .ms-cui-cg-lb .ms-cui-cg-t{
 color:#96def0;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -682px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -682px;
 }
 .ms-cui-cg-lb.ms-cui-cg-s .ms-cui-cg-i{
 border-color:#008bbe;
@@ -6118,7 +6118,7 @@ border-top-color:#0098d0;
 .ms-cui-cg-lb .ms-cui-tt-a:hover{
 border-color:#55c1e1;
 border-top-color:#76cde7;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -682px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -682px;
 }
 .ms-cui-cg-lb.ms-cui-cg-s .ms-cui-tt-a:hover{
 background-color:#b3e9fd !important;
@@ -6137,7 +6137,7 @@ border-color:#139ab1;
 }
 .ms-cui-cg-tl .ms-cui-cg-t{
 color:#e7fafd;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -807px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -807px;
 }
 .ms-cui-cg-tl.ms-cui-cg-s .ms-cui-cg-i{
 border-color:#005372;
@@ -6175,7 +6175,7 @@ border-top-color:#005372;
 .ms-cui-cg-tl .ms-cui-tt-a:hover{
 border-color:#14afcb;
 border-top-color:#30cde9;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -807px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -807px;
 }
 .ms-cui-cg-tl.ms-cui-cg-s .ms-cui-tt-a:hover{
 background-color:#a4dfea !important;
@@ -6194,7 +6194,7 @@ border-color:#fd9f08;
 }
 .ms-cui-cg-or .ms-cui-cg-t{
 color:#ffc86d;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -757px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -757px;
 }
 .ms-cui-cg-or.ms-cui-cg-s .ms-cui-cg-i{
 border-color:#bb4f00;
@@ -6232,7 +6232,7 @@ border-top-color:#e46b00;
 .ms-cui-cg-or .ms-cui-tt-a:hover{
 border-color:#dd8a00;
 border-top-color:#c86002;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -757px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -757px;
 }
 .ms-cui-cg-or.ms-cui-cg-s .ms-cui-tt-a:hover{
 background-color:#ffd899 !important;
@@ -6250,7 +6250,7 @@ border-color:#26b023;
 }
 .ms-cui-cg-gr .ms-cui-cg-t{
 color:#aee2ae;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -832px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -832px;
 }
 .ms-cui-cg-gr.ms-cui-cg-s .ms-cui-cg-i{
 border-color:#03a200;
@@ -6288,7 +6288,7 @@ border-top-color:#56c553;
 .ms-cui-cg-gr .ms-cui-tt-a:hover{
 border-color:#56c553;
 border-top-color:#56c553;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -832px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -832px;
 }
 .ms-cui-cg-gr.ms-cui-cg-s .ms-cui-tt-a:hover{
 background-color:#d0f2bf !important;
@@ -6307,7 +6307,7 @@ border-color:#ec008c;
 }
 .ms-cui-cg-mg .ms-cui-cg-t{
 color:#f6bbde;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -782px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -782px;
 }
 .ms-cui-cg-mg.ms-cui-cg-s .ms-cui-cg-i{
 border-color:#aa0065;
@@ -6345,7 +6345,7 @@ border-top-color:#bb006f;
 .ms-cui-cg-mg .ms-cui-tt-a:hover{
 border-color:#bc1b7b;
 border-top-color:#ca1d84;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -782px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -782px;
 }
 .ms-cui-cg-mg.ms-cui-cg-s .ms-cui-tt-a:hover{
 background-color:#e999c9 !important;
@@ -6362,7 +6362,7 @@ border-color:#f2ce00;
 }
 .ms-cui-cg-yl .ms-cui-cg-t{
 color:#fef9cf;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -732px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -732px;
 }
 .ms-cui-cg-yl.ms-cui-cg-s .ms-cui-cg-i{
 border-color:#faac32;
@@ -6400,7 +6400,7 @@ border-top-color:#f1ba0f;
 .ms-cui-cg-yl .ms-cui-tt-a:hover{
 border-color:#b38422;
 border-top-color:#d99d0e;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -732px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -732px;
 }
 .ms-cui-cg-yl.ms-cui-cg-s .ms-cui-tt-a:hover{
 background-color:#fdf3ad !important;
@@ -6419,7 +6419,7 @@ border-color:#7f33d7;
 }
 .ms-cui-cg-pp .ms-cui-cg-t{
 color:#ddd7e7;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -707px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -707px;
 }
 .ms-cui-cg-pp.ms-cui-cg-s .ms-cui-cg-i{
 border-color:#5129ad;
@@ -6457,7 +6457,7 @@ border-top-color:#9330df;
 .ms-cui-cg-pp .ms-cui-tt-a:hover{
 border-color:#6823b4;
 border-top-color:#842ce4;
-background:url("../arquivos/imgbgximg.png") repeat-x -0px -707px;
+background:url("../../arquivos/img/bgximg.png") repeat-x -0px -707px;
 }
 .ms-cui-cg-pp.ms-cui-cg-s .ms-cui-tt-a:hover{
 background-color:#ccadef !important;
@@ -7178,10 +7178,10 @@ margin:0px;
 padding:1px;
 }
 .ms-cui-menusection-items16{
-background:#fff url("../arquivos/imgrmgrad16.png") repeat-y left top;
+background:#fff url("../../arquivos/img/rmgrad16.png") repeat-y left top;
 }
 .ms-cui-menusection-items16rtl{
-background:#fff url("../arquivos/imgrmgrad16rtl.png") repeat-y right top;
+background:#fff url("../../arquivos/img/rmgrad16rtl.png") repeat-y right top;
 }
 .ms-cui-menusection-items32{
 background:#fff;
@@ -7287,7 +7287,7 @@ z-index:1020;
 }
 .ms-cui-tooltip-body{
 background-color:#e5e5f0;
-background-image:url("../arquivos/imgtooltipGradient.png");
+background-image:url("../../arquivos/img/tooltipGradient.png");
 background-position:top;
 background-repeat:repeat-x;
 border-left:solid 1px #8c8c8c;
@@ -7405,20 +7405,20 @@ zoom:1;
 .menu-horizontal span.dynamic-children span.additional-background
 {
 padding-right:10px;
-background-image:url('../arquivos/imgmenu-down.gif');
+background-image:url('../../arquivos/img/menu-down.gif');
 background-repeat:no-repeat;
 background-position:right center;
 }
 .menu-horizontal ul.dynamic a.dynamic-children span.additional-background,
 .menu-horizontal ul.dynamic span.dynamic-children span.additional-background
 {
-background-image:url('../arquivos/imgmenu-right.gif');
+background-image:url('../../arquivos/img/menu-right.gif');
 }
 .menu-vertical a.dynamic-children span.additional-background,
 .menu-vertical span.dynamic-children span.additional-background
 {
 padding-right:10px;
-background-image:url('../arquivos/imgmenu-right.gif');
+background-image:url('../../arquivos/img/menu-right.gif');
 background-repeat:no-repeat;
 background-position:right center;
 }

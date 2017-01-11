@@ -2,35 +2,35 @@
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('../arquivos/fonts/OpenSans-Regular.ttf') format('truetype');
+    src: url('../../arquivos/fonts/OpenSans-Regular.ttf') format('truetype');
     font-style: normal;    
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('../arquivos/fonts/Oswald-Light.ttf') format('truetype');
+    src: url('../../arquivos/fonts/Oswald-Light.ttf') format('truetype');
     font-style: normal;    
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('../arquivos/fonts/Oswald-Regular.ttf') format('truetype');
+    src: url('../../arquivos/fonts/Oswald-Regular.ttf') format('truetype');
     font-style: normal;    
     font-weight: 400;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('../arquivos/fonts/Oswald-Regular.ttf') format('truetype');
+    src: url('../../arquivos/fonts/Oswald-Regular.ttf') format('truetype');
     font-style: normal;    
     font-weight: 500;
 }
 
 @font-face {
     font-family: 'Oswald';
-    src: url('../arquivos/fonts/Oswald-Bold.ttf') format('truetype');
+    src: url('../../arquivos/fonts/Oswald-Bold.ttf') format('truetype');
     font-style: normal;    
     font-weight: 700;
 }
@@ -106,7 +106,7 @@ img {
         bottom: 5px;
         height: 84%; /* 504px / 600px*/
         width: 100%; /* 800px */
-        background: transparent url("../arquivos/img/masterpage/content-background.png") no-repeat 50% 50%;
+        background: transparent url("../../arquivos/img/masterpage/content-background.png") no-repeat 50% 50%;
     }
 
         #content {
@@ -166,7 +166,7 @@ img {
     border: 1px solid #ccc;
     border-radius: 4px 0 0 4px;
     box-shadow: inset 0px 1px 6px #ccc;
-    background: #fff url("../arquivos/img/site/search.png") no-repeat 6px center;
+    background: #fff url("../../arquivos/img/site/search.png") no-repeat 6px center;
     background-size: 16px;
     outline: none;
 }
@@ -196,7 +196,7 @@ input[id*="txtSearchSimplified"] {
 
 input[disabled="disabled"], input:disabled, input.disabled, .button[disabled="disabled"]:hover {
 	color: #999;
-	background: #c5c5c5 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+	background: #c5c5c5 url(../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
     border: 1px solid #c5c5c5;
     border-radius: 5px;
     border-radius: 4px;
@@ -216,7 +216,7 @@ input[type="image"]:disabled {
     text-align: center;
 	text-decoration: none;
     color: #fff;
-    background: #2357a5 url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    background: #2357a5 url(../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
     border: 1px solid #2357a5;
     border-radius: 5px;
     border-radius: 4px;
@@ -227,7 +227,7 @@ input[type="image"]:disabled {
 }
 
 .button:hover {
-    background: #ff822d /*#ff6600*/ url(../arquivos/stylescentral-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
+    background: #ff822d /*#ff6600*/ url(../../arquivos/styles/central-administration/responsivegridsystem/images/glass.png) repeat-x 0 50%;
     border: 1px solid #ff822d;
 }
 
